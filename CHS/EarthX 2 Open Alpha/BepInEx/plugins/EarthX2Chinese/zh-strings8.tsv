@@ -1,0 +1,35 @@
+# zh-strings8.tsv — Task C: IL 硬编码残留汉化 (2026-08-31)
+# 来源: handoff/il-remaining-candidates.tsv (DLL 逐字提取, KEEP 30 条) + 补充 Move up ( / Activate
+# 格式: SCOPE^^^ORIG^^^TRANS ; ORIG 与 DLL ldstr 逐字一致, \n 为字面转义
+# DISABLED (6-dangerous 2026-09-01: breaks Asset.GetAsset<UpgradeAsset> lookup in construction ships window): ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateShips|2^^^Droneship Upgrade^^^无人机船升级
+# DISABLED (6-dangerous 2026-09-01: breaks Asset.GetAsset<FairingReusabilityUpgradeAsset> lookup in construction ships window): ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateShips|2^^^Fairing Reusability Upgrade^^^整流罩回收升级
+# DISABLED (breaks Asset.GetAsset lookups): ContractsManager::Awake^^^Launch Light Rocket^^^发射轻型火箭
+# DISABLED (breaks Asset.GetAsset lookups): ContractsManager::CheckForContracts^^^Random Contracts^^^随机合同
+Cutscene::PlayCutscene^^^ (Video Player)^^^ （视频播放器）^^^AUTO
+# DISABLED (breaks Asset.GetAsset lookups): Droneship::Return;Droneship::SetData^^^Droneship Rumba Upgrade^^^无人机船Rumba升级
+InternetServiceData::OnNewGame^^^Internet Service^^^互联网服务^^^AUTO
+# DISABLED (no-op: 'Internet Router' not in DLL; also would break GetDataByLinq): InternetServiceTab/<>c::<get_routersItem>b__28_1^^^Internet Router^^^互联网路由器
+# DISABLED (breaks GetDataByLinq<ItemData>("routers item") key): InternetServiceTab::get_routersItem^^^routers item^^^路由器
+ISSDockingMiniGame::Awake^^^Move backwards (^^^后退（^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move down (^^^下移（^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move forwards (^^^前进（^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move left (^^^左移（^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move right (^^^右移（^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move up (^^^上移（^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Roll left (^^^左滚（^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Roll right (^^^右滚（^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Rotate left (^^^左旋（^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Rotate right (^^^右旋（^^^DISPLAY
+LaunchData/InventorySettings::ValidateDestination^^^You can't launch from one space station to another.^^^你不能从一个空间站直接发射到另一个空间站。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^You can't launch to space stations that are on a different planet.^^^你不能发射到位于不同行星上的空间站。^^^AUTO
+LaunchData/VehicleSettings::Validate^^^Set a docking port for ^^^为以下目标设置对接端口：^^^AUTO
+# DISABLED (6-dangerous 2026-09-01: breaks PlanetsManager.LoadPlanetWithoutTransition scene-id in StartMiniGame): MiniGame::StartMiniGame;PlanetConnectionVisualController::UpdateUI^^^Mini Games^^^迷你游戏
+NewGameWindow::Create_OnClick^^^so you decided to eat the raw pizza anyway.. that's fine. \n\nBut remember!\n\nThis game is still.. in alpha :(\n\n..enjoy the pizza while it's still in the oven I guess lol^^^所以你最后还是吃了那块生披萨……那好吧。 \n\n但要记住！\n\n这个游戏还在 alpha 阶段 :(\n\n……趁披萨还在烤箱里，尽情享用吧，哈哈^^^AUTO
+PlanetButton::UpdateUI^^^Transfer window with <color=#ffffff75><size=90%>^^^与 <color=#ffffff75><size=90%>^^^AUTO
+SaveFilePanel::UpdateUI^^^{0:dddd} <size=90%><color=#ffffff75>{1:dd} {2:MMMM}</color></size>^^^{0:dddd} <size=90%><color=#ffffff75>{2:M}月{1:dd}日</color></size>^^^DISPLAY
+ShipPanel::UpdateUI;VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateOptions|4^^^Set Nickname^^^设置昵称^^^AUTO
+# DISABLED (breaks Animator.SetBool("Booster Inside") param): TowerCatchMiniGame::Update^^^Booster Inside^^^助推器在塔内
+# DISABLED (breaks Animator.GetBool("Activate") param): TowerCatchMiniGame::Update;TowerCatchMiniGame::Catch_OnClick^^^Activate^^^激活
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Waiting for a window to open...^^^正在等待发射窗口开启……^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateOptions|4^^^Rename Blueprint^^^重命名蓝图^^^AUTO
+VWVehiclesScroller::.ctor^^^Vehicles on Current Location^^^当前地点的载具^^^DISPLAY

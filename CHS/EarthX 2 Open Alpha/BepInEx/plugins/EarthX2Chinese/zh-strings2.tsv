@@ -1,0 +1,87 @@
+# EarthX 2 汉化 - IL 字符串替换表 (第 2 部分)
+# 格式: 作用域^^^原文^^^译文
+LaunchData/PayloadSettings::ValidatePayload^^^ can only launch one payload at a time.^^^一次只能发射一个载荷。^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^ can't accept this payload.^^^无法接收此载荷。^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload;LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch people!^^^无法载人发射！^^^AUTO
+LaunchData/InventorySettings::ValidateDestination;LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch to orbit.^^^无法发射入轨。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination;LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch to other planets.^^^无法发射去其他行星。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination;LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch to planets with an atmosphere.^^^无法发射到有大气层的行星。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination;LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch to space stations.^^^无法发射到空间站。^^^AUTO
+LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch liquid payloads!^^^无法发射液体载荷！^^^AUTO
+LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch multiple payloads at once.^^^无法一次发射多个载荷。^^^AUTO
+LaunchData/VehicleSettings::ValidateVehicle^^^ can't deploy payloads in orbit!^^^无法在轨道部署载荷！^^^AUTO
+LaunchData/PayloadSettings::Validate^^^ can't deploy things in orbit.^^^无法在轨道上部署。^^^AUTO
+LaunchData/InventorySettings::Validate^^^ can't be supplied. Check storage and funds.^^^无法供应。请检查仓库与资金。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^ can't launch to other planets from a space station.^^^无法从空间站发射去其他行星。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^ is currently travelling.^^^ 正在航行中。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^ is destroyed.^^^ 已被摧毁。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^ is not unlocked yet.^^^ 尚未解锁。^^^AUTO
+LaunchData/InventorySettings::Validate^^^No destination selected.^^^未选择目的地。^^^AUTO
+LaunchData/InventorySettings::Validate^^^Select a launch pad.^^^请选择发射台。^^^AUTO
+LaunchData/InventorySettings::Validate^^^Nothing selected.^^^未选择任何内容。^^^AUTO
+LaunchData/InventorySettings::Validate^^^You are launching from this location.^^^你正从该地点发射。^^^AUTO
+LaunchData/VehicleSettings::Validate^^^.^^^^^^DISPLAY
+LaunchData/VehicleSettings::Validate^^^No vehicle attached.^^^未挂载载具。^^^AUTO
+LaunchData/VehicleSettings::Validate^^^No atmosphere or landing pads on this planet. Send a Low Gravity Ship first to build a Landing Pad.^^^这颗星球没有大气层，也没有着陆场。请先派一艘低重力星舰去建造着陆场。^^^AUTO
+LaunchData/VehicleSettings::Validate^^^You need to select a vehicle on parking orbit that needs to be refueled.^^^请选择停泊轨道上一台需要补给的载具。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^One or more selected payloads can't be launched to orbit.^^^部分所选载荷无法发射入轨。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^One or more selected payloads can't be launched to planets.^^^部分所选载荷无法发射去行星。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^One or more selected payloads can't be launched to space stations.^^^部分所选载荷无法发射到空间站。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^Some selected items can't be launched to this destination.^^^部分所选物品无法发射到该目的地。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^Vehicles don't have enough range to reach this destination.^^^载具航程不足以抵达该目的地。^^^AUTO
+LaunchData/PayloadSettings::Validate^^^Selected vehicles don't have enough range to reach the destination.^^^所选载具航程不足以抵达目的地。^^^AUTO
+LaunchData::CanLaunch^^^You need to fix following things before the launch:<color=#E74C3C>\n^^^发射前需要解决以下问题：<color=#E74C3C>\n^^^AUTO
+LaunchData/InventorySettings::ValidateLaunchPad^^^This launch pad is occupied by another vehicle.^^^该发射台已被其他载具占用。^^^AUTO
+LaunchData/InventorySettings::ValidateLaunchPad^^^Launch pad can't support the selected vehicle setup.^^^该发射台无法支持所选载具配置。^^^AUTO
+LaunchData/VehicleSettings::ValidateVehicle^^^Vehicle doesn't fit the current setup.^^^载具与当前配置不匹配。^^^AUTO
+LaunchData/VehicleSettings::ValidateVehicleToRefuel^^^Vehicle is being refueled right now.^^^载具正在加注燃料。^^^AUTO
+LaunchData/VehicleSettings::ValidateLandAsset^^^Droneship is not available right now.^^^无人驳船目前不可用。^^^AUTO
+LaunchData/VehicleSettings::ValidateLandAsset^^^This land option is already in use by another vehicle.^^^此着陆选项已被其他载具占用。^^^AUTO
+LaunchData/VehicleSettings::ValidateVehicle^^^No need for more ^^^已无需更多^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Attached vehicle can't deploy payloads in orbit.^^^挂载的载具无法在轨道部署载荷。^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Attached vehicle can't launch liquid payloads.^^^挂载的载具无法发射液体载荷。^^^AUTO
+LaunchData/VehicleSettings::ValidateConfiguration^^^Attached vehicles don't match any setup.^^^挂载的载具与任何配置都不匹配。^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Payload can't be launched to orbit.^^^载荷无法发射入轨。^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Payload can't be launched to planets.^^^载荷无法发射去行星。^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Payload can't be launched to space stations.^^^载荷无法发射到空间站。^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Payload doesn't fit in the vehicle. Payload size: {0} | Available space: {1}^^^载荷放不进载具。载荷尺寸：{0}｜可用空间：{1}^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Payload must be launched elsewhere.^^^该载荷必须发射到别处。^^^AUTO
+LaunchData/PayloadSettings::Validate^^^Payloads can't be larger than the available space in the selected vehicle.^^^载荷尺寸不能超过所选载具的可用空间。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^Payloads must be launched elsewhere.^^^载荷必须发射到别处。^^^AUTO
+RefuelAnyVehicleCommand::Execute^^^Vehicle configuration doesn't support refuel missions!^^^载具配置不支持燃料补给任务！^^^AUTO
+RefuelAnyVehicleCommand::Execute^^^No valid vehicle to refuel found!^^^未找到可补给的载具！^^^AUTO
+AttachVehicleAnyCommand::Execute;LaunchPadAnyCommand::Execute^^^ found!^^^！^^^AUTO
+LaunchPadAnyCommand::Execute^^^No valid ^^^未找到有效的^^^AUTO
+AttachVehicleAnyCommand::Execute^^^No valid blueprint found!^^^未找到有效蓝图！^^^AUTO
+LaunchPadAnyCommand::Execute^^^No valid launchpad found!^^^未找到有效发射台！^^^AUTO
+AttachVehicleAnyCommand::Execute^^^No valid vehicles with blueprint: ^^^未找到符合蓝图的载具：^^^AUTO
+AttachPayloadCommand::Execute^^^Amount of ^^^物品^^^AUTO
+AttachPayloadCommand::Execute^^^ does not meet the threshold!^^^ 数量未达标！^^^AUTO
+InventoryData::AddItem^^^No storage was found for items on ^^^未找到以下地点的物品仓库：^^^DISPLAY
+InventoryData::AddItem^^^.^^^。^^^DISPLAY
+InventoryData::RemoveItem^^^Items have been supplied.^^^物品已供应。^^^DISPLAY
+VehicleData::OnArriveToNewInventory^^^Vehicles have arrived to ^^^载具已抵达^^^DISPLAY
+VehicleData::OnArriveToNewInventory^^^.^^^。^^^DISPLAY
+HubSpaceStationData::OnTravelComplete^^^ Hub Station has arrived to ^^^ 枢纽空间站已抵达^^^DISPLAY
+HubSpaceStationData::OnTravelComplete^^^.^^^。^^^DISPLAY
+ItemData::OnDayPassed_Deadline^^^ is approaching its launch deadline!^^^ 即将到达发射截止期限！^^^DISPLAY
+LaunchUI::UpdateUI^^^ will need to be refuelled on orbit before its interplanetary departure!^^^ 在行星际出发前需要进行轨道补给！^^^DISPLAY
+ConstructionWindow::Demolish_OnClick;VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>b__16^^^?^^^？^^^DISPLAY
+ConstructionWindow::Demolish_OnClick^^^Do you really want to demolish this ^^^真的要拆除这个^^^AUTO
+ConstructionWindow::<Demolish_OnClick>b__30_0^^^ has been demolished.^^^ 已被拆除。^^^DISPLAY
+ConstructionWindow::<Rename_OnClick>b__27_0;ServiceData::<RenameService>b__27_0;ShipPanel::<UpdateUI>b__14_1^^^ has been renamed to ^^^ 已重命名为^^^DISPLAY
+ConstructionWindow::<Rename_OnClick>b__27_0;ServiceData::<RenameService>b__27_0;ShipPanel::<UpdateUI>b__14_1^^^.^^^。^^^DISPLAY
+LaunchPadData::CanBeDemolished^^^ can't be demolished because a Droneship "^^^ 无法拆除——无人驳船 “^^^DISPLAY
+LaunchPadData::CanBeDemolished^^^ can't be demolished because a Fairingship "^^^ 无法拆除——整流罩回收船 “^^^DISPLAY
+LaunchPadData::CanBeDemolished^^^ can't be demolished because a vehicle is chilling on it right now.^^^ 无法拆除——现在有载具停在上面。^^^DISPLAY
+LaunchPadData::CanBeDemolished^^^ can't be demolished because it supports a rocket launch right now.^^^ 无法拆除——它正支持一次火箭发射。^^^DISPLAY
+LaunchPadData::CanBeDemolished^^^" is in use right now.^^^"正在使用中。^^^DISPLAY
+VehicleData::Scrap^^^Do you really want to scrap ^^^真的要拆解^^^AUTO
+VehicleData::Scrap^^^?\nYou will be able to retrive some resources back.^^^ 吗？\n拆解后可回收部分资源。^^^AUTO
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>b__16^^^Remove ^^^确定要移除^^^DISPLAY
+VehiclesWindow::RemoveLandingGear_OnClick^^^Do you really want to remove landing gear from this vehicle? You can't undo this.^^^真的要移除此载具的着陆腿吗？此操作无法撤销！^^^DISPLAY
+NewGameWindow::Create_OnClick^^^You have to have a name!^^^你必须给自己起个名字！^^^DISPLAY
+NewGameWindow::Create_OnClick^^^Your company has to have a name!^^^你的公司必须有个名字！^^^DISPLAY
+NewServiceWindow/<>c::<SelectServiceType_OnClick>b__11_4^^^You already created a service of this type.^^^你已创建过此类服务。^^^AUTO
+NewStructureWindow/<>c::<SelectStructureType_OnClick>b__11_4^^^You already created a structure of this type.^^^你已建造过此类结构。^^^AUTO
+QuickAccessUI::AddWebcastsWidget_OnClick^^^You can only add one Webcast widget.^^^直播窗口小部件只能添加一个。^^^DISPLAY

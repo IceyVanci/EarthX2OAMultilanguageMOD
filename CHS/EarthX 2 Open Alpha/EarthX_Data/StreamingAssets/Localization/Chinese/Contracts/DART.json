@@ -1,0 +1,10 @@
+{
+    "DART Payload_Name": "DART",
+    "DART Payload_Desc": "@DART_Desc",
+    "DART_Name": "双小行星重定向测试",
+    "DART_Desc": "一项旨在测试我们改变小行星轨道能力的任务，对行星防御至关重要。",
+    "DART _ Start Lore_Name": "DART：小行星偏转测试",
+    "DART _ Start Lore_Desc": "发射万众瞩目的 DART 任务的绝佳机会来了！科学家希望测试高速卫星撞击能否改变小行星的轨迹。\n\n结果可能重新定义行星防御，以及我们保护地球免受未来小行星威胁的能力。",
+    "DART _ Completion Lore_Name": "数据因安全顾虑被封锁",
+    "DART _ Completion Lore_Desc": "令人意外的是，美国政府报告称针对联邦系统的境外活动有所增加。\n\n为防止潜在泄露，包括 DART 任务结果在内的所有任务数据已被列为机密，访问被暂时限制。"
+}

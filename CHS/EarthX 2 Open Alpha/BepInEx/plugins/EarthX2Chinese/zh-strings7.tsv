@@ -1,0 +1,6 @@
+# EarthX 2 汉化 - IL 字符串替换表 (第 7 部分: 收尾)
+# 格式: 作用域^^^原文^^^译文
+# DISABLED (breaks Asset.GetAsset lookups): HUDNewHappening::OnUnlock;PlanetConnectionVisualController::<Awake>g__OnUnlock|3_2;PlanetConnectionVisualController::UpdateUI^^^Solar System^^^太阳系
+# DISABLED (6-dangerous 2026-09-01: breaks Asset.GetAsset<FeatureAsset> lookup in launch preset list): LWVehiclesScroller/<>c::<get_DataFunc>b__1_0^^^Launch Presets^^^发射预设
+MWContractsScroller::.ctor^^^Available^^^可签^^^DISPLAY
+PWProductionLinePanel::<UpdateUI>g__UpdateIdleTag|11_1^^^Available^^^空闲^^^DISPLAY

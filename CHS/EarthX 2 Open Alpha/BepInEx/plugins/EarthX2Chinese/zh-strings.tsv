@@ -1,0 +1,103 @@
+# EarthX 2 汉化 - IL 字符串替换表
+# 格式: 作用域^^^原文^^^译文  (作用域为分号分隔的方法全名前缀)
+# 转义: \n = 换行, \r = 回车
+MainMenuUI::UpdateUI^^^ </color></size>\nContinue Game^^^</color></size>\n继续游戏^^^AUTO
+VersionText::UpdateUI^^^ <color=#e74c3c>> COMMUNITY <</color>^^^<color=#e74c3c>> 社区 <</color>^^^DISPLAY
+VersionText::UpdateUI^^^Saving EarthX 2...          ^^^正在保存 EarthX 2...^^^DISPLAY
+SaveFilePanel::OnClick^^^Unable to load this save file - was created using EarthX 2 v^^^无法加载此存档——它是由 EarthX 2 v^^^DISPLAY
+FormatTime::TimeAgo^^^{0} years ago^^^{0} 年前^^^DISPLAY
+FormatTime::TimeAgo^^^a year ago^^^一年前^^^DISPLAY
+FormatTime::TimeAgo^^^{0} months ago^^^{0} 个月前^^^DISPLAY
+FormatTime::TimeAgo^^^a month ago^^^一个月前^^^DISPLAY
+FormatTime::TimeAgo^^^{0} days ago^^^{0} 天前^^^DISPLAY
+FormatTime::TimeAgo^^^a day ago^^^一天前^^^DISPLAY
+FormatTime::TimeAgo^^^Recent^^^最近^^^DISPLAY
+FormatTime::TimeUntil^^^now^^^现在^^^DISPLAY
+FormatTime::TimeUntil^^^soon™^^^即将™^^^DISPLAY
+FormatTime::TimeUntil^^^one year^^^一年^^^DISPLAY
+FormatTime::TimeUntil^^^one month^^^一个月^^^DISPLAY
+FormatTime::TimeUntil^^^one day^^^一天^^^DISPLAY
+FormatTime::TimeLeft^^^left^^^剩余^^^DISPLAY
+FormatTime::TimeLeft^^^years^^^年^^^DISPLAY
+FormatTime::TimeLeft^^^year^^^年^^^DISPLAY
+FormatTime::TimeLeft^^^months^^^个月^^^DISPLAY
+FormatTime::TimeLeft^^^month^^^个月^^^DISPLAY
+FormatTime::TimeLeft^^^days^^^天^^^DISPLAY
+FormatTime::TimeLeft^^^day^^^天^^^DISPLAY
+FormatTime::TimeLeft^^^{0} <color=#ffffff75>{1}</color> {2}^^^剩余 {0} <color=#ffffff75>{1}</color>^^^DISPLAY
+FormatTime::TimeLeft^^^{0}<color=#ffffff75>y</color> {1}<color=#ffffff75>d</color> {2}^^^{0}<color=#ffffff75>年</color> {1}<color=#ffffff75>天</color> {2}^^^DISPLAY
+FormatTime::TimeLeft^^^{0}<color=#ffffff75>y</color> {1}<color=#ffffff75>m</color> {2}^^^{0}<color=#ffffff75>年</color> {1}<color=#ffffff75>月</color> {2}^^^DISPLAY
+FormatTime::TimeLeft^^^{0}<color=#ffffff75>y</color> {1}<color=#ffffff75>m</color> {2}<color=#ffffff75>d</color> {3}^^^{0}<color=#ffffff75>年</color> {1}<color=#ffffff75>月</color> {2}<color=#ffffff75>天</color> {3}^^^AUTO
+FormatTime::TimeLeft^^^{0}<color=#ffffff75>m</color> {1}<color=#ffffff75>d</color> {2}^^^{0}<color=#ffffff75>月</color> {1}<color=#ffffff75>天</color> {2}^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__ContractDuration|2;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__ContractDuration|4;FormatTime::TimeUntil^^^{0} years^^^{0} 年^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__ContractDuration|2;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__ContractDuration|4^^^<color=#ffffff75><size=90%>in</size></color> ^^^<color=#ffffff75><size=90%>，目的地：</size></color>^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__ContractDuration|2;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__ContractDuration|4^^^<color=#ffffff75><size=90%>No new payloads</size></color>^^^<color=#ffffff75><size=90%>暂无新载荷</size></color>^^^DISPLAY
+ContractData::Sign^^^You received ^^^你获得了^^^DISPLAY
+ContractData::Sign^^^ for signing the contract!^^^（签署合同奖励）^^^DISPLAY
+ContractData::TryToDelete^^^ contract has been terminated - you had too many strikes!^^^ 合同已终止——违规次数过多！^^^DISPLAY
+ContractData::TryToDelete^^^You received ^^^你获得了^^^DISPLAY
+ContractData::TryToDelete^^^ for completing the ^^^，完成了^^^AUTO
+ContractData::TryToDelete^^^ contract without many strikes!^^^ 合同的奖励（无违规记录）！^^^DISPLAY
+ContractData::TryToDelete^^^You did not receive ^^^你未获得^^^AUTO
+ContractData::TryToDelete^^^ contract - you had too many strikes!^^^ 合同的奖励——违规次数过多！^^^AUTO
+ContractData::TryToDelete^^^You received items for completing the ^^^你获得了完成^^^DISPLAY
+ContractData::TerminateContract^^^You've terminated the ^^^你已提前终止了^^^DISPLAY
+ContractData::TerminateContract^^^ contract early!^^^ 合同！^^^DISPLAY
+ContractData::PayloadPastDeadline^^^You didn't launch ^^^你没有按时发射^^^DISPLAY
+ContractData::PayloadPastDeadline^^^ in time! You were fined!^^^！你被罚款了！^^^DISPLAY
+ContractsManager::<CheckForContracts>g__SpawnContract|20_0^^^ just became available in ^^^ 刚刚出现在^^^DISPLAY
+ContractsManager::<CheckForContracts>g__SpawnContract|20_0^^^Contracts Window^^^合同窗口^^^AUTO
+ContractsManager::<CheckForContracts>g__SpawnContract|20_0;InsuranceClaimData::OnMonthPassed_CheckForResolution;InsuranceData::RecalculateQuarterlyPayment;LoanData::RepayLoan;LoanData::TakeLoan^^^!^^^！^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__ContractSign|0^^^Sign\n^^^签署\n^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__ContractSign|0;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__ContractSign|2^^^Sign^^^签署^^^DISPLAY
+ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__ContractSign|2^^^Sign (^^^签署（^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__SetOptions|6;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__SetOptions|7^^^Terminate^^^终止^^^AUTO
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__SetOptions|6;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__SetOptions|7^^^Open in Wikipedia^^^在维基百科中查看^^^AUTO
+ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>b__8^^^Do you really want to terminate the ^^^真的要终止合同^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>b__7^^^Really terminate the ^^^确定要终止合同^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>b__7;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>b__8^^^ contract?^^^ 吗？^^^DISPLAY
+ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>b__8^^^This contract can't be terminated now.^^^该合同目前无法终止。^^^DISPLAY
+ContractViewWindow::UpdateUI^^^\n<size=90%><color=#55BBFF>Special Contract</size></color>^^^\n<size=90%><color=#55BBFF>特别合同</size></color>^^^DISPLAY
+MWContractPanel::UpdateUI^^^<color=#9B59B6><size=90%>Opportunity</size></color>\n^^^<color=#9B59B6><size=90%>机会</size></color>\n^^^DISPLAY
+LoanData::TakeLoan^^^You've taken a ^^^你申请了^^^AUTO
+LoanData::TakeLoan^^^ of ^^^，金额^^^AUTO
+LoanData::RepayLoan^^^You've full repaid your ^^^你已还清^^^DISPLAY
+CWLoanPanel::UpdateUI^^^Take Loan\n^^^申请贷款\n^^^DISPLAY
+CWLoanPanel::UpdateUI^^^Repay Loan\n^^^偿还贷款\n^^^DISPLAY
+CWLoanPanel::UpdateUI^^^{0} <size=90%><color=#ffffff75>months^^^{0} <size=90%><color=#ffffff75>个月^^^DISPLAY
+CWLoanPanel::UpdateUI^^^ <size=90%><color=#ffffff75>| per month^^^ <size=90%><color=#ffffff75>| 每月^^^DISPLAY
+PWLoanPreview::UpdateUI^^^</align>\n<color=#ffffff75><size=90%>Your company can now apply for a loan of up to</size></color> ^^^</align>\n<color=#ffffff75><size=90%>你的公司现在可申请最高以下额度的贷款：</size></color>^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^Your insurance claim was accepted and you've received ^^^你的保险理赔已通过，你收到了^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^* You took a risk by launching too many payloads at once.^^^* 你一次发射了过多载荷，承担了风险。^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^\n* One of the vehicles didn’t meet full quality standards at launch.^^^\n* 其中一台载具在发射时未完全达到质量标准。^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^* One of the vehicles didn’t meet full quality standards at launch.^^^* 其中一台载具在发射时未完全达到质量标准。^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^\n* One of the vehicles was reflown which might have affected the flight performance.^^^\n* 其中一台载具为重复使用飞行，可能影响了飞行表现。^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^* One of the vehicles was reflown which might have affected the flight performance.^^^* 其中一台载具为重复使用飞行，可能影响了飞行表现。^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^\n* The insurance company gained access to a witness who testified that the launch could have been canceled and the explosion would never have happened.^^^\n* 保险公司获得了一份目击证词：本次发射本可取消，爆炸本不会发生。^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^* The insurance company gained access to a witness who testified that the launch could have been canceled and the explosion would never have happened.^^^* 保险公司获得了一份目击证词：本次发射本可取消，爆炸本不会发生。^^^DISPLAY
+InsuranceData::RecalculateQuarterlyPayment^^^Your insurance quarterly payment has increased by ^^^你的保险季度付款上涨了^^^AUTO
+InsuranceData::RecalculateQuarterlyPayment^^^Your insurance quarterly payment has decreased by ^^^你的保险季度付款下降了^^^AUTO
+InsuranceData::RecalculateQuarterlyPayment^^^<color=#ffffff75><size=90%>%</size></color> to ^^^<color=#ffffff75><size=90%>%</size></color>，现为^^^AUTO
+InsuranceData::CancelForever^^^Your insurance was cancelled forever!^^^你的保险已被永久取消！^^^DISPLAY
+InsuranceTab::CancelInsurance_OnClick^^^Do you really want to cancel your insurance forever?\nThis can't be reverted.^^^真的要永久取消你的保险吗？\n此操作无法撤销！^^^DISPLAY
+InsuranceTab::UpdateUI^^^Insurance\n^^^保险\n^^^DISPLAY
+InsuranceTab::UpdateUI^^^<size=90%><color=#ffffff75> | per quarter^^^<size=90%><color=#ffffff75> | 每季度^^^DISPLAY
+InsuranceClaimPanel::UpdateUI^^^Claim from <size=90%><color=#ffffff75>{0} {1}^^^理赔 · <size=90%><color=#ffffff75>{0} {1}^^^AUTO
+InsuranceClaimPanel::UpdateUI^^^Partially approved^^^部分批准^^^DISPLAY
+InsuranceClaimPanel::UpdateUI^^^Fully approved^^^全部批准^^^DISPLAY
+InsuranceClaimPanel::UpdateUI^^^In review...^^^审核中…^^^DISPLAY
+InsuranceClaimPanel::UpdateUI^^^{0} <color=#ffffff75><size=90%>({1}%)^^^{0} <color=#ffffff75><size=90%>（赔付 {1}%）^^^AUTO
+InsuranceClaimPanel::UpdateUI^^^<size=90%><color=#ffffff75>Your claim was only partially approved:</color></size>\n{0}\n<size=90%><color=#ffffff75>The EarthX Council has decided to approve only {1}% of your original request.^^^<size=90%><color=#ffffff75>你的理赔仅获部分批准：</color></size>\n{0}\n<size=90%><color=#ffffff75>EarthX 理事会决定仅批准原始请求的 {1}%。^^^AUTO
+FailureData::GenerateFailureLoreMessage^^^ exploded during launch on ^^^ 在发射时发生爆炸，日期：^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^ exploded during attempted recovery on ^^^ 在回收尝试时发生爆炸，日期：^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^ exploded during re-entry on ^^^ 在再入大气层时发生爆炸，日期：^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^ exploded just after separation on ^^^ 在级间分离后立即发生爆炸，日期：^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^ It was sent to the Rocket Valhalla.^^^ 它已被送往“火箭英灵殿”。^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^ They were sent to the Rocket Valhalla.^^^ 它们已被送往“火箭英灵殿”。^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^ tipped over on the ocean during droneship transport operations.^^^ 在无人驳船运输作业中于海上倾覆。^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^\nInsurance claim (^^^\n保险理赔（^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^) has been automatically created.\n<color=#ffffff75><size=90%>See Company Window / Insurance^^^）已自动创建。\n<color=#ffffff75><size=90%>详见公司窗口 / 保险^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^\n\n<color=#ffffff75><size=90%>Insurance</size></color>^^^\n\n<color=#ffffff75><size=90%>保险</size></color>^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^\n\n<color=#ffffff75><size=90%>Payload Lost</size></color>^^^\n\n<color=#ffffff75><size=90%>载荷损失</size></color>^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^\nInsurance claim was not created because lost of vehicle was purely your fault.^^^\n本次损失纯属你的失误，因此未创建保险理赔。^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^\nYour insurance was cancelled forever.^^^\n你的保险已被永久取消。^^^DISPLAY

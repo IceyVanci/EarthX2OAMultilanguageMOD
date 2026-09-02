@@ -1,0 +1,30 @@
+THIRD-PARTY COMPONENTS NOTICE
+=============================
+
+This "full" package bundles the following UNMODIFIED third-party binaries
+to provide the modding framework required by the Chinese localization patch.
+
+1. BepInEx 5.4.23.2 (BepInEx\core\*.dll)
+   License: GNU Lesser General Public License v2.1 (LGPL-2.1)
+   Source:  https://github.com/BepInEx/BepInEx
+   Binaries are redistributed unmodified. The full license text is provided
+   in LGPL-2.1.txt alongside this notice.
+
+2. UnityDoorstop 4.x (winhttp.dll, doorstop_config.ini, .doorstop_version)
+   License: GNU Lesser General Public License v2.1 (LGPL-2.1)
+   Source:  https://github.com/NeighTools/UnityDoorstop
+   Binaries are redistributed unmodified. License text: LGPL-2.1.txt.
+
+3. Bundled inside BepInEx\core (MIT licensed):
+   - HarmonyX 2.10.2      https://github.com/BepInEx/HarmonyX
+   - MonoMod              https://github.com/0x0ade/MonoMod
+   - Mono.Cecil 0.10.4    https://github.com/jbevain/cecil
+
+LGPL-2.1 compliance notes:
+- All third-party binaries are conveyed in unmodified form.
+- The complete license text (LGPL-2.1.txt) accompanies this package.
+- Source code for the listed components is available from the project
+  URLs above at no charge.
+
+Patch content (JSON/TSV/plugin source in BepInEx\plugins\EarthX2Chinese)
+is provided as-is for the EarthX 2 community.

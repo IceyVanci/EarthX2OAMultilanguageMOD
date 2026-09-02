@@ -1,0 +1,94 @@
+# EarthX 2 汉化 - IL 字符串替换表 (第 5 部分)
+# 格式: 作用域^^^原文^^^译文
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Being Refueled...^^^正在补给…^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Refueling...^^^正在加注…^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Docking...^^^正在对接…^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Landing...^^^正在着陆…^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Launching...^^^正在发射…^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Returning to port on a droneship...^^^正乘无人驳船返回港口…^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10^^^Wants to re-entry...^^^准备再入大气层…^^^DISPLAY
+VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^No landing zone...^^^没有着陆区…^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Requires refuels: {0}^^^需要补给：{0} 次^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateService|6^^^Service <color=#ffffff><size=90%>^^^维护 <color=#ffffff><size=90%>^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateService|6^^^Servicing this vehicle costs more than producing a new one.\n\nYou can keep flying this vehicle, but it will affect your insurance and flight success.^^^维护这台载具的成本已超过造一台新的。\n\n你可以继续使用它，但这会影响你的保险费用与飞行成功率。^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateService|6^^^You can keep flying this vehicle, but it will affect your insurance and flight success.^^^你可以继续使用这台载具，但这会影响你的保险费用与飞行成功率。^^^DISPLAY
+VehiclesWindow/<>c::<ConvertVehicle_OnClick>b__64_1^^^Convert to ^^^改装为^^^DISPLAY
+VehiclesWindow::FolderSelectBlueprints_OnClick^^^Assign Blueprint^^^分配蓝图^^^DISPLAY
+VehiclesWindow::FolderSelectInventory_OnClick^^^Select Locations^^^选择地点^^^DISPLAY
+VehiclesWindow::SelectAutomation_OnClick^^^Select Automation^^^选择自动化程序^^^DISPLAY
+VehiclesWindow::SelectFolder_OnClick^^^Select Folder^^^选择分组^^^DISPLAY
+VehiclesWindow::SelectFolder_OnClick^^^[Create New Folder]^^^[新建分组]^^^AUTO
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateFolderView|2^^^Change Name^^^改名^^^AUTO
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateFolderView|2^^^Remove Folder^^^删除分组^^^AUTO
+# DISABLED (6-dangerous 2026-09-01: breaks Asset.GetAsset<Asset> lookup in Folder dropdown): VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateDropdowns|3;VWVehiclesScroller::.ctor^^^Folders^^^分组
+FolderData::get_Nickname^^^Folder^^^分组^^^DISPLAY
+FolderData::.ctor^^^Untitled Folder^^^未命名分组^^^AUTO
+ContextDropdownGeneric::UpdateUI;VehiclesWindow::SelectAutomation_OnClick;VehiclesWindow::SelectFolder_OnClick^^^[None]^^^[无]^^^DISPLAY
+ContextMenuScroller::Initialize^^^[Empty]^^^[空]^^^AUTO
+# DISABLED (Launch is asset id/animator trigger): LaunchData::set_LaunchSetupViewActive;LaunchUI::UpdateUI;VehicleFlightAnimator::LaunchAnimator^^^Launch^^^发射
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetInfoTags|0;PeopleWindow::<UpdateUI>g__SetInfoTags|17_0^^^Launch\n^^^发射\n^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetInfoTags|0;PeopleWindow::<UpdateUI>g__SetInfoTags|17_0^^^Launch\n<color=#81C784><size=90%>Ready To Fly^^^发射\n<color=#81C784><size=90%>随时可飞^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetDestination|1;PeopleWindow::<UpdateUI>g__SetDestination|17_1^^^Two-Way Trip^^^往返^^^DISPLAY
+LWVehiclePanelUI::SelectDock_OnClick;LWVehiclePanelUI::UpdateUI^^^Select Dock^^^选择对接口^^^DISPLAY
+LWVehiclePanelUI/<>c::<SelectDock_OnClick>b__15_0;LWVehiclePanelUI::UpdateUI^^^Dock {0}^^^对接口 {0}^^^DISPLAY
+LWVehiclePanelUI::UpdateUI^^^Select Land Option^^^选择着陆方式^^^DISPLAY
+LWVehiclePanelUI::UpdateUI^^^Recovery of this vehicle is not possible with the current setup.\nTo enable recovery, a Droneship must be constructed on the Launch Pad.^^^以当前配置无法回收此载具。\n如需回收，必须在发射台上建造无人驳船。^^^DISPLAY
+LWVehiclePanelUI::UpdateUI^^^Recovery of this vehicle with tower arms is not possible yet.^^^此载具目前尚无法使用塔架捕获臂回收。^^^DISPLAY
+LWChoosePresetPanel/<>c::<ChoosePreset_OnClick>b__0_5^^^Rename^^^重命名^^^AUTO
+LWChoosePresetPanel/<>c::<ChoosePreset_OnClick>b__0_5^^^Remove^^^移除^^^AUTO
+LWChoosePresetPanel/<>c::<ChoosePreset_OnClick>b__0_5^^^Update With Current Settings^^^用当前配置更新^^^AUTO
+LWChoosePresetPanel/<>c::<ChoosePreset_OnClick>b__0_5^^^Convert To Automation^^^转换为自动化程序^^^AUTO
+LWChoosePresetPanel::ChoosePreset_OnClick^^^Choose Preset^^^选择预设^^^DISPLAY
+LWChoosePresetPanel/<>c__DisplayClass0_0::<ChoosePreset_OnClick>b__6^^^New preset^^^新预设^^^AUTO
+LWChoosePresetPanel::ChoosePreset_OnClick^^^[Create New Preset]^^^[新建预设]^^^AUTO
+LaunchPresetData::UpdatePreset^^^ preset has been updated.^^^ 预设已更新。^^^DISPLAY
+LaunchPresetData::UpdatePreset^^^ preset can't be updated if your configuration is not valid.^^^ 预设无法更新：当前配置无效。^^^DISPLAY
+LaunchPresetData::ConvertToAutomation^^^ preset can't be converted into automation because you didn't unlock that feature yet.^^^ 预设无法转换为自动化程序：尚未解锁该功能。^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Attach Vehicle <color=#ffffff75><size=90%>(any)</size></color>^^^挂载载具 <color=#ffffff75><size=90%>(任意)</size></color>^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Launch From <color=#ffffff75><size=90%>(any)</size></color>^^^从 <color=#ffffff75><size=90%>(任意)</size></color> 发射^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Refuel Vehicle <color=#ffffff75><size=90%>(any)</size></color>^^^补给载具 <color=#ffffff75><size=90%>(任意)</size></color>^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Payload <color=#ffffff75><size=90%>(contract)</size></color>^^^载荷 <color=#ffffff75><size=90%>(合同)</size></color>^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Attach Vehicle^^^挂载载具^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Launch From^^^发射自^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Launch To^^^发射至^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Payload^^^载荷^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Program^^^程序^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Note^^^便签^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Unknown command^^^未知指令^^^AUTO
+AutomationEditWindow::RemoveProgram_OnClick^^^Do you really want to remove <color=#ffffff75><size=90%>{0}</size></color> program?\nIt's assigned to <b>{1}</b> vehicles.^^^确定要移除 <color=#ffffff75><size=90%>{0}</size></color> 程序吗？\n它已分配给 <b>{1}</b> 台载具。^^^AUTO
+NewAutomationWindow::<Awake>g__OnWindowStateChange|5_0^^^New Automation^^^新建自动化程序^^^AUTO
+AutomationData::<Awake>g__OnNewGame|0_0^^^Internet Satellite Launch Automation^^^互联网卫星发射自动化^^^AUTO
+# DISABLED (6-dangerous 2026-09-01: breaks Asset.GetAsset<Asset> lookup in Automation dropdown/folder view): VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateDropdowns|3;VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateFolderView|2^^^Automation^^^自动化程序
+ShipPanel::UpdateUI^^^Droneship^^^无人驳船^^^DISPLAY
+ShipPanel::UpdateUI^^^Fairingship^^^整流罩回收船^^^DISPLAY
+ShipPanel::UpdateUI^^^Build\n^^^建造\n^^^AUTO
+ShipPanel::UpdateUI^^^<color=#81C784>Ready to Use</color>^^^<color=#81C784>随时可用</color>^^^DISPLAY
+ShipPanel::UpdateUI^^^<color=#E67E22>Currently out in the ocean!</color>^^^<color=#E67E22>目前漂浮在海上！</color>^^^DISPLAY
+LaunchPadData::get_Droneship^^^New Droneship^^^新无人驳船^^^AUTO
+LaunchPadData::get_Fairingship^^^New Fairingship^^^新整流罩回收船^^^AUTO
+SupplyWindow::UpdateUI^^^Supply\n^^^供应\n^^^DISPLAY
+ProgressionUI::<UpdateUI>g__SetProduction|32_2^^^Supply^^^供应^^^DISPLAY
+ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateProductionLines|1;ProgressionUI::<UpdateUI>g__SetProduction|32_2^^^Production^^^生产^^^DISPLAY
+ProgressionUI::UpdateUI^^^<size=100%><color=#55BBFF>Level {0} of {1}^^^<size=100%><color=#55BBFF>等级 {0} / {1}^^^DISPLAY
+HUDNewHappening/<<OnUnlock>g__ProcessQueue|10_0>d::MoveNext^^^<size=90%><b><color=#FF9F43>You have unlocked a new ^^^<size=90%><b><color=#FF9F43>你解锁了新的^^^AUTO
+ScreenLevelUp::OnLevelUp^^^Unlocked Level {0}^^^已解锁等级 {0}^^^DISPLAY
+# DISABLED (breaks Asset.GetAsset lookups): HUDNewHappening::OnUnlock;PlanetConnectionVisualController::<Awake>g__OnUnlock|3_2;PlanetConnectionVisualController::UpdateUI^^^Solar System^^^太阳系
+EventsUI::<Awake>g__OnUnlock|10_2^^^Apocalypse^^^末日模式^^^AUTO
+# DISABLED (breaks Asset.GetAsset lookups): PlanetResourcePanel::UpdateUI;UtilityConstructionExtensions::MultiplyByHumans^^^Human Storage^^^人员仓储
+ConstructionPrefab::UpdateTooltip^^^\n<color=#E67E22>Click to demolish</color>^^^\n<color=#E67E22>点击拆除</color>^^^DISPLAY
+ConstructionPrefab::UpdateTooltip^^^\n<color=#F6E58D>Click to repair</color>^^^\n<color=#F6E58D>点击维修</color>^^^DISPLAY
+ConstructionPrefab::UpdateTooltip^^^\n<color=#E67E22>Currently out in the ocean!</color>^^^\n<color=#E67E22>目前漂浮在海上！</color>^^^DISPLAY
+ConstructionPrefab::UpdateTooltip^^^\n<color=#81C784>Ready to Use</color>^^^\n<color=#81C784>随时可用</color>^^^DISPLAY
+ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateInfoPanel|0;UtilityConstructionPrefab::UpdateTooltip^^^<color=#81C784>Online</color>^^^<color=#81C784>在线</color>^^^DISPLAY
+ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateInfoPanel|0;UtilityConstructionPrefab::UpdateTooltip^^^<color=#E74C3C>Offline</color>^^^<color=#E74C3C>离线</color>^^^DISPLAY
+StructuresWindow::<UpdateUI>g__HubStationStructurePreview|22_0^^^<color=#E74C3C>Offline^^^<color=#E74C3C>离线^^^DISPLAY
+ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateInfoPanel|0;UtilityConstructionPrefab::UpdateTooltip^^^\n<color=#FFDB08>Not working properly</color>^^^\n<color=#FFDB08>运行异常</color>^^^DISPLAY
+UtilityConstructionData::get_UsageAsString^^^\n<color=#E74C3C>> Not enough items!</color>^^^\n<color=#E74C3C>> 物品不足！</color>^^^DISPLAY
+UtilityConstructionData::get_UsageAsString^^^\n<color=#F6E58D>> Items were supplied!</color>^^^\n<color=#F6E58D>> 物品已供应！</color>^^^DISPLAY
+ConstructionManager::UpdatePreview^^^> Cannot place on a slope!^^^> 无法放置在斜坡上！^^^AUTO
+ConstructionManager::UpdatePreview^^^> Not enough items!^^^> 物品不足！^^^AUTO
+ConstructionManager::UpdatePreview^^^> This place is already occupied by something else!^^^> 该位置已被其他物体占用！^^^AUTO
+ConstructionManager::<UpdatePreview>g__CanPlaceOnLayer|39_1^^^Cannot place on the land!^^^无法放置在陆地上！^^^AUTO
+ConstructionManager::<UpdatePreview>g__CanPlaceOnLayer|39_1^^^Cannot place on the water!^^^无法放置在水面上！^^^AUTO
+ConstructionManager::<UpdatePreview>g__CanPlaceOnLayer|39_1^^^Cannot place... anywhere.^^^哪儿都放不了……^^^AUTO
+ConstructionManager::UpdatePreview^^^ is destroyed!^^^ 已被摧毁！^^^AUTO

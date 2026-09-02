@@ -1,0 +1,121 @@
+# EarthX 2 汉化 - TMP 烘焙文本替换表 (第 2 部分: 预制体)
+Not enough storage^^^仓库空间不足
+Not Operational^^^未运行
+Open Contract^^^打开合同
+Open Folder^^^打开分组
+Open in Finances Window^^^在财务窗口中打开
+Open in Inventory Window^^^在库存窗口中打开
+Open in Services Window^^^在服务窗口中打开
+Open Inventory^^^打开库存
+Open Inventory Window^^^打开库存窗口
+Open Market Window^^^打开市场窗口
+Open Production Window^^^打开生产窗口
+Open the contract that includes this payload.d^^^打开包含此载荷的合同
+Overview tab is not available yet.^^^概览标签页尚未开放。
+Stocks tab is not available yet.^^^股票标签页尚未开放。
+Transport service is not available yet.^^^运输服务尚未开放。
+Recovery not possible^^^无法回收
+Select Destination^^^选择目的地
+Select Difficulty^^^选择难度
+Select Dock^^^选择对接口
+Select Item^^^选择物品
+Select Item to Produce^^^选择待生产物品
+Select Item To Produce^^^选择待生产物品
+Select Launch Mode^^^选择发射模式
+Select Launch Pad^^^选择发射台
+Select Location^^^选择地点
+Select Recovery Type^^^选择回收方式
+Select Vehicle To Refuel^^^选择待补给载具
+Reuse Hardware^^^复用硬件
+Fairingship not ready^^^整流罩回收船未就绪
+Must Be Brought Back^^^必须送回
+Must Match Planet?^^^限同一行星
+When On^^^开启时
+When less than^^^当少于
+Your Name^^^你的名字
+Your Signature:^^^你的签名：
+[Sign Here With Your Mouse]^^^[用鼠标在此签名]
+All existing vehicles without folder will be added to this folder^^^所有未分组载具将被添加到此分组
+Newly built vehicles will be automatically added to this folder^^^新建载具将自动添加到此分组
+After you launch it to its destination, this payload must be brought back to its current location!^^^将其发射至目的地后，该载荷必须被送回其当前所在位置！
+Base rate of your insurance^^^保险基础费率
+Duration of the loan^^^贷款期限
+Interest/cost of the loan^^^贷款利息/成本
+The more vehicles you have built, the more you pay for insurance^^^建造的载具越多，保险费用越高
+Last year's performance, you will pay more if you had more failed launches last year.^^^取决于去年的表现：去年发射失败越多，保险费用越高。
+Value of all payload that was lost during the launch^^^发射中损失的全部载荷价值
+If checked, automation will execute only if vehicle and destination are on the same planet (or its orbits).^^^勾选后，仅当载具与目的地位于同一行星（或其轨道）时，自动化程序才会执行。
+If you want to recover the rocket from this mission, it must land on a droneship.\nA droneship is not required in the following cases:^^^若想回收本次任务的火箭，它必须降落在无人驳船上。\n以下情况无需无人驳船：
+<size=90%><color=#ffffff75>1) Missions to <color=#55BBFF>Low Earth Orbit</color>\n2) Missions to <color=#55BBFF>Medium Earth Orbit</color> when less than half of the fairing capacity is used^^^<size=90%><color=#ffffff75>1) 飞往 <color=#55BBFF>近地轨道</color> 的任务\n2) 飞往 <color=#55BBFF>中地轨道</color> 且整流罩容量使用不足一半的任务
+The Fairingship is not available. Fairings from this mission will not be recovered.^^^整流罩回收船不可用。本次任务的整流罩将无法回收。
+The Fairingship is ready and will attempt to catch the fairings as they descend through Earth’s atmosphere under parachutes.^^^整流罩回收船已就绪，将在整流罩乘降落伞下降、穿越地球大气层时尝试将其接住。
+Refuelling will be required in order to reach this destination^^^抵达该目的地需要进行轨道补给
+Satellites will deorbit over time^^^卫星将随时间推移离轨坠毁
+Launch the rocket even if it's empty!^^^即使没有载荷也要发射火箭！
+No contracts are available at this moment.^^^当前没有可签的合同。
+Do you really really, I mean really remove that beautiful building? Yessss?^^^真的真的、我是说真的要拆掉那栋漂亮的建筑吗？真的吗？
+This action is manual, meaning that you will have to click on a button at the right moment!^^^此操作为手动——你必须在恰当的时机点击按钮！
+This channel does not broadcast off-world :P^^^本频道暂不支持地外转播 :P
+This is the vehicle that you will assign this automation program to.^^^此载具就是你将分配该自动化程序的对象。
+This will try to refuel any vehicle that is on a parking orbit and requires a refuel.^^^这将尝试为停泊轨道上任何需要补给的载具加注燃料。
+Time window in which you will receive payloads related to this contract^^^你将收到该合同相关载荷的时间窗口
+Toggle if it's possible to assign this automation to a vehicle^^^切换是否可将此自动化程序分配给载具
+Until this contract expires, you will continue to receive new payloads to launch^^^在本合同到期前，你会持续收到新的待发射载荷
+There are no items on this^^^此处没有任何物品
+You are not selling any item yet.^^^你还没有销售任何物品。
+You are not selling this item yet^^^你还没有销售此物品
+You are losing 1850$ on each sale!^^^你每笔销售都在亏损 1850$！
+You can use this vehicle in a mission even without servicing, but this will affect the flight success and insurance.^^^即使不维护，你也可以在任务中使用该载具，但这会影响飞行成功率与保险。
+You don't have any automation yet!^^^你还没有任何自动化程序！
+You don't have any vehicles produced.\nClick on a factory and produce some!^^^你还没有生产任何载具。\n点击工厂开始生产！
+You don't have any vehicles produced.\nGo to the Production Window!^^^你还没有生产任何载具。\n前往生产窗口！
+You have no available loans.^^^你没有可用的贷款。
+You have no services yet.^^^你还没有任何服务。
+You made no insurance claims yet.^^^你还没有提交过任何保险理赔。
+You must build factories in the^^^你需要在以下地点建造工厂：
+You must build vehicles in the^^^你需要在以下地点生产载具：
+You receive strikes when you miss a deadline.\nToo many strikes can terminate the contract or prevent its future extension.^^^错过截止期限会累积违规记录。\n违规过多可能导致合同终止或无法续签。
+Your insurance has been cancelled forever.^^^你的保险已被永久取消。
+<color=#ffffff75><size=90%>Any vehicle of this type will be attached to the mission.^^^<color=#ffffff75><size=90%>该类型的任意载具都将挂载到本次任务。
+<color=#ffffff75><size=90%>This vehicle will be attached to the mission.^^^<color=#ffffff75><size=90%>此载具将挂载到本次任务。
+<color=#ffffff75><size=90%>Items of this type will be launched with the mission.^^^<color=#ffffff75><size=90%>该类型的物品将随本次任务发射。
+<color=#ffffff75><size=90%>Any launch pad of this type will be used to launch the mission.^^^<color=#ffffff75><size=90%>该类型的任意发射台都可用于本次发射。
+<color=#ffffff75><size=90%>This launch pad will be used to launch the mission from.^^^<color=#ffffff75><size=90%>本次发射将使用此发射台。
+<color=#ffffff75><size=90%>Any vehicle parked on the parking orbit will be refuelled.^^^<color=#ffffff75><size=90%>任何停靠在停泊轨道上的载具都将被补给。
+<color=#ffffff75><size=90%>Program will be ran only if the vehicle is on specified location.^^^<color=#ffffff75><size=90%>仅当载具位于指定地点时，程序才会运行。
+<size=90%><color=#ffffff99>You need to launch 300 internet satellites to Earth's orbits before running this service.^^^<size=90%><color=#ffffff99>需要先向地球轨道发射 300 颗互联网卫星，才能运营此服务。
+<size=90%><color=#ffffff75>Learn how to land a rocket vertically using only its engine. Reach at least 150 meters, then land gently on the second landing zone.^^^<size=90%><color=#ffffff75>学习如何仅凭发动机让火箭垂直着陆。至少飞到 150 米，然后平稳降落在第二着陆区。
+<size=90%><color=#ffffff75>Help your employees etc^^^<size=90%><color=#ffffff75>帮助你的员工等等
+<size=90%><color=#ffffff75>Supply astronauts with rotated chicken yessss^^^<size=90%><color=#ffffff75>为宇航员供应旋转鸡肉，耶——
+<size=90%><color=#ffffff75>Your company can now apply for a loan of up to $12M^^^<size=90%><color=#ffffff75>你的公司现在可申请最高 $12M 的贷款
+<size=90%><color=#ffffff75>CRSP-15 exploded during re-entry on Mars. It was sent to the Rocket Valhalla.</color></size>^^^<size=90%><color=#ffffff75>CRSP-15 在火星再入大气层时发生爆炸。它已被送往“火箭英灵殿”。</color></size>
+<size=90%><color=#ffffff99>The most advanced space telescope ever built, designed to study the origins of the universe. It will explore galaxies, stars, and planets, providing valuable insights into their history.^^^<size=90%><color=#ffffff99>有史以来最先进的太空望远镜，用于研究宇宙的起源。它将探索星系、恒星与行星，为解读其历史提供宝贵洞见。
+<size=90%><color=#ffffff75>A U.S. car company is running a marketing campaign and wants you to launch their prototype electric car into space as a test mission for your new heavy rocket.^^^<size=90%><color=#ffffff75>一家美国汽车公司正在开展营销活动，希望把他们的原型电动车发射到太空，作为你新重型火箭的试验任务。
+<size=90%><color=#ffffff75>Transfer window with Mars is now <color=#E74C3C>closed</color>^^^<size=90%><color=#ffffff75>与火星的转移窗口现已<color=#E74C3C>关闭</color>
+<size=90%><color=#ffffff75>Red lines must be aligned with the white lines^^^<size=90%><color=#ffffff75>红线必须与白线对齐
+<i>"Remember to drink some water as you play the game. It allows your brain to function - and perhaps you won't write a negative review in case of a misunderstanding"</i>^^^<i>“玩游戏时记得喝点水。这能让大脑保持运转——万一产生什么误会，或许你就不会写差评了”</i>
+Just Read The Instructions^^^照着说明书来就行
+Astronauts are chatting with their families via video call.^^^宇航员正在与家人视频通话。
+Astronauts are cleaning and maintaining the station..^^^宇航员正在清洁和维护空间站……
+Astronauts are exercising on the treadmill.^^^宇航员正在跑步机上锻炼。
+Astronauts are experimenting with zero-gravity cooking.^^^宇航员正在尝试零重力烹饪。
+Astronauts are observing Earth from the cupola.^^^宇航员正在穹顶舱眺望地球。
+A devastating earthquake has hit a densely populated region, crippling the local infrastructure. Emergency services request your user terminals to coordinate rescue efforts.^^^一场大地震袭击了人口稠密地区，当地基础设施瘫痪。应急部门请求你的用户终端以协调救援行动。
+A global pandemic requires a swift and coordinated response. Health organizations need your terminals to track outbreaks and distribute vital information.^^^一场全球大流行病需要迅速且协调的应对。卫生组织需要你的终端来追踪疫情并分发关键信息。
+A peaceful country has been invaded, creating a flood of refugees in need of basic services and communication with lost family members.^^^一个和平国家遭到入侵，大量难民流离失所，急需基础服务以及与失散家人的联系。
+A region prone to tsunamis lacks an effective early warning system. Local governments ask for your assistance in implementing a satellite-based alert system.^^^一个海啸多发地区缺乏有效的预警系统。当地政府请求你协助建设基于卫星的警报系统。
+A remote village, isolated by mountains, seeks Starlink user terminals to connect with the world. They've heard of your work and hope you can assist in bridging their digital divide.^^^一个被大山隔绝的偏远村庄希望获得 Starlink 用户终端以连接世界。他们听说了你的事迹，希望你帮忙弥合数字鸿沟。
+A wildlife conservation group needs LinkLink user terminals for the drones to monitor endangered species in remote areas.^^^一个野生动物保护组织需要 LinkLink 用户终端，让无人机监测偏远地区的濒危物种。
+An artist working on a remote installation needs user terminals to livestream the artwork's creation to the world.^^^一位在偏远地区创作装置艺术的艺术家需要用户终端，向全世界直播作品的诞生过程。
+An initiative to connect the elderly in retirement communities through the internet requests user terminals. They aim to reduce isolation.^^^一个旨在为养老社区老人提供网络连接的公益项目请求用户终端，希望减少他们的孤独感。
+Massive wildfires are raging through a national park, and firefighting teams lack the communication tools to effectively combat the blaze. They ask for your drones and terminals.^^^特大野火正在国家公园肆虐，消防队伍缺乏有效控制火情的通信工具。他们请求你的无人机和终端。
+Seasonal floods have displaced thousands, destroying homes and cutting off communities. Relief organizations seek your tech to establish temporary communication networks.^^^季节性洪水令数千人流离失所，房屋被毁、社区失联。救援组织寻求你的技术来搭建临时通信网络。
+A government agency is offering a lucrative contract to use your satellites for a surveillance program.^^^一家政府机构开出丰厚合同，希望用你的卫星执行监视计划。
+An authoritarian regime requests an exclusive contract for your services to establish a tightly controlled communication network. It's a lucrative deal but at what cost?^^^一个威权政权希望独占你的服务，建立高度受控的通信网络。这是一笔诱人的交易——但代价是什么？
+Private Military Company (PMC) Contract: "A PMC operating in conflict zones wants to purchase a large supply of your tech for 'logistics and communication'. Their reputation is questionable. Do you fulfill the order?^^^私营军事公司（PMC）合同：“一支活跃于冲突地区的 PMC 想大量采购你的设备用于‘后勤与通信’。他们的名声可不太妙。你要接下这单吗？
+An advertising company wants to use your satellites to project ads into the night sky, turning the stars into billboards. It's innovative but highly controversial. Do you light up the sky with ads?^^^一家广告公司想用你的卫星把广告投影到夜空，把星星变成广告牌。这很有创意，但也极具争议。你要点亮这片夜空吗？
+A museum dedicated to space exploration history wants to create an exhibit featuring your company. They request a Prime Rocket for the setup.^^^一座航天历史博物馆想为你的公司打造专题展览。他们请求借出一枚中型火箭用于布展。
+A local school is hosting a rocket model competition and they're short on funds. They're asking for a donation to help future engineers reach for the stars.^^^一所本地学校正在举办火箭模型比赛，但经费不足。他们请求捐款，帮助未来的工程师们触摸星辰。
+A tech university is organizing a space-themed hackathon but lacks sponsors. They're asking for your financial support to nurture future talents in space technology.^^^一所理工大学正在筹办太空主题黑客松，但缺少赞助。他们请求资金支持，以培养太空技术领域的未来人才。
+An eccentric scientist claims to be close to a breakthrough in alien communication technology and requests funding.^^^一位古怪科学家自称即将在未知文明通信技术上取得突破，请求资金支持。
+you've won a 'Lunar Land Ownership' contest. All they need is a small processing fee to transfer the land rights.^^^你赢得了一场“月球土地所有权”大赛。对方只需一笔小额手续费就能把土地权益过户给你。

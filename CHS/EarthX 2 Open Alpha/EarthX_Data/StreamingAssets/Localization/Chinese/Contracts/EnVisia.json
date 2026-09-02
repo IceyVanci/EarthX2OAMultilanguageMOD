@@ -1,0 +1,10 @@
+{
+    "EnVisia Data Center_Name": "enVisia：轨道数据中心",
+    "EnVisia Data Center_Desc": "enVisia 最新一代 AI 处理器正式把地表热力学逼到了极限。随着巨型地面服务器农场的散热成本变得难以为继，这家科技巨头把目光投向终极散热器：太空真空。他们正在寻找发射合作伙伴，部署一座实验性轨道数据中心，验证近地轨道天然严寒的环境能否为其最强的超算提供被动散热。",
+    "EnVisia Data Center Payload_Name": "cluster.SB{0}",
+    "EnVisia Data Center Payload_Desc": "配备巨型热辐射板的专用高密度服务器模块。",
+    "EnVisia Space Training_Name": "enVisia：太空训练",
+    "EnVisia Space Training_Desc": "enVisia 宣布了一项史无前例的计划：完全在近地轨道训练其新一代人工智能模型。虽然这个天基神经网络的用途仍是严守的企业机密，但把数千块旗舰 GPU 塞进一颗卫星的豪举，足以让 enVisia 股价在公告发布后暴涨 14%。现在，他们需要一家实力过硬的发射供应商，把这个备受期待的计算集群送上太空。",
+    "EnVisia Space Training Payload_Name": "cluster.exp_SBa.18p",
+    "EnVisia Space Training Payload_Desc": "一颗定制的巨型卫星，本身就是一座轨道超算。其中塞满了数千块相互连接的 GPU，运行复杂的机器学习算法。"
+}

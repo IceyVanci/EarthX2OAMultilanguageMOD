@@ -1,0 +1,20 @@
+{
+    "FindR Earth_Name": "FindR：地球影像",
+    "FindR Earth_Desc": "FindR 的数字地图开始显出老态，用户受够了依赖五年前的卫星影像——图上还是空地，房子早就盖起来了。为此，这家科技巨头正在资助一项庞大的轨道成像计划。他们需要一位可靠的航天合作伙伴，发射一系列超高分辨率光学卫星，以前所未有的细节绘制整个地球。",
+    "FindR Earth Payload_Name": "行星之镜 {0}",
+    "FindR Earth Payload_Desc": "一颗尖端成像卫星，配备的镜头强大到能测绘地球上的每一条街道。",
+    "FindR Weather_Name": "FindR：气象",
+    "FindR Weather_Desc": "厌倦了拖沓的政府气象数据，FindR 决定把大气预报攥在自己手里。这家科技巨头想要发射一批新一代气象卫星，为其新的预测 AI 模型喂数据。",
+    "FindR Weather Payload_Name": "大气计划 {0}",
+    "FindR Weather Payload_Desc": "一颗高度先进的气象卫星，塞满了最先进的大气传感器和热成像相机。它以可怕的精度测量云密度、风场模式和全球湿度。",
+    "FindR Cyclone_Name": "FindR：气旋",
+    "FindR Cyclone_Desc": "FindR 正在扩展其气象网络，重点关注极端天气事件。公司正在寻找航天合作伙伴，发射一系列专用卫星，专门用于实时追踪气旋、飓风和台风。通过向全球气象机构提供高精度的分钟级数据，这一计划旨在为沿海社区和应急人员提供赖以保命的预警信息。",
+    "FindR Cyclone Payload_Name": "哨兵计划 {0}",
+    "FindR Cyclone Payload_Desc": "一颗先进的气象卫星，配备穿透力极强的雷达和热传感器。它专为监测形成中气旋的中心气压、风速和路径而校准，可向民用预警系统直接传送高频更新的遥测数据。",
+    "FindR Q_Name": "FindR 量子研发",
+    "FindR Q_Desc": "FindR 的绝密研究部门认定，光速对他们的搜索引擎来说实在太慢了。他们一头扎进量子纠缠领域，试图实现瞬时且完全无法窃听的数据传输。他们需要你发射一对高度实验性的卫星，验证量子通信在太空真空中是否真的可行。",
+    "FindR Q-1 Payload_Name": "FindR Q-1",
+    "FindR Q-1 Payload_Desc": "一颗复杂到离谱的原型卫星，塞满了超冷光子探测器和量子态发生器。",
+    "FindR Q-2 Payload_Name": "FindR Q-2",
+    "FindR Q-2 Payload_Desc": "@FindR Q-1 Payload_Desc"
+}

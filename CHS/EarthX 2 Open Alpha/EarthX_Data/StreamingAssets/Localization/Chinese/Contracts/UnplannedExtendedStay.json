@@ -1,0 +1,13 @@
+{
+    "Unplanned Extended Stay_Name": "计划外的长期滞留",
+    "Unplanned Extended Stay_Desc": "",
+    "Stranded Astronaut 1_Name": "",
+    "Stranded Astronaut 1_Desc": "一位经验丰富的 FASA 宇航员，在意外漫长的任务结束后，一面坚守空间站运营与科研工作，一面等待安全返地球的航班。",
+    "Stranded Astronaut 2_Name": "",
+    "Stranded Astronaut 2_Desc": "一位 FASA 老牌宇航员，他原定八天的测试飞行变成了数月的轨道滞留，如今已经把国际空间站当成了家。",
+    "Unplanned Extended Stay_ Start Lore_Name": "{1} 受命营救被困轨道的宇航员",
+    "Unplanned Extended Stay_ Start Lore_Desc": "FASA 正在紧急敲定一套营救方案，以解救目前被困在国际空间站的乘组。这场高风险的撤离任务将托付给 {1}——一家在轨道运营方面战绩完美、经验丰富的公司。\n\n毫不意外，这一决定点燃了政治风暴。几天前，美国总统在椭圆形办公室向全国发表讲话：“美国的创新从来伴随着风险，有时风险会超出我们的预估。今天，本届政府的头等大事是让我们的英雄安全回家。如果这意味着转向一艘历经数百次成功任务检验的航天器，那我们义不容辞。这不是工程上的失败，而是为我们未来的探月任务上了宝贵的一课：保持谦逊。”\n\n与此同时，一位资深参议员在国会山毫不留情：“我们花了数十亿纳税人的钱搞所谓的‘安全备选方案’，结果我们的宇航员却要搭 {1} 的顺风车回家，因为竞争对手的飞船已经损坏到无法承受再入大气层。这不只是工程灾难，更是一场正在挥霍我们国际声誉的公关灾难！”",
+    "Unplanned Extended Stay_ContractCompleted_0": "获救宇航员在落地后受访：“要说被困在上面这么久有什么好处，那就是我有大把时间确认地球绝对是圆的。地平说信徒就是纯纯的蠢货。”",
+    "Unplanned Extended Stay_ContractCompleted_1": "地平说学会官方声明：“这名宇航员显然已被 FASA 的宣传洗脑，很可能在其所谓的‘长期滞留’期间被喂了致幻药物。”",
+    "Unplanned Extended Stay_ContractCompleted_2": "地平说学会发起了一场病毒式众筹，要把他们自己的“独立见证人”送上太空，揭开真相。"
+}

@@ -1,0 +1,16 @@
+{
+    "Phase1_UncrewedLogistics_UL_Name": "无人物流",
+    "Phase1_UncrewedLogistics_UL_Desc": "",
+    "Phase2_LowEarthOperations_LEO_Name": "近地作业",
+    "Phase2_LowEarthOperations_LEO_Desc": "",
+    "Phase3_OrbitalInfrastructure_OI_Name": "轨道基础设施",
+    "Phase3_OrbitalInfrastructure_OI_Desc": "",
+    "Phase4_DeepSpaceProbing_DSP_Name": "深空探测",
+    "Phase4_DeepSpaceProbing_DSP_Desc": "",
+    "Phase5_LunarSurfaceOperations_LSO_Name": "月面作业",
+    "Phase5_LunarSurfaceOperations_LSO_Desc": "",
+    "Phase6_InterplanetaryLogistics_IPL_Name": "行星际物流",
+    "Phase6_InterplanetaryLogistics_IPL_Desc": "",
+    "Phase7_PlanetaryEngineering_PE_Name": "行星工程",
+    "Phase7_PlanetaryEngineering_PE_Desc": ""
+}

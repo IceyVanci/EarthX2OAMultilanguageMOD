@@ -1,0 +1,68 @@
+# EarthX 2 汉化 - IL 字符串替换表 (第 6 部分)
+# 格式: 作用域^^^原文^^^译文
+ConstructionAsset::GetRequiredItemsAsString^^^\n<size=90%><color=#ffffff75>Required Items</color></size>^^^\n<size=90%><color=#ffffff75>所需物品</color></size>^^^DISPLAY
+ConstructionAsset::get_StorageAsString;ConstructionData::get_StorageAsString^^^<color=#ffffff75><size=90%>Storage:</size></color>^^^<color=#ffffff75><size=90%>储存：</size></color>^^^DISPLAY
+ConstructionData::get_StorageAsString^^^\n<sprite name="storage"> <color=#ffffff75><size=90%>{0}:</size></color> {1} <color=#ffffff75><size=90%>({2}% Full)</size></color>^^^\n<sprite name="storage"> <color=#ffffff75><size=90%>{0}：</size></color> {1} <color=#ffffff75><size=90%>（{2}% 已满）</size></color>^^^DISPLAY
+FactoryData::get_ProductionLinesAsString^^^<color=#ffffff75><size=90%>Production Lines:</size></color>^^^<color=#ffffff75><size=90%>生产线：</size></color>^^^DISPLAY
+UtilityConstructionAsset::get_ProductionAsString;UtilityConstructionData::get_ProductionAsString^^^<color=#ffffff75><size=90%>Production per week:</size></color>^^^<color=#ffffff75><size=90%>周产量：</size></color>^^^DISPLAY
+UtilityConstructionAsset::get_UsageAsString;UtilityConstructionData::get_UsageAsString^^^<color=#ffffff75><size=90%>Usage per week:</size></color>^^^<color=#ffffff75><size=90%>周用量：</size></color>^^^DISPLAY
+ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateInfoPanel|0;UtilityConstructionPrefab::UpdateTooltip^^^\n<color=#ffffff75><size=90%>Efficiency:</size></color> {0}%^^^\n<color=#ffffff75><size=90%>效率：</size></color> {0}%^^^DISPLAY
+ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateInfoPanel|0;UtilityConstructionPrefab::UpdateTooltip^^^\n<color=#ffffff75><size=90%>Wind Speed:</size></color> {0}<color=#ffffff75><size=90%>km/h</size></color>^^^\n<color=#ffffff75><size=90%>风速：</size></color> {0}<color=#ffffff75><size=90%>km/h</size></color>^^^DISPLAY
+ConstructionPrefab::UpdateTooltip^^^\n<color=#ffffff75><size=90%>Droneship:</size></color>^^^\n<color=#ffffff75><size=90%>无人驳船：</size></color>^^^DISPLAY
+ConstructionPrefab::UpdateTooltip^^^\n<color=#ffffff75><size=90%>Fairingship:</size></color>^^^\n<color=#ffffff75><size=90%>整流罩回收船：</size></color>^^^DISPLAY
+SolarSystemSpaceStation::UpdateTooltip^^^\n<color=#ffffff75><size=90%>Items:</size></color>^^^\n<color=#ffffff75><size=90%>物品：</size></color>^^^AUTO
+SolarSystemTravelBulkPrefab::UpdateTooltip^^^\n<color=#ffffff75><size=90%>Payload:</size></color>^^^\n<color=#ffffff75><size=90%>载荷：</size></color>^^^AUTO
+SolarSystemTravelBulkPrefab::UpdateTooltip^^^<color=#ffffff75><size=90%>Vehicles ({0})</size></color> travelling to <color=#ffffff75><size=90%>{1}</size></color>.^^^<color=#ffffff75><size=90%>{0} 台载具</size></color> 正在飞往 <color=#ffffff75><size=90%>{1}</size></color>。^^^AUTO
+SolarSystemTravelBulkPrefab::UpdateTooltip^^^"</size></color> travelling to <color=#ffffff75><size=90%>^^^"</size></color>正在飞往 <color=#ffffff75><size=90%>^^^AUTO
+PriceTag::OnMonthPassed^^^<color=#ffffff75><size=90%> | day</size></color>^^^<color=#ffffff75><size=90%> | 天</size></color>^^^DISPLAY
+PriceTag::OnMonthPassed;QASalesPanel::UpdateUI^^^<color=#ffffff75><size=90%> | last month</size></color>^^^<color=#ffffff75><size=90%> | 上个月</size></color>^^^DISPLAY
+PriceTag::OnMonthPassed^^^<color=#ffffff75><size=90%> | month</size></color>^^^<color=#ffffff75><size=90%> | 月</size></color>^^^DISPLAY
+PriceTag::OnMonthPassed^^^<color=#ffffff75><size=90%> | this month</size></color>^^^<color=#ffffff75><size=90%> | 本月</size></color>^^^DISPLAY
+PriceTag::OnMonthPassed^^^<color=#ffffff75><size=90%> | week</size></color>^^^<color=#ffffff75><size=90%> | 周</size></color>^^^DISPLAY
+PriceTag::OnMonthPassed^^^<color=#ffffff75><size=90%> | year</size></color>^^^<color=#ffffff75><size=90%> | 年</size></color>^^^DISPLAY
+ShipPanel::UpdateUI^^^<color=#ffffff75><size=90%> | per day^^^<color=#ffffff75><size=90%> | 每天^^^DISPLAY
+IWItemPanel::UpdateUI^^^ <color=#ffffff75><size=90%>| units sold</size></color>^^^<color=#ffffff75><size=90%> | 已售出</size></color>^^^DISPLAY
+PWPersonPanel::UpdateUI^^^ <color=#ffffff75><size=90%>sales</size></color>^^^ <color=#ffffff75><size=90%>销量</size></color>^^^DISPLAY
+ProductionLinePanel::UpdateUI;ProductionWindow::UpdateUI^^^<size=90%><color=#ffffff75> | cycle^^^<size=90%><color=#ffffff75> | 周期^^^DISPLAY
+ProductionWindow::UpdateUI^^^{0}<size=90%><color=#ffffff75> | cycle^^^{0}<size=90%><color=#ffffff75> | 周期^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetOrbitAndStorageCosts|4;VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateFolderView|2;VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateStorageCosts|5^^^ <color=#ffffff75><size=90%>| month^^^ <color=#ffffff75><size=90%>| 月^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetOrbitAndStorageCosts|4^^^Never^^^从不^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetOrbitAndStorageCosts|4^^^{0}% <color=#ffffff75><size=90%>every year^^^{0}% <color=#ffffff75><size=90%>每年^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetOrbitAndStorageCosts|4^^^{0}% <color=#ffffff75><size=90%>in {1}^^^{0}% <color=#ffffff75><size=90%>· {1}^^^AUTO
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetSales|3^^^<b>Warning:</b>\nYou are losing ^^^<b>警告：</b>\n你正在亏损^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetSales|3^^^ on every sale!^^^——每笔销售都在亏！^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetDeadline|2;IWItemPanel::UpdateUI;LWItemPanel::UpdateUI;MWItemPanel::UpdateUI;PeopleWindow::<UpdateUI>g__SetDeadline|17_2;PWPersonPanel::UpdateUI^^^{0} <size=90%><color=#ffffff75>left</color></size>^^^{0} <size=90%><color=#ffffff75>剩余</color></size>^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetDeadline|2;IWItemPanel::UpdateUI;LWItemPanel::UpdateUI;MWItemPanel::UpdateUI;PeopleWindow::<UpdateUI>g__SetDeadline|17_2;PWPersonPanel::UpdateUI^^^<color=#E74C3C>{0} <size=90%>left</size></color>^^^<color=#E74C3C>{0} <size=90%>剩余</size></color>^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetDeadline|2;IWItemPanel::UpdateUI;PeopleWindow::<UpdateUI>g__SetDeadline|17_2;PWPersonPanel::UpdateUI^^^<size=90%><color=#ffffff75>Available in</color></size> {0}^^^<size=90%><color=#ffffff75>可用倒计时：</color></size> {0}^^^DISPLAY
+PeopleWindow::<UpdateUI>g__SetTracking|17_3^^^ <size=90%><color=#ffffff75>joined</color></size>\n^^^<color=#ffffff75><size=90%>加入</color></size>\n^^^DISPLAY
+PeopleWindow::<UpdateUI>g__SetTracking|17_3^^^ <size=90%><color=#ffffff75>left^^^ <size=90%><color=#ffffff75>离开^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateFolderView|2^^^\n<size=90%><color=#64B5F6>Folder^^^\n<size=90%><color=#64B5F6>分组^^^DISPLAY
+VehiclesWindow::UpdateUI^^^ <size=90%><color=#ffffff75>"Folder"</color></size>^^^ <size=90%><color=#ffffff75>「分组」</color></size>^^^AUTO
+VWAutomationPanel::UpdateUI^^^\n<size=90%><color=#55BBFF>Program</color></size>^^^\n<size=90%><color=#55BBFF>程序</color></size>^^^DISPLAY
+VWAutomationPanel::UpdateUI^^^\n<size=90%><color=#55BBFF>Sequence</color></size>^^^\n<size=90%><color=#55BBFF>序列</color></size>^^^DISPLAY
+NewsWindow::UpdateUI^^^\n<color=#E74C3C><size=90%>Latest News^^^\n<color=#E74C3C><size=90%>最新消息^^^DISPLAY
+NWNewsPanel::UpdateUI^^^<size=90%>{0}\n<size=90%><color=#55BBFF>{1} {2} in EarthX^^^<size=90%>{0}\n<size=90%><color=#55BBFF>{1} {2} 在 EarthX^^^DISPLAY
+ApocalypseData::OnDayPassed^^^Governments around the world are kindly asking you to open all patents related to your Spaceship technology.\nAs the world does everything to save as many as possible, they promise you unlimited resources.^^^世界各国政府诚挚请求你公开星舰技术的全部专利。\n在世界全力以赴拯救更多人的当下，他们承诺为你提供无限资源。^^^DISPLAY
+SolarSystem::OnCurrentPlanetChangeEarly^^^YESS WE CAN GO FLY TO OTHER PLANET hahahah^^^耶！！我们能飞去其他行星了哈哈哈^^^DISPLAY
+SolarSystem::OnCurrentPlanetChangeEarly^^^nooooo boring orbit launch :( i'm so sick of these gums^^^不——又是无聊的轨道发射 :( 这口香糖真是受够了^^^DISPLAY
+SolarSystem::LoadPlanet^^^ is not yet unlocked!^^^ 尚未解锁！^^^DISPLAY
+VehicleReentryAnimator::ExplodeDuringReentryButItsSuccessful^^^Your ship completed a test water landing which resulted in an explosion, but that's totally fine!^^^你的星舰完成了一次测试性水上着陆，结果爆炸了——不过完全没关系！^^^DISPLAY
+PortShip::Construction_OnComplete^^^The construction of your ship "^^^你的星舰“^^^DISPLAY
+PortShip::Construction_OnComplete^^^" has been completed!^^^"已建造完成！^^^DISPLAY
+Cheats::EnableCheats^^^Look at me, I'm the developer now.^^^看好了，现在我就是开发者。^^^DISPLAY
+Cheats::EnableCheats^^^hmm.. I think you're not a developer. What do you want? Oh you want to cheat?^^^嗯……我觉得你还不是开发者。想干什么？哦——想作弊？^^^DISPLAY
+Cheats::DisableCheats^^^You're a peasant again.^^^你又变回平民了。^^^DISPLAY
+Cheats::AddItem;Cheats::AddItemToInventory;Cheats::AddMoney;Cheats::AddMonth;Cheats::AddYear;Cheats::CompleteAllProduction;Cheats::CompleteContract;Cheats::DestroyEarth;Cheats::DisableAllExplosions;Cheats::HeavySet;Cheats::LightSet;Cheats::OpenTransferWindow;Cheats::PlayMiniGame;Cheats::PrimeSet;Cheats::ProgressMilestone;Cheats::RefuelAllVehiclesThatNeedToBeRefueled;Cheats::SetPlanetVariant;Cheats::SetVariableForCurrentYear;Cheats::ShipSet;Cheats::SpawnContract;Cheats::SpawnFuelDepotStation;Cheats::SpawnHubStation;Cheats::StorageInfo;Cheats::SubtractMoney;Cheats::TriggerLore^^^nuh uh :p Developer mode not enabled^^^才不给呢 :p 开发者模式未开启^^^DISPLAY
+Cheats::PlayCutsceneCommand^^^Developer mode not enabled^^^开发者模式未开启^^^DISPLAY
+Cheats::RefuelAllVehiclesThatNeedToBeRefueled^^^Refueled^^^已全部加满燃料^^^DISPLAY
+Cheats::SetPlanetVariant^^^Planet variant changed^^^星球变体已切换^^^DISPLAY
+Cheats::OpenTransferWindow^^^The portal has been opened! :o^^^传送门已经打开！:o^^^DISPLAY
+Cheats::CompleteContract^^^<color=greem>marked as completed in the system^^^<color=greem>已在系统中标记为完成^^^DISPLAY
+Cheats::CompleteContract^^^contract does not exist^^^合同不存在^^^DISPLAY
+Cheats::SetVariableForCurrentYear^^^This year:  {0} --- All time: {1}^^^今年：{0} —— 累计：{1}^^^DISPLAY
+Cheats::AddItem^^^<color=#E74C3C>Inventory does not exist!</color>^^^<color=#E74C3C>库存不存在！</color>^^^DISPLAY
+Cheats::AddItemToInventory^^^<color=#E74C3C>Item does not exist!</color>^^^<color=#E74C3C>物品不存在！</color>^^^DISPLAY
+Cheats::OpenTransferWindow^^^<color=#E74C3C>Window does not exist!</color>^^^<color=#E74C3C>窗口不存在！</color>^^^DISPLAY
+Cheats::AddItemToInventory^^^Added <size=90%><color=#ffffff75>x{0}</color></size> of <size=90%><color=#ffffff75>{1}</color></size> to <size=90%><color=#ffffff75>{2}</color></size> of <size=90%><color=#ffffff75>{3}</color></size>^^^已将 <size=90%><color=#ffffff75>x{0}</color></size> 个 <size=90%><color=#ffffff75>{1}</color></size> 添加到 <size=90%><color=#ffffff75>{3}</color></size> 的 <size=90%><color=#ffffff75>{2}</color></size>^^^AUTO
+Cheats::AddItemToInventory^^^Added <size=90%><color=#ffffff75>x{0}</color></size> of <size=90%><color=#ffffff75>{1}</color></size> to <size=90%><color=#ffffff75>{2}</color></size>^^^已将 <size=90%><color=#ffffff75>x{0}</color></size> 个 <size=90%><color=#ffffff75>{1}</color></size> 添加到 <size=90%><color=#ffffff75>{2}</color></size>^^^AUTO
+CatterFirstPost::<PostOnCatter_OnClick>b__15_0^^^Hello world!^^^你好，世界！^^^AUTO

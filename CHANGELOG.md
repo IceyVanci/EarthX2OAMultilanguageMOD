@@ -1,0 +1,41 @@
+# Changelog
+
+All notable changes to the EarthX2OAMultilanguageMOD project.
+Format: 新增 / 修复 / 数据变更 (Added / Fixed / Data).
+
+## [1.0.0] - 2026-09-02
+
+新发布体系首个版本（替代旧 handoff\release 流程；本版本包含 2026-09-01 全部校对与安全修复）。
+
+### 新增 Added
+
+- **多语言发布结构**：`publish\` 按语言分目录（`CHS\EarthX 2 Open Alpha\`），zip 带语言前缀
+  （`CHS-EarthX2OAChineseMOD_v<版本>.zip`），构建脚本 `-Lang` 参数化；**仓库文件分发**：
+  zip + sha256 + `<LANG>-latest.json` 直接提交入库（`release\`），各语言独立版本号，无 GitHub Releases
+- **内嵌字体（思源黑体）**：插件 `fonts\` 内嵌 Source Han Sans CN（SIL OFL 1.1）Regular + Bold，
+  免系统字体依赖、规避微软雅黑等专有字体版权再分发问题；两字重回退资产
+  （`ChineseFallback` / `ChineseFallbackBold`），系统字体清单降级为回退
+- 官方 JSON 本地化层：64 个文件（`EarthX_Data\StreamingAssets\Localization\Chinese\`，~1665 键）
+- `StringPatch` IL 字符串补丁：591 条规则（580 唯一 ORIG），每条带 FLAG 分类（DISPLAY/AUTO），
+  由消费点分类管线（classification-manifest.tsv）生成
+- `TextSweep` TMP 烘焙文本规则：299 条（zh-baked.tsv / zh-baked2.tsv）
+- 双包发布：纯补丁包 + 含 BepInEx 框架完整包（LGPL-2.1 合规：未修改二进制随附 + 许可文本 + 来源声明）
+- 文档归位：根目录 `README.md`（英文主页，开头链接各语言使用说明）/`AI-PATCH-GUIDE.md`，
+  各语言说明入 `docs\`（`CHS-NOTES.md`）；升级机制为手动覆盖
+- 构建期质量门禁（verify.ps1 + build 内断言）：ORIG 唯一数、0 FAIL/0 冲突、FLAG 合法性、
+  禁发文件零容忍、仓库树=工作区 MD5 对账
+
+### 修复 Fixed
+
+- 34 行译文缺陷：5 条富文本前导闭合丢失（样式泄漏）、25 条闭合顺序颠倒（颜色在外/尺寸在内）、
+  2 处引号全角/半角配对、TimeLeft 占位符 {2} 恢复有意省略（避免"剩余 3 年 剩余"）
+- 8 处作用域精修（以 DLL IL 为真值逐点复核）、4 处重复规则去重
+- 阶段 0 安全处置：禁用 26 条会把资产 ID/动画参数/场景 ID 当显示文本翻译的规则
+  （以 `# DISABLED` 注释保留在 TSV 内，可逆，待阶段 4 消费点感知后按显示侧恢复）
+
+### 数据变更 Data
+
+- JSON 键数：~1665（Chinese 层 64 文件）
+- IL 规则：591 行 / 580 唯一 ORIG（DISPLAY 386 行 / AUTO 205 行，第 4 列 FLAG，插件向后兼容）
+- 烘焙规则：299 条（其中 109 条为运行时无害 no-op，待运行时采集甄别）
+- 字体：内嵌 SourceHanSansCN-Regular.otf (8.1MB) + Bold.otf (8.6MB)，OFL 1.1 许可随附

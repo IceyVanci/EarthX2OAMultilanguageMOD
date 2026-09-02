@@ -1,0 +1,139 @@
+QAWebcastsWidget::.ctor^^^A great day for EarthX^^^EarthX 的美好一天^^^AUTO
+QAWebcastsWidget::.ctor^^^All parameters remain within limits^^^各项参数均在正常范围内^^^AUTO
+QAWebcastsWidget::.ctor^^^All systems are behaving as expected^^^所有系统运转符合预期^^^AUTO
+QAWebcastsWidget::.ctor^^^An awesome view from the vehicle via {0}^^^通过 {0} 传回载具的绝妙画面^^^AUTO
+QAWebcastsWidget::.ctor^^^An awesome view from the vehicle^^^来自载具的绝妙视角^^^AUTO
+QAWebcastsWidget::.ctor^^^And this is looking great so far!^^^到目前为止一切看起来棒极了！^^^AUTO
+QAWebcastsWidget::.ctor^^^Continuing to see nominal performance^^^性能表现持续正常^^^AUTO
+QAWebcastsWidget::.ctor^^^Everything coming through crystal clear on {0}^^^{0} 传回的画面清晰无比^^^AUTO
+QAWebcastsWidget::.ctor^^^Everything coming together nicely^^^一切进展顺利^^^AUTO
+QAWebcastsWidget::.ctor^^^Everything continues to look nominal^^^一切持续保持正常^^^AUTO
+QAWebcastsWidget::.ctor^^^Everything looking good on that first stage^^^一级状态一切良好^^^AUTO
+QAWebcastsWidget::.ctor^^^Just a fantastic performance^^^表现堪称完美^^^AUTO
+QAWebcastsWidget::.ctor^^^No issues with the booster at this time^^^目前助推器没有发现问题^^^AUTO
+QAWebcastsWidget::.ctor^^^Nothing unexpected at this point^^^到目前为止没有任何异常^^^AUTO
+QAWebcastsWidget::Comment^^^Offline^^^离线^^^DISPLAY
+QAWebcastsWidget::.ctor^^^Telemetry continues to look healthy via {0}^^^通过 {0} 传回的遥测数据持续良好^^^AUTO
+QAWebcastsWidget::.ctor^^^Telemetry continues to look healthy^^^遥测数据持续良好^^^AUTO
+QAWebcastsWidget::.ctor^^^That is absolutely beautiful^^^这画面美得不可思议^^^AUTO
+QAWebcastsWidget::.ctor^^^That is absolutely beautiful - {0} is really powerful^^^这画面美得不可思议——{0} 真是太强大了^^^AUTO
+QAWebcastsWidget::.ctor^^^That is just stunning^^^简直令人震撼^^^AUTO
+QAWebcastsWidget::.ctor^^^That stage is flying itself quite nicely^^^那一级的自主飞行状态相当不错^^^AUTO
+QAWebcastsWidget::.ctor^^^That’s a good, stable vehicle^^^这是一台稳定可靠的载具^^^AUTO
+QAWebcastsWidget::.ctor^^^That’s an amazing sight right there^^^眼前这一幕太震撼了^^^AUTO
+QAWebcastsWidget::.ctor^^^That’s exactly the behavior we expect^^^这正是我们预期的表现^^^AUTO
+QAWebcastsWidget::.ctor^^^The vehicle is doing what it’s told^^^载具正完美执行指令^^^AUTO
+QAWebcastsWidget::.ctor^^^Things are going really well^^^一切进展非常顺利^^^AUTO
+QAWebcastsWidget::.ctor^^^Things are progressing normally so far^^^到目前为止一切正常推进^^^AUTO
+QAWebcastsWidget::.ctor^^^We’re happy with what we’re seeing so far^^^我们对目前的情况非常满意^^^AUTO
+QAWebcastsWidget::.ctor^^^We’re seeing good data across the vehicle thanks to {0}^^^得益于 {0}，载具各项数据表现良好^^^AUTO
+QAWebcastsWidget::.ctor^^^We’re seeing good data across the vehicle^^^载具各项数据表现良好^^^AUTO
+QAWebcastsWidget::.ctor^^^What a smooth flight so far^^^到目前为止飞行非常平稳^^^AUTO
+QAWebcastsWidget::.ctor^^^What a smooth flight so far, partly thanks to {0}^^^到目前为止飞行非常平稳，{0} 功不可没^^^AUTO
+QAWebcastsWidget::.ctor^^^What an incredible view^^^多么令人难以置信的景象^^^AUTO
+QAWebcastsWidget::.ctor^^^What an incredible view. Our {0} tech is amazing^^^多么令人难以置信的景象。我们的 {0} 技术太棒了^^^AUTO
+QAWebcastsWidget::.ctor^^^You can really feel the excitement^^^你能真切感受到这份激动^^^AUTO
+QAWebcastsWidget::.ctor^^^You love to see that^^^看到这一幕真让人高兴^^^AUTO
+QAWebcastsWidget::.ctor^^^This is a great moment for the team^^^对整个团队来说这是伟大的时刻^^^AUTO
+QAWebcastsWidget::.ctor^^^This is exactly what we were hoping to see^^^这正是我们希望看到的^^^AUTO
+QAWebcastsWidget::<UpdateUI>g__SetOptions|23_0^^^Add To HUD (During Launch)^^^添加到 HUD（发射期间）^^^AUTO
+QAItemPanel::<UpdateUI>g__SetOptions|13_0;QASalesPanel/<>c__DisplayClass10_0::<UpdateUI>g__SetOptions|0;QAServicePanel::<UpdateUI>g__SetOptions|23_0^^^Add To HUD^^^添加到 HUD^^^AUTO
+QAItemPanel::<UpdateUI>g__SetOptions|13_0;QASalesPanel/<>c__DisplayClass10_0::<UpdateUI>g__SetOptions|0;QAServicePanel::<UpdateUI>g__SetOptions|23_0;QAWebcastsWidget::<UpdateUI>g__SetOptions|23_0^^^Remove From HUD^^^从 HUD 移除^^^AUTO
+QAItemPanel::<UpdateUI>g__SetOptions|13_0^^^Always Show^^^始终显示^^^AUTO
+QAItemPanel::<UpdateUI>g__SetOptions|13_0^^^Only Show When Viewing Planet^^^仅查看行星时显示^^^AUTO
+QAItemPanel::<UpdateUI>g__SetOptions|13_0;QASalesPanel/<>c__DisplayClass10_0::<UpdateUI>g__SetOptions|0;QAServicePanel::<UpdateUI>g__SetOptions|23_0^^^Remove Pin^^^取消固定^^^AUTO
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetOptions|6^^^Pin Item^^^固定物品^^^AUTO
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetOptions|6^^^Pin Sales^^^固定销量^^^AUTO
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetOptions|6;VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateOptions|4^^^Favorite^^^收藏^^^AUTO
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetOptions|6;VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateOptions|4^^^Unfavorite^^^取消收藏^^^AUTO
+QAItemPanel::<UpdateUI>g__SetOptions|13_0;QASalesPanel/<>c__DisplayClass10_0::<UpdateUI>g__SetOptions|0^^^Open Inventory Window^^^打开库存窗口^^^AUTO
+QAServicePanel::<UpdateUI>g__SetOptions|23_0^^^Open Services Window^^^打开服务窗口^^^AUTO
+NotificationWindow::UpdateUI^^^Ok^^^好的^^^DISPLAY
+NotificationWindow::UpdateUI^^^View ^^^查看^^^DISPLAY
+NotificationWindow::UpdateUI^^^Open in Contracts Window^^^在合同窗口中查看^^^DISPLAY
+NotificationWindow::UpdateUI^^^Play Mini Game^^^游玩小游戏^^^DISPLAY
+NotificationWindow::UpdateUI^^^Post on Catter^^^发布到 Catter^^^DISPLAY
+NotificationWindow::UpdateUI^^^Open Apocalypse Panel^^^打开末日事件面板^^^DISPLAY
+IWItemsScroller::.ctor;VWVehiclesScroller::.ctor^^^Favorites^^^收藏^^^DISPLAY
+IWItemsScroller::.ctor^^^Personnel^^^人员^^^DISPLAY
+IWItemsListFilter/ResourcesFilterOption::.ctor;IWItemsListFilter::GetObjectName;IWItemsScroller::.ctor^^^Resources^^^资源^^^DISPLAY
+IWItemsScroller::.ctor;VWVehiclesScroller::.ctor^^^Other^^^其他^^^DISPLAY
+IWItemsScroller::.ctor;VWVehiclesScroller::.ctor^^^Ready to Launch^^^准备发射^^^DISPLAY
+IWItemsScroller::.ctor^^^Upcoming Missions^^^即将执行的任务^^^DISPLAY
+MWContractsScroller::.ctor^^^Long^^^长期^^^DISPLAY
+MWContractsScroller::.ctor^^^Special^^^特别^^^DISPLAY
+MWContractsScroller::.ctor^^^Signed^^^已签署^^^DISPLAY
+CWContractsFilter::GetObjectName^^^Opportunity^^^机会^^^DISPLAY
+IWItemsListFilter/DeadlineFilterOption::.ctor;IWItemsListFilter::GetObjectName^^^Deadline^^^截止^^^DISPLAY
+IWItemsListFilter/FuelFilterOption::.ctor;IWItemsListFilter::GetObjectName^^^Fuel^^^燃料^^^DISPLAY
+IWItemsListFilter/StackableFilterOption::.ctor;IWItemsListFilter::GetObjectName^^^Stackable^^^可堆叠^^^DISPLAY
+IWItemsListFilter/SuppliableFilterOption::.ctor;IWItemsListFilter::GetObjectName^^^Suppliable^^^可供应^^^DISPLAY
+VWVehiclesListFilter/VehicleReadyFilterOption::.ctor^^^ready to fly^^^随时可飞^^^DISPLAY
+VWVehiclesListFilter::GetObjectName^^^Ready^^^就绪^^^DISPLAY
+VWVehiclesListFilter/VehicleWithoutAutomationFilterOption::.ctor;VWVehiclesListFilter::GetObjectName^^^Without Automation^^^无自动化^^^DISPLAY
+VWVehiclesListFilter::AddFilters;VWVehiclesScroller::.ctor^^^rockets^^^火箭^^^DISPLAY
+VWVehiclesListFilter::AddFilters;VWVehiclesScroller::.ctor^^^ships^^^星舰^^^DISPLAY
+VWVehiclesListFilter::AddFilters^^^orbiers^^^轨道器^^^AUTO
+VWVehiclesScroller::.ctor^^^Capsules^^^返回舱^^^DISPLAY
+VWVehiclesScroller::.ctor^^^Orbiters^^^轨道器^^^DISPLAY
+VWVehiclesListFilter::AddFilters^^^capslues^^^返回舱^^^AUTO
+IWItemsListFilter::AddFilters;ListFilter::AddFilters^^^Earth^^^地球^^^DISPLAY
+IWItemsListFilter::AddFilters;ListFilter::AddFilters^^^Mars^^^火星^^^DISPLAY
+IWItemsListFilter::AddFilters;ListFilter::AddFilters^^^Moon^^^月球^^^DISPLAY
+IWItemsListFilter::AddFilters;ListFilter::AddFilters^^^Phobos^^^火卫一^^^DISPLAY
+IWItemsListFilter::AddFilters;ListFilter::AddFilters^^^Europa^^^木卫二^^^DISPLAY
+IWItemsListFilter::AddFilters^^^orbits of {0}^^^{0} 的各轨道^^^AUTO
+Asset::GetAssetType;VWVehiclesListFilter::GetObjectName^^^Rocket^^^火箭^^^DISPLAY
+Asset::GetAssetType;VWVehiclesListFilter::GetObjectName^^^Orbiter^^^轨道器^^^DISPLAY
+Asset::GetAssetType;VWVehiclesListFilter::GetObjectName^^^Ship^^^星舰^^^DISPLAY
+Asset::GetAssetType;VWVehiclesListFilter::GetObjectName^^^Capsule^^^返回舱^^^DISPLAY
+Asset::GetAssetType^^^Basic Rocket^^^基础火箭^^^DISPLAY
+Asset::GetAssetType^^^Super Rocket^^^超级火箭^^^DISPLAY
+Asset::GetAssetType^^^Light Rocket^^^轻型火箭^^^DISPLAY
+Asset::GetAssetType^^^Prime Rocket^^^中型火箭^^^DISPLAY
+Asset::GetAssetType^^^Heavy Rocket^^^重型火箭^^^DISPLAY
+Asset::GetAssetType^^^Light Orbiter^^^轻型轨道器^^^DISPLAY
+Asset::GetAssetType^^^Prime Orbiter^^^中型轨道器^^^DISPLAY
+Asset::GetAssetType^^^Sidebooster^^^侧助推器^^^DISPLAY
+Asset::GetAssetType^^^Cruiser^^^星际巡洋舰^^^DISPLAY
+Asset::GetAssetType^^^Crew Ship^^^载人星舰^^^DISPLAY
+Asset::GetAssetType^^^Cargo Ship^^^货运星舰^^^DISPLAY
+Asset::GetAssetType^^^Tanker Ship^^^加油星舰^^^DISPLAY
+Asset::GetAssetType^^^Expendable Ship^^^一次性星舰^^^DISPLAY
+Asset::GetAssetType^^^Low Gravity Ship^^^低重力星舰^^^DISPLAY
+Asset::GetAssetType^^^Launch Pad^^^发射台^^^DISPLAY
+Asset::GetAssetType^^^Factory^^^工厂^^^DISPLAY
+Asset::GetAssetType^^^Building^^^建筑^^^DISPLAY
+Asset::GetAssetType^^^Planet^^^行星^^^DISPLAY
+Asset::GetAssetType^^^Upgrade^^^升级^^^DISPLAY
+Asset::GetAssetType^^^Service^^^服务^^^DISPLAY
+Asset::GetAssetType^^^Colonists^^^殖民者^^^DISPLAY
+Asset::GetAssetType^^^Civilians^^^平民^^^DISPLAY
+Asset::GetAssetType^^^Person^^^人员^^^DISPLAY
+Asset::GetAssetType^^^Item^^^物品^^^DISPLAY
+Asset::GetAssetType^^^Mega Project^^^巨型工程^^^DISPLAY
+Asset::GetAssetType^^^Hub Station^^^枢纽空间站^^^DISPLAY
+Asset::GetAssetType^^^Space Station^^^空间站^^^DISPLAY
+Asset::GetAssetType^^^Orbit^^^轨道^^^DISPLAY
+Asset::GetAssetType^^^Contract^^^合同^^^DISPLAY
+Asset::GetAssetType^^^Message^^^讯息^^^DISPLAY
+Asset::GetAssetType^^^Feature^^^功能^^^DISPLAY
+Asset::GetAssetGeneralType^^^Vehicle^^^载具^^^DISPLAY
+Asset::GetAssetGeneralType^^^Item^^^物品^^^DISPLAY
+Asset::GetAssetGeneralType^^^Service^^^服务^^^DISPLAY
+Asset::GetAssetGeneralType^^^Upgrade^^^升级^^^DISPLAY
+Asset::GetAssetGeneralType^^^Feature^^^功能^^^DISPLAY
+Asset::GetAssetGeneralType^^^Financial Support^^^金融支持^^^DISPLAY
+Asset::GetAssetGeneralType^^^Simulation^^^模拟^^^DISPLAY
+Asset::GetAssetGeneralType^^^Planet^^^行星^^^DISPLAY
+Asset::GetAssetGeneralType^^^Asset^^^资产^^^DISPLAY
+# DISABLED (breaks GetDataByLinq orbit key): PlanetData::<get_LowOrbit>b__17_1^^^Low Orbit ^^^低轨道 
+# DISABLED (breaks GetDataByLinq orbit key): PlanetData::<get_MediumOrbit>b__19_1^^^Medium Orbit ^^^中轨道 
+# DISABLED (breaks GetDataByLinq orbit key): PlanetData::<get_HighOrbit>b__21_1^^^High Orbit ^^^高轨道 
+# DISABLED (breaks GetDataByLinq orbit key): PlanetData::<get_ParkingOrbit>b__23_1^^^ Parking^^^ 停泊
+# DISABLED (breaks GetDataByLinq orbit key): PlanetData::get_LowOrbit^^^Low Orbit of ^^^低轨道 - 
+# DISABLED (breaks GetDataByLinq orbit key): PlanetData::get_MediumOrbit^^^Medium Orbit of ^^^中轨道 - 
+# DISABLED (breaks GetDataByLinq orbit key): PlanetData::get_HighOrbit^^^High Orbit of ^^^高轨道 - 
+# DISABLED (breaks GetDataByLinq orbit key): PlanetData::get_ParkingOrbit^^^Parking Orbit of ^^^停泊轨道 - 
+ParkingOrbitData::get_FullName^^^Parking Orbit^^^停泊轨道^^^DISPLAY
+ParkingOrbitData::get_ShortName^^^Parking^^^停泊^^^DISPLAY

@@ -1,0 +1,14 @@
+{
+    "Xzon Smart Delivery_Name": "XZon：智慧配送",
+    "Xzon Smart Delivery_Desc": "全球电商巨头 XZon 官方宣布：等 24 小时才收到包裹是不可接受的。为了实现全新的“15 分钟全球空投”计划，他们将放出一支庞大的自主配送无人机舰队。他们需要一位可靠的航天合作伙伴，发射一组轨道中继卫星来协调蜂群，确保数百万笔冲动消费精准落上门廊，而不是路人头上。",
+    "Drone Relay Payload_Name": "XZDR<size=90%><color=#ffffff75>_prj:id0{0}_</color></size>",
+    "Drone Relay Payload_Desc": "一颗高频轨道通信中继卫星，可同时管理数千架自动配送无人机，确保沉重的包裹落在门廊上，而不是行人身上。",
+    "Xzon Smart City_Name": "XZon：智慧城市",
+    "Xzon Smart City_Desc": "XZon 正在把它那套广受欢迎——同时颇有争议——的门口摄像头网络升级到市政级别。在其全新的“智慧城市”计划下，地方政府可以聘请这位电商巨头，用 7x24 全天候监控铺满街道：从重罪到轻微的不文明行为尽收眼底，并即时通知执法部门。他们需要一位航天合作伙伴，发射高容量轨道服务器来处理数百万小时的 4K 视频流。",
+    "XZon Smart Observer Payload_Name": "XZSO<size=90%><color=#ffffff75>_id1984.{0}</color></size>",
+    "XZon Smart Observer Payload_Desc": "一颗配备先进 AI 的重型轨道数据中继卫星，专为实时处理街面摄像头画面而设计，能在有人乱穿马路或把可回收物扔错垃圾桶的精确瞬间自动报警。",
+    "Xzon ON System_Name": "XZon：ON 系统",
+    "Xzon ON System_Desc": "XZon 的高管们注意到你的互联网服务活跃用户突破了 10 万，他们自然不能容忍除自己以外的任何人搞垄断。于是，“ON 系统”登场：这是 XZon 斥资数十亿的计划，要用他们自己的宽带网络覆盖全球。颇具讽刺意味的是，他们正在向你抛出一份利润丰厚的巨额发射合同——而这片巨型星座，恰恰就是专门设计来和你抢生意的。",
+    "ON System Payload_Name": "XZON <size=90%><color=#ffffff75>(a-b)Node in,,{0}</color></size>",
+    "ON System Payload_Desc": "一颗高吞吐量通信卫星，构成 ON 系统的主干。"
+}

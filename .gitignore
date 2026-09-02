@@ -1,0 +1,16 @@
+# Build artifacts (generated, not tracked)
+_staging*/
+*.log
+# build-transient report (zips + sha256 + <LANG>-latest.json in release\ ARE tracked)
+release/_build_report.txt
+
+# OS junk
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Legacy source backup (superseded by EarthX2Chinese.cs)
+src/EarthX2Chinese.v1.cs
+
+# Generated version file (rewritten on every build)
+**/version.txt
