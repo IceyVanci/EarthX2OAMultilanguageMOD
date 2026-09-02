@@ -1,0 +1,87 @@
+# EarthX 2 Deutsch - IL 字符串替换表 (第 2 部分，fork 自 zh-strings2.tsv)
+# 格式: 作用域^^^原文^^^译文
+LaunchData/PayloadSettings::ValidatePayload^^^ can only launch one payload at a time.^^^ kann nur eine Nutzlast gleichzeitig starten.^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^ can't accept this payload.^^^ kann diese Nutzlast nicht annehmen.^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload;LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch people!^^^ kann keine Personen starten!^^^AUTO
+LaunchData/InventorySettings::ValidateDestination;LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch to orbit.^^^ kann nicht in die Umlaufbahn starten.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination;LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch to other planets.^^^ kann nicht zu anderen Planeten starten.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination;LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch to planets with an atmosphere.^^^ kann nicht zu Planeten mit Atmosphäre starten.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination;LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch to space stations.^^^ kann nicht zu Raumstationen starten.^^^AUTO
+LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch liquid payloads!^^^ kann keine flüssigen Nutzlasten starten!^^^AUTO
+LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch multiple payloads at once.^^^ kann nicht mehrere Nutzlasten gleichzeitig starten.^^^AUTO
+LaunchData/VehicleSettings::ValidateVehicle^^^ can't deploy payloads in orbit!^^^ kann keine Nutzlasten im Orbit aussetzen!^^^AUTO
+LaunchData/PayloadSettings::Validate^^^ can't deploy things in orbit.^^^ kann nichts im Orbit aussetzen.^^^AUTO
+LaunchData/InventorySettings::Validate^^^ can't be supplied. Check storage and funds.^^^ kann nicht beliefert werden. Prüfe Lager und Geldmittel.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^ can't launch to other planets from a space station.^^^ kann von einer Raumstation nicht zu anderen Planeten starten.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^ is currently travelling.^^^ ist gerade unterwegs.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^ is destroyed.^^^ ist zerstört.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^ is not unlocked yet.^^^ ist noch nicht freigeschaltet.^^^AUTO
+LaunchData/InventorySettings::Validate^^^No destination selected.^^^Kein Ziel ausgewählt.^^^AUTO
+LaunchData/InventorySettings::Validate^^^Select a launch pad.^^^Wähle eine Startrampe.^^^AUTO
+LaunchData/InventorySettings::Validate^^^Nothing selected.^^^Nichts ausgewählt.^^^AUTO
+LaunchData/InventorySettings::Validate^^^You are launching from this location.^^^Du startest von diesem Ort.^^^AUTO
+LaunchData/VehicleSettings::Validate^^^.^^^.^^^DISPLAY
+LaunchData/VehicleSettings::Validate^^^No vehicle attached.^^^Kein Fahrzeug angehängt.^^^AUTO
+LaunchData/VehicleSettings::Validate^^^No atmosphere or landing pads on this planet. Send a Low Gravity Ship first to build a Landing Pad.^^^Keine Atmosphäre oder Landeplattformen auf diesem Planeten. Sende zuerst ein Low Gravity Ship, um eine Landeplattform zu bauen.^^^AUTO
+LaunchData/VehicleSettings::Validate^^^You need to select a vehicle on parking orbit that needs to be refueled.^^^Du musst ein Fahrzeug im Parkorbit auswählen, das getankt werden muss.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^One or more selected payloads can't be launched to orbit.^^^Eine oder mehrere ausgewählte Nutzlasten können nicht in die Umlaufbahn gestartet werden.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^One or more selected payloads can't be launched to planets.^^^Eine oder mehrere ausgewählte Nutzlasten können nicht zu Planeten gestartet werden.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^One or more selected payloads can't be launched to space stations.^^^Eine oder mehrere ausgewählte Nutzlasten können nicht zu Raumstationen gestartet werden.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^Some selected items can't be launched to this destination.^^^Einige ausgewählte Objekte können zu diesem Ziel nicht gestartet werden.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^Vehicles don't have enough range to reach this destination.^^^Die Fahrzeuge haben nicht genug Reichweite, um dieses Ziel zu erreichen.^^^AUTO
+LaunchData/PayloadSettings::Validate^^^Selected vehicles don't have enough range to reach the destination.^^^Die ausgewählten Fahrzeuge haben nicht genug Reichweite, um das Ziel zu erreichen.^^^AUTO
+LaunchData::CanLaunch^^^You need to fix following things before the launch:<color=#E74C3C>\n^^^Du musst Folgendes vor dem Start beheben:<color=#E74C3C>\n^^^AUTO
+LaunchData/InventorySettings::ValidateLaunchPad^^^This launch pad is occupied by another vehicle.^^^Diese Startrampe ist von einem anderen Fahrzeug belegt.^^^AUTO
+LaunchData/InventorySettings::ValidateLaunchPad^^^Launch pad can't support the selected vehicle setup.^^^Die Startrampe unterstützt die ausgewählte Fahrzeugkonfiguration nicht.^^^AUTO
+LaunchData/VehicleSettings::ValidateVehicle^^^Vehicle doesn't fit the current setup.^^^Das Fahrzeug passt nicht zur aktuellen Konfiguration.^^^AUTO
+LaunchData/VehicleSettings::ValidateVehicleToRefuel^^^Vehicle is being refueled right now.^^^Das Fahrzeug wird gerade betankt.^^^AUTO
+LaunchData/VehicleSettings::ValidateLandAsset^^^Droneship is not available right now.^^^Das Drohnenschiff ist gerade nicht verfügbar.^^^AUTO
+LaunchData/VehicleSettings::ValidateLandAsset^^^This land option is already in use by another vehicle.^^^Diese Landeoption wird bereits von einem anderen Fahrzeug verwendet.^^^AUTO
+LaunchData/VehicleSettings::ValidateVehicle^^^No need for more ^^^Kein Bedarf an mehr ^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Attached vehicle can't deploy payloads in orbit.^^^Das angehängte Fahrzeug kann keine Nutzlasten im Orbit aussetzen.^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Attached vehicle can't launch liquid payloads.^^^Das angehängte Fahrzeug kann keine flüssigen Nutzlasten starten.^^^AUTO
+LaunchData/VehicleSettings::ValidateConfiguration^^^Attached vehicles don't match any setup.^^^Die angehängten Fahrzeuge passen zu keiner Konfiguration.^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Payload can't be launched to orbit.^^^Die Nutzlast kann nicht in die Umlaufbahn gestartet werden.^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Payload can't be launched to planets.^^^Die Nutzlast kann nicht zu Planeten gestartet werden.^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Payload can't be launched to space stations.^^^Die Nutzlast kann nicht zu Raumstationen gestartet werden.^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Payload doesn't fit in the vehicle. Payload size: {0} | Available space: {1}^^^Die Nutzlast passt nicht ins Fahrzeug. Nutzlastgröße: {0} | Verfügbarer Platz: {1}^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Payload must be launched elsewhere.^^^Die Nutzlast muss woanders gestartet werden.^^^AUTO
+LaunchData/PayloadSettings::Validate^^^Payloads can't be larger than the available space in the selected vehicle.^^^Nutzlasten dürfen nicht größer sein als der verfügbare Platz im ausgewählten Fahrzeug.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^Payloads must be launched elsewhere.^^^Nutzlasten müssen woanders gestartet werden.^^^AUTO
+RefuelAnyVehicleCommand::Execute^^^Vehicle configuration doesn't support refuel missions!^^^Die Fahrzeugkonfiguration unterstützt keine Tankmissionen!^^^AUTO
+RefuelAnyVehicleCommand::Execute^^^No valid vehicle to refuel found!^^^Kein gültiges Fahrzeug zum Tanken gefunden!^^^AUTO
+AttachVehicleAnyCommand::Execute;LaunchPadAnyCommand::Execute^^^ found!^^^ gefunden!^^^AUTO
+LaunchPadAnyCommand::Execute^^^No valid ^^^Kein gültiges ^^^AUTO
+AttachVehicleAnyCommand::Execute^^^No valid blueprint found!^^^Kein gültiger Bauplan gefunden!^^^AUTO
+LaunchPadAnyCommand::Execute^^^No valid launchpad found!^^^Keine gültige Startrampe gefunden!^^^AUTO
+AttachVehicleAnyCommand::Execute^^^No valid vehicles with blueprint: ^^^Keine gültigen Fahrzeuge mit Bauplan: ^^^AUTO
+AttachPayloadCommand::Execute^^^Amount of ^^^Anzahl von ^^^AUTO
+AttachPayloadCommand::Execute^^^ does not meet the threshold!^^^ unterschreitet den Schwellenwert!^^^AUTO
+InventoryData::AddItem^^^No storage was found for items on ^^^Kein Lager für Objekte gefunden auf ^^^DISPLAY
+InventoryData::AddItem^^^.^^^.^^^DISPLAY
+InventoryData::RemoveItem^^^Items have been supplied.^^^Objekte wurden geliefert.^^^DISPLAY
+VehicleData::OnArriveToNewInventory^^^Vehicles have arrived to ^^^Fahrzeuge sind angekommen auf ^^^DISPLAY
+VehicleData::OnArriveToNewInventory^^^.^^^.^^^DISPLAY
+HubSpaceStationData::OnTravelComplete^^^ Hub Station has arrived to ^^^ Hub-Station ist angekommen auf ^^^DISPLAY
+HubSpaceStationData::OnTravelComplete^^^.^^^.^^^DISPLAY
+ItemData::OnDayPassed_Deadline^^^ is approaching its launch deadline!^^^ nähert sich der Startfrist!^^^DISPLAY
+LaunchUI::UpdateUI^^^ will need to be refuelled on orbit before its interplanetary departure!^^^ muss vor der interplanetaren Abreise im Orbit auftanken!^^^DISPLAY
+ConstructionWindow::Demolish_OnClick;VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>b__16^^^?^^^?^^^DISPLAY
+ConstructionWindow::Demolish_OnClick^^^Do you really want to demolish this ^^^Möchtest du dieses ^^^AUTO
+ConstructionWindow::<Demolish_OnClick>b__30_0^^^ has been demolished.^^^ wurde abgerissen.^^^DISPLAY
+ConstructionWindow::<Rename_OnClick>b__27_0;ServiceData::<RenameService>b__27_0;ShipPanel::<UpdateUI>b__14_1^^^ has been renamed to ^^^ wurde umbenannt in ^^^DISPLAY
+ConstructionWindow::<Rename_OnClick>b__27_0;ServiceData::<RenameService>b__27_0;ShipPanel::<UpdateUI>b__14_1^^^.^^^.^^^DISPLAY
+LaunchPadData::CanBeDemolished^^^ can't be demolished because a Droneship "^^^ kann nicht abgerissen werden, weil ein Drohnenschiff "^^^DISPLAY
+LaunchPadData::CanBeDemolished^^^ can't be demolished because a Fairingship "^^^ kann nicht abgerissen werden, weil ein Fairingschiff "^^^DISPLAY
+LaunchPadData::CanBeDemolished^^^ can't be demolished because a vehicle is chilling on it right now.^^^ kann nicht abgerissen werden, weil gerade ein Fahrzeug darauf steht.^^^DISPLAY
+LaunchPadData::CanBeDemolished^^^ can't be demolished because it supports a rocket launch right now.^^^ kann nicht abgerissen werden, da gerade ein Raketenstart von ihr ausgeführt wird.^^^DISPLAY
+LaunchPadData::CanBeDemolished^^^" is in use right now.^^^" wird gerade verwendet.^^^DISPLAY
+VehicleData::Scrap^^^Do you really want to scrap ^^^Möchtest du wirklich verschrotten: ^^^AUTO
+VehicleData::Scrap^^^?\nYou will be able to retrive some resources back.^^^?\nDu bekommst einen Teil der Ressourcen zurück.^^^AUTO
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>b__16^^^Remove ^^^Entfernen ^^^DISPLAY
+VehiclesWindow::RemoveLandingGear_OnClick^^^Do you really want to remove landing gear from this vehicle? You can't undo this.^^^Möchtest du wirklich das Fahrwerk von diesem Fahrzeug entfernen? Das kann nicht rückgängig gemacht werden.^^^DISPLAY
+NewGameWindow::Create_OnClick^^^You have to have a name!^^^Du brauchst einen Namen!^^^DISPLAY
+NewGameWindow::Create_OnClick^^^Your company has to have a name!^^^Dein Unternehmen braucht einen Namen!^^^DISPLAY
+NewServiceWindow/<>c::<SelectServiceType_OnClick>b__11_4^^^You already created a service of this type.^^^Du hast bereits einen Service dieses Typs erstellt.^^^AUTO
+NewStructureWindow/<>c::<SelectStructureType_OnClick>b__11_4^^^You already created a structure of this type.^^^Du hast bereits ein Bauwerk dieses Typs erstellt.^^^AUTO
+QuickAccessUI::AddWebcastsWidget_OnClick^^^You can only add one Webcast widget.^^^Du kannst nur ein Webcast-Widget hinzufügen.^^^DISPLAY

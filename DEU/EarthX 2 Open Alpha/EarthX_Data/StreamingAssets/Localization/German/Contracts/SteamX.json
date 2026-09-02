@@ -1,0 +1,6 @@
+{
+    "StreamX Library_Name": "Bibliothek des Inhalts",
+    "StreamX Library_Desc": "Die Lebensqualität im Orbit ist ein zentraler Fokus der Raumfahrtagenturen, und der Streaming-Riese Steams hat sich einem sehr nachvollziehbaren Problem angenommen: dem Puffern. Da die Kommunikationsanlage der ISS wissenschaftliche Telemetrie strikt priorisiert, werden die Wochenend-Filmabende der Besatzung oft von hoher Latenz und niedriger Auflösung geplagt. Um das zu lösen, finanziert StreamX den Start eines dedizierten Hochleistungs-Medienservers, der mit Tausenden von 4K-Filmen und -Serien vorbeladen ist, damit die Astronauten in ihrer Freizeit nahtloses Streaming genießen können.",
+    "StreamX Library Payload_Name": "StreamX-Bibliothek",
+    "StreamX Library Payload_Desc": "Ein kompakter, strahlungsgeschützter lokaler Speicherserver mit Terabytes an hochauflösender Unterhaltung. Er ist so konzipiert, dass er sich nahtlos in das interne Netzwerk der Internationalen Raumstation integriert und der Besatzung sofortigen, pufferkreien Zugriff auf eine riesige Bibliothek von Filmen und Fernsehserien bietet."
+}

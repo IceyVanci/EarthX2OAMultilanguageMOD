@@ -1,0 +1,10 @@
+{
+    "EnVisia Data Center_Name": "enVisia: Orbitalrechenzentren",
+    "EnVisia Data Center_Desc": "Die neueste Generation von enVisias KI-Prozessoren stößt offiziell an die Grenzen der terrestrischen Thermodynamik. Da die Energiekosten für die Kühlung massiver irdischer Serverfarmen untragbar werden, blickt der Tech-Gigant auf die ultimative Wärmesenke: das Vakuum des Weltraums. Sie suchen einen Startpartner, um ein experimentelles Orbitalrechenzentrum einzusetzen und zu testen, ob die natürlich eisige Umgebung des niedrigen Erdorbit ihre leistungsstärksten Supercomputer passiv kühlen kann.",
+    "EnVisia Data Center Payload_Name": "cluster.SB{0}",
+    "EnVisia Data Center Payload_Desc": "Ein spezialisiertes Hochdichte-Servermodul mit massiven Wärmeradiatoren.",
+    "EnVisia Space Training_Name": "enVisia: Weltraumtraining",
+    "EnVisia Space Training_Desc": "enVisia hat eine beispiellose Initiative angekündigt: Ihr KI-Modell der nächsten Generation soll vollständig im niedrigen Erdorbit trainiert werden. Während der genaue Zweck dieses weltraumgestützten neuronalen Netzwerks ein streng gehütetes Firmengeheimnis bleibt, reichte allein die schiere Ambition, Tausende von Flaggschiff-GPUs in einen einzigen Satelliten zu packen, aus, um den Aktienkurs von enVisia nach der Ankündigung um 14 % steigen zu lassen. Sie brauchen nun einen fähigen Startanbieter, um diesen mit Spannung erwarteten Rechencluster vom Boden zu bekommen.",
+    "EnVisia Space Training Payload_Name": "cluster.exp_SBa.18p",
+    "EnVisia Space Training Payload_Desc": "Ein massiver, maßgefertigter Satellit, der als Orbital-Supercomputer fungiert. Er ist vollgepackt mit Tausenden miteinander verbundener GPUs, die komplexe Algorithmen des maschinellen Lernens ausführen."
+}

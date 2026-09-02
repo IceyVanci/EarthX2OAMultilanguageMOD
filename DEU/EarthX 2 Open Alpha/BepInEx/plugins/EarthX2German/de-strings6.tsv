@@ -1,0 +1,68 @@
+# EarthX 2 Deutsch - IL 字符串替换表 (第 6 部分，fork 自 zh-strings6.tsv)
+# 格式: 作用域^^^原文^^^译文
+ConstructionAsset::GetRequiredItemsAsString^^^\n<size=90%><color=#ffffff75>Required Items</color></size>^^^\n<size=90%><color=#ffffff75>Benötigte Objekte</color></size>^^^DISPLAY
+ConstructionAsset::get_StorageAsString;ConstructionData::get_StorageAsString^^^<color=#ffffff75><size=90%>Storage:</size></color>^^^<color=#ffffff75><size=90%>Lager:</size></color>^^^DISPLAY
+ConstructionData::get_StorageAsString^^^\n<sprite name="storage"> <color=#ffffff75><size=90%>{0}:</size></color> {1} <color=#ffffff75><size=90%>({2}% Full)</size></color>^^^\n<sprite name="storage"> <color=#ffffff75><size=90%>{0}:</size></color> {1} <color=#ffffff75><size=90%>({2}% belegt)</size></color>^^^DISPLAY
+FactoryData::get_ProductionLinesAsString^^^<color=#ffffff75><size=90%>Production Lines:</size></color>^^^<color=#ffffff75><size=90%>Produktionslinien:</size></color>^^^DISPLAY
+UtilityConstructionAsset::get_ProductionAsString;UtilityConstructionData::get_ProductionAsString^^^<color=#ffffff75><size=90%>Production per week:</size></color>^^^<color=#ffffff75><size=90%>Produktion pro Woche:</size></color>^^^DISPLAY
+UtilityConstructionAsset::get_UsageAsString;UtilityConstructionData::get_UsageAsString^^^<color=#ffffff75><size=90%>Usage per week:</size></color>^^^<color=#ffffff75><size=90%>Verbrauch pro Woche:</size></color>^^^DISPLAY
+ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateInfoPanel|0;UtilityConstructionPrefab::UpdateTooltip^^^\n<color=#ffffff75><size=90%>Efficiency:</size></color> {0}%^^^\n<color=#ffffff75><size=90%>Effizienz:</size></color> {0}%^^^DISPLAY
+ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateInfoPanel|0;UtilityConstructionPrefab::UpdateTooltip^^^\n<color=#ffffff75><size=90%>Wind Speed:</size></color> {0}<color=#ffffff75><size=90%>km/h</size></color>^^^\n<color=#ffffff75><size=90%>Windgeschwindigkeit:</size></color> {0}<color=#ffffff75><size=90%>km/h</size></color>^^^DISPLAY
+ConstructionPrefab::UpdateTooltip^^^\n<color=#ffffff75><size=90%>Droneship:</size></color>^^^\n<color=#ffffff75><size=90%>Drohnenschiff:</size></color>^^^DISPLAY
+ConstructionPrefab::UpdateTooltip^^^\n<color=#ffffff75><size=90%>Fairingship:</size></color>^^^\n<color=#ffffff75><size=90%>Fairingschiff:</size></color>^^^DISPLAY
+SolarSystemSpaceStation::UpdateTooltip^^^\n<color=#ffffff75><size=90%>Items:</size></color>^^^\n<color=#ffffff75><size=90%>Objekte:</size></color>^^^AUTO
+SolarSystemTravelBulkPrefab::UpdateTooltip^^^\n<color=#ffffff75><size=90%>Payload:</size></color>^^^\n<color=#ffffff75><size=90%>Nutzlast:</size></color>^^^AUTO
+SolarSystemTravelBulkPrefab::UpdateTooltip^^^<color=#ffffff75><size=90%>Vehicles ({0})</size></color> travelling to <color=#ffffff75><size=90%>{1}</size></color>.^^^<color=#ffffff75><size=90%>Fahrzeuge ({0})</size></color> unterwegs nach <color=#ffffff75><size=90%>{1}</size></color>.^^^AUTO
+SolarSystemTravelBulkPrefab::UpdateTooltip^^^"</size></color> travelling to <color=#ffffff75><size=90%>^^^"</size></color> unterwegs nach <color=#ffffff75><size=90%>^^^AUTO
+PriceTag::OnMonthPassed^^^<color=#ffffff75><size=90%> | day</size></color>^^^<color=#ffffff75><size=90%> | Tag</size></color>^^^DISPLAY
+PriceTag::OnMonthPassed;QASalesPanel::UpdateUI^^^<color=#ffffff75><size=90%> | last month</size></color>^^^<color=#ffffff75><size=90%> | letzter Monat</size></color>^^^DISPLAY
+PriceTag::OnMonthPassed^^^<color=#ffffff75><size=90%> | month</size></color>^^^<color=#ffffff75><size=90%> | Monat</size></color>^^^DISPLAY
+PriceTag::OnMonthPassed^^^<color=#ffffff75><size=90%> | this month</size></color>^^^<color=#ffffff75><size=90%> | dieser Monat</size></color>^^^DISPLAY
+PriceTag::OnMonthPassed^^^<color=#ffffff75><size=90%> | week</size></color>^^^<color=#ffffff75><size=90%> | Woche</size></color>^^^DISPLAY
+PriceTag::OnMonthPassed^^^<color=#ffffff75><size=90%> | year</size></color>^^^<color=#ffffff75><size=90%> | Jahr</size></color>^^^DISPLAY
+ShipPanel::UpdateUI^^^<color=#ffffff75><size=90%> | per day^^^<color=#ffffff75><size=90%> | pro Tag^^^DISPLAY
+IWItemPanel::UpdateUI^^^ <color=#ffffff75><size=90%>| units sold</size></color>^^^ <color=#ffffff75><size=90%>| verkaufte Einheiten</size></color>^^^DISPLAY
+PWPersonPanel::UpdateUI^^^ <color=#ffffff75><size=90%>sales</size></color>^^^ <color=#ffffff75><size=90%>Verkäufe</size></color>^^^DISPLAY
+ProductionLinePanel::UpdateUI;ProductionWindow::UpdateUI^^^<size=90%><color=#ffffff75> | cycle^^^<size=90%><color=#ffffff75> | Zyklus^^^DISPLAY
+ProductionWindow::UpdateUI^^^{0}<size=90%><color=#ffffff75> | cycle^^^{0}<size=90%><color=#ffffff75> | Zyklus^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetOrbitAndStorageCosts|4;VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateFolderView|2;VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateStorageCosts|5^^^ <color=#ffffff75><size=90%>| month^^^ <color=#ffffff75><size=90%>| Monat^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetOrbitAndStorageCosts|4^^^Never^^^Nie^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetOrbitAndStorageCosts|4^^^{0}% <color=#ffffff75><size=90%>every year^^^{0}% <color=#ffffff75><size=90%>pro Jahr^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetOrbitAndStorageCosts|4^^^{0}% <color=#ffffff75><size=90%>in {1}^^^{0}% <color=#ffffff75><size=90%>in {1}^^^AUTO
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetSales|3^^^<b>Warning:</b>\nYou are losing ^^^<b>Warnung:</b>\nDu verlierst ^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetSales|3^^^ on every sale!^^^ bei jedem Verkauf!^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetDeadline|2;IWItemPanel::UpdateUI;LWItemPanel::UpdateUI;MWItemPanel::UpdateUI;PeopleWindow::<UpdateUI>g__SetDeadline|17_2;PWPersonPanel::UpdateUI^^^{0} <size=90%><color=#ffffff75>left</color></size>^^^{0} <size=90%><color=#ffffff75>übrig</color></size>^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetDeadline|2;IWItemPanel::UpdateUI;LWItemPanel::UpdateUI;MWItemPanel::UpdateUI;PeopleWindow::<UpdateUI>g__SetDeadline|17_2;PWPersonPanel::UpdateUI^^^<color=#E74C3C>{0} <size=90%>left</size></color>^^^<color=#E74C3C>{0} <size=90%>übrig</size></color>^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetDeadline|2;IWItemPanel::UpdateUI;PeopleWindow::<UpdateUI>g__SetDeadline|17_2;PWPersonPanel::UpdateUI^^^<size=90%><color=#ffffff75>Available in</color></size> {0}^^^<size=90%><color=#ffffff75>Verfügbar in</color></size> {0}^^^DISPLAY
+PeopleWindow::<UpdateUI>g__SetTracking|17_3^^^ <size=90%><color=#ffffff75>joined</color></size>\n^^^ <size=90%><color=#ffffff75>ist beigetreten</color></size>\n^^^DISPLAY
+PeopleWindow::<UpdateUI>g__SetTracking|17_3^^^ <size=90%><color=#ffffff75>left^^^ <size=90%><color=#ffffff75>gegangen^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateFolderView|2^^^\n<size=90%><color=#64B5F6>Folder^^^\n<size=90%><color=#64B5F6>Ordner^^^DISPLAY
+VehiclesWindow::UpdateUI^^^ <size=90%><color=#ffffff75>"Folder"</color></size>^^^ <size=90%><color=#ffffff75>"Ordner"</color></size>^^^AUTO
+VWAutomationPanel::UpdateUI^^^\n<size=90%><color=#55BBFF>Program</color></size>^^^\n<size=90%><color=#55BBFF>Programm</color></size>^^^DISPLAY
+VWAutomationPanel::UpdateUI^^^\n<size=90%><color=#55BBFF>Sequence</color></size>^^^\n<size=90%><color=#55BBFF>Sequenz</color></size>^^^DISPLAY
+NewsWindow::UpdateUI^^^\n<color=#E74C3C><size=90%>Latest News^^^\n<color=#E74C3C><size=90%>Neueste Nachrichten^^^DISPLAY
+NWNewsPanel::UpdateUI^^^<size=90%>{0}\n<size=90%><color=#55BBFF>{1} {2} in EarthX^^^<size=90%>{0}\n<size=90%><color=#55BBFF>{1} {2} bei EarthX^^^DISPLAY
+ApocalypseData::OnDayPassed^^^Governments around the world are kindly asking you to open all patents related to your Spaceship technology.\nAs the world does everything to save as many as possible, they promise you unlimited resources.^^^Regierungen weltweit bitten dich höflich, alle Patente zu deiner Raumschiff-Technologie offen zu legen.\nDa die Welt alles tut, um so viele Menschen wie möglich zu retten, versprechen sie dir unbegrenzte Ressourcen.^^^DISPLAY
+SolarSystem::OnCurrentPlanetChangeEarly^^^YESS WE CAN GO FLY TO OTHER PLANET hahahah^^^JAAA WIR KÖNNEN ZU ANDEREN PLANETEN FLIEGEN hahahah^^^DISPLAY
+SolarSystem::OnCurrentPlanetChangeEarly^^^nooooo boring orbit launch :( i'm so sick of these gums^^^neiiiin langweiliger Orbit-Start :( ich bin diese Kaugummis so leid^^^DISPLAY
+SolarSystem::LoadPlanet^^^ is not yet unlocked!^^^ ist noch nicht freigeschaltet!^^^DISPLAY
+VehicleReentryAnimator::ExplodeDuringReentryButItsSuccessful^^^Your ship completed a test water landing which resulted in an explosion, but that's totally fine!^^^Dein Schiff hat eine Testwasserlandung absolviert, die in einer Explosion endete, aber das ist völlig in Ordnung!^^^DISPLAY
+PortShip::Construction_OnComplete^^^The construction of your ship "^^^Der Bau deines Schiffs "^^^DISPLAY
+PortShip::Construction_OnComplete^^^" has been completed!^^^" wurde abgeschlossen!^^^DISPLAY
+Cheats::EnableCheats^^^Look at me, I'm the developer now.^^^Schau mich an, ich bin jetzt der Entwickler.^^^DISPLAY
+Cheats::EnableCheats^^^hmm.. I think you're not a developer. What do you want? Oh you want to cheat?^^^hmm.. Ich glaube, du bist kein Entwickler. Was willst du? Oh, du willst schummeln?^^^DISPLAY
+Cheats::DisableCheats^^^You're a peasant again.^^^Du bist wieder ein Bauer.^^^DISPLAY
+Cheats::AddItem;Cheats::AddItemToInventory;Cheats::AddMoney;Cheats::AddMonth;Cheats::AddYear;Cheats::CompleteAllProduction;Cheats::CompleteContract;Cheats::DestroyEarth;Cheats::DisableAllExplosions;Cheats::HeavySet;Cheats::LightSet;Cheats::OpenTransferWindow;Cheats::PlayMiniGame;Cheats::PrimeSet;Cheats::ProgressMilestone;Cheats::RefuelAllVehiclesThatNeedToBeRefueled;Cheats::SetPlanetVariant;Cheats::SetVariableForCurrentYear;Cheats::ShipSet;Cheats::SpawnContract;Cheats::SpawnFuelDepotStation;Cheats::SpawnHubStation;Cheats::StorageInfo;Cheats::SubtractMoney;Cheats::TriggerLore^^^nuh uh :p Developer mode not enabled^^^nöh :p Entwicklermodus nicht aktiviert^^^DISPLAY
+Cheats::PlayCutsceneCommand^^^Developer mode not enabled^^^Entwicklermodus nicht aktiviert^^^DISPLAY
+Cheats::RefuelAllVehiclesThatNeedToBeRefueled^^^Refueled^^^Getankt^^^DISPLAY
+Cheats::SetPlanetVariant^^^Planet variant changed^^^Planetenvariante geändert^^^DISPLAY
+Cheats::OpenTransferWindow^^^The portal has been opened! :o^^^Das Portal wurde geöffnet! :o^^^DISPLAY
+Cheats::CompleteContract^^^<color=greem>marked as completed in the system^^^<color=greem>im System als abgeschlossen markiert^^^DISPLAY
+Cheats::CompleteContract^^^contract does not exist^^^Vertrag existiert nicht^^^DISPLAY
+Cheats::SetVariableForCurrentYear^^^This year:  {0} --- All time: {1}^^^Dieses Jahr:  {0} --- Gesamt: {1}^^^DISPLAY
+Cheats::AddItem^^^<color=#E74C3C>Inventory does not exist!</color>^^^<color=#E74C3C>Lager existiert nicht!</color>^^^DISPLAY
+Cheats::AddItemToInventory^^^<color=#E74C3C>Item does not exist!</color>^^^<color=#E74C3C>Objekt existiert nicht!</color>^^^DISPLAY
+Cheats::OpenTransferWindow^^^<color=#E74C3C>Window does not exist!</color>^^^<color=#E74C3C>Fenster existiert nicht!</color>^^^DISPLAY
+Cheats::AddItemToInventory^^^Added <size=90%><color=#ffffff75>x{0}</color></size> of <size=90%><color=#ffffff75>{1}</color></size> to <size=90%><color=#ffffff75>{2}</color></size> of <size=90%><color=#ffffff75>{3}</color></size>^^^Hinzugefügt: <size=90%><color=#ffffff75>x{0}</color></size> von <size=90%><color=#ffffff75>{1}</color></size> zu <size=90%><color=#ffffff75>{2}</color></size> von <size=90%><color=#ffffff75>{3}</color></size>^^^AUTO
+Cheats::AddItemToInventory^^^Added <size=90%><color=#ffffff75>x{0}</color></size> of <size=90%><color=#ffffff75>{1}</color></size> to <size=90%><color=#ffffff75>{2}</color></size>^^^Hinzugefügt: <size=90%><color=#ffffff75>x{0}</color></size> von <size=90%><color=#ffffff75>{1}</color></size> zu <size=90%><color=#ffffff75>{2}</color></size>^^^AUTO
+CatterFirstPost::<PostOnCatter_OnClick>b__15_0^^^Hello world!^^^Hallo Welt!^^^AUTO

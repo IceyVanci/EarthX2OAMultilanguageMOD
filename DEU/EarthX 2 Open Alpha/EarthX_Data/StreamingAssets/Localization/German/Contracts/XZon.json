@@ -1,0 +1,14 @@
+{
+    "Xzon Smart Delivery_Name": "XZon: Smart Delivery",
+    "Xzon Smart Delivery_Desc": "Der globale E-Commerce-Riese XZon hat offiziell entschieden, dass ein 24-stündiges Warten auf ein Paket inakzeptabel ist. Um ihre neue Initiative \"15-Minuten-Weltlieferung\" zu erreichen, setzen sie eine massive Armada autonomer Lieferdrohnen ein. Sie brauchen einen zuverlässigen Luft- und Raumfahrtpartner, um ein Netzwerk orbitaler Relais zu starten, das den Schwarm koordiniert und sicherstellt, dass Millionen von Impulskäufen ihre verdienten Haustüren erreichen.",
+    "Drone Relay Payload_Name": "XZDR<size=90%><color=#ffffff75>_prj:id0{0}_</color></size>",
+    "Drone Relay Payload_Desc": "Ein Hochfrequenz-Kommunikationsrelais im Orbit, das Tausende automatisierter Lieferdrohnen gleichzeitig verwaltet und sicherstellt, dass schwere Pakete auf Veranden statt auf Fußgängern landen.",
+    "Xzon Smart City_Name": "XZon: Smart City",
+    "Xzon Smart City_Desc": "XZon bringt sein äußerst beliebtes – und leicht aufdringliches – Netzwerk von Haustürkameras auf kommunale Ebene. Im Rahmen ihrer neuen Initiative \"Smart City\" können lokale Regierungen den E-Commerce-Riesen beauftragen, ihre Straßen mit 24/7-Überwachung zu überziehen, die von schweren Verbrechen bis zu geringfügigen Fehlverhalten alles erfasst und die Strafverfolgung sofort benachrichtigt. Sie brauchen einen Luft- und Raumfahrtpartner, um Hochleistungs-Orbital-Server zu starten, die Millionen von Stunden 4K-Material verarbeiten können.",
+    "XZon Smart Observer Payload_Name": "XZSO<size=90%><color=#ffffff75>_id1984.{0}</color></size>",
+    "XZon Smart Observer Payload_Desc": "Ein robustes orbitales Datenrelais mit fortschrittlicher KI, das Echtzeit-Streams von Straßenkameras verarbeitet und die Behörden in genau dem Moment automatisch alarmiert, in dem jemand bei Rot über die Straße geht oder seine Wertstoffe in die falsche Tonne wirft.",
+    "Xzon ON System_Name": "XZon: ON System",
+    "Xzon ON System_Desc": "XZon-Führungskräfte haben bemerkt, dass dein Internetdienst die Marke von 100.000 aktiven Nutzern überschreitet, und natürlich weigern sie sich, irgendjemandem außer sich selbst ein Monopol zu überlassen. Hier kommt das \"ON System\": XZons Milliarden-Dollar-Initiative, um die Erde mit ihrem eigenen Breitbandnetz zu überziehen. In einer spektakulären Demonstration korporativer Ironie bieten sie dir einen massiven, äußerst lukrativen Vertrag an, um genau die Mega-Konstellation zu starten, die speziell dafür entwickelt wurde, mit dir zu konkurrieren.",
+    "ON System Payload_Name": "XZON <size=90%><color=#ffffff75>(a-b)Node in,,{0}</color></size>",
+    "ON System Payload_Desc": "Ein Hochdurchsatz-Kommunikationssatellit, der das Rückgrat des ON Systems bildet."
+}

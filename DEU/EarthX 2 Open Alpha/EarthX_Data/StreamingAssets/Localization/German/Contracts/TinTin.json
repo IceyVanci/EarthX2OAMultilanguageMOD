@@ -1,0 +1,16 @@
+{
+    "TinTin_Name": "TinTin",
+    "TinTin_Desc": "",
+    "TinTin A Payload_Name": "TinTin A",
+    "TinTin A Payload_Desc": "Ein Prototypsatellit, der beweisen soll, dass optische Laser-Kommunikation herkömmliche Funkverbindungen im Orbit wirksam ersetzen kann.",
+    "TinTin B Payload_Name": "TinTin B",
+    "TinTin B Payload_Desc": "Ein Prototypsatellit, der beweisen soll, dass optische Laser-Kommunikation herkömmliche Funkverbindungen im Orbit wirksam ersetzen kann.",
+    "TinTin _ Start Lore_Name": "{1} kündigt ehrgeizigen Plan an, die Erde mit Hochgeschwindigkeitsinternet zu überziehen",
+    "TinTin _ Start Lore_Desc": "{1} hat offiziell das Projekt \"LinkLink\" vorgestellt – eine massive Satellitenkonstellation, die in den nächsten Jahren Hochgeschwindigkeitsinternet praktisch in jeden Winkel der Welt bringen soll.\n\nDie beispiellose Initiative umfasst den Start Tausender kompakter Satelliten in den niedrigen Erdorbit. Bei Erfolg wird zuverlässiger Internetzugang überall sofort verfügbar sein – mitten im Ozean, in der entlegensten Wüste oder im Gebirge.\n\nDie Ankündigung hat bereits heftige Kontroversen ausgelöst. Befürworter argumentieren, dass der globale Internetzugang als grundlegendes Menschenrecht behandelt werden sollte, vergleichbar mit Strom oder Wasser. Kritiker warnen jedoch vor den immensen Gefahren, einem einzigen privaten Luft- und Raumfahrtunternehmen das Monopol auf die Kommunikationsinfrastruktur der Welt zu überlassen.\n\nUm das Terrain zu testen, ist das allererste Paar von Demonstrationssatelliten – genannt \"TinTin A\" und \"TinTin B\" – für später in diesem Jahr geplant.",
+    "TinTin _ Completion Lore_Name": "Erste LinkLink-Prototypsatelliten erreichen den Orbit",
+    "TinTin _ Completion Lore_Desc": "Die Auftaktmission ist ein voller Erfolg. Sowohl TinTin A als auch TinTin B wurden erfolgreich aktiviert und beginnen, ihre revolutionären optischen Kommunikationssysteme im niedrigen Erdorbit zu testen.\n\nVertreter von {1} bestätigten, dass die ersten Orbitalverbindungen einwandfrei waren. Sie warnten jedoch, dass Hunderte – wenn nicht Tausende – weiterer Satelliten eingesetzt werden müssen, bevor ein kommerzieller Dienst offiziell an den Start gehen kann.\n\nDer Meilenstein löste sofort hitzige Debatten am Capitol Hill darüber aus, ob einem privaten Unternehmen gestattet werden sollte, den Orbit mit einer so atemberaubenden Zahl von Satelliten zu füllen. Einige Politiker fordern aggressiv eine strenge neue Regulierungsaufsicht, während andere argumentieren, dass erstickende Bürokratie nur die boomende kommerzielle Raumfahrtindustrie behindern würde.",
+    "TinTin_ContractCompleted_0": "Technikexperten spotten: \"Ein Raketenunternehmen will globaler Internetanbieter werden. Was kommt als Nächstes? Intelligente Kühlschränke?\"",
+    "TinTin_ContractCompleted_1": "Kongress leitet hochrangige Anhörungen zum LinkLink-Konstellationsprojekt ein",
+    "TinTin_ContractCompleted_2": "Finanzanalysten erklären: Routinemäßige Wiederverwendbarkeit von Raketen hat die Ökonomie der globalen Raumfahrt völlig auf den Kopf gestellt",
+    "TinTin_ContractCompleted_3": "Vereinte Nationen beeilen sich, die ersten internationalen Gesetze zum Satellitenverkehrsmanagement zu entwerfen"
+}

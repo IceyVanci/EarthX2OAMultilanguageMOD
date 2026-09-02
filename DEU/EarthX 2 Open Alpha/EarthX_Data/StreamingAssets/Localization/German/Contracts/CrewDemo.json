@@ -1,0 +1,15 @@
+{
+    "Crew Demo_Name": "Launch America",
+    "Crew Demo_Desc": "",
+    "Crew Demo Bob_Name": "Bob",
+    "Crew Demo Bob_Desc": "Ein furchtloser Astronaut mit höchst fragwürdiger Impulskontrolle. Wenn es einen Knopf zu drücken gibt, wird er ihn drücken.",
+    "Crew Demo Doug_Name": "Doug",
+    "Crew Demo Doug_Desc": "Der leitende Ingenieur der Mission. Er kann fast alles reparieren ... außer Bobs Ideen.",
+    "Crew Demo_ Start Lore_Name": "Die Vereinigten Staaten kehren ins All zurück",
+    "Crew Demo_ Start Lore_Desc": "Während einer im Fernsehen übertragenen nationalen Ansprache hat der Präsident der Vereinigten Staaten heute eine weitreichende Direktive angekündigt, um das bemannte Raumfahrtprogramm der Nation dramatisch zu beschleunigen. Dieser aggressive Zeitplan kommt angesichts wachsenden Drucks rivalisierender Supermächte, die ihre eigenen Raumfahrtinitiativen rasch vorantreiben.\n\n\"(…) unsere Nation muss schnell ihre Dominanz in der bemannten Raumfahrt zurückerlangen (…) Amerika hat immer auf das Unmögliche gezielt und geliefert, weshalb wir in naher Zukunft auch zum Mond zurückkehren werden.\"\n\nDie Erklärung des Präsidenten kam für die Presse wenig überraschend. Seit Monaten fordern wachsende Fraktionen im Kongress und in der FASA-Führung einen schnelleren Zeitplan. Hinter den Kulissen haben bereits eine Handvoll wegweisender Unternehmen – darunter {1} – Verträge für die Entwicklung und den Start einer bemannten Demonstrationsmission zur Internationalen Raumstation gesichert.",
+    "Crew Demo_ Completion Lore_Name": "Erneute Auseinandersetzungen zwischen FASA und Kongress brechen aus",
+    "Crew Demo_ContractCompleted_0": "Die amerikanische Politik ist in Aufruhr. Während rivalisierende Auftragnehmer noch damit beschäftigt sind, Blaupausen für ihre Kapselprototypen zu entwerfen, hat {1} sein Raumfahrzeug bereits erfolgreich an die Internationale Raumstation angedockt.",
+    "Crew Demo_ Completion+1 Lore_Name": "US-Präsident besucht Capitol Hill unangekündigt",
+    "Crew Demo_ Completion+1 Lore_Desc": "In einer unerwarteten Wendung am Montagmorgen verließ eine schwer gepanzerte Fahrzeugkolonne mit dem US-Präsidenten das Weiße Haus und fuhr direkt zum Kapitol. Die Presse wurde von dem plötzlichen Ausflug nicht vorab informiert.\n\nNach mehreren Stunden hinter verschlossenen Türen trat der Präsident schließlich heraus. Quellen bestätigten später, dass sowohl der FASA-Administrator als auch ein hochrangiger Manager von {1} bei dem geheimen Briefing anwesend waren.",
+    "Crew Demo_ContractCompleted_2": "Zwei Kongressmitglieder treten abrupt zurück, während gegen sie wegen Korruptionsvorwürfen ermittelt wird."
+}

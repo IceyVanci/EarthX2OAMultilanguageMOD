@@ -1,0 +1,6 @@
+{
+    "TESS_Name": "Transiting Exoplanet Survey Satellite",
+    "TESS_Desc": "Ein fortschrittlicher Satellit zur Suche nach Planeten um nahe gelegene Sterne. Er nutzt Weitfeldkameras, um winzige Helligkeitseinbrüche zu erkennen, und konzentriert sich darauf, kleine, erdähnliche Exoplaneten zu finden. Seine Mission ist es, Wissenschaftlern zu helfen, Welten zu entdecken, die möglicherweise Leben unterstützen könnten.",
+    "TESS Payload_Name": "TESS",
+    "TESS Payload_Desc": "@TESS_Desc"
+}
