@@ -1,0 +1,87 @@
+# EarthX 2 日本語化 - IL 文字列置換テーブル (第 2 部)
+# 形式: スコープ^^^原文^^^訳文
+LaunchData/PayloadSettings::ValidatePayload^^^ can only launch one payload at a time.^^^同時に打ち上げられるペイロードは1つのみです。^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^ can't accept this payload.^^^このペイロードを受け付けられません。^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload;LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch people!^^^人を打ち上げられません！^^^AUTO
+LaunchData/InventorySettings::ValidateDestination;LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch to orbit.^^^軌道に打ち上げられません。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination;LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch to other planets.^^^他の惑星へ打ち上げられません。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination;LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch to planets with an atmosphere.^^^大気のある惑星へは打ち上げられません。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination;LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch to space stations.^^^宇宙ステーションへは打ち上げられません。^^^AUTO
+LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch liquid payloads!^^^液体ペイロードを打ち上げられません！^^^AUTO
+LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch multiple payloads at once.^^^複数のペイロードを一度に打ち上げられません。^^^AUTO
+LaunchData/VehicleSettings::ValidateVehicle^^^ can't deploy payloads in orbit!^^^軌道上でペイロードを展開できません！^^^AUTO
+LaunchData/PayloadSettings::Validate^^^ can't deploy things in orbit.^^^軌道上で物を展開できません。^^^AUTO
+LaunchData/InventorySettings::Validate^^^ can't be supplied. Check storage and funds.^^^供給できません。倉庫と資金を確認してください。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^ can't launch to other planets from a space station.^^^宇宙ステーションから他の惑星へは打ち上げられません。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^ is currently travelling.^^^ 航行中です。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^ is destroyed.^^^ 破壊されました。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^ is not unlocked yet.^^^ まだアンロックされていません。^^^AUTO
+LaunchData/InventorySettings::Validate^^^No destination selected.^^^目的地が選択されていません。^^^AUTO
+LaunchData/InventorySettings::Validate^^^Select a launch pad.^^^打ち上げ台を選択してください。^^^AUTO
+LaunchData/InventorySettings::Validate^^^Nothing selected.^^^何も選択されていません。^^^AUTO
+LaunchData/InventorySettings::Validate^^^You are launching from this location.^^^この地点から打ち上げています。^^^AUTO
+LaunchData/VehicleSettings::Validate^^^.^^^^^^DISPLAY
+LaunchData/VehicleSettings::Validate^^^No vehicle attached.^^^ビークルが装着されていません。^^^AUTO
+LaunchData/VehicleSettings::Validate^^^No atmosphere or landing pads on this planet. Send a Low Gravity Ship first to build a Landing Pad.^^^この惑星には大気も着陸パッドもありません。着陸パッドを建設するには、先に低重力シップを送ってください。^^^AUTO
+LaunchData/VehicleSettings::Validate^^^You need to select a vehicle on parking orbit that needs to be refueled.^^^給油が必要な待機軌道上のビークルを選択してください。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^One or more selected payloads can't be launched to orbit.^^^選択された一部のペイロードを軌道に打ち上げられません。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^One or more selected payloads can't be launched to planets.^^^選択された一部のペイロードを惑星へ打ち上げられません。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^One or more selected payloads can't be launched to space stations.^^^選択された一部のペイロードを宇宙ステーションへ打ち上げられません。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^Some selected items can't be launched to this destination.^^^選択された一部のアイテムをこの目的地へ打ち上げられません。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^Vehicles don't have enough range to reach this destination.^^^ビークルの航続距離ではこの目的地に到達できません。^^^AUTO
+LaunchData/PayloadSettings::Validate^^^Selected vehicles don't have enough range to reach the destination.^^^選択されたビークルの航続距離では目的地に到達できません。^^^AUTO
+LaunchData::CanLaunch^^^You need to fix following things before the launch:<color=#E74C3C>\n^^^打ち上げ前に以下を解決する必要があります：<color=#E74C3C>\n^^^AUTO
+LaunchData/InventorySettings::ValidateLaunchPad^^^This launch pad is occupied by another vehicle.^^^この打ち上げ台は別のビークルに使用されています。^^^AUTO
+LaunchData/InventorySettings::ValidateLaunchPad^^^Launch pad can't support the selected vehicle setup.^^^打ち上げ台は選択されたビークル構成に対応できません。^^^AUTO
+LaunchData/VehicleSettings::ValidateVehicle^^^Vehicle doesn't fit the current setup.^^^ビークルが現在の構成に合いません。^^^AUTO
+LaunchData/VehicleSettings::ValidateVehicleToRefuel^^^Vehicle is being refueled right now.^^^ビークルは現在給油中です。^^^AUTO
+LaunchData/VehicleSettings::ValidateLandAsset^^^Droneship is not available right now.^^^ドローンシップは現在利用できません。^^^AUTO
+LaunchData/VehicleSettings::ValidateLandAsset^^^This land option is already in use by another vehicle.^^^この着陸オプションは別のビークルが使用中です。^^^AUTO
+LaunchData/VehicleSettings::ValidateVehicle^^^No need for more ^^^これ以上は不要です^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Attached vehicle can't deploy payloads in orbit.^^^装着されたビークルは軌道上でペイロードを展開できません。^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Attached vehicle can't launch liquid payloads.^^^装着されたビークルは液体ペイロードを打ち上げられません。^^^AUTO
+LaunchData/VehicleSettings::ValidateConfiguration^^^Attached vehicles don't match any setup.^^^装着されたビークルはどの構成にも一致しません。^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Payload can't be launched to orbit.^^^ペイロードを軌道に打ち上げられません。^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Payload can't be launched to planets.^^^ペイロードを惑星へ打ち上げられません。^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Payload can't be launched to space stations.^^^ペイロードを宇宙ステーションへ打ち上げられません。^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Payload doesn't fit in the vehicle. Payload size: {0} | Available space: {1}^^^ペイロードがビークルに収まりません。ペイロードサイズ：{0}｜利用可能スペース：{1}^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Payload must be launched elsewhere.^^^このペイロードは別の場所から打ち上げる必要があります。^^^AUTO
+LaunchData/PayloadSettings::Validate^^^Payloads can't be larger than the available space in the selected vehicle.^^^ペイロードは選択されたビークルの利用可能スペースより大きくできません。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^Payloads must be launched elsewhere.^^^ペイロードは別の場所から打ち上げる必要があります。^^^AUTO
+RefuelAnyVehicleCommand::Execute^^^Vehicle configuration doesn't support refuel missions!^^^ビークル構成が給油ミッションに対応していません！^^^AUTO
+RefuelAnyVehicleCommand::Execute^^^No valid vehicle to refuel found!^^^給油できる有効なビークルが見つかりません！^^^AUTO
+AttachVehicleAnyCommand::Execute;LaunchPadAnyCommand::Execute^^^ found!^^^が見つかりました！^^^AUTO
+LaunchPadAnyCommand::Execute^^^No valid ^^^有効なものは見つかりません^^^AUTO
+AttachVehicleAnyCommand::Execute^^^No valid blueprint found!^^^有効なブループリントが見つかりません！^^^AUTO
+LaunchPadAnyCommand::Execute^^^No valid launchpad found!^^^有効な打ち上げ台が見つかりません！^^^AUTO
+AttachVehicleAnyCommand::Execute^^^No valid vehicles with blueprint: ^^^ブループリントに一致する有効なビークルなし：^^^AUTO
+AttachPayloadCommand::Execute^^^Amount of ^^^アイテム^^^AUTO
+AttachPayloadCommand::Execute^^^ does not meet the threshold!^^^ の数量が基準に達していません！^^^AUTO
+InventoryData::AddItem^^^No storage was found for items on ^^^以下の場所にアイテム用の倉庫が見つかりませんでした：^^^DISPLAY
+InventoryData::AddItem^^^.^^^。^^^DISPLAY
+InventoryData::RemoveItem^^^Items have been supplied.^^^アイテムが供給されました。^^^DISPLAY
+VehicleData::OnArriveToNewInventory^^^Vehicles have arrived to ^^^ビークルが到着しました^^^DISPLAY
+VehicleData::OnArriveToNewInventory^^^.^^^。^^^DISPLAY
+HubSpaceStationData::OnTravelComplete^^^ Hub Station has arrived to ^^^ ハブステーションが到着しました^^^DISPLAY
+HubSpaceStationData::OnTravelComplete^^^.^^^。^^^DISPLAY
+ItemData::OnDayPassed_Deadline^^^ is approaching its launch deadline!^^^ の打ち上げ期限が近づいています！^^^DISPLAY
+LaunchUI::UpdateUI^^^ will need to be refuelled on orbit before its interplanetary departure!^^^ は惑星間出発前に軌道上で給油が必要になります！^^^DISPLAY
+ConstructionWindow::Demolish_OnClick;VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>b__16^^^?^^^？^^^DISPLAY
+ConstructionWindow::Demolish_OnClick^^^Do you really want to demolish this ^^^本当にこれを解体しますか^^^AUTO
+ConstructionWindow::<Demolish_OnClick>b__30_0^^^ has been demolished.^^^ は解体されました。^^^DISPLAY
+ConstructionWindow::<Rename_OnClick>b__27_0;ServiceData::<RenameService>b__27_0;ShipPanel::<UpdateUI>b__14_1^^^ has been renamed to ^^^ は次の名前に変更されました^^^DISPLAY
+ConstructionWindow::<Rename_OnClick>b__27_0;ServiceData::<RenameService>b__27_0;ShipPanel::<UpdateUI>b__14_1^^^.^^^。^^^DISPLAY
+LaunchPadData::CanBeDemolished^^^ can't be demolished because a Droneship "^^^ は解体できません——ドローンシップ「^^^DISPLAY
+LaunchPadData::CanBeDemolished^^^ can't be demolished because a Fairingship "^^^ は解体できません——フェアリング回収船「^^^DISPLAY
+LaunchPadData::CanBeDemolished^^^ can't be demolished because a vehicle is chilling on it right now.^^^ は解体できません——現在ビークルが停まっているため。^^^DISPLAY
+LaunchPadData::CanBeDemolished^^^ can't be demolished because it supports a rocket launch right now.^^^ は解体できません——現在ロケット打ち上げを支えているため。^^^DISPLAY
+LaunchPadData::CanBeDemolished^^^" is in use right now.^^^」が現在使用中です。^^^DISPLAY
+VehicleData::Scrap^^^Do you really want to scrap ^^^本当に解体しますか^^^AUTO
+VehicleData::Scrap^^^?\nYou will be able to retrive some resources back.^^^ ？\n解体後は一部の資源を回収できます。^^^AUTO
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>b__16^^^Remove ^^^本当に取り外しますか^^^DISPLAY
+VehiclesWindow::RemoveLandingGear_OnClick^^^Do you really want to remove landing gear from this vehicle? You can't undo this.^^^本当にこのビークルから着陸脚を取り外しますか？この操作は元に戻せません！^^^DISPLAY
+NewGameWindow::Create_OnClick^^^You have to have a name!^^^名前を入力する必要があります！^^^DISPLAY
+NewGameWindow::Create_OnClick^^^Your company has to have a name!^^^会社に名前を付ける必要があります！^^^DISPLAY
+NewServiceWindow/<>c::<SelectServiceType_OnClick>b__11_4^^^You already created a service of this type.^^^このタイプのサービスはすでに作成済みです。^^^AUTO
+NewStructureWindow/<>c::<SelectStructureType_OnClick>b__11_4^^^You already created a structure of this type.^^^このタイプの構造物はすでに建設済みです。^^^AUTO
+QuickAccessUI::AddWebcastsWidget_OnClick^^^You can only add one Webcast widget.^^^ウェブキャストウィジェットは1つしか追加できません。^^^DISPLAY

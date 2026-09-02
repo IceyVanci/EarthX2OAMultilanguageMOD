@@ -1,0 +1,101 @@
+# EarthX 2 日本語化 - IL 文字列置換テーブル (第 3 部)
+# 形式: スコープ^^^原文^^^訳文
+VehicleWindow::<UpdateUI>g__UpdateInfoPanel|21_1^^^<size=90%><color=#ffffff75>Transfer window with ^^^<size=90%><color=#ffffff75>との転送ウィンドウ^^^AUTO
+VehicleWindow::<UpdateUI>g__UpdateInfoPanel|21_1^^^ is now <color=#E74C3C>closed</color>\nReopens <color=#ffffff75><size=90%>in ^^^ は現在<color=#E74C3C>閉鎖中</color>\n再開まで：<color=#ffffff75><size=90%>^^^AUTO
+PlanetButton::UpdateUI^^^</size></color> is now <color=#64B5F6>open</color>.\nIt will close in <color=#ffffff75><size=90%>^^^</size></color> の転送ウィンドウは現在<color=#64B5F6>開放中</color>。閉鎖まで：<color=#ffffff75><size=90%>^^^AUTO
+SolarSystemPlanet::UpdateTooltip^^^</size></color> is now <color=#9B59B6>open</color>.\nIt will close in <color=#ffffff75><size=90%>^^^</size></color> の転送ウィンドウは現在<color=#9B59B6>開放中</color>。閉鎖まで：<color=#ffffff75><size=90%>^^^AUTO
+PlanetButton::UpdateUI;SolarSystemPlanet::UpdateTooltip^^^</size></color> is now <color=#E74C3C>closed</color>.\nIt will reopen in <color=#ffffff75><size=90%>^^^</size></color> の転送ウィンドウは現在<color=#E74C3C>閉鎖中</color>。再開まで：<color=#ffffff75><size=90%>^^^AUTO
+PlanetButton::UpdateUI;SolarSystemPlanet::UpdateTooltip^^^</size></color> has no transfer window with <color=#ffffff75><size=90%>^^^</size></color> との転送ウィンドウは現在ありません <color=#ffffff75><size=90%>^^^AUTO
+PlanetButton::UpdateUI;SolarSystemPlanet::UpdateTooltip^^^</size></color>.\n<color=#ffffff75><size=90%>You can fly there anytime you want!</size></color>^^^</size></color>。\n<color=#ffffff75><size=90%>いつでも好きな時に飛べます！</size></color>^^^AUTO
+SolarSystemPlanet::UpdateTooltip^^^Transfer window <color=#ffffff75><size=90%>^^^転送ウィンドウ <color=#ffffff75><size=90%>^^^AUTO
+VehicleWindow::<UpdateUI>g__UpdateRefuelInfo|21_0^^^{0} <color=#ffffff75><size=90%>required^^^{0} <color=#ffffff75><size=90%>（必要）^^^DISPLAY
+LaunchUI::UpdateUI^^^\n<color=#9B59B6><size=90%>Refuel Required^^^\n<color=#9B59B6><size=90%>軌道給油が必要^^^DISPLAY
+LaunchUI::UpdateUI^^^\n<color=#E74C3C><size=90%>Problems Detected^^^\n<color=#E74C3C><size=90%>問題が検出されました^^^DISPLAY
+LaunchUI::UpdateUI^^^\n<size=90%><color=#ffffff75>Payload Risk:</color></size> ^^^\n<size=90%><color=#ffffff75>ペイロードリスク：</color></size>^^^DISPLAY
+LaunchUI::UpdateUI^^^<size=90%><color=#ffffff75>Payload Revenue:</color></size> ^^^<size=90%><color=#ffffff75>ペイロード収入：</color></size>^^^DISPLAY
+# DISABLED (Launch is an asset id in set_LaunchSetupViewActive): LaunchUI::UpdateUI;LaunchData::set_LaunchSetupViewActive^^^Launch^^^打ち上げ
+LaunchUI::UpdateUI^^^Refuel on Orbit^^^軌道給油^^^DISPLAY
+LaunchUI::UpdateUI^^^Undock and Deorbit^^^ドッキング解除して軌道離脱^^^DISPLAY
+LaunchUI::LaunchPadSelect_OnClick^^^Select Launch Pad^^^打ち上げ台を選択^^^DISPLAY
+LaunchUI::VehicleToRefuelSelect_OnClick^^^Select Vehicle To Refuel^^^給油するビークルを選択^^^DISPLAY
+LaunchUI::UpdateUI^^^[Select]^^^[選択]^^^DISPLAY
+LaunchPanel::Update^^^<size=90%>Launch In Progress</size>\n<b>{0:T\+m:ss}^^^<size=90%>打ち上げ中</size>\n<b>{0:T\+m:ss}^^^DISPLAY
+CutsceneUI::Update^^^Skip <color=#ffffff75><size=90%>({0}s)</size></color>^^^スキップ <color=#ffffff75><size=90%>（{0} 秒）</size></color>^^^DISPLAY
+CutsceneUI::Update^^^<color=#ffffff75><size=90%>Song Name</size></color>\n^^^<color=#ffffff75><size=90%>曲名</size></color>\n^^^AUTO
+SoundtrackUI::Update^^^\n<color=#ffffff75><size=90%>by ^^^\n<color=#ffffff75><size=90%>作曲：^^^DISPLAY
+Soundtrack::OnGameLoaded^^^No soundtracks found!^^^サウンドトラックが見つかりません！^^^DISPLAY
+BellyFlopMiniGame::<Update>g__Success|38_0;HelicopterCatchMiniGame::RocketWasCatched;HopperMiniGame::<Update>g__Success|28_0;ISSDockingMiniGame::<Update>g__Success|25_0;OceanLandingMiniGame::<Update>g__Success|27_0;TowerCatchMiniGame::<Update>g__Success|30_0^^^Success! Congratulations :)^^^成功！おめでとう :)^^^DISPLAY
+OceanLandingMiniGame::<Update>g__Explode|27_2;TowerCatchMiniGame::<Update>g__Explode|30_1^^^The Rocket hit the ground a little too hard!^^^ロケットが地面に強く当たりすぎました！^^^DISPLAY
+TowerCatchMiniGame::<Update>g__HardCatch|30_2^^^The Rocket hit the arms a little too hard!^^^ロケットがキャッチアームに強く当たりすぎました！^^^DISPLAY
+HopperMiniGame::<Update>g__Explode|28_1^^^The Hopper hit the ground a little too hard!^^^ホッパーが地面に強く当たりすぎました！^^^DISPLAY
+BellyFlopMiniGame::<Update>g__Explode|38_2^^^The Ship hit the ground a little too hard!^^^シップが地面に強く当たりすぎました！^^^DISPLAY
+BellyFlopMiniGame::<Update>g__InFlightExplode|38_1^^^The Ship rotated too far!^^^シップが回転しすぎました！^^^DISPLAY
+HelicopterCatchMiniGame::Update^^^You missed the Rocket!^^^ロケットを捕まえ損ねました！^^^DISPLAY
+ISSDockingMiniGame::Update^^^You were too fast!^^^速すぎました！^^^AUTO
+ISSDockingMiniGame::Update^^^Capsule rotation must be more precise!^^^カプセルの回転をもっと正確にする必要があります！^^^AUTO
+ISSDockingMiniGame::Update^^^Capsule roll must be more precise!^^^カプセルのロールをもっと正確にする必要があります！^^^AUTO
+ISSDockingMiniGame::Update^^^You entered a no-fly zone!^^^飛行禁止区域に入りました！^^^AUTO
+ISSDockingMiniGame::Update^^^You have been banned from the ISS...^^^ISSへのアクセスを禁止されました...^^^AUTO
+MiniGameAsset::GetControlsText^^^:^^^：^^^AUTO
+MiniGameAsset::GetControlsText^^^\nIncrease Throttle\n^^^\nスロットル増加\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nDecrease Throttle\n^^^\nスロットル減少\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nIncrease Speed\n^^^\n速度増加\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nDecrease Speed\n^^^\n速度減少\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nHorizontal Rotation\n^^^\n水平回転\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nVertical Rotation^^^\n垂直回転^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nMove Position\n^^^\n位置移動\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nMove Elevation\n^^^\n高度移動\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nLanding Burn\n^^^\n着陸噴射\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nRoll^^^\nロール^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nRotate Left/Right^^^\n左/右回転^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nRotate\n^^^\n回転\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nSteel Left\n^^^\n左操舵\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nSteer Right^^^\n右操舵^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nDeploy Legs^^^\n脚を展開^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nTower Arms^^^\nタワーアーム^^^DISPLAY
+MiniGameLoreAsset::get_Desc^^^Your engineers are stuck at an issue and need your help!\n\n^^^あなたのエンジニアは問題に直面しており、あなたの助けが必要です！\n\n^^^AUTO
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI;ServicesWindow::UpdateUI^^^Launch Internet Satellites to increase the Capacity!^^^容量を増やすにはインターネット衛星を打ち上げましょう！^^^DISPLAY
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI;ServicesWindow::UpdateUI^^^Build Relays on the Planet in Construction Mode.^^^建設モードで惑星上に中継局を建設しましょう。^^^DISPLAY
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI;ServicesWindow::UpdateUI^^^Increase Bandwidth by launching Internet Satellites to lower orbits.^^^より低い軌道にインターネット衛星を打ち上げて帯域幅を増やしましょう。^^^DISPLAY
+InternetServiceTab::UpdateUI^^^\n<color=#ffffff75><size=90%>Global internet powered by thousands of satellites on Earth's orbit.^^^\n<color=#ffffff75><size=90%>地球軌道上の数千基の衛星が支えるグローバルインターネット。^^^DISPLAY
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI;ServicesWindow::UpdateUI^^^<color=#E74C3C>Users are exceeding the Capacity by {0:F0}%!^^^<color=#E74C3C>ユーザー数が容量を {0:F0}% 超過しています！^^^DISPLAY
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI;ServicesWindow::UpdateUI^^^<color=#E74C3C>Users are exceeding the Capacity, decreasing the Bandwidth by {0:F0}%!\n^^^<color=#E74C3C>ユーザー数が容量を超過し、帯域幅が {0:F0}% 低下しています！\n^^^DISPLAY
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI;ServicesWindow::UpdateUI^^^<color=#E74C3C>Satellites don't have enough Relays, decreasing the Bandwidth by {0:F0}%!^^^<color=#E74C3C>衛星に対する中継局が不足し、帯域幅が {0:F0}% 低下しています！^^^DISPLAY
+InternetServiceTab::UpdateUI^^^<color=#E74C3C>{0:F0}% of your Internet Satellites does not work properly. You need to build more Relays!^^^<color=#E74C3C>インターネット衛星の {0:F0}% が正常に動作していません。中継局を追加で建設する必要があります！^^^DISPLAY
+QAServicePanel::UpdateUI;ServicesWindow::UpdateUI^^^<color=#E74C3C>{0:F0}% of your LinkLink Satellites does not work properly. You need to build more Relays!^^^<color=#E74C3C>LinkLink 衛星の {0:F0}% が正常に動作していません。中継局を追加で建設する必要があります！^^^DISPLAY
+InternetServiceTab::UpdateUI^^^ is online^^^ はオンラインです^^^DISPLAY
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI^^^<b>Internet Satellites</b>\n<size=90%><color=#ffffff75>Low Orbit:</color></size> ^^^<b>インターネット衛星</b>\n<size=90%><color=#ffffff75>低軌道：</color></size>^^^AUTO
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI^^^ <size=90%><color=#ffffff75>(v2)</color></size>\n<size=90%><color=#ffffff75>High Orbit:</color></size> ^^^ <size=90%><color=#ffffff75>(v2)</color></size>\n<size=90%><color=#ffffff75>高軌道：</color></size>^^^AUTO
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI^^^ <size=90%><color=#ffffff75>(v2)</color></size>\n<size=90%><color=#ffffff75>Medium Orbit:</color></size> ^^^ <size=90%><color=#ffffff75>(v2)</color></size>\n<size=90%><color=#ffffff75>中軌道：</color></size>^^^AUTO
+QAServicePanel::UpdateUI^^^ <size=90%><color=#ffffff75>| last 12 months^^^<size=90%><color=#ffffff75> | 直近 12 か月^^^DISPLAY
+QAServicePanel::UpdateUI;ServicesWindow::UpdateUI^^^ <size=90%><color=#ffffff75>new users^^^<size=90%><color=#ffffff75>新規ユーザー^^^DISPLAY
+ProductionLinePanel::UpdateUI^^^Select Item to Produce^^^生産するアイテムを選択^^^DISPLAY
+ProductionLinePanel::UpdateUI^^^Select Item to Supply^^^供給するアイテムを選択^^^DISPLAY
+ProductionLinePanel::UpdateUI;AttachPayloadCommandPanel::SelectItem_OnClick^^^Select Item^^^アイテムを選択^^^DISPLAY
+PWProductionLinePanel::UpdateUI^^^No Item Selected^^^アイテムが選択されていません^^^DISPLAY
+ProductionLinePanel::UpdateUI^^^Production stopped^^^生産停止^^^DISPLAY
+ProductionLinePanel::UpdateUI^^^Production paused at {0}%^^^生産は {0}% で一時停止中^^^AUTO
+ProductionLinePanel::UpdateUI^^^Training paused at {0}%^^^訓練は {0}% で一時停止中^^^AUTO
+ProductionLinePanel::UpdateUI^^^Training stopped^^^訓練停止^^^DISPLAY
+ProductionLinePanel::UpdateUI;ProductionWindow::UpdateUI^^^Pin^^^ピン留め^^^AUTO
+ProductionLinePanel::UpdateUI^^^Clear Line^^^ラインをクリア^^^AUTO
+ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateProductionLines|1^^^Supply from Market^^^市場から供給^^^DISPLAY
+FactoryData::.ctor^^^Production Line {0}^^^生産ライン {0}^^^AUTO
+VehiclesWindow::UpdateUI^^^Produced in {0} of {1}^^^{1} の {0} で生産^^^DISPLAY
+ItemAsset::GetAssetInfo^^^Production Amount: ^^^生産量：^^^AUTO
+ItemAsset::GetAssetInfo^^^Production Cost: ^^^生産コスト：^^^AUTO
+ItemAsset::GetAssetInfo^^^Production Time: ^^^生産時間：^^^AUTO
+ItemAsset::GetAssetInfo^^^({0} minutes)^^^（{0} 分）^^^AUTO
+ItemAsset::GetAssetInfo^^^ (Improved Over Time)^^^（時間とともに向上）^^^DISPLAY
+ItemAsset::GetAssetInfo^^^Production\n^^^生産\n^^^DISPLAY
+ItemAsset::GetAssetInfo^^^Factories\n^^^工場\n^^^DISPLAY
+Asset::GetAssetInfo^^^Milestones\n^^^マイルストーン\n^^^DISPLAY
+Asset::GetAssetInfo;BlueprintAsset::GetAssetInfo^^^Upgrades\n^^^アップグレード\n^^^DISPLAY
+Asset::GetAssetInfo^^^Research^^^研究^^^DISPLAY
+Asset::GetAssetInfo^^^Unlocked with Set: ^^^セットで解放：^^^AUTO
+Asset::GetAssetInfo^^^Requires No Milestones^^^マイルストーン不要^^^DISPLAY
+Asset::GetAssetInfo^^^Unlocked After Milestones^^^マイルストーン達成後に解放^^^AUTO
+Asset::GetAssetInfo;DWAssetsFilter::GetObjectName^^^Unlockable^^^解放可能^^^DISPLAY
+BlueprintAsset::GetAssetInfo^^^Range: ^^^航続距離：^^^DISPLAY
+BlueprintAsset::GetAssetInfo^^^Space: ^^^スペース：^^^DISPLAY
+ConstructionAssetInformationTooltip::UpdateUI^^^No description^^^説明なし^^^AUTO

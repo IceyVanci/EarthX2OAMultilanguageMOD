@@ -1,0 +1,10 @@
+{
+    "EnVisia Data Center_Name": "enVisia: 軌道データセンター",
+    "EnVisia Data Center_Desc": "enVisiaの最新世代AIプロセッサは、地上の熱力学の限界を正式に押し広げています。巨大な地上サーバーファームの冷却にかかるエネルギーコストが持続不可能になりつつある中、このテック大手は究極の放熱先である宇宙空間に目を向けました。彼らは打ち上げパートナーを求めており、実験用軌道データセンターを展開し、低軌道の自然に寒冷な環境が同社最強のスーパーコンピュータを受動的に冷却できるかをテストしたいと考えています。",
+    "EnVisia Data Center Payload_Name": "cluster.SB{0}",
+    "EnVisia Data Center Payload_Desc": "巨大な放熱ラジエーターを装備した、専用の高密度サーバーモジュール。",
+    "EnVisia Space Training_Name": "enVisia: 宇宙トレーニング",
+    "EnVisia Space Training_Desc": "enVisiaは、次世代人工知能モデルを完全に低軌道でトレーニングするという前例のない構想を発表しました。この宇宙ベースのニューラルネットワークの正確な目的は企業秘密として厳重に守られていますが、数千基のフラッグシップGPUを単一の衛星に詰め込むという壮大な試みは、発表と同時にenVisiaの株価を14%急騰させるのに十分でした。今、彼らはこの待望のコンピューティングクラスターを軌道に乗せるため、有能な打ち上げプロバイダーを必要としています。",
+    "EnVisia Space Training Payload_Name": "cluster.exp_SBa.18p",
+    "EnVisia Space Training Payload_Desc": "軌道スーパーコンピュータとして機能する、特注の巨大衛星。複雑な機械学習アルゴリズムを実行する数千基の相互接続されたGPUを搭載しています。"
+}

@@ -1,0 +1,6 @@
+{
+    "ISS Bishop Airlock_Name": "国際宇宙ステーション用エアロック",
+    "ISS Bishop Airlock_Desc": "国際宇宙ステーション(ISS)用に開発された新しい商業モジュール。軌道上でマイクロ衛星を放出したり、大型の廃棄物を処理したりできるようになり、ISSの能力が大きく向上する。",
+    "ISS Bishop Airlock Payload_Name": "Airlock",
+    "ISS Bishop Airlock Payload_Desc": "@ISS Bishop Airlock_Desc"
+}

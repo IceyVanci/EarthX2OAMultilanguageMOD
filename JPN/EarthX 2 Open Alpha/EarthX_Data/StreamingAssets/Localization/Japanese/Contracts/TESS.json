@@ -1,0 +1,6 @@
+{
+    "TESS_Name": "Transiting Exoplanet Survey Satellite",
+    "TESS_Desc": "近隣の恒星の周りで惑星を探すために設計された、高性能な人工衛星。広視野カメラで恒星のわずかな減光を検出し、地球に似た小型の太陽系外惑星の発見に焦点を当てている。そのミッションは、生命を維持できる可能性のある世界を科学者たちが発見するのを助けることだ。",
+    "TESS Payload_Name": "TESS",
+    "TESS Payload_Desc": "@TESS_Desc"
+}

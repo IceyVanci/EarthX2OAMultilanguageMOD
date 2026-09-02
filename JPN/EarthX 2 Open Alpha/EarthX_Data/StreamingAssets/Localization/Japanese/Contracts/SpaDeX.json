@@ -1,0 +1,6 @@
+{
+    "SpaDeX_Name": "Space Docking Experiment",
+    "SpaDeX_Desc": "インドの双子衛星による、宇宙でのドッキングと編隊飛行を試験するミッション。衛星の軌道上での修理や燃料補給といった、将来の宇宙サービスミッションにつながる重要な一歩だ。",
+    "SpaDeX Payload_Name": "SpaDeX",
+    "SpaDeX Payload_Desc": "@SpaDeX_Desc"
+}

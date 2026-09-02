@@ -1,0 +1,35 @@
+# ja-strings8.tsv : IL ハードコード残留日本語化 (2026-09-02)
+# ソース: handoff/il-remaining-candidates.tsv (DLL 逐字抽出, KEEP 30 条) + 追加 Move up ( / Activate
+# 形式: SCOPE^^^ORIG^^^TRANS ; ORIG は DLL の ldstr と逐字一致, \n は字面エスケープ
+# DISABLED (6-dangerous 2026-09-01: breaks Asset.GetAsset<UpgradeAsset> lookup in construction ships window): ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateShips|2^^^Droneship Upgrade^^^ドローンシップアップグレード
+# DISABLED (6-dangerous 2026-09-01: breaks Asset.GetAsset<FairingReusabilityUpgradeAsset> lookup in construction ships window): ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateShips|2^^^Fairing Reusability Upgrade^^^フェアリング再利用アップグレード
+# DISABLED (breaks Asset.GetAsset lookups): ContractsManager::Awake^^^Launch Light Rocket^^^ライトロケットを打ち上げ
+# DISABLED (breaks Asset.GetAsset lookups): ContractsManager::CheckForContracts^^^Random Contracts^^^ランダム契約
+Cutscene::PlayCutscene^^^ (Video Player)^^^ （ビデオプレイヤー）^^^AUTO
+# DISABLED (breaks Asset.GetAsset lookups): Droneship::Return;Droneship::SetData^^^Droneship Rumba Upgrade^^^ドローンシップルンバアップグレード
+InternetServiceData::OnNewGame^^^Internet Service^^^インターネットサービス^^^AUTO
+# DISABLED (no-op: 'Internet Router' not in DLL; also would break GetDataByLinq): InternetServiceTab/<>c::<get_routersItem>b__28_1^^^Internet Router^^^インターネットルーター
+# DISABLED (breaks GetDataByLinq<ItemData>("routers item") key): InternetServiceTab::get_routersItem^^^routers item^^^ルーター
+ISSDockingMiniGame::Awake^^^Move backwards (^^^後退（^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move down (^^^下移動（^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move forwards (^^^前進（^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move left (^^^左移動（^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move right (^^^右移動（^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move up (^^^上移動（^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Roll left (^^^左ロール（^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Roll right (^^^右ロール（^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Rotate left (^^^左回転（^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Rotate right (^^^右回転（^^^DISPLAY
+LaunchData/InventorySettings::ValidateDestination^^^You can't launch from one space station to another.^^^宇宙ステーションから別の宇宙ステーションへは打ち上げられません。^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^You can't launch to space stations that are on a different planet.^^^別の惑星にある宇宙ステーションへは打ち上げられません。^^^AUTO
+LaunchData/VehicleSettings::Validate^^^Set a docking port for ^^^以下の対象にドッキングポートを設定：^^^AUTO
+# DISABLED (6-dangerous 2026-09-01: breaks PlanetsManager.LoadPlanetWithoutTransition scene-id in StartMiniGame): MiniGame::StartMiniGame;PlanetConnectionVisualController::UpdateUI^^^Mini Games^^^ミニゲーム
+NewGameWindow::Create_OnClick^^^so you decided to eat the raw pizza anyway.. that's fine. \n\nBut remember!\n\nThis game is still.. in alpha :(\n\n..enjoy the pizza while it's still in the oven I guess lol^^^結局、生ピザを食べることにしたんだね…それでいいよ。 \n\nでも覚えておいて！\n\nこのゲームはまだ…アルファ版なんだ :(\n\n…ピザがまだオーブンにあるうちに楽しんでね、笑^^^AUTO
+PlanetButton::UpdateUI^^^Transfer window with <color=#ffffff75><size=90%>^^^との転送ウィンドウ <color=#ffffff75><size=90%>^^^AUTO
+SaveFilePanel::UpdateUI^^^{0:dddd} <size=90%><color=#ffffff75>{1:dd} {2:MMMM}</color></size>^^^{0:dddd} <size=90%><color=#ffffff75>{1:dd}日{2:M}月</color></size>^^^DISPLAY
+ShipPanel::UpdateUI;VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateOptions|4^^^Set Nickname^^^ニックネームを設定^^^AUTO
+# DISABLED (breaks Animator.SetBool("Booster Inside") param): TowerCatchMiniGame::Update^^^Booster Inside^^^ブースター格納
+# DISABLED (breaks Animator.GetBool("Activate") param): TowerCatchMiniGame::Update;TowerCatchMiniGame::Catch_OnClick^^^Activate^^^起動
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Waiting for a window to open...^^^打ち上げウィンドウが開くのを待機中...^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateOptions|4^^^Rename Blueprint^^^ブループリント名を変更^^^AUTO
+VWVehiclesScroller::.ctor^^^Vehicles on Current Location^^^現在地のビークル^^^DISPLAY

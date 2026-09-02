@@ -1,0 +1,121 @@
+# EarthX 2 日本語化 - TMP ベイクドテキスト置換テーブル (第 2 部: プレハブ)
+Not enough storage^^^倉庫スペース不足
+Not Operational^^^稼働していません
+Open Contract^^^契約を開く
+Open Folder^^^フォルダーを開く
+Open in Finances Window^^^財務ウィンドウで開く
+Open in Inventory Window^^^インベントリウィンドウで開く
+Open in Services Window^^^サービスウィンドウで開く
+Open Inventory^^^インベントリを開く
+Open Inventory Window^^^インベントリウィンドウを開く
+Open Market Window^^^マーケットウィンドウを開く
+Open Production Window^^^生産ウィンドウを開く
+Open the contract that includes this payload.d^^^このペイロードを含む契約を開く
+Overview tab is not available yet.^^^概要タブはまだ利用できません。
+Stocks tab is not available yet.^^^株式タブはまだ利用できません。
+Transport service is not available yet.^^^輸送サービスはまだ利用できません。
+Recovery not possible^^^回収不可
+Select Destination^^^目的地を選択
+Select Difficulty^^^難易度を選択
+Select Dock^^^ドッキングポートを選択
+Select Item^^^アイテムを選択
+Select Item to Produce^^^生産するアイテムを選択
+Select Item To Produce^^^生産するアイテムを選択
+Select Launch Mode^^^打ち上げモードを選択
+Select Launch Pad^^^打ち上げ台を選択
+Select Location^^^場所を選択
+Select Recovery Type^^^回収方法を選択
+Select Vehicle To Refuel^^^給油するビークルを選択
+Reuse Hardware^^^ハードウェアを再利用
+Fairingship not ready^^^フェアリング回収船は未準備
+Must Be Brought Back^^^持ち帰る必要あり
+Must Match Planet?^^^同一惑星のみ？
+When On^^^有効時
+When less than^^^以下になった時
+Your Name^^^あなたの名前
+Your Signature:^^^あなたの署名：
+[Sign Here With Your Mouse]^^^[マウスでここに署名]
+All existing vehicles without folder will be added to this folder^^^フォルダー未所属の既存ビークルはすべてこのフォルダーに追加されます
+Newly built vehicles will be automatically added to this folder^^^新しく建造されたビークルは自動的にこのフォルダーに追加されます
+After you launch it to its destination, this payload must be brought back to its current location!^^^目的地に打ち上げた後、このペイロードは現在の場所に戻す必要があります！
+Base rate of your insurance^^^保険の基準料率
+Duration of the loan^^^ローンの期間
+Interest/cost of the loan^^^ローンの利息/コスト
+The more vehicles you have built, the more you pay for insurance^^^建造したビークルが多いほど保険料が高くなります
+Last year's performance, you will pay more if you had more failed launches last year.^^^前年の実績によります。昨年の打ち上げ失敗が多いほど保険料が高くなります。
+Value of all payload that was lost during the launch^^^打ち上げ中に失われた全ペイロードの価値
+If checked, automation will execute only if vehicle and destination are on the same planet (or its orbits).^^^チェックすると、ビークルと目的地が同一惑星（またはその軌道）にある場合のみ自動化が実行されます。
+If you want to recover the rocket from this mission, it must land on a droneship.\nA droneship is not required in the following cases:^^^このミッションのロケットを回収するには、ドローンシップに着陸させる必要があります。\n以下の場合はドローンシップは不要です：
+<size=90%><color=#ffffff75>1) Missions to <color=#55BBFF>Low Earth Orbit</color>\n2) Missions to <color=#55BBFF>Medium Earth Orbit</color> when less than half of the fairing capacity is used^^^<size=90%><color=#ffffff75>1) <color=#55BBFF>低軌道</color>へのミッション\n2) フェアリング容量の半分未満を使用する<color=#55BBFF>中軌道</color>へのミッション
+The Fairingship is not available. Fairings from this mission will not be recovered.^^^フェアリング回収船が利用できません。このミッションのフェアリングは回収されません。
+The Fairingship is ready and will attempt to catch the fairings as they descend through Earth’s atmosphere under parachutes.^^^フェアリング回収船は準備完了です。パラシュートで地球大気を降下するフェアリングのキャッチを試みます。
+Refuelling will be required in order to reach this destination^^^この目的地に到達するには軌道給油が必要です
+Satellites will deorbit over time^^^衛星は時間とともに軌道を離脱します
+Launch the rocket even if it's empty!^^^空でもロケットを打ち上げます！
+No contracts are available at this moment.^^^現在利用可能な契約はありません。
+Do you really really, I mean really remove that beautiful building? Yessss?^^^本当に本当に、つまり本当にあの美しい建物を撤去しますか？イエス？
+This action is manual, meaning that you will have to click on a button at the right moment!^^^この操作は手動です。適切なタイミングでボタンをクリックする必要があります！
+This channel does not broadcast off-world :P^^^このチャンネルは地球外には放送されません :P
+This is the vehicle that you will assign this automation program to.^^^これはこの自動化プログラムを割り当てるビークルです。
+This will try to refuel any vehicle that is on a parking orbit and requires a refuel.^^^これは待機軌道上で給油が必要な任意のビークルへの給油を試みます。
+Time window in which you will receive payloads related to this contract^^^この契約に関連するペイロードを受け取る時間窓
+Toggle if it's possible to assign this automation to a vehicle^^^この自動化をビークルに割り当てられるかどうかを切り替え
+Until this contract expires, you will continue to receive new payloads to launch^^^この契約が期限切れになるまで、打ち上げる新しいペイロードを受け取り続けます
+There are no items on this^^^これにはアイテムがありません
+You are not selling any item yet.^^^まだアイテムを販売していません。
+You are not selling this item yet^^^まだこのアイテムを販売していません
+You are losing 1850$ on each sale!^^^各販売で 1850$ の損失です！
+You can use this vehicle in a mission even without servicing, but this will affect the flight success and insurance.^^^整備なしでもこのビークルをミッションに使用できますが、飛行成功率と保険に影響します。
+You don't have any automation yet!^^^まだ自動化プログラムがありません！
+You don't have any vehicles produced.\nClick on a factory and produce some!^^^生産されたビークルがありません。\n工場をクリックして生産しましょう！
+You don't have any vehicles produced.\nGo to the Production Window!^^^生産されたビークルがありません。\n生産ウィンドウへ行きましょう！
+You have no available loans.^^^利用可能なローンがありません。
+You have no services yet.^^^まだサービスがありません。
+You made no insurance claims yet.^^^まだ保険金請求を行っていません。
+You must build factories in the^^^以下の場所に工場を建設する必要があります：
+You must build vehicles in the^^^以下の場所でビークルを生産する必要があります：
+You receive strikes when you miss a deadline.\nToo many strikes can terminate the contract or prevent its future extension.^^^期限を逃すと違反が記録されます。\n違反が多すぎると契約が終了したり、将来の延長ができなくなったりします。
+Your insurance has been cancelled forever.^^^あなたの保険は永久に解約されました。
+<color=#ffffff75><size=90%>Any vehicle of this type will be attached to the mission.^^^<color=#ffffff75><size=90%>このタイプの任意のビークルがミッションに装着されます。
+<color=#ffffff75><size=90%>This vehicle will be attached to the mission.^^^<color=#ffffff75><size=90%>このビークルがミッションに装着されます。
+<color=#ffffff75><size=90%>Items of this type will be launched with the mission.^^^<color=#ffffff75><size=90%>このタイプのアイテムがミッションとともに打ち上げられます。
+<color=#ffffff75><size=90%>Any launch pad of this type will be used to launch the mission.^^^<color=#ffffff75><size=90%>このタイプの任意の打ち上げ台がミッションの打ち上げに使用されます。
+<color=#ffffff75><size=90%>This launch pad will be used to launch the mission from.^^^<color=#ffffff75><size=90%>この打ち上げ台からミッションが打ち上げられます。
+<color=#ffffff75><size=90%>Any vehicle parked on the parking orbit will be refuelled.^^^<color=#ffffff75><size=90%>待機軌道に停泊している任意のビークルが給油されます。
+<color=#ffffff75><size=90%>Program will be ran only if the vehicle is on specified location.^^^<color=#ffffff75><size=90%>プログラムはビークルが指定の場所にある場合のみ実行されます。
+<size=90%><color=#ffffff99>You need to launch 300 internet satellites to Earth's orbits before running this service.^^^<size=90%><color=#ffffff99>このサービスを運営するには、まず地球軌道に 300 基のインターネット衛星を打ち上げる必要があります。
+<size=90%><color=#ffffff75>Learn how to land a rocket vertically using only its engine. Reach at least 150 meters, then land gently on the second landing zone.^^^<size=90%><color=#ffffff75>エンジンだけでロケットを垂直着陸させる方法を学びましょう。少なくとも 150 メートルに到達し、第 2 着陸ゾーンにそっと着陸しましょう。
+<size=90%><color=#ffffff75>Help your employees etc^^^<size=90%><color=#ffffff75>従業員を助けましょう など
+<size=90%><color=#ffffff75>Supply astronauts with rotated chicken yessss^^^<size=90%><color=#ffffff75>宇宙飛行士に回転チキンを供給、イェーイ
+<size=90%><color=#ffffff75>Your company can now apply for a loan of up to $12M^^^<size=90%><color=#ffffff75>あなたの会社は現在、最高 1200万ドルのローンを申請できます
+<size=90%><color=#ffffff75>CRSP-15 exploded during re-entry on Mars. It was sent to the Rocket Valhalla.</color></size>^^^<size=90%><color=#ffffff75>CRSP-15 は火星で再突入中に爆発しました。ロケット・ヴァルハラへ送られました。</color></size>
+<size=90%><color=#ffffff99>The most advanced space telescope ever built, designed to study the origins of the universe. It will explore galaxies, stars, and planets, providing valuable insights into their history.^^^<size=90%><color=#ffffff99>史上最も先進的な宇宙望遠鏡。宇宙の起源の研究のために設計され、銀河、恒星、惑星を探査してその歴史への貴重な洞察を提供します。
+<size=90%><color=#ffffff75>A U.S. car company is running a marketing campaign and wants you to launch their prototype electric car into space as a test mission for your new heavy rocket.^^^<size=90%><color=#ffffff75>アメリカの自動車会社がマーケティングキャンペーンを展開しており、新しい重ロケットのテストミッションとして試作電気自動車を宇宙に打ち上げてほしいと考えています。
+<size=90%><color=#ffffff75>Transfer window with Mars is now <color=#E74C3C>closed</color>^^^<size=90%><color=#ffffff75>火星との転送ウィンドウは現在<color=#E74C3C>閉鎖中</color>
+<size=90%><color=#ffffff75>Red lines must be aligned with the white lines^^^<size=90%><color=#ffffff75>赤い線を白い線に合わせる必要があります
+<i>"Remember to drink some water as you play the game. It allows your brain to function - and perhaps you won't write a negative review in case of a misunderstanding"</i>^^^<i>「ゲームをプレイするときは水を飲むことを忘れないでください。脳の機能に必要です——そうすれば、誤解があってもネガティブなレビューを書かずに済むかもしれません」</i>
+Just Read The Instructions^^^説明書を読めばいいだけ
+Astronauts are chatting with their families via video call.^^^宇宙飛行士がビデオ通話で家族と話しています。
+Astronauts are cleaning and maintaining the station..^^^宇宙飛行士がステーションを清掃・整備しています..
+Astronauts are exercising on the treadmill.^^^宇宙飛行士がトレッドミルで運動しています。
+Astronauts are experimenting with zero-gravity cooking.^^^宇宙飛行士が無重力調理を実験しています。
+Astronauts are observing Earth from the cupola.^^^宇宙飛行士がキューポラから地球を観察しています。
+A devastating earthquake has hit a densely populated region, crippling the local infrastructure. Emergency services request your user terminals to coordinate rescue efforts.^^^壊滅的な地震が人口密集地域を襲い、地域のインフラが麻痺しています。緊急サービスが救助活動を調整するため、あなたのユーザーターミナルを要請しています。
+A global pandemic requires a swift and coordinated response. Health organizations need your terminals to track outbreaks and distribute vital information.^^^世界的なパンデミックには迅速かつ協調的な対応が必要です。保健機関は感染拡大の追跡と重要情報の配布のため、あなたのターミナルを必要としています。
+A peaceful country has been invaded, creating a flood of refugees in need of basic services and communication with lost family members.^^^平和な国が侵略され、基礎サービスと行方不明の家族との連絡を必要とする難民の波が発生しています。
+A region prone to tsunamis lacks an effective early warning system. Local governments ask for your assistance in implementing a satellite-based alert system.^^^津波が発生しやすい地域に効果的な早期警戒システムがありません。地方政府が衛星ベースの警報システムの導入支援を求めています。
+A remote village, isolated by mountains, seeks Starlink user terminals to connect with the world. They've heard of your work and hope you can assist in bridging their digital divide.^^^山に隔離された遠隔の村が、世界とつながるための Starlink ユーザーターミナルを求めています。彼らはあなたの活動を聞き及び、デジタルデバイドの解消を手助けしてくれることを期待しています。
+A wildlife conservation group needs LinkLink user terminals for the drones to monitor endangered species in remote areas.^^^野生生物保護団体が、遠隔地の絶滅危惧種を監視するドローンのために LinkLink ユーザーターミナルを必要としています。
+An artist working on a remote installation needs user terminals to livestream the artwork's creation to the world.^^^遠隔地のインスタレーションに取り組むアーティストが、作品の制作過程を世界にライブ配信するためのユーザーターミナルを必要としています。
+An initiative to connect the elderly in retirement communities through the internet requests user terminals. They aim to reduce isolation.^^^高齢者コミュニティの高齢者をインターネットでつなぐ取り組みがユーザーターミナルを要請しています。孤立の軽減を目指しています。
+Massive wildfires are raging through a national park, and firefighting teams lack the communication tools to effectively combat the blaze. They ask for your drones and terminals.^^^大規模な山火事が国立公園を猛威を振るっており、消防隊には効果的に火災と戦うための通信手段がありません。彼らはあなたのドローンとターミナルを求めています。
+Seasonal floods have displaced thousands, destroying homes and cutting off communities. Relief organizations seek your tech to establish temporary communication networks.^^^季節性の洪水で数千人が避難を余儀なくされ、家が破壊され、コミュニティが孤立しています。救援組織が一時的な通信ネットワークを構築するためのあなたの技術を求めています。
+A government agency is offering a lucrative contract to use your satellites for a surveillance program.^^^政府機関が、監視プログラムにあなたの衛星を使用するための高額な契約を提示しています。
+An authoritarian regime requests an exclusive contract for your services to establish a tightly controlled communication network. It's a lucrative deal but at what cost?^^^権威主義体制が、厳重に管理された通信ネットワークを構築するための独占契約を要請しています。高額な取引ですが、その代償は？
+Private Military Company (PMC) Contract: "A PMC operating in conflict zones wants to purchase a large supply of your tech for 'logistics and communication'. Their reputation is questionable. Do you fulfill the order?^^^民間軍事会社（PMC）契約：「紛争地域で活動するPMCが『物流と通信』のためにあなたの技術を大量購入したいと考えています。彼らの評判は疑わしいものですが、注文に応じますか？
+An advertising company wants to use your satellites to project ads into the night sky, turning the stars into billboards. It's innovative but highly controversial. Do you light up the sky with ads?^^^広告会社が、あなたの衛星を使って夜空に広告を投影し、星を看板に変えたいと考えています。革新的ですが非常に議論を呼ぶものです。広告で空を照らしますか？
+A museum dedicated to space exploration history wants to create an exhibit featuring your company. They request a Prime Rocket for the setup.^^^宇宙探査の歴史を専門とする博物館が、あなたの会社を特集する展示を作りたいと考えています。展示用にプライムロケットを要請しています。
+A local school is hosting a rocket model competition and they're short on funds. They're asking for a donation to help future engineers reach for the stars.^^^地元の学校がロケット模型コンテストを開催していますが、資金が不足しています。未来のエンジニアが星に手を伸ばすのを助けるための寄付を求めています。
+A tech university is organizing a space-themed hackathon but lacks sponsors. They're asking for your financial support to nurture future talents in space technology.^^^理工系大学が宇宙をテーマにしたハッカソンを企画していますが、スポンサーがいません。宇宙技術の未来の人材を育成するための資金支援を求めています。
+An eccentric scientist claims to be close to a breakthrough in alien communication technology and requests funding.^^^風変わりな科学者が、異星文明との通信技術の画期的な進歩に近づいていると主張し、資金を要請しています。
+you've won a 'Lunar Land Ownership' contest. All they need is a small processing fee to transfer the land rights.^^^あなたは「月面土地所有権」コンテストに当選しました。土地権利を移転するために必要なのは、わずかな手数料だけです。

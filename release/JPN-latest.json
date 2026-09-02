@@ -1,0 +1,12 @@
+{
+    "lang":  "JPN",
+    "language":  "Japanese",
+    "version":  "1.0.0",
+    "date":  "2026-09-02",
+    "zipUrl":  "https://raw.githubusercontent.com/{REPO}/main/release/JPN-EarthX2OAJapaneseMOD_v1.0.0.zip",
+    "zipFullUrl":  "https://raw.githubusercontent.com/{REPO}/main/release/JPN-EarthX2OAJapaneseMOD_v1.0.0_full.zip",
+    "sha256":  "787ff3a2cdc3d74692af50cdcb7a894e61736433a64d89fae42b00fbcab6feed",
+    "sha256Full":  "1223ab8fb26698ee1dd6862f327a72492ff59637febe13486f30f0407c969216",
+    "rules":  "591 lines / 580 unique ORIG; baked 299; JSON 64 files; embedded font Source Han Sans JP (OFL 1.1)",
+    "notes":  "https://raw.githubusercontent.com/{REPO}/main/CHANGELOG.md"
+}

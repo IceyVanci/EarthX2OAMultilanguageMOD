@@ -1,0 +1,103 @@
+# EarthX 2 日本語化 - IL 文字列置換テーブル
+# 形式: スコープ^^^原文^^^訳文  (スコープはセミコロン区切りのメソッド完全名プレフィックス)
+# エスケープ: \n = 改行, \r = 復帰
+MainMenuUI::UpdateUI^^^ </color></size>\nContinue Game^^^</color></size>\nゲームを続ける^^^AUTO
+VersionText::UpdateUI^^^ <color=#e74c3c>> COMMUNITY <</color>^^^<color=#e74c3c>> コミュニティ <</color>^^^DISPLAY
+VersionText::UpdateUI^^^Saving EarthX 2...          ^^^EarthX 2 を保存中...          ^^^DISPLAY
+SaveFilePanel::OnClick^^^Unable to load this save file - was created using EarthX 2 v^^^このセーブファイルを読み込めません - EarthX 2 v で作成されました^^^DISPLAY
+FormatTime::TimeAgo^^^{0} years ago^^^{0} 年前^^^DISPLAY
+FormatTime::TimeAgo^^^a year ago^^^1年前^^^DISPLAY
+FormatTime::TimeAgo^^^{0} months ago^^^{0} ヶ月前^^^DISPLAY
+FormatTime::TimeAgo^^^a month ago^^^1ヶ月前^^^DISPLAY
+FormatTime::TimeAgo^^^{0} days ago^^^{0} 日前^^^DISPLAY
+FormatTime::TimeAgo^^^a day ago^^^1日前^^^DISPLAY
+FormatTime::TimeAgo^^^Recent^^^最近^^^DISPLAY
+FormatTime::TimeUntil^^^now^^^今^^^DISPLAY
+FormatTime::TimeUntil^^^soon™^^^まもなく™^^^DISPLAY
+FormatTime::TimeUntil^^^one year^^^1年^^^DISPLAY
+FormatTime::TimeUntil^^^one month^^^1ヶ月^^^DISPLAY
+FormatTime::TimeUntil^^^one day^^^1日^^^DISPLAY
+FormatTime::TimeLeft^^^left^^^残り^^^DISPLAY
+FormatTime::TimeLeft^^^years^^^年^^^DISPLAY
+FormatTime::TimeLeft^^^year^^^年^^^DISPLAY
+FormatTime::TimeLeft^^^months^^^ヶ月^^^DISPLAY
+FormatTime::TimeLeft^^^month^^^ヶ月^^^DISPLAY
+FormatTime::TimeLeft^^^days^^^日^^^DISPLAY
+FormatTime::TimeLeft^^^day^^^日^^^DISPLAY
+FormatTime::TimeLeft^^^{0} <color=#ffffff75>{1}</color> {2}^^^残り {0} <color=#ffffff75>{1}</color> {2}^^^DISPLAY
+FormatTime::TimeLeft^^^{0}<color=#ffffff75>y</color> {1}<color=#ffffff75>d</color> {2}^^^{0}<color=#ffffff75>年</color> {1}<color=#ffffff75>日</color> {2}^^^DISPLAY
+FormatTime::TimeLeft^^^{0}<color=#ffffff75>y</color> {1}<color=#ffffff75>m</color> {2}^^^{0}<color=#ffffff75>年</color> {1}<color=#ffffff75>ヶ月</color> {2}^^^DISPLAY
+FormatTime::TimeLeft^^^{0}<color=#ffffff75>y</color> {1}<color=#ffffff75>m</color> {2}<color=#ffffff75>d</color> {3}^^^{0}<color=#ffffff75>年</color> {1}<color=#ffffff75>ヶ月</color> {2}<color=#ffffff75>日</color> {3}^^^AUTO
+FormatTime::TimeLeft^^^{0}<color=#ffffff75>m</color> {1}<color=#ffffff75>d</color> {2}^^^{0}<color=#ffffff75>ヶ月</color> {1}<color=#ffffff75>日</color> {2}^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__ContractDuration|2;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__ContractDuration|4;FormatTime::TimeUntil^^^{0} years^^^{0} 年^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__ContractDuration|2;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__ContractDuration|4^^^<color=#ffffff75><size=90%>in</size></color> ^^^<color=#ffffff75><size=90%>後</size></color>^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__ContractDuration|2;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__ContractDuration|4^^^<color=#ffffff75><size=90%>No new payloads</size></color>^^^<color=#ffffff75><size=90%>新しいペイロードはありません</size></color>^^^DISPLAY
+ContractData::Sign^^^You received ^^^受け取りました^^^DISPLAY
+ContractData::Sign^^^ for signing the contract!^^^（契約への署名で）^^^DISPLAY
+ContractData::TryToDelete^^^ contract has been terminated - you had too many strikes!^^^ 契約は終了されました - 違反が多すぎました！^^^DISPLAY
+ContractData::TryToDelete^^^You received ^^^受け取りました^^^DISPLAY
+ContractData::TryToDelete^^^ for completing the ^^^、完了した^^^AUTO
+ContractData::TryToDelete^^^ contract without many strikes!^^^ 契約の報酬（違反なし）！^^^DISPLAY
+ContractData::TryToDelete^^^You did not receive ^^^受け取りませんでした^^^AUTO
+ContractData::TryToDelete^^^ contract - you had too many strikes!^^^ 契約の報酬 - 違反が多すぎました！^^^AUTO
+ContractData::TryToDelete^^^You received items for completing the ^^^完了した契約のアイテムを受け取りました^^^DISPLAY
+ContractData::TerminateContract^^^You've terminated the ^^^早期終了しました^^^DISPLAY
+ContractData::TerminateContract^^^ contract early!^^^ 契約！^^^DISPLAY
+ContractData::PayloadPastDeadline^^^You didn't launch ^^^期限までに打ち上げませんでした^^^DISPLAY
+ContractData::PayloadPastDeadline^^^ in time! You were fined!^^^！罰金が科されました！^^^DISPLAY
+ContractsManager::<CheckForContracts>g__SpawnContract|20_0^^^ just became available in ^^^ で利用可能になりました^^^DISPLAY
+ContractsManager::<CheckForContracts>g__SpawnContract|20_0^^^Contracts Window^^^契約ウィンドウ^^^AUTO
+ContractsManager::<CheckForContracts>g__SpawnContract|20_0;InsuranceClaimData::OnMonthPassed_CheckForResolution;InsuranceData::RecalculateQuarterlyPayment;LoanData::RepayLoan;LoanData::TakeLoan^^^!^^^！^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__ContractSign|0^^^Sign\n^^^署名\n^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__ContractSign|0;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__ContractSign|2^^^Sign^^^署名^^^DISPLAY
+ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__ContractSign|2^^^Sign (^^^署名（^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__SetOptions|6;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__SetOptions|7^^^Terminate^^^終了^^^AUTO
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__SetOptions|6;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__SetOptions|7^^^Open in Wikipedia^^^ウィキペディアで開く^^^AUTO
+ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>b__8^^^Do you really want to terminate the ^^^本当に契約を終了しますか^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>b__7^^^Really terminate the ^^^本当に契約を終了しますか^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>b__7;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>b__8^^^ contract?^^^ ？^^^DISPLAY
+ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>b__8^^^This contract can't be terminated now.^^^この契約は現在終了できません。^^^DISPLAY
+ContractViewWindow::UpdateUI^^^\n<size=90%><color=#55BBFF>Special Contract</size></color>^^^\n<size=90%><color=#55BBFF>特別契約</size></color>^^^DISPLAY
+MWContractPanel::UpdateUI^^^<color=#9B59B6><size=90%>Opportunity</size></color>\n^^^<color=#9B59B6><size=90%>機会</size></color>\n^^^DISPLAY
+LoanData::TakeLoan^^^You've taken a ^^^申請しました^^^AUTO
+LoanData::TakeLoan^^^ of ^^^、金額^^^AUTO
+LoanData::RepayLoan^^^You've full repaid your ^^^完済しました^^^DISPLAY
+CWLoanPanel::UpdateUI^^^Take Loan\n^^^ローンを借りる\n^^^DISPLAY
+CWLoanPanel::UpdateUI^^^Repay Loan\n^^^ローンを返済\n^^^DISPLAY
+CWLoanPanel::UpdateUI^^^{0} <size=90%><color=#ffffff75>months^^^{0} <size=90%><color=#ffffff75>ヶ月^^^DISPLAY
+CWLoanPanel::UpdateUI^^^ <size=90%><color=#ffffff75>| per month^^^ <size=90%><color=#ffffff75>| 毎月^^^DISPLAY
+PWLoanPreview::UpdateUI^^^</align>\n<color=#ffffff75><size=90%>Your company can now apply for a loan of up to</size></color> ^^^</align>\n<color=#ffffff75><size=90%>あなたの会社は現在、最高以下の額のローンを申請できます</size></color>^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^Your insurance claim was accepted and you've received ^^^保険金請求が承認され、受け取りました^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^* You took a risk by launching too many payloads at once.^^^* 一度に多くのペイロードを打ち上げてリスクを冒しました。^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^\n* One of the vehicles didn’t meet full quality standards at launch.^^^\n* ビークルの1つが打ち上げ時に完全な品質基準を満たしていませんでした。^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^* One of the vehicles didn’t meet full quality standards at launch.^^^* ビークルの1つが打ち上げ時に完全な品質基準を満たしていませんでした。^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^\n* One of the vehicles was reflown which might have affected the flight performance.^^^\n* ビークルの1つが再飛行され、飛行性能に影響した可能性があります。^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^* One of the vehicles was reflown which might have affected the flight performance.^^^* ビークルの1つが再飛行され、飛行性能に影響した可能性があります。^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^\n* The insurance company gained access to a witness who testified that the launch could have been canceled and the explosion would never have happened.^^^\n* 保険会社は、打ち上げは中止できたはずで爆発は決して起こらなかったと証言した目撃者へのアクセスを得ました。^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^* The insurance company gained access to a witness who testified that the launch could have been canceled and the explosion would never have happened.^^^* 保険会社は、打ち上げは中止できたはずで爆発は決して起こらなかったと証言した目撃者へのアクセスを得ました。^^^DISPLAY
+InsuranceData::RecalculateQuarterlyPayment^^^Your insurance quarterly payment has increased by ^^^保険の四半期支払いが増加しました^^^AUTO
+InsuranceData::RecalculateQuarterlyPayment^^^Your insurance quarterly payment has decreased by ^^^保険の四半期支払いが減少しました^^^AUTO
+InsuranceData::RecalculateQuarterlyPayment^^^<color=#ffffff75><size=90%>%</size></color> to ^^^<color=#ffffff75><size=90%>%</size></color> に^^^AUTO
+InsuranceData::CancelForever^^^Your insurance was cancelled forever!^^^保険は永久に解約されました！^^^DISPLAY
+InsuranceTab::CancelInsurance_OnClick^^^Do you really want to cancel your insurance forever?\nThis can't be reverted.^^^本当に保険を永久に解約しますか？\nこれは元に戻せません！^^^DISPLAY
+InsuranceTab::UpdateUI^^^Insurance\n^^^保険\n^^^DISPLAY
+InsuranceTab::UpdateUI^^^<size=90%><color=#ffffff75> | per quarter^^^<size=90%><color=#ffffff75> | 四半期ごと^^^DISPLAY
+InsuranceClaimPanel::UpdateUI^^^Claim from <size=90%><color=#ffffff75>{0} {1}^^^請求元 <size=90%><color=#ffffff75>{0} {1}^^^AUTO
+InsuranceClaimPanel::UpdateUI^^^Partially approved^^^一部承認^^^DISPLAY
+InsuranceClaimPanel::UpdateUI^^^Fully approved^^^完全承認^^^DISPLAY
+InsuranceClaimPanel::UpdateUI^^^In review...^^^審査中...^^^DISPLAY
+InsuranceClaimPanel::UpdateUI^^^{0} <color=#ffffff75><size=90%>({1}%)^^^{0} <color=#ffffff75><size=90%>（{1}%）^^^AUTO
+InsuranceClaimPanel::UpdateUI^^^<size=90%><color=#ffffff75>Your claim was only partially approved:</color></size>\n{0}\n<size=90%><color=#ffffff75>The EarthX Council has decided to approve only {1}% of your original request.^^^<size=90%><color=#ffffff75>保険金請求は一部のみ承認されました：</color></size>\n{0}\n<size=90%><color=#ffffff75>EarthX 評議会は元の請求の {1}% のみの承認を決定しました。^^^AUTO
+FailureData::GenerateFailureLoreMessage^^^ exploded during launch on ^^^ は打ち上げ中に爆発しました：^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^ exploded during attempted recovery on ^^^ は回収試行中に爆発しました：^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^ exploded during re-entry on ^^^ は再突入中に爆発しました：^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^ exploded just after separation on ^^^ は分離直後に爆発しました：^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^ It was sent to the Rocket Valhalla.^^^ ロケット・ヴァルハラへ送られました。^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^ They were sent to the Rocket Valhalla.^^^ ロケット・ヴァルハラへ送られました。^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^ tipped over on the ocean during droneship transport operations.^^^ ドローンシップ輸送中に海上で転倒しました。^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^\nInsurance claim (^^^\n保険金請求（^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^) has been automatically created.\n<color=#ffffff75><size=90%>See Company Window / Insurance^^^）が自動的に作成されました。\n<color=#ffffff75><size=90%>会社ウィンドウ / 保険を参照^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^\n\n<color=#ffffff75><size=90%>Insurance</size></color>^^^\n\n<color=#ffffff75><size=90%>保険</size></color>^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^\n\n<color=#ffffff75><size=90%>Payload Lost</size></color>^^^\n\n<color=#ffffff75><size=90%>ペイロード損失</size></color>^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^\nInsurance claim was not created because lost of vehicle was purely your fault.^^^\nビークルの損失が完全にあなたの責任であるため、保険金請求は作成されませんでした。^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^\nYour insurance was cancelled forever.^^^\n保険は永久に解約されました。^^^DISPLAY
