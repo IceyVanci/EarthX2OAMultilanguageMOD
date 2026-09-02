@@ -1,11 +1,12 @@
 {
     "lang":  "CHS",
+    "language":  "Chinese",
     "version":  "1.0.0",
     "date":  "2026-09-02",
     "zipUrl":  "https://raw.githubusercontent.com/{REPO}/main/release/CHS-EarthX2OAChineseMOD_v1.0.0.zip",
     "zipFullUrl":  "https://raw.githubusercontent.com/{REPO}/main/release/CHS-EarthX2OAChineseMOD_v1.0.0_full.zip",
-    "sha256":  "0f6f4acb3ef975c489ac24045ab8c0c9a125cdd3515404353c676b9e16c7d467",
-    "sha256Full":  "4258b2240643fb62059818d845aa7c7abb59a3bca91bc93a0bb224bf132a13d8",
+    "sha256":  "0b9f664f7f294ed8aa157e014dc01b2a20229dbe735010d02bad9cd2d69481e7",
+    "sha256Full":  "7dd2e04fa17a4dc1223823eea05b3ffea08e1b15f38376ddb225b46894b5f013",
     "rules":  "591 lines / 580 unique ORIG (DISPLAY 386, AUTO 205); baked 299; JSON 64 files; embedded font Source Han Sans CN (OFL 1.1)",
     "notes":  "https://raw.githubusercontent.com/{REPO}/main/CHANGELOG.md"
 }

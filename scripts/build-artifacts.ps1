@@ -1,13 +1,14 @@
 ﻿# build-artifacts.ps1 - Release builder for the EarthX2OAMultilanguageMOD project (multi-language).
-# Produces (per language, -Lang CHS by default):
-#   release\<LANG>-EarthX2OA<LANG>MOD_v<ver>.zip          (patch only)
-#   release\<LANG>-EarthX2OA<LANG>MOD_v<ver>.zip.sha256
-#   release\<LANG>-EarthX2OA<LANG>MOD_v<ver>_full.zip     (patch + unmodified BepInEx/Doorstop framework, LGPL-2.1)
-#   release\<LANG>-EarthX2OA<LANG>MOD_v<ver>_full.zip.sha256
-#   release\<LANG>-latest.json  + release\_build_report.txt
-# Workflow: refresh publish repo tree from workspace -> hard gate (verify.ps1, incl.
-# repo-tree == workspace sync) -> stage zips FROM the repo tree (so GitHub download
-# and zips are byte-identical). Manual-overwrite updates (no update.ps1 / manifest.txt).
+# Produces (per language, -Lang CHS|DEU|JPN):
+#   release\<LANG>-<ZipMod>_v<ver>.zip          (patch only)
+#   release\<LANG>-<ZipMod>_v<ver>.zip.sha256
+#   release\<LANG>-<ZipMod>_v<ver>_full.zip     (patch + unmodified BepInEx/Doorstop framework, LGPL-2.1)
+#   release\<LANG>-<ZipMod>_v<ver>_full.zip.sha256
+#   release\<LANG>-latest.json  + release\_build_report_<LANG>.txt
+# Workflow:
+#   CHS: refresh publish repo tree from workspace -> hard gate (verify.ps1) -> stage zips FROM the repo tree.
+#   DEU: offline-authored repo tree (no workspace refresh) -> hard gate -> stage zips FROM the repo tree.
+#   JPN: offline-authored repo tree (no workspace refresh) -> hard gate -> stage zips FROM the repo tree.
 # Distribution is repo-file based: zips + sha256 + <LANG>-latest.json live in release\ and are
 # committed to git (no GitHub Releases). URLs point at raw.githubusercontent.com/{REPO}/main/...;
 # replace {REPO} with 用户名/仓库名 before first push.
@@ -24,46 +25,91 @@ $game = if ($GameRoot -ne "") { $GameRoot } else { "F:\EarthX 2 Open Alpha (Wind
 $publish = "$game\publish"
 if ($Version -eq "") { $Version = ([IO.File]::ReadAllText("$publish\VERSION", [Text.Encoding]::UTF8)).Trim() }
 $distrib = "$publish\release"
-$zhSrc = "$game\EarthX_Data\StreamingAssets\Localization\Chinese"
-$plug = "$game\BepInEx\plugins\EarthX2Chinese"
-$langTree = "$publish\$Lang\EarthX 2 Open Alpha"
-$repoZh = "$langTree\EarthX_Data\StreamingAssets\Localization\Chinese"
-$repoPlug = "$langTree\BepInEx\plugins\EarthX2Chinese"
-# zip middle segment per language (e.g. CHS -> EarthX2OAChineseMOD). Fallback: EarthX2OA<LANG>MOD.
-$zipModByName = @{ "CHS" = "EarthX2OAChineseMOD" }
-$zipMod = if ($zipModByName.ContainsKey($Lang)) { $zipModByName[$Lang] } else { "EarthX2OA${Lang}MOD" }
-$zipName = "${Lang}-${zipMod}_v$Version"
 
-Write-Host "=== EarthX2Chinese build v$Version [$Lang] ==="
+# ---- language profiles ----
+$profiles = @{
+    "CHS" = @{
+        Prefix        = "zh"
+        TargetLang    = "Chinese"
+        PlugDirName   = "EarthX2Chinese"
+        JsonDirName   = "Chinese"
+        FromWorkspace = $true
+        ZipMod        = "EarthX2OAChineseMOD"
+        EmbeddedFonts = $true
+        UniqueOrig    = 580
+        RulesNote     = "591 lines / 580 unique ORIG (DISPLAY 386, AUTO 205); baked 299; JSON 64 files; embedded font Source Han Sans CN (OFL 1.1)"
+    }
+    "DEU" = @{
+        Prefix        = "de"
+        TargetLang    = "German"
+        PlugDirName   = "EarthX2German"
+        JsonDirName   = "German"
+        FromWorkspace = $false
+        ZipMod        = "EarthX2OAGermanMOD"
+        EmbeddedFonts = $false
+        UniqueOrig    = 580
+        RulesNote     = "591 lines / 580 unique ORIG; baked 299; JSON 64 files; game-embedded font (no font files shipped)"
+    }
+    "JPN" = @{
+        Prefix        = "ja"
+        TargetLang    = "Japanese"
+        PlugDirName   = "EarthX2Japanese"
+        JsonDirName   = "Japanese"
+        FromWorkspace = $false
+        ZipMod        = "EarthX2OAJapaneseMOD"
+        EmbeddedFonts = $true
+        UniqueOrig    = 580
+        RulesNote     = "591 lines / 580 unique ORIG; baked 299; JSON 64 files; embedded font Source Han Sans JP (OFL 1.1)"
+    }
+}
+if (-not $profiles.ContainsKey($Lang)) { throw "unknown Lang '$Lang' (expected CHS, DEU or JPN)" }
+$P = $profiles[$Lang]
+$prefix = $P.Prefix
+
+$zhSrc = "$game\EarthX_Data\StreamingAssets\Localization\$($P.JsonDirName)"
+$plug = "$game\BepInEx\plugins\$($P.PlugDirName)"
+$langTree = "$publish\$Lang\EarthX 2 Open Alpha"
+$repoZh = "$langTree\EarthX_Data\StreamingAssets\Localization\$($P.JsonDirName)"
+$repoPlug = "$langTree\BepInEx\plugins\$($P.PlugDirName)"
+$zipName = "${Lang}-$($P.ZipMod)_v$Version"
+
+Write-Host "=== EarthX2$($P.TargetLang) build v$Version [$Lang] ==="
 New-Item -ItemType Directory -Path $distrib -Force | Out-Null
 
-# ---------- 1. refresh repo tree from workspace ----------
-Write-Host "[1/7] refreshing publish repo tree ($Lang) from workspace ..."
-# Chinese JSON (exclude junk)
-New-Item -ItemType Directory -Path $repoZh -Force | Out-Null
-Get-ChildItem -LiteralPath $zhSrc -Recurse -File | Where-Object { $_.Name -notin @('.DS_Store','Thumbs.db') } | ForEach-Object {
-    $rel = $_.FullName.Substring($zhSrc.Length).TrimStart('\')
-    $d = Split-Path -Parent (Join-Path $repoZh $rel)
-    if (-not (Test-Path -LiteralPath $d)) { New-Item -ItemType Directory -Path $d -Force | Out-Null }
-    Copy-Item -LiteralPath $_.FullName -Destination (Join-Path $repoZh $rel) -Force
+# ---------- 1. refresh repo tree from workspace (CHS only; DEU is authored in-tree) ----------
+if ($P.FromWorkspace) {
+    Write-Host "[1/7] refreshing publish repo tree ($Lang) from workspace ..."
+    # language JSON (exclude junk)
+    New-Item -ItemType Directory -Path $repoZh -Force | Out-Null
+    Get-ChildItem -LiteralPath $zhSrc -Recurse -File | Where-Object { $_.Name -notin @('.DS_Store','Thumbs.db') } | ForEach-Object {
+        $rel = $_.FullName.Substring($zhSrc.Length).TrimStart('\')
+        $d = Split-Path -Parent (Join-Path $repoZh $rel)
+        if (-not (Test-Path -LiteralPath $d)) { New-Item -ItemType Directory -Path $d -Force | Out-Null }
+        Copy-Item -LiteralPath $_.FullName -Destination (Join-Path $repoZh $rel) -Force
+    }
+    # plugin whitelist
+    New-Item -ItemType Directory -Path $repoPlug -Force | Out-Null
+    Copy-Item -LiteralPath "$plug\$($P.PlugDirName).dll" -Destination $repoPlug -Force
+    Copy-Item -LiteralPath "$plug\README.md" -Destination $repoPlug -Force
+    Get-ChildItem -LiteralPath $plug -Filter "$($prefix)-*.tsv" -File | ForEach-Object { Copy-Item -LiteralPath $_.FullName -Destination $repoPlug -Force }
+    New-Item -ItemType Directory -Path "$repoPlug\src" -Force | Out-Null
+    Get-ChildItem -LiteralPath "$plug\src" -Filter '*.cs' -File | ForEach-Object { Copy-Item -LiteralPath $_.FullName -Destination "$repoPlug\src" -Force }
+    if ($P.EmbeddedFonts -and (Test-Path -LiteralPath "$plug\fonts")) {
+        New-Item -ItemType Directory -Path "$repoPlug\fonts" -Force | Out-Null
+        Get-ChildItem -LiteralPath "$plug\fonts" -File | ForEach-Object { Copy-Item -LiteralPath $_.FullName -Destination "$repoPlug\fonts" -Force }
+    }
+} else {
+    Write-Host "[1/7] offline-authored language ($Lang): repo tree is the source, skipping workspace refresh"
+    if (-not (Test-Path -LiteralPath $repoPlug)) { throw "repo plug tree missing: $repoPlug (author DEU content first)" }
+    if (-not (Test-Path -LiteralPath $repoZh))   { throw "repo language tree missing: $repoZh (author DEU content first)" }
 }
-# plugin whitelist
-New-Item -ItemType Directory -Path $repoPlug -Force | Out-Null
-Copy-Item -LiteralPath "$plug\EarthX2Chinese.dll" -Destination $repoPlug -Force
-Copy-Item -LiteralPath "$plug\README.md" -Destination $repoPlug -Force
-Get-ChildItem -LiteralPath $plug -Filter 'zh-*.tsv' -File | ForEach-Object { Copy-Item -LiteralPath $_.FullName -Destination $repoPlug -Force }
-New-Item -ItemType Directory -Path "$repoPlug\src" -Force | Out-Null
-Copy-Item -LiteralPath "$plug\src\EarthX2Chinese.cs" -Destination "$repoPlug\src" -Force
 [IO.File]::WriteAllText("$repoPlug\version.txt", "$Version`n", (New-Object System.Text.UTF8Encoding($false)))
-# embedded fonts (OFL) + license text
-New-Item -ItemType Directory -Path "$repoPlug\fonts" -Force | Out-Null
-Get-ChildItem -LiteralPath "$plug\fonts" -File | ForEach-Object { Copy-Item -LiteralPath $_.FullName -Destination "$repoPlug\fonts" -Force }
 $repoZhCount = (Get-ChildItem $repoZh -Recurse -Filter '*.json').Count
 $repoPlugCount = (Get-ChildItem $repoPlug -Recurse -File).Count
-Write-Host "    repo tree: Chinese JSON $repoZhCount | plugin files $repoPlugCount"
+Write-Host "    repo tree: $($P.JsonDirName) JSON $repoZhCount | plugin files $repoPlugCount"
 
 # ---------- 2. quality gate ----------
-Write-Host "[2/7] quality gate (verify.ps1, incl. repo-tree sync) ..."
+Write-Host "[2/7] quality gate (verify.ps1 -Lang $Lang) ..."
 $verifyOut = & powershell -NoProfile -ExecutionPolicy Bypass -File "$publish\scripts\verify.ps1" -GameRoot $game -Lang $Lang
 $verifyOut | Write-Host
 if ($LASTEXITCODE -ne 0) { throw "verify.ps1 FAILED - build aborted." }
@@ -74,8 +120,8 @@ $staging = "$publish\_staging_patch"
 if (Test-Path -LiteralPath $staging) { Remove-Item -LiteralPath $staging -Recurse -Force }
 New-Item -ItemType Directory -Path $staging -Force | Out-Null
 
-# Chinese JSON
-$dstZh = "$staging\EarthX_Data\StreamingAssets\Localization\Chinese"
+# language JSON
+$dstZh = "$staging\EarthX_Data\StreamingAssets\Localization\$($P.JsonDirName)"
 New-Item -ItemType Directory -Path $dstZh -Force | Out-Null
 Get-ChildItem -LiteralPath $repoZh -Recurse -File | ForEach-Object {
     $rel = $_.FullName.Substring($repoZh.Length).TrimStart('\')
@@ -85,27 +131,31 @@ Get-ChildItem -LiteralPath $repoZh -Recurse -File | ForEach-Object {
 }
 $zhCount = (Get-ChildItem $dstZh -Recurse -Filter '*.json').Count
 
-# plugin whitelist (incl. fonts)
-$dstPlug = "$staging\BepInEx\plugins\EarthX2Chinese"
+# plugin whitelist (incl. fonts when profile has them)
+$dstPlug = "$staging\BepInEx\plugins\$($P.PlugDirName)"
 New-Item -ItemType Directory -Path $dstPlug -Force | Out-Null
-Copy-Item -LiteralPath "$repoPlug\EarthX2Chinese.dll" -Destination $dstPlug -Force
+Copy-Item -LiteralPath "$repoPlug\$($P.PlugDirName).dll" -Destination $dstPlug -Force
 Copy-Item -LiteralPath "$repoPlug\README.md" -Destination $dstPlug -Force
-Get-ChildItem -LiteralPath $repoPlug -Filter 'zh-*.tsv' -File | ForEach-Object { Copy-Item -LiteralPath $_.FullName -Destination $dstPlug -Force }
+Get-ChildItem -LiteralPath $repoPlug -Filter "$($prefix)-*.tsv" -File | ForEach-Object { Copy-Item -LiteralPath $_.FullName -Destination $dstPlug -Force }
 New-Item -ItemType Directory -Path "$dstPlug\src" -Force | Out-Null
-Copy-Item -LiteralPath "$repoPlug\src\EarthX2Chinese.cs" -Destination "$dstPlug\src" -Force
+Get-ChildItem -LiteralPath "$repoPlug\src" -Filter '*.cs' -File -ErrorAction SilentlyContinue | ForEach-Object { Copy-Item -LiteralPath $_.FullName -Destination "$dstPlug\src" -Force }
 Copy-Item -LiteralPath "$repoPlug\version.txt" -Destination $dstPlug -Force
-New-Item -ItemType Directory -Path "$dstPlug\fonts" -Force | Out-Null
-Get-ChildItem -LiteralPath "$repoPlug\fonts" -File | ForEach-Object { Copy-Item -LiteralPath $_.FullName -Destination "$dstPlug\fonts" -Force }
+if ($P.EmbeddedFonts -and (Test-Path -LiteralPath "$repoPlug\fonts")) {
+    New-Item -ItemType Directory -Path "$dstPlug\fonts" -Force | Out-Null
+    Get-ChildItem -LiteralPath "$repoPlug\fonts" -File | ForEach-Object { Copy-Item -LiteralPath $_.FullName -Destination "$dstPlug\fonts" -Force }
+}
 $plugCount = (Get-ChildItem $dstPlug -Recurse -File).Count
 
-# root docs (ASCII filenames only - zip-safe) + docs\ + font license
+# root docs (ASCII filenames only - zip-safe) + docs\ + font license (CHS only)
 Copy-Item -LiteralPath "$publish\README.md" -Destination $staging -Force
 Copy-Item -LiteralPath "$publish\README_CN.md" -Destination $staging -Force
 Copy-Item -LiteralPath "$publish\AI-PATCH-GUIDE.md" -Destination $staging -Force
 New-Item -ItemType Directory -Path "$staging\docs" -Force | Out-Null
 Copy-Item -Path "$publish\docs\*" -Destination "$staging\docs" -Force
 New-Item -ItemType Directory -Path "$staging\licenses" -Force | Out-Null
-Copy-Item -LiteralPath "$publish\licenses\SourceHanSansCN-LICENSE.txt" -Destination "$staging\licenses" -Force
+if ($P.EmbeddedFonts) {
+    Copy-Item -LiteralPath "$publish\licenses\SourceHanSansCN-LICENSE.txt" -Destination "$staging\licenses" -Force
+}
 
 # forbidden-content assertions inside patch staging
 $forbidden = Get-ChildItem -LiteralPath $staging -Recurse -File | Where-Object {
@@ -114,7 +164,8 @@ $forbidden = Get-ChildItem -LiteralPath $staging -Recurse -File | Where-Object {
     $_.FullName -match '\\English\\' -or $_.FullName -match 'BepInEx\\core\\' -or $_.Extension -eq '.log'
 }
 if ($forbidden) { $forbidden | Select-Object -First 8 | ForEach-Object { Write-Host "  FORBIDDEN: $($_.FullName)" }; throw "forbidden files inside patch staging" }
-Write-Host "    Chinese JSON: $zhCount | plugin files: $plugCount | docs + font license staged"
+if (-not $P.EmbeddedFonts -and (Test-Path -LiteralPath "$dstPlug\fonts")) { throw "$Lang must not ship fonts\ (game-embedded font policy)" }
+Write-Host "    $($P.JsonDirName) JSON: $zhCount | plugin files: $plugCount | docs staged"
 
 # ---------- 4. zip helper ----------
 function New-ZipUtf8([string]$stageDir, [string]$zipPath) {
@@ -172,13 +223,14 @@ if (-not $SkipFull) {
 Write-Host "[6/7] writing release\$Lang-latest.json ..."
 $latest = [ordered]@{
     lang     = $Lang
+    language = $P.TargetLang
     version  = $Version
     date     = (Get-Date -Format 'yyyy-MM-dd')
     zipUrl     = "https://raw.githubusercontent.com/{REPO}/main/release/${zipName}.zip"
     zipFullUrl = "https://raw.githubusercontent.com/{REPO}/main/release/${zipName}_full.zip"
     sha256     = $shaPatch
     sha256Full = $shaFull
-    rules      = "591 lines / 580 unique ORIG (DISPLAY 386, AUTO 205); baked 299; JSON 64 files; embedded font Source Han Sans CN (OFL 1.1)"
+    rules      = $P.RulesNote
     notes      = "https://raw.githubusercontent.com/{REPO}/main/CHANGELOG.md"
 }
 if ($null -eq $shaFull) { $latest.Remove('sha256Full') }
@@ -188,17 +240,18 @@ if ($null -eq $shaFull) { $latest.Remove('sha256Full') }
 Write-Host "[7/7] writing build report ..."
 $sizePatch = [math]::Round((Get-Item $zipPatch).Length / 1KB, 1)
 $sizeFull = if ($zipFull) { [math]::Round((Get-Item $zipFull).Length / 1KB, 1) } else { '-' }
+$fontsNote = if ($P.EmbeddedFonts) { "fonts x3" } else { "no fonts (game-embedded font)" }
 $report = @()
-$report += "EarthX2Chinese build report"
+$report += "EarthX2$($P.TargetLang) build report"
 $report += "date:      $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
 $report += "version:   $Version (lang: $Lang)"
-$report += "gate:      verify.ps1 PASS (strings 0 FAIL, unique ORIG 580, FLAG valid, no conflicts, repo-tree sync OK)"
-$report += "chinese:   $zhCount JSON files"
-$report += "plugin:    $plugCount files (dll + tsv x10 + README + src + version.txt + fonts x3)"
+$report += "gate:      verify.ps1 PASS (strings 0 FAIL, unique ORIG $($P.UniqueOrig), FLAG valid, no conflicts)"
+$report += "$($P.JsonDirName.ToLower()):   $zhCount JSON files"
+$report += "plugin:    $plugCount files (dll + tsv + README + src + version.txt + $fontsNote)"
 $report += "zip patch: $(Split-Path -Leaf $zipPatch) ($sizePatch KB) sha256=$shaPatch"
 if ($zipFull) { $report += "zip full:  $(Split-Path -Leaf $zipFull) ($sizeFull KB) sha256=$shaFull" }
 $report += "note:      $fullNote"
-$report | Set-Content -LiteralPath "$distrib\_build_report.txt" -Encoding UTF8
+$report | Set-Content -LiteralPath "$distrib\_build_report_$Lang.txt" -Encoding UTF8
 $report | Write-Host
 
 # cleanup staging

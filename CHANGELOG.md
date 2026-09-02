@@ -3,6 +3,67 @@
 All notable changes to the EarthX2OAMultilanguageMOD project.
 Format: 新增 / 修复 / 数据变更 (Added / Fixed / Data).
 
+## [JPN 1.0.0] - 2026-09-02
+
+首个日语（JPN）补丁版本：基于 CHS 流程 fork 出独立日语补丁 `JPN\`，离线仓库树为唯一数据源，
+随包交付 `EarthX2Japanese.dll` 与 `docs\JPN-NOTES.md`。
+
+### 新增 Added
+
+- **日语插件 `EarthX2Japanese`**：fork 自 CHS（GUID `earthx2.japanese.localization`、`ja-*` 通配、
+  配置 `ForceJapanese=true`、`AddFontFallback=true`、`TranslateHardcodedText=true`）
+- **L1 官方 JSON 层**：`Localization\Japanese\` 64 文件 / ~1665 键全译（含 HUD.json 增补
+  `Japanese_Name`/`Japanese_Desc`）；Misc 专有名词（人名/公司/大学/机构/卫星名）保留原文
+- **L2 IL 字符串规则**：`ja-strings*.tsv` ×8（591 行 / 580 唯一 ORIG），ORIG 与 CHS 逐字一致
+- **L3 TMP 烘焙规则**：`ja-baked*.tsv` ×2（299 条）
+- **内嵌字体 Source Han Sans JP**（SIL OFL 1.1，Regular + Bold）随插件 `fonts\` 分发，回退资产
+  沿用固定名 `ChineseFallback`/`ChineseFallbackBold`（技术性硬编码，勿改）
+- 工具链 `-Lang`/`-Prefix ja` 参数化复用；`verify.ps1` JPN profile 复用 **ORIG 继承门禁**
+  （580 ORIG 集合必须与 CHS 完全相等）
+- 双包发布：`JPN-EarthX2OAJapaneseMOD_v1.0.0.zip` + `_full.zip` + sha256 + `JPN-latest.json`
+
+### 数据变更 Data
+
+- Japanese JSON：64 文件 / ~1665 键
+- IL 规则：591 行 / 580 唯一 ORIG（DISPLAY 386 / AUTO 205）
+- 烘焙规则：299 条
+- 字体：内嵌 SourceHanSansJP-Regular.otf + Bold.otf（OFL 1.1 许可随附）
+
+## [DEU 1.0.0] - 2026-09-02
+
+首个德语（DEU）补丁版本：基于 CHS 流程 fork 出独立德语补丁 `DEU\`，离线仓库树为唯一数据源，
+随包交付 `EarthX2German.dll` 与 `docs\DEU-NOTES.md`。
+
+### 新增 Added
+
+- **德语插件 `EarthX2German`**：fork 自 CHS（GUID `earthx2.german.localization`、`de-*` 通配、
+  配置 `ForceGerman=true`、`TranslateHardcodedText=true`），**FontFix 整体剥离**——DEU 复用游戏
+  内嵌字体 LiberationSans，不随包分发任何字体文件（无版权/依赖问题，ä/ö/ü/ß 完整支持）
+- **L1 官方 JSON 层**：`Localization\German\` 64 文件 / ~1665 键全译（含 HUD.json 增补
+  `German_Name`/`German_Desc`，语言选择器显示 "Deutsch"）；Misc 专有名词（人名/公司/大学/
+  机构/卫星名）按德语惯例保留原文
+- **L2 IL 字符串规则**：`de-strings*.tsv` ×8（591 行 / 580 唯一 ORIG），ORIG 与 CHS 逐字一致
+- **L3 TMP 烘焙规则**：`de-baked*.tsv` ×2（299 条）
+- 正式文风：非正式 "du" 称谓、术语统一（Vertrag=contract、Nutzlast=payload、Startrampe=
+  launch pad、Drohnenschiff=droneship、Transferfenster=transfer window、Mittlere Rakete=
+  Prime Rocket 等）
+- 工具链 `-Lang`/`-Prefix de` 参数化复用；`verify.ps1` DEU profile 新增 **ORIG 继承门禁**
+  （580 ORIG 集合必须与 CHS 完全相等）+ 无 `fonts\` 断言
+- 双包发布：`DEU-EarthX2OAGermanMOD_v1.0.0.zip`（纯补丁 159.8 KB）+ `_full.zip`（含框架
+  794.3 KB）+ sha256 + `DEU-latest.json`
+
+### 修复 Fixed
+
+- 重建被损坏的 `de-strings4.tsv`（全 NUL 字节，139 行从 CHS 源重译）
+- 修正 `de-strings3.tsv` `\nDeploy Legs` ORIG 尾随 `\n` 与 CHS 源不一致问题
+
+### 数据变更 Data
+
+- German JSON：64 文件（59 已译 / 5 专有名词保留原文）
+- IL 规则：591 行 / 580 唯一 ORIG（DISPLAY 386 / AUTO 205，FLAG 门禁通过）
+- 烘焙规则：299 条（109 条与 CHS 相同的已知无害 no-op）
+- 字体：无随包字体（复用游戏内嵌 LiberationSans）
+
 ## [1.0.0] - 2026-09-02
 
 新发布体系首个版本（替代旧 handoff\release 流程；本版本包含 2026-09-01 全部校对与安全修复）。

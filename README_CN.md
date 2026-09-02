@@ -32,9 +32,20 @@ remain in the original language.
 | 语言 | 补丁目录 | 使用说明 |
 |---|---|---|
 | 简体中文 (CHS) | [`CHS/EarthX 2 Open Alpha/`](CHS/EarthX%202%20Open%20Alpha/) | [`docs/CHS-NOTES.md`](docs/CHS-NOTES.md) |
+| 日本語 (JPN) | [`JPN/EarthX 2 Open Alpha/`](JPN/EarthX%202%20Open%20Alpha/) | [`docs/JPN-NOTES.md`](docs/JPN-NOTES.md) |
+| Deutsch (DEU) | [`DEU/EarthX 2 Open Alpha/`](DEU/EarthX%202%20Open%20Alpha/) | [`docs/DEU-NOTES.md`](docs/DEU-NOTES.md) |
 
-更多语言将陆续加入。想自己制作一种语言（日语/韩语/德语…）？请阅读
-[**AI-PATCH-GUIDE.md**](AI-PATCH-GUIDE.md) —— 面向 AI 编程助手（也面向人类）的完整方法指南，
+## 制作方式与语言请求
+
+我全流程制作了 **CHS** 的 mod，并在确立流程后使用 Coding AI Agent 完成了**德语**和**日语**的翻译
+作为示范。未来我可能还会制作并发布其他语言的 mod。
+
+如果你想要其他语言：
+- 欢迎在 **issue** 中留言，或
+- 下载源代码自行制作——项目中已包含必要信息。请以 **CHS** 的 mod 为基底制作，因为针对 AI 的
+  自动化描述是基于 CHS 版本编写的。
+
+请阅读 [**AI-PATCH-GUIDE.md**](AI-PATCH-GUIDE.md) —— 面向 AI 编程助手（也面向人类）的完整方法指南，
 含架构、规则契约、安全红线、工具链工作流与验收清单。
 
 ## 安装
@@ -49,18 +60,22 @@ remain in the original language.
 
 升级一律手动覆盖。卸载 / 验证 / FAQ 见上表中对应语言的指南。
 
+> **兼容性提醒**：不同语言的 mod 之间存在兼容性问题，切换语言前请确保已经**清除了旧的 mod**
+> 或进行了**完整切换**（只干净地重装一种语言）。
+
 ## 关于本项目
 
 - **三层补丁**：官方 JSON 本地化层（`StreamingAssets\Localization\<Lang>\`）+ IL 字符串改写
   （`StringPatch`，Harmony transpiler）+ 烘焙 TextMeshPro 文本（`TextSweep`）。
-- **内嵌字体**：各语言插件 `fonts\` 内嵌各自 OFL 许可字体（CHS = 思源黑体，SIL OFL 1.1）——
-  无系统字体依赖、无专有 CJK 字体版权问题。
+- **内嵌字体**：CJK 语言插件 `fonts\` 内嵌各自 OFL 许可字体（CHS = 思源黑体 CN、JPN = 思源黑体 JP，
+  均 SIL OFL 1.1）——无系统字体依赖、无专有 CJK 字体版权问题。例外：**DEU 不随包分发字体**，
+  复用游戏内嵌 LiberationSans（已完整覆盖 ä/ö/ü/ß 德语字形）。
 
 ## 声明与许可
 
 - 补丁内容（JSON / TSV / 插件源码）按"现状"提供给 EarthX 2 玩家社区自由使用。
-- **内嵌字体为思源黑体（SIL OFL 1.1）**，可自由随补丁再分发，许可全文见
-  `licenses\SourceHanSansCN-LICENSE.txt`（各语言 `fonts\` 内亦随附）。
+- **内嵌字体为思源黑体（CN / JP，SIL OFL 1.1）**，可自由随补丁再分发，许可全文见
+  `licenses\SourceHanSansCN-LICENSE.txt`（各 CJK 语言 `fonts\` 内亦随附）。
 - **完整包**内附带的第三方二进制均为**未经修改**的官方发行文件：
   - BepInEx 5.4.23.2 —— LGPL-2.1 —— https://github.com/BepInEx/BepInEx
   - UnityDoorstop 4.x（`winhttp.dll`）—— LGPL-2.1 —— https://github.com/NeighTools/UnityDoorstop
@@ -72,3 +87,10 @@ remain in the original language.
 
 欢迎 issue / PR。要新增或改进一种语言，请先阅读
 [**AI-PATCH-GUIDE.md**](AI-PATCH-GUIDE.md)。
+
+## 致谢
+
+本项目使用 **Opencode** 搭配 **DeepseekV4Flash** 与 **GLM5.2** 进行协助开发。
+
+This project was developed with the assistance of **Opencode** combined with
+**DeepseekV4Flash** and **GLM5.2**.

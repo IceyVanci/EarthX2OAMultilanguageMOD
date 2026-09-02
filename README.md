@@ -34,9 +34,22 @@ remain in the original language.
 | Language | Patch folder | Guide |
 |---|---|---|
 | 简体中文 (CHS) | [`CHS/EarthX 2 Open Alpha/`](CHS/EarthX%202%20Open%20Alpha/) | [`docs/CHS-NOTES.md`](docs/CHS-NOTES.md) |
+| 日本語 (JPN) | [`JPN/EarthX 2 Open Alpha/`](JPN/EarthX%202%20Open%20Alpha/) | [`docs/JPN-NOTES.md`](docs/JPN-NOTES.md) |
+| Deutsch (DEU) | [`DEU/EarthX 2 Open Alpha/`](DEU/EarthX%202%20Open%20Alpha/) | [`docs/DEU-NOTES.md`](docs/DEU-NOTES.md) |
 
-More languages will be added over time. Want to create one yourself (JP/KR/DE…)? See
-[**AI-PATCH-GUIDE.md**](AI-PATCH-GUIDE.md) — a complete method guide written for AI coding
+## How these mods were made / Request a language
+
+I created the **CHS** mod end-to-end myself. After establishing the workflow, I used a coding
+AI agent to complete the **German** and **Japanese** translations as a demonstration. I may
+create and release more language mods in the future.
+
+If you would like another language:
+- Leave a comment in the **Issues**, or
+- Download the source code and make it yourself — the project already contains all the
+  necessary information. When doing so, **base your work on the CHS mod**, because the
+  AI-automation documentation is written against the CHS version.
+
+See [**AI-PATCH-GUIDE.md**](AI-PATCH-GUIDE.md) — a complete method guide written for AI coding
 assistants (and humans): architecture, rule contracts, safety red lines, toolchain workflow
 and an acceptance checklist.
 
@@ -53,21 +66,28 @@ and an acceptance checklist.
 Updates are manual overwrites. For uninstall / verify / FAQ, see that language's guide in
 the table above.
 
+> **Compatibility:** there are compatibility issues between different language mods. Before
+> switching languages, make sure you have **removed the old mod** or performed a **complete
+> switch** (clean re-install of one language only).
+
 ## About the project
 
 - **3-layer patch**: official JSON localization (`StreamingAssets\Localization\<Lang>\`) +
   IL string rewriting (`StringPatch`, Harmony transpiler) + baked TextMeshPro text
   (`TextSweep`).
-- **Embedded fonts**: each language ships its OFL-licensed font inside its plugin `fonts\`
-  folder (CHS = Source Han Sans, SIL OFL 1.1) — no system font dependency, no copyright
-  concern from proprietary CJK fonts.
+- **Embedded fonts**: CJK languages ship their OFL-licensed font inside their plugin `fonts\`
+  folder (CHS = Source Han Sans CN, JPN = Source Han Sans JP; both SIL OFL 1.1) — no system
+  font dependency, no copyright concern from proprietary CJK fonts. Exception: **DEU ships no
+  font files** and relies on the game's embedded LiberationSans, which already covers German
+  glyphs (ä/ö/ü/ß).
 
 ## Declarations / License
 
 - Patch content (JSON / TSV / plugin source) is provided **as-is** for the EarthX 2 player
   community, free to use.
-- **Embedded fonts: Source Han Sans (SIL OFL 1.1)** — freely redistributable with the patch;
-  license text in `licenses\SourceHanSansCN-LICENSE.txt` (also shipped in each language's `fonts\`).
+- **Embedded fonts: Source Han Sans (CN / JP, SIL OFL 1.1)** — freely redistributable with the
+  patch; license text in `licenses\SourceHanSansCN-LICENSE.txt` (also shipped in each CJK
+  language's `fonts\`).
 - The **full package** bundles **unmodified** third-party binaries:
   - BepInEx 5.4.23.2 — LGPL-2.1 — https://github.com/BepInEx/BepInEx
   - UnityDoorstop 4.x (`winhttp.dll`) — LGPL-2.1 — https://github.com/NeighTools/UnityDoorstop
@@ -79,3 +99,10 @@ the table above.
 
 Issues and PRs welcome. To add or improve a language, read
 [**AI-PATCH-GUIDE.md**](AI-PATCH-GUIDE.md) first.
+
+## Acknowledgments
+
+This project was developed with the assistance of **Opencode** combined with
+**DeepseekV4Flash** and **GLM5.2**.
+
+本项目使用 **Opencode** 搭配 **DeepseekV4Flash** 与 **GLM5.2** 进行协助开发。

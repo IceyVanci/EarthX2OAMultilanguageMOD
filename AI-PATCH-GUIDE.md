@@ -2,7 +2,9 @@
 
 > 本文是 **面向 AI 编程助手**（也面向人类）的完整方法指南：把整篇文档喂给 AI，并给出目标语言
 > （如 `日语` / `韩语` / `德语`）后，AI 应能据此产出一份可编译、可验证、可发布的语言补丁。
-> 文中所有路径、格式、命令均取自本项目实际结构（EarthX 2 Open Alpha 简体中文补丁 v1.0.0）。
+> 文中所有路径、格式、命令均取自本项目实际结构。已按本指南落地的语言：
+> **简体中文 v1.0.0**（`CHS\`，首个语言）与 **德语 v1.0.0**（`DEU\`，拉丁扩展语言 fork 实例，
+> 复用游戏内嵌 LiberationSans，不随包字体）。
 >
 > 语言约定：正文中文，命令与代码英文。占位符 `<LANG>` 表示目标语言（如 `Japanese`），
 > `<lang>` 为小写（如 `ja`）。
@@ -230,6 +232,8 @@ L1: 64 JSON / ~1665 键
 - **继承安全红线**：直接复用 CHS 的 SCOPE / 富文本 / 占位符结构，只改译文 →
   自动继承 CHS 已验证的"哪些能译、哪些不能译"决策，规避 §5 全部风险（不碰资产 ID / 键 / 逻辑字符串）。
 - **真值对账**：`verify_current.ps1` 复用同一份 `Assembly-CSharp.dll` 基线，发布前跑一次即可（§6.4）。
+- **ORIG 继承门禁**（`verify.ps1` §3，仅 offline/fork 语言）：fork 语言的 ORIG 集合必须与
+  CHS 基线**完全相等**（缺一或多一都 FAIL），确保 SCOPE/ORIG 结构零漂移、只换译文。
 - 对应译文列宽度/长度：拉丁（法/德）与 CJK（日/韩）对占位符 `{n}`、富文本标签数量要求与 §4.4 一致。
 
 ### 6.1 预置
@@ -282,13 +286,29 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "$game\handoff\scripts\gener
 
 ### 6.6 发布门禁与打包
 
+`verify.ps1` 与 `build-artifacts.ps1` 均支持 `-Lang CHS|DEU|JPN`（`-Lang` 指定语言，默认 CHS）：
+
 ```powershell
-# 门禁（含仓库树=工作区对账；-Lang 指定语言，默认 CHS）
+# 门禁（含仓库树=工作区对账；CHS 为工作区来源，DEU/JPN 为 offline 仓库树来源）
 powershell -NoProfile -ExecutionPolicy Bypass -File "$publish\scripts\verify.ps1" -GameRoot $game -Lang CHS
 
 # 构建（刷新仓库树 → 门禁 → 打该语言补丁包 + full 包）
-powershell -NoProfile -ExecutionPolicy Bypass -File "$publish\scripts\build-artifacts.ps1" -GameRoot $game -Lang CHS
+powershell -NoProfile -ExecutionPolicy Bypass -File "$publish\scripts\build-artifacts.ps1" -GameRoot $game -Lang DEU
 ```
+
+`verify.ps1` 的**完整门禁清单**（任一 FAIL 即终止，`build-artifacts.ps1` 内部也调用它作为硬门禁）：
+
+| # | 门禁 | 覆盖层 | 说明 |
+|---|---|---|---|
+| 1 | `validate_loc.ps1` JSON 层 | L1 | English ↔ `<LANG>` 键集/占位符/富文本/@别名 一致性（扁平解析，**不查语法**） |
+| 2 | `check_tsv.ps1` TSV 层 | L2/L3 | 结构 0 FAIL / 0 CONFLICT / FLAG 合法 / 烘焙基线 no-op 上限 |
+| 3 | ORIG 唯一数基线 | L2 | `-UniqueOrig`（CHS/DEU/JPN = 580） |
+| 4 | **ORIG 继承门禁**（仅 offline） | L2 | fork 语言 ORIG 集合与 CHS 基线完全相等（§6.0） |
+| 5 | JSON 文件数 | L1 | `-JsonCount`（64） |
+| 6 | **严格 JSON 语法门禁** | L1 | 用 `JavaScriptSerializer` 严格解析每个 `*.json`，**捕获未转义引号等运行时致命错误**（validate_loc 的扁平解析抓不到） |
+| 7 | 插件目录禁发文件 | 插件 | `rules_backup`/`__MACOSX`/`.DS_Store`/`.log` 等零容忍 |
+| 8 | 字体策略断言 | 插件 | CHS/JPN 须有 `fonts\`；**DEU 禁止 `fonts\`**（游戏内嵌字体） |
+| 9 | 仓库树/版本 | 仓库 | 工作区↔仓库树 MD5 对账（CHS）、`version.txt` = `publish\VERSION` |
 
 ### 6.7 生成语言 NOTES 文档（`docs\<LANG>-NOTES.md`）
 
@@ -306,6 +326,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "$publish\scripts\build-arti
 
 - 产物位置：`publish\docs\<LANG>-NOTES.md`（随 `build-artifacts.ps1` 的 `docs\*` 一起进包）。
 - 生成后**不要手动复制进 `publish\<LANG>\...`**（该仓库树由构建脚本从工作区刷新，见 §6.6）。
+- 参考实例：`publish\docs\DEU-NOTES.md`（拉丁语言：无内嵌字体、用游戏内嵌 LiberationSans 的
+  字体节写法）与 `CHS-NOTES.md`（CJK 语言：内嵌字体 + OFL 许可）。
 
 ---
 
@@ -335,6 +357,9 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "$publish\scripts\build-arti
 | 9 | ORIG 冲突 | 同一 ORIG 出现于多个文件/行 → CONFLICT → 构建 FAIL，需去重或按 scope 收窄 |
 | 10 | 语言 Id 与游戏语言列表 | 新增 `<LANG>` 可能不显示在游戏内语言切换下拉框（游戏可能只认内置语言）。需游戏内验证；若需 patch 语言列表 UI，记为新增改动点（§3 决策 1） |
 | 11 | NOTES 文档文件名 ASCII | `docs\<LANG>-NOTES.md` 文件名必须 ASCII（如 `JPN-NOTES.md`），中文/特殊字符文件名进 zip 会乱码（同坑 #4）；内容可含目标语言 |
+| 12 | JSON 字符串内未转义 ASCII 双引号 | 德语引号 `„…“`（U+201E/U+201C）若混入 ASCII `"` 会破坏 JSON 语法。游戏 `LocalizationAsset.InitializeAsset()` 用 Newtonsoft **无 try-catch** 遍历解析 `Localization\<Id>\*.json`，任一文件抛 `JsonReaderException` → **整个语言注册中断、静默回退英文**（mod 看似失效）。`validate_loc.ps1` 的扁平解析器**抓不到**语法错误，须靠 `verify.ps1` 的严格 JSON 门禁（§6.6 门禁 #6）拦截。DEU 实战：Catter.json 1 处 + Upgrades.json 2 处 `„Landen"` 型引号导致 v1.0.0 首版整体失效 |
+| 13 | 语言选择器名称键 | 想让游戏内语言切换下拉框显示语言名，需在 HUD.json 增补 `<LANG>_Name`/`<LANG>_Desc` 键（如 `German_Name`="Deutsch"）；`validate_loc.ps1` 自动把 `${TargetLang}_Name/_Desc` 加入白名单（不判为多余键） |
+| 14 | offline 语言运行 validate_loc 的路径 | `-GameRoot` 必须指向游戏根（含 `English\` 基线），而 `-LangDir`/`-PluginDir` 指向 `publish\<LANG>\...` 仓库树；把 DEU 仓库树当 `-GameRoot` 会报 "English directory not found" |
 
 ---
 
@@ -360,6 +385,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "$publish\scripts\build-arti
 制作完成后逐项打勾，全部通过才算发布：
 
 - [ ] **L1**：`StreamingAssets\Localization\<Id>\*.json` 已就位，键值完整，`<Id>` 与 `Register()` 一致
+- [ ] **L1 严格语法**：全部 JSON 通过严格解析（`verify.ps1` 门禁 #6，坑 #12）——未转义引号会导致整个语言注册失效
 - [ ] **NOTES**：`publish\docs\<LANG>-NOTES.md` 已按 §6.7 生成（ASCII 文件名，内容含安装/卸载/字体说明）
 - [ ] **L2**：`<lang>-strings*.tsv`（或复用 `zh-*`）通过 `check_tsv.ps1` 0 FAIL / 0 CONFLICT
 - [ ] **L3**：`<lang>-baked*.tsv` 通过基线匹配，无超量 no-op
@@ -368,7 +394,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "$publish\scripts\build-arti
 - [ ] **游戏内冒烟**：主菜单/车辆/行星选择/设置均显示 `<LANG>`；无方块缺字（字体已换）；无英文残留关键路径
 - [ ] **逻辑回归**：发射、存档读/写、行星切换正常；无 `GetAsset`/`PlayerPrefs` key 被误译
 - [ ] **日志**：`StringPatch: N rules loaded`、`TextSweep: N rules loaded, hooks applied` 出现且计数符合预期
-- [ ] **门禁**：`verify.ps1` ALL PASS
+- [ ] **门禁**：`verify.ps1` ALL PASS（offline/fork 语言含 **ORIG 继承门禁**：580 ORIG 集合与 CHS 完全相等，§6.6 门禁 #4）
 - [ ] **打包**：`build-artifacts.ps1` BUILD OK；zip 内文件名全 ASCII
 - [ ] **发布**：zip + sha256 + `<LANG>-latest.json` 入 `release\` 并提交（仓库文件分发，无 GitHub Releases），废弃文件以文档注明
 
@@ -389,7 +415,9 @@ publish\<LANG>\EarthX 2 Open Alpha\BepInEx\plugins\EarthX2Chinese\
         "ChineseFallback"/"ChineseFallbackBold"  → 保持原名（硬编码检测）
         BepInPlugin("earthx2.chinese.localization",...,"1.1.0")
                                   →   ("earthx2.<lang>.localization",...,"<新版本>")
+        ForceChinese              →   Force<LANG>（§3 决策 5）
 publish\docs\<LANG>-NOTES.md      →   该语言说明（放 docs\，ASCII 文件名）
 构建：build-artifacts.ps1 -Lang <LANG>；zip 名 <LANG>-EarthX2OA<LANG>MOD_v<版本>.zip；
       产物（zip×2+sha256×2+<LANG>-latest.json）入 release\ 并提交（仓库文件分发，无 Releases）
+门禁：verify.ps1 ALL PASS 含严格 JSON 语法（§6.6 门禁 #6）与 offline fork 语言的 ORIG 继承门禁（#4）
 ```
