@@ -1,0 +1,87 @@
+# EarthX 2 한국어 - IL 문자열 치환 테이블 (ko-strings2.tsv, 2부)
+# 형식: 범위^^^원문^^^번역  (범위 = 세미콜론으로 구분된 메서드 전체 이름 접두사)
+LaunchData/PayloadSettings::ValidatePayload^^^ can only launch one payload at a time.^^^ 한 번에 하나의 탑재체만 발사할 수 있습니다.^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^ can't accept this payload.^^^ 이 탑재체를 받을 수 없습니다.^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload;LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch people!^^^ 사람을 발사할 수 없습니다!^^^AUTO
+LaunchData/InventorySettings::ValidateDestination;LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch to orbit.^^^ 궤도로 발사할 수 없습니다.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination;LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch to other planets.^^^ 다른 행성으로 발사할 수 없습니다.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination;LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch to planets with an atmosphere.^^^ 대기가 있는 행성으로 발사할 수 없습니다.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination;LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch to space stations.^^^ 우주 정거장으로 발사할 수 없습니다.^^^AUTO
+LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch liquid payloads!^^^ 액체 탑재체를 발사할 수 없습니다!^^^AUTO
+LaunchData/VehicleSettings::ValidateVehicle^^^ can't launch multiple payloads at once.^^^ 여러 탑재체를 동시에 발사할 수 없습니다.^^^AUTO
+LaunchData/VehicleSettings::ValidateVehicle^^^ can't deploy payloads in orbit!^^^ 궤도에서 탑재체를 배치할 수 없습니다!^^^AUTO
+LaunchData/PayloadSettings::Validate^^^ can't deploy things in orbit.^^^ 궤도에서 물건을 배치할 수 없습니다.^^^AUTO
+LaunchData/InventorySettings::Validate^^^ can't be supplied. Check storage and funds.^^^ 공급할 수 없습니다. 저장고와 자금을 확인하세요.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^ can't launch to other planets from a space station.^^^ 우주 정거장에서 다른 행성으로 발사할 수 없습니다.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^ is currently travelling.^^^ 현재 이동 중입니다.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^ is destroyed.^^^ 파괴되었습니다.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^ is not unlocked yet.^^^ 아직 잠금 해제되지 않았습니다.^^^AUTO
+LaunchData/InventorySettings::Validate^^^No destination selected.^^^목적지가 선택되지 않았습니다.^^^AUTO
+LaunchData/InventorySettings::Validate^^^Select a launch pad.^^^발사대를 선택하세요.^^^AUTO
+LaunchData/InventorySettings::Validate^^^Nothing selected.^^^선택된 것이 없습니다.^^^AUTO
+LaunchData/InventorySettings::Validate^^^You are launching from this location.^^^이 위치에서 발사하고 있습니다.^^^AUTO
+LaunchData/VehicleSettings::Validate^^^.^^^.^^^DISPLAY
+LaunchData/VehicleSettings::Validate^^^No vehicle attached.^^^차량이 부착되지 않았습니다.^^^AUTO
+LaunchData/VehicleSettings::Validate^^^No atmosphere or landing pads on this planet. Send a Low Gravity Ship first to build a Landing Pad.^^^이 행성에는 대기나 착륙 패드가 없습니다. 착륙 패드를 건설하려면 먼저 저중력 우주선을 보내세요.^^^AUTO
+LaunchData/VehicleSettings::Validate^^^You need to select a vehicle on parking orbit that needs to be refueled.^^^연료 보급이 필요한 주차 궤도의 차량을 선택해야 합니다.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^One or more selected payloads can't be launched to orbit.^^^선택한 탑재체 중 하나 이상을 궤도로 발사할 수 없습니다.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^One or more selected payloads can't be launched to planets.^^^선택한 탑재체 중 하나 이상을 행성으로 발사할 수 없습니다.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^One or more selected payloads can't be launched to space stations.^^^선택한 탑재체 중 하나 이상을 우주 정거장으로 발사할 수 없습니다.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^Some selected items can't be launched to this destination.^^^선택한 일부 품목을 이 목적지로 발사할 수 없습니다.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^Vehicles don't have enough range to reach this destination.^^^차량의 사거리가 이 목적지에 도달하기에 부족합니다.^^^AUTO
+LaunchData/PayloadSettings::Validate^^^Selected vehicles don't have enough range to reach the destination.^^^선택한 차량의 사거리가 목적지에 도달하기에 부족합니다.^^^AUTO
+LaunchData::CanLaunch^^^You need to fix following things before the launch:<color=#E74C3C>\n^^^발사 전에 다음 사항을 해결해야 합니다:<color=#E74C3C>\n^^^AUTO
+LaunchData/InventorySettings::ValidateLaunchPad^^^This launch pad is occupied by another vehicle.^^^이 발사대는 다른 차량이 사용 중입니다.^^^AUTO
+LaunchData/InventorySettings::ValidateLaunchPad^^^Launch pad can't support the selected vehicle setup.^^^발사대가 선택한 차량 구성을 지원할 수 없습니다.^^^AUTO
+LaunchData/VehicleSettings::ValidateVehicle^^^Vehicle doesn't fit the current setup.^^^차량이 현재 구성에 맞지 않습니다.^^^AUTO
+LaunchData/VehicleSettings::ValidateVehicleToRefuel^^^Vehicle is being refueled right now.^^^차량에 연료를 보급하는 중입니다.^^^AUTO
+LaunchData/VehicleSettings::ValidateLandAsset^^^Droneship is not available right now.^^^드론선은 지금 사용할 수 없습니다.^^^AUTO
+LaunchData/VehicleSettings::ValidateLandAsset^^^This land option is already in use by another vehicle.^^^이 착륙 옵션은 이미 다른 차량이 사용 중입니다.^^^AUTO
+LaunchData/VehicleSettings::ValidateVehicle^^^No need for more ^^^더 이상 필요하지 않습니다: ^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Attached vehicle can't deploy payloads in orbit.^^^부착된 차량은 궤도에서 탑재체를 배치할 수 없습니다.^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Attached vehicle can't launch liquid payloads.^^^부착된 차량은 액체 탑재체를 발사할 수 없습니다.^^^AUTO
+LaunchData/VehicleSettings::ValidateConfiguration^^^Attached vehicles don't match any setup.^^^부착된 차량이 어떤 구성과도 일치하지 않습니다.^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Payload can't be launched to orbit.^^^탑재체를 궤도로 발사할 수 없습니다.^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Payload can't be launched to planets.^^^탑재체를 행성으로 발사할 수 없습니다.^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Payload can't be launched to space stations.^^^탑재체를 우주 정거장으로 발사할 수 없습니다.^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Payload doesn't fit in the vehicle. Payload size: {0} | Available space: {1}^^^탑재체가 차량에 맞지 않습니다. 탑재체 크기: {0} | 사용 가능 공간: {1}^^^AUTO
+LaunchData/PayloadSettings::ValidatePayload^^^Payload must be launched elsewhere.^^^탑재체는 다른 곳에서 발사해야 합니다.^^^AUTO
+LaunchData/PayloadSettings::Validate^^^Payloads can't be larger than the available space in the selected vehicle.^^^탑재체는 선택한 차량의 사용 가능 공간보다 클 수 없습니다.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^Payloads must be launched elsewhere.^^^탑재체는 다른 곳에서 발사해야 합니다.^^^AUTO
+RefuelAnyVehicleCommand::Execute^^^Vehicle configuration doesn't support refuel missions!^^^차량 구성이 연료 보급 임무를 지원하지 않습니다!^^^AUTO
+RefuelAnyVehicleCommand::Execute^^^No valid vehicle to refuel found!^^^연료를 보급할 유효한 차량을 찾지 못했습니다!^^^AUTO
+AttachVehicleAnyCommand::Execute;LaunchPadAnyCommand::Execute^^^ found!^^^ 찾았습니다!^^^AUTO
+LaunchPadAnyCommand::Execute^^^No valid ^^^유효한 것이 없습니다: ^^^AUTO
+AttachVehicleAnyCommand::Execute^^^No valid blueprint found!^^^유효한 청사진을 찾지 못했습니다!^^^AUTO
+LaunchPadAnyCommand::Execute^^^No valid launchpad found!^^^유효한 발사대를 찾지 못했습니다!^^^AUTO
+AttachVehicleAnyCommand::Execute^^^No valid vehicles with blueprint: ^^^청사진과 일치하는 유효한 차량이 없습니다: ^^^AUTO
+AttachPayloadCommand::Execute^^^Amount of ^^^수량: ^^^AUTO
+AttachPayloadCommand::Execute^^^ does not meet the threshold!^^^ 임계값을 충족하지 못합니다!^^^AUTO
+InventoryData::AddItem^^^No storage was found for items on ^^^에 품목 보관을 위한 저장고를 찾지 못했습니다: ^^^DISPLAY
+InventoryData::AddItem^^^.^^^.^^^DISPLAY
+InventoryData::RemoveItem^^^Items have been supplied.^^^품목이 공급되었습니다.^^^DISPLAY
+VehicleData::OnArriveToNewInventory^^^Vehicles have arrived to ^^^차량이 도착했습니다: ^^^DISPLAY
+VehicleData::OnArriveToNewInventory^^^.^^^.^^^DISPLAY
+HubSpaceStationData::OnTravelComplete^^^ Hub Station has arrived to ^^^ 허브 스테이션이 도착했습니다: ^^^DISPLAY
+HubSpaceStationData::OnTravelComplete^^^.^^^.^^^DISPLAY
+ItemData::OnDayPassed_Deadline^^^ is approaching its launch deadline!^^^ 발사 마감일이 다가오고 있습니다!^^^DISPLAY
+LaunchUI::UpdateUI^^^ will need to be refuelled on orbit before its interplanetary departure!^^^ 행성 간 출발 전에 궤도에서 연료 보급이 필요합니다!^^^DISPLAY
+ConstructionWindow::Demolish_OnClick;VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>b__16^^^?^^^?^^^DISPLAY
+ConstructionWindow::Demolish_OnClick^^^Do you really want to demolish this ^^^정말로 이것을 철거하시겠습니까: ^^^AUTO
+ConstructionWindow::<Demolish_OnClick>b__30_0^^^ has been demolished.^^^ 철거되었습니다.^^^DISPLAY
+ConstructionWindow::<Rename_OnClick>b__27_0;ServiceData::<RenameService>b__27_0;ShipPanel::<UpdateUI>b__14_1^^^ has been renamed to ^^^ 로 이름이 변경되었습니다: ^^^DISPLAY
+ConstructionWindow::<Rename_OnClick>b__27_0;ServiceData::<RenameService>b__27_0;ShipPanel::<UpdateUI>b__14_1^^^.^^^.^^^DISPLAY
+LaunchPadData::CanBeDemolished^^^ can't be demolished because a Droneship "^^^ 드론선이 있어서 철거할 수 없습니다: \"^^^DISPLAY
+LaunchPadData::CanBeDemolished^^^ can't be demolished because a Fairingship "^^^ 페어링선이 있어서 철거할 수 없습니다: \"^^^DISPLAY
+LaunchPadData::CanBeDemolished^^^ can't be demolished because a vehicle is chilling on it right now.^^^ 지금 차량이 주차되어 있어 철거할 수 없습니다.^^^DISPLAY
+LaunchPadData::CanBeDemolished^^^ can't be demolished because it supports a rocket launch right now.^^^ 지금 로켓 발사를 지원하고 있어 철거할 수 없습니다.^^^DISPLAY
+LaunchPadData::CanBeDemolished^^^" is in use right now.^^^\" 지금 사용 중입니다.^^^DISPLAY
+VehicleData::Scrap^^^Do you really want to scrap ^^^정말로 폐기하시겠습니까: ^^^AUTO
+VehicleData::Scrap^^^?\nYou will be able to retrive some resources back.^^^?\n일부 자원을 되찾을 수 있습니다.^^^AUTO
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>b__16^^^Remove ^^^제거: ^^^DISPLAY
+VehiclesWindow::RemoveLandingGear_OnClick^^^Do you really want to remove landing gear from this vehicle? You can't undo this.^^^이 차량에서 착륙 장치를 정말로 제거하시겠습니까? 되돌릴 수 없습니다.^^^DISPLAY
+NewGameWindow::Create_OnClick^^^You have to have a name!^^^이름이 있어야 합니다!^^^DISPLAY
+NewGameWindow::Create_OnClick^^^Your company has to have a name!^^^회사 이름이 있어야 합니다!^^^DISPLAY
+NewServiceWindow/<>c::<SelectServiceType_OnClick>b__11_4^^^You already created a service of this type.^^^이미 이 유형의 서비스를 만들었습니다.^^^AUTO
+NewStructureWindow/<>c::<SelectStructureType_OnClick>b__11_4^^^You already created a structure of this type.^^^이미 이 유형의 구조물을 만들었습니다.^^^AUTO
+QuickAccessUI::AddWebcastsWidget_OnClick^^^You can only add one Webcast widget.^^^웹캐스트 위젯은 하나만 추가할 수 있습니다.^^^DISPLAY

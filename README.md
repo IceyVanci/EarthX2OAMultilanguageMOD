@@ -36,12 +36,14 @@ remain in the original language.
 | 简体中文 (CHS) | [`CHS/EarthX 2 Open Alpha/`](CHS/EarthX%202%20Open%20Alpha/) | [`docs/CHS-NOTES.md`](docs/CHS-NOTES.md) |
 | 日本語 (JPN) | [`JPN/EarthX 2 Open Alpha/`](JPN/EarthX%202%20Open%20Alpha/) | [`docs/JPN-NOTES.md`](docs/JPN-NOTES.md) |
 | Deutsch (DEU) | [`DEU/EarthX 2 Open Alpha/`](DEU/EarthX%202%20Open%20Alpha/) | [`docs/DEU-NOTES.md`](docs/DEU-NOTES.md) |
+| Español (ESP) | [`ESP/EarthX 2 Open Alpha/`](ESP/EarthX%202%20Open%20Alpha/) | [`docs/ESP-NOTES.md`](docs/ESP-NOTES.md) |
+| 한국어 (KOR) | [`KOR/EarthX 2 Open Alpha/`](KOR/EarthX%202%20Open%20Alpha/) | [`docs/KOR-NOTES.md`](docs/KOR-NOTES.md) |
 
 ## How these mods were made / Request a language
 
 I created the **CHS** mod end-to-end myself. After establishing the workflow, I used a coding
-AI agent to complete the **German** and **Japanese** translations as a demonstration. I may
-create and release more language mods in the future.
+AI agent to complete the **German**, **Japanese**, **Spanish** and **Korean** translations as a
+demonstration. I may create and release more language mods in the future.
 
 If you would like another language:
 - Leave a comment in the **Issues**, or
@@ -58,7 +60,8 @@ and an acceptance checklist.
 1. Download the zip for your language from the [`release/`](release/) folder in this repository:
    `<LANG>-EarthX2OA<LANG>MOD_v<version>_full.zip` (recommended, self-contained) or
    `<LANG>-EarthX2OA<LANG>MOD_v<version>.zip` (patch only; BepInEx required).
-   Replace `<LANG>` with the language code you want (e.g. `CHS` → `CHS-EarthX2OAChineseMOD_v1.0.0_full.zip`).
+   Replace `<LANG>` with the language code you want (e.g. `CHS` → `CHS-EarthX2OAChineseMOD_v1.0.0_full.zip`,
+   `KOR` → `KOR-EarthX2OAKoreanMOD_v1.0.0_full.zip`, `ESP` → `ESP-EarthX2OASpanishMOD_v1.0.0_full.zip`).
 2. Extract/copy the contents of that language's `EarthX 2 Open Alpha` folder into the game
    root (the folder with `EarthX.exe`), merge/overwrite.
 3. Launch the game.
@@ -76,18 +79,18 @@ the table above.
   IL string rewriting (`StringPatch`, Harmony transpiler) + baked TextMeshPro text
   (`TextSweep`).
 - **Embedded fonts**: CJK languages ship their OFL-licensed font inside their plugin `fonts\`
-  folder (CHS = Source Han Sans CN, JPN = Source Han Sans JP; both SIL OFL 1.1) — no system
-  font dependency, no copyright concern from proprietary CJK fonts. Exception: **DEU ships no
-  font files** and relies on the game's embedded LiberationSans, which already covers German
-  glyphs (ä/ö/ü/ß).
+  folder (CHS = Source Han Sans CN, JPN = Source Han Sans JP, KOR = Source Han Sans K; all
+  SIL OFL 1.1) — no system font dependency, no copyright concern from proprietary CJK fonts.
+  Exception: **DEU and ESP ship no font files** and rely on the game's embedded LiberationSans,
+  which already covers Latin-script glyphs (ä/ö/ü/ß for German, á/é/í/ó/ú/ñ/ü for Spanish).
 
 ## Declarations / License
 
 - Patch content (JSON / TSV / plugin source) is provided **as-is** for the EarthX 2 player
   community, free to use.
-- **Embedded fonts: Source Han Sans (CN / JP, SIL OFL 1.1)** — freely redistributable with the
-  patch; license text in `licenses\SourceHanSansCN-LICENSE.txt` (also shipped in each CJK
-  language's `fonts\`).
+- **Embedded fonts: Source Han Sans (CN / JP / K, SIL OFL 1.1)** — freely redistributable with the
+  patch; license text in `licenses\SourceHanSansCN-LICENSE.txt` / `licenses\SourceHanSansK-LICENSE.txt`
+  (also shipped in each CJK language's `fonts\`).
 - The **full package** bundles **unmodified** third-party binaries:
   - BepInEx 5.4.23.2 — LGPL-2.1 — https://github.com/BepInEx/BepInEx
   - UnityDoorstop 4.x (`winhttp.dll`) — LGPL-2.1 — https://github.com/NeighTools/UnityDoorstop

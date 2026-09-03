@@ -1,0 +1,10 @@
+{
+    "EnVisia Data Center_Name": "enVisia: Centros de Datos Orbitales",
+    "EnVisia Data Center_Desc": "La última generación de procesadores de IA de enVisia está empujando oficialmente los límites de la termodinámica terrestre. Con los costos energéticos de enfriar enormes granjas de servidores en la Tierra volviéndose insostenibles, el gigante tecnológico mira hacia el disipador de calor definitivo: el vacío del espacio. Buscan un socio de lanzamiento para desplegar un centro de datos orbital experimental, probando si el entorno naturalmente gélido de la órbita terrestre baja puede enfriar pasivamente sus supercomputadoras más potentes.",
+    "EnVisia Data Center Payload_Name": "cluster.SB{0}",
+    "EnVisia Data Center Payload_Desc": "Un módulo de servidor especializado y de alta densidad equipado con radiadores térmicos masivos.",
+    "EnVisia Space Training_Name": "enVisia: Entrenamiento Espacial",
+    "EnVisia Space Training_Desc": "enVisia ha anunciado una iniciativa sin precedentes para entrenar su modelo de inteligencia artificial de próxima generación enteramente en órbita terrestre baja. Si bien el propósito exacto de esta red neuronal espacial sigue siendo un secreto corporativo celosamente guardado, la pura ambición de empaquetar miles de GPU insignia en un solo satélite fue suficiente para hacer que el precio de las acciones de enVisia subiera un 14% con el anuncio. Ahora necesitan un proveedor de lanzamiento capaz para sacar este clúster de cómputo tan esperado del suelo.",
+    "EnVisia Space Training Payload_Name": "cluster.exp_SBa.18p",
+    "EnVisia Space Training Payload_Desc": "Un satélite masivo construido a medida que actúa como una supercomputadora orbital. Está repleto de miles de GPU interconectadas que ejecutan complejos algoritmos de aprendizaje automático."
+}

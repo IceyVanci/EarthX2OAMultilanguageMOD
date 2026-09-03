@@ -1,0 +1,10 @@
+{
+    "Rescue Matt_Name": "Rescate de Matt",
+    "Rescue Matt_Desc": "Hace años, una tripulación de astronautas aterrizó en Marte para construir una base de investigación. Tras un aterrizaje exitoso, se desató una tormenta de arena y se perdió toda comunicación—se dio por muertos a todos. Pero después de que tus naves lleguen a Marte, llega un mensaje de un miembro superviviente de la tripulación llamado Matt. Contra todo pronóstico, ha estado viviendo allí durante más de 5 años. Ahora, es hora de traerlo a casa.",
+    "Rescue Matt Payload_Name": "Matt",
+    "Rescue Matt Payload_Desc": "El primer humano en sobrevivir a una tormenta de arena marciana. Es hora de traerlo de vuelta a casa.",
+    "Rescue Matt _ Spawn Lore_Name": "Noticias Fantásticas del Planeta Rojo",
+    "Rescue Matt _ Spawn Lore_Desc": "Una noticia increíble acaba de llegar de Marte.\n\nUn astronauta al que se dio por muerto hace tiempo—Matt—ha contactado con {1} y ha pedido cortésmente que lo traigan a casa. Al principio, la empresa pensó que era una broma, pero FASA confirmó rápidamente que el mensaje era real.\n\nHace años, un equipo aterrizó en Marte para construir una base de investigación. Después de que llegara una tormenta de arena, se perdió toda comunicación y se dio por muerta a la tripulación. Ahora, después de que tus naves hayan aterrizado, Matt ha enviado un mensaje. De alguna manera, ha sobrevivido solo durante más de 5 años.\n\n¿Serás tú quien lo traiga a casa?",
+    "Rescue Matt _ Completion Lore_Name": "¡El 'Marciano por Accidentes' Está de Vuelta en Casa!",
+    "Rescue Matt _ Completion Lore_Desc": "¡Gracias por el viaje, {0}! La comida a bordo estaba deliciosa, aunque casi muero de risa cuando el almuerzo que recibí después de ser rescatado resultó estar hecho de... patatas, jaja. La música a bordo era increíble—no creo que necesite mencionar el nombre del EP otra vez.\n\nDe todos modos, ahora me voy a enseñar a una academia espacial. ¡Cuídate!"
+}

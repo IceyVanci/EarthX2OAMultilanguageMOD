@@ -15,7 +15,7 @@
 
 1. **构建**：`powershell -ExecutionPolicy Bypass -File scripts\build-artifacts.ps1 -Lang CHS`
    - 门禁不过会直接中止；通过后产出 `release\` 下双 zip + .sha256 + `CHS-latest.json` + `_build_report.txt`
-   - 其他语言：`-Lang JPN` 等（默认 CHS）；各语言分别运行一次，各自生成 `<LANG>-latest.json`
+   - 其他语言：`-Lang JPN` / `-Lang ESP` / `-Lang KOR` 等（默认 CHS）；各语言分别运行一次，各自生成 `<LANG>-latest.json`
 2. **回填 URL**：编辑 `release\<LANG>-latest.json`，把 3 处 `{REPO}` 替换为 `用户名/仓库名`
 3. **提交**：`git add -A && git commit -m "release <LANG> v<版本>"`（`CHS\EarthX 2 Open Alpha\` 与 `release\` 已由构建刷新）
 4. **推送**：`git push origin main`（无 tag、无 GitHub Release）
@@ -26,8 +26,10 @@
 |---|---|---|
 | `CHS-EarthX2OAChineseMOD_v<版本>.zip` | Chinese JSON ×64 + 插件（dll/tsv×10/README/src/version.txt/**fonts\×3**）+ 根文档（README.md/README_CN.md/AI-PATCH-GUIDE.md）+ docs\ + licenses\SourceHanSansCN-LICENSE.txt | 已装 BepInEx 的玩家 |
 | `CHS-EarthX2OAChineseMOD_v<版本>_full.zip` | 上述全部 + BepInEx 5.4.23.2 框架（winhttp.dll/doorstop_config.ini/.doorstop_version/BepInEx\core ×18）+ licenses\（LGPL-2.1 + NOTICE + 字体许可） | 全新玩家，解压即用 |
+| `KOR-EarthX2OAKoreanMOD_v<版本>.zip` | Korean JSON ×64 + 插件（dll/tsv×10/README/src/version.txt/**fonts\×3**）+ 根文档 + docs\ + licenses\SourceHanSansK-LICENSE.txt | 已装 BepInEx 的玩家（同 JPN 的 CJK 内嵌字体包） |
+| `ESP-EarthX2OASpanishMOD_v<版本>.zip` | Spanish JSON ×64 + 插件（dll/tsv×10/README/src/version.txt，**无 fonts\**）+ 根文档 + docs\ | 已装 BepInEx 的玩家（同 DEU 的无字体拉丁包） |
 
-> zip 内容即 `CHS\EarthX 2 Open Alpha\` 目录内容 + 根文档；解压到游戏根目录即可。
+> zip 内容即 `<LANG>\EarthX 2 Open Alpha\` 目录内容 + 根文档；解压到游戏根目录即可。
 > 玩家下载：仓库 → `release\` 目录 → 选择对应语言与版本的 zip。
 
 ## 升级机制
@@ -42,5 +44,6 @@
 - Chinese JSON = 64；staging 禁发文件（English/游戏 DLL/rules_backup/.DS_Store/日志）= 0
 - baked 109 条 no-op 为已记录放行项（>120 则报警）
 - 仓库树 = 工作区 MD5 对账：Chinese 64 + plugin（含 fonts\）全同步
-- fonts\ 内嵌思源黑体（OFL 1.1）两字重随包；`licenses\SourceHanSansCN-LICENSE.txt` 两包必备
+- fonts\ 内嵌思源黑体（OFL 1.1）两字重随包（CHS/JPN/KOR）；`licenses\SourceHanSansCN-LICENSE.txt`
+  或 `SourceHanSansK-LICENSE.txt` 按语言必备，两包均须随附；DEU/ESP 无字体包禁止出现 `fonts\`
 - `release\` 内 zip + sha256 + `<LANG>-latest.json` 全部提交入库

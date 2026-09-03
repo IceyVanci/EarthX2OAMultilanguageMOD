@@ -1,0 +1,8 @@
+{
+    "OneWeb_Name": "OneWeb",
+    "OneWeb_Desc": "",
+    "OneWeb Payload_Name": "OneWeb {0}",
+    "OneWeb Payload_Desc": "@OneWeb_Desc",
+    "OneWeb _ Start Lore_Name": "Un Nuevo Competidor en el Mercado",
+    "OneWeb _ Start Lore_Desc": "Los países de todo el mundo empezaron a preocuparse por el servicio de internet de {1}. Si bien es increíblemente bueno, asequible y accesible, es peligroso que una sola persona tenga este nivel de control sobre el acceso global a internet. Se están haciendo grandes inversiones en este mercado, y la primera empresa está lista para lanzar sus propios satélites de internet. Quieren que los lances hasta que sus cohetes estén operativos.\n\n¿Ayudarías, incluso si son competidores?"
+}

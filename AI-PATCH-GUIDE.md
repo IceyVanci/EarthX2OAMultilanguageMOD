@@ -3,8 +3,9 @@
 > 本文是 **面向 AI 编程助手**（也面向人类）的完整方法指南：把整篇文档喂给 AI，并给出目标语言
 > （如 `日语` / `韩语` / `德语`）后，AI 应能据此产出一份可编译、可验证、可发布的语言补丁。
 > 文中所有路径、格式、命令均取自本项目实际结构。已按本指南落地的语言：
-> **简体中文 v1.0.0**（`CHS\`，首个语言）与 **德语 v1.0.0**（`DEU\`，拉丁扩展语言 fork 实例，
-> 复用游戏内嵌 LiberationSans，不随包字体）。
+> **简体中文 v1.0.0**（`CHS\`，首个语言）、**德语 v1.0.0**（`DEU\`，拉丁扩展语言 fork 实例，
+> 复用游戏内嵌 LiberationSans，不随包字体）、**西班牙语 v1.0.0**（`ESP\`，同 DEU 的拉丁扩展实例）、
+> **日语 v1.0.0**（`JPN\`，CJK 内嵌字体实例）与 **韩语 v1.0.0**（`KOR\`，CJK 内嵌字体实例）。
 >
 > 语言约定：正文中文，命令与代码英文。占位符 `<LANG>` 表示目标语言（如 `Japanese`），
 > `<lang>` 为小写（如 `ja`）。
@@ -286,10 +287,10 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "$game\handoff\scripts\gener
 
 ### 6.6 发布门禁与打包
 
-`verify.ps1` 与 `build-artifacts.ps1` 均支持 `-Lang CHS|DEU|JPN`（`-Lang` 指定语言，默认 CHS）：
+`verify.ps1` 与 `build-artifacts.ps1` 均支持 `-Lang CHS|DEU|JPN|ESP|KOR`（`-Lang` 指定语言，默认 CHS）：
 
 ```powershell
-# 门禁（含仓库树=工作区对账；CHS 为工作区来源，DEU/JPN 为 offline 仓库树来源）
+# 门禁（含仓库树=工作区对账；CHS 为工作区来源，DEU/JPN/ESP/KOR 为 offline 仓库树来源）
 powershell -NoProfile -ExecutionPolicy Bypass -File "$publish\scripts\verify.ps1" -GameRoot $game -Lang CHS
 
 # 构建（刷新仓库树 → 门禁 → 打该语言补丁包 + full 包）
@@ -302,12 +303,12 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "$publish\scripts\build-arti
 |---|---|---|---|
 | 1 | `validate_loc.ps1` JSON 层 | L1 | English ↔ `<LANG>` 键集/占位符/富文本/@别名 一致性（扁平解析，**不查语法**） |
 | 2 | `check_tsv.ps1` TSV 层 | L2/L3 | 结构 0 FAIL / 0 CONFLICT / FLAG 合法 / 烘焙基线 no-op 上限 |
-| 3 | ORIG 唯一数基线 | L2 | `-UniqueOrig`（CHS/DEU/JPN = 580） |
+| 3 | ORIG 唯一数基线 | L2 | `-UniqueOrig`（CHS/DEU/JPN/ESP/KOR = 580） |
 | 4 | **ORIG 继承门禁**（仅 offline） | L2 | fork 语言 ORIG 集合与 CHS 基线完全相等（§6.0） |
 | 5 | JSON 文件数 | L1 | `-JsonCount`（64） |
 | 6 | **严格 JSON 语法门禁** | L1 | 用 `JavaScriptSerializer` 严格解析每个 `*.json`，**捕获未转义引号等运行时致命错误**（validate_loc 的扁平解析抓不到） |
 | 7 | 插件目录禁发文件 | 插件 | `rules_backup`/`__MACOSX`/`.DS_Store`/`.log` 等零容忍 |
-| 8 | 字体策略断言 | 插件 | CHS/JPN 须有 `fonts\`；**DEU 禁止 `fonts\`**（游戏内嵌字体） |
+| 8 | 字体策略断言 | 插件 | CHS/JPN/KOR 须有 `fonts\`；**DEU/ESP 禁止 `fonts\`**（游戏内嵌字体） |
 | 9 | 仓库树/版本 | 仓库 | 工作区↔仓库树 MD5 对账（CHS）、`version.txt` = `publish\VERSION` |
 
 ### 6.7 生成语言 NOTES 文档（`docs\<LANG>-NOTES.md`）
@@ -326,8 +327,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "$publish\scripts\build-arti
 
 - 产物位置：`publish\docs\<LANG>-NOTES.md`（随 `build-artifacts.ps1` 的 `docs\*` 一起进包）。
 - 生成后**不要手动复制进 `publish\<LANG>\...`**（该仓库树由构建脚本从工作区刷新，见 §6.6）。
-- 参考实例：`publish\docs\DEU-NOTES.md`（拉丁语言：无内嵌字体、用游戏内嵌 LiberationSans 的
-  字体节写法）与 `CHS-NOTES.md`（CJK 语言：内嵌字体 + OFL 许可）。
+- 参考实例：`publish\docs\DEU-NOTES.md` 与 `ESP-NOTES.md`（拉丁语言：无内嵌字体、用游戏内嵌
+  LiberationSans 的字体节写法）、`JPN-NOTES.md` 与 `KOR-NOTES.md`（CJK 语言：内嵌字体 + OFL 许可）。
 
 ---
 

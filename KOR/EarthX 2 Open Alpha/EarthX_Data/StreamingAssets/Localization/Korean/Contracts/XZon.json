@@ -1,0 +1,14 @@
+{
+    "Xzon Smart Delivery_Name": "XZon: 스마트 배송",
+    "Xzon Smart Delivery_Desc": "글로벌 전자상거래 거인 XZon이 공식적으로 24시간 내 배송은 용납할 수 없다고 결정했습니다. 새로운 \"15분 전 세계 배송\" 계획을 달성하기 위해 자율 배송 드론 대규모 함대를 투입합니다. 군집을 조정하고 수백만 건의 충동 구매가 올바른 집 현관에 도착하도록 보장할 궤도 중계 네트워크를 발사할 신뢰할 수 있는 항공 우주 파트너가 필요합니다.",
+    "Drone Relay Payload_Name": "XZDR<size=90%><color=#ffffff75>_prj:id0{0}_</color></size>",
+    "Drone Relay Payload_Desc": "수천 대의 자동 배송 드론을 동시에 관리하도록 설계된 고주파 궤도 통신 중계기로, 무거운 택배가 보행자 위가 아닌 현관에 떨어지도록 보장합니다.",
+    "Xzon Smart City_Name": "XZon: 스마트 시티",
+    "Xzon Smart City_Desc": "XZon이 매우 인기 있고—약간 방해적인—현관 카메라 네트워크를 지방 자치 수준으로 끌어올리고 있습니다. 새로운 \"스마트 시티\" 계획 아래에서 지역 정부는 전자상거래 거인과 계약하여 거리를 24시간 7일 감시로 뒤덮고, 중범죄부터 사소한 잘못된 행동까지 추적하며 법 집행 기관에 즉시 알릴 수 있습니다. 수백만 시간 분량의 4K 영상을 처리할 수 있는 고용량 궤도 서버를 발사할 항공 우주 파트너가 필요합니다.",
+    "XZon Smart Observer Payload_Name": "XZSO<size=90%><color=#ffffff75>_id1984.{0}</color></size>",
+    "XZon Smart Observer Payload_Desc": "고급 AI를 갖춘 중장비 궤도 데이터 중계기로, 실시간 거리 카메라 피드를 처리하고 누군가 무단 횡단하거나 재활용품을 잘못된 통에 넣는 그 순간 자동으로 당국에 경고하도록 설계되었습니다.",
+    "Xzon ON System_Name": "XZon: ON 시스템",
+    "Xzon ON System_Desc": "XZon 경영진이 당신의 인터넷 서비스가 100,000명의 활성 사용자를 넘어섰다는 것을 알아차렸고, 당연히 그들은 자신을 제외한 누구도 독점을 허용하지 않을 것입니다. \"ON 시스템\"을 소개합니다: 지구를 자체 광대역 네트워크로 뒤덮으려는 XZon의 수십억 달러 규모의 계획입니다. 기업의 아이러니가 멋지게 드러나는 이 계획에서, 그들은 당신과 경쟁하도록 특별히 설계된 바로 그 메가 별자리를 발사하라는 거대하고 매우 수익성 높은 계약을 제안하고 있습니다.",
+    "ON System Payload_Name": "XZON <size=90%><color=#ffffff75>(a-b)Node in,,{0}</color></size>",
+    "ON System Payload_Desc": "ON 시스템의 중추를 이루는 고처리량 통신 위성입니다."
+}

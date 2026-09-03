@@ -61,8 +61,53 @@ $profiles = @{
         UniqueOrig    = 580
         RulesNote     = "591 lines / 580 unique ORIG; baked 299; JSON 64 files; embedded font Source Han Sans JP (OFL 1.1)"
     }
+    "FRA" = @{
+        Prefix        = "fr"
+        TargetLang    = "French"
+        PlugDirName   = "EarthX2French"
+        JsonDirName   = "French"
+        FromWorkspace = $false
+        ZipMod        = "EarthX2OAFrenchMOD"
+        EmbeddedFonts = $false
+        UniqueOrig    = 580
+        RulesNote     = "591 lines / 580 unique ORIG; baked 299; JSON 64 files; game-embedded font (no font files shipped)"
+    }
+    "POR" = @{
+        Prefix        = "pt"
+        TargetLang    = "Portuguese"
+        PlugDirName   = "EarthX2Portuguese"
+        JsonDirName   = "Portuguese"
+        FromWorkspace = $false
+        ZipMod        = "EarthX2OAPortugueseMOD"
+        EmbeddedFonts = $false
+        UniqueOrig    = 580
+        RulesNote     = "591 lines / 580 unique ORIG; baked 299; JSON 64 files; game-embedded font (no font files shipped)"
+    }
+    "ESP" = @{
+        Prefix        = "es"
+        TargetLang    = "Spanish"
+        PlugDirName   = "EarthX2Spanish"
+        JsonDirName   = "Spanish"
+        FromWorkspace = $false
+        ZipMod        = "EarthX2OASpanishMOD"
+        EmbeddedFonts = $false
+        UniqueOrig    = 580
+        RulesNote     = "591 lines / 580 unique ORIG; baked 299; JSON 64 files; game-embedded font (no font files shipped)"
+    }
+    "KOR" = @{
+        Prefix        = "ko"
+        TargetLang    = "Korean"
+        PlugDirName   = "EarthX2Korean"
+        JsonDirName   = "Korean"
+        FromWorkspace = $false
+        ZipMod        = "EarthX2OAKoreanMOD"
+        EmbeddedFonts = $true
+        UniqueOrig    = 580
+        FontLicense   = "SourceHanSansK-LICENSE.txt"
+        RulesNote     = "591 lines / 580 unique ORIG; baked 299; JSON 64 files; embedded font Source Han Sans K (OFL 1.1)"
+    }
 }
-if (-not $profiles.ContainsKey($Lang)) { throw "unknown Lang '$Lang' (expected CHS, DEU or JPN)" }
+if (-not $profiles.ContainsKey($Lang)) { throw "unknown Lang '$Lang' (expected CHS, DEU, JPN, FRA or POR)" }
 $P = $profiles[$Lang]
 $prefix = $P.Prefix
 
@@ -154,7 +199,8 @@ New-Item -ItemType Directory -Path "$staging\docs" -Force | Out-Null
 Copy-Item -Path "$publish\docs\*" -Destination "$staging\docs" -Force
 New-Item -ItemType Directory -Path "$staging\licenses" -Force | Out-Null
 if ($P.EmbeddedFonts) {
-    Copy-Item -LiteralPath "$publish\licenses\SourceHanSansCN-LICENSE.txt" -Destination "$staging\licenses" -Force
+    $fontLic = if ($P.FontLicense) { $P.FontLicense } else { 'SourceHanSansCN-LICENSE.txt' }
+    Copy-Item -LiteralPath "$publish\licenses\$fontLic" -Destination "$staging\licenses" -Force
 }
 
 # forbidden-content assertions inside patch staging

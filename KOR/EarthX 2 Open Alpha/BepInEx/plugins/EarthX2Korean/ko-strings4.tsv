@@ -1,0 +1,142 @@
+# EarthX 2 한국어 - IL 문자열 치환 테이블 (ko-strings4.tsv, 4부)
+# 형식: 범위^^^원문^^^번역  (범위 = 세미콜론으로 구분된 메서드 전체 이름 접두사)
+# 이스케이프: \n = 줄바꿈, \r = 캐리지 리턴
+QAWebcastsWidget::.ctor^^^A great day for EarthX^^^EarthX에게 멋진 하루^^^AUTO
+QAWebcastsWidget::.ctor^^^All parameters remain within limits^^^모든 매개변수가 한도 내에 유지되고 있습니다^^^AUTO
+QAWebcastsWidget::.ctor^^^All systems are behaving as expected^^^모든 시스템이 예상대로 작동하고 있습니다^^^AUTO
+QAWebcastsWidget::.ctor^^^An awesome view from the vehicle via {0}^^^{0} 경유 차량에서의 멋진 전망^^^AUTO
+QAWebcastsWidget::.ctor^^^An awesome view from the vehicle^^^차량에서의 멋진 전망^^^AUTO
+QAWebcastsWidget::.ctor^^^And this is looking great so far!^^^그리고 지금까지 아주 좋게 보이고 있습니다!^^^AUTO
+QAWebcastsWidget::.ctor^^^Continuing to see nominal performance^^^정상 성능 계속 확인 중^^^AUTO
+QAWebcastsWidget::.ctor^^^Everything coming through crystal clear on {0}^^^모든 것이 {0}에서 또렷하게 전달되고 있습니다^^^AUTO
+QAWebcastsWidget::.ctor^^^Everything coming together nicely^^^모든 것이 잘 맞물리고 있습니다^^^AUTO
+QAWebcastsWidget::.ctor^^^Everything continues to look nominal^^^모든 것이 계속 정상으로 보입니다^^^AUTO
+QAWebcastsWidget::.ctor^^^Everything looking good on that first stage^^^그 첫 번째 단계에서 모든 것이 좋아 보입니다^^^AUTO
+QAWebcastsWidget::.ctor^^^Just a fantastic performance^^^정말 환상적인 성능입니다^^^AUTO
+QAWebcastsWidget::.ctor^^^No issues with the booster at this time^^^현재 부스터에 문제가 없습니다^^^AUTO
+QAWebcastsWidget::.ctor^^^Nothing unexpected at this point^^^현재 예상치 못한 것은 없습니다^^^AUTO
+QAWebcastsWidget::Comment^^^Offline^^^오프라인^^^DISPLAY
+QAWebcastsWidget::.ctor^^^Telemetry continues to look healthy via {0}^^^{0} 경유 텔레메트리가 계속 정상으로 보입니다^^^AUTO
+QAWebcastsWidget::.ctor^^^Telemetry continues to look healthy^^^텔레메트리가 계속 정상으로 보입니다^^^AUTO
+QAWebcastsWidget::.ctor^^^That is absolutely beautiful^^^정말로 아름답습니다^^^AUTO
+QAWebcastsWidget::.ctor^^^That is absolutely beautiful - {0} is really powerful^^^정말로 아름답습니다 - {0}이(가) 정말 강력합니다^^^AUTO
+QAWebcastsWidget::.ctor^^^That is just stunning^^^정말 경이롭습니다^^^AUTO
+QAWebcastsWidget::.ctor^^^That stage is flying itself quite nicely^^^그 단계가 아주 잘 스스로 비행하고 있습니다^^^AUTO
+QAWebcastsWidget::.ctor^^^That’s a good, stable vehicle^^^좋고 안정적인 차량입니다^^^AUTO
+QAWebcastsWidget::.ctor^^^That’s an amazing sight right there^^^저기 보이는 경치가 정말 놀랍습니다^^^AUTO
+QAWebcastsWidget::.ctor^^^That’s exactly the behavior we expect^^^정확히 우리가 기대하는 동작입니다^^^AUTO
+QAWebcastsWidget::.ctor^^^The vehicle is doing what it’s told^^^차량이 지시대로 하고 있습니다^^^AUTO
+QAWebcastsWidget::.ctor^^^Things are going really well^^^사물이 정말 잘 진행되고 있습니다^^^AUTO
+QAWebcastsWidget::.ctor^^^Things are progressing normally so far^^^지금까지 정상적으로 진행되고 있습니다^^^AUTO
+QAWebcastsWidget::.ctor^^^We’re happy with what we’re seeing so far^^^지금까지 보이는 것에 만족합니다^^^AUTO
+QAWebcastsWidget::.ctor^^^We’re seeing good data across the vehicle thanks to {0}^^^{0} 덕분에 차량 전체에서 좋은 데이터를 얻고 있습니다^^^AUTO
+QAWebcastsWidget::.ctor^^^We’re seeing good data across the vehicle^^^차량 전체에서 좋은 데이터를 얻고 있습니다^^^AUTO
+QAWebcastsWidget::.ctor^^^What a smooth flight so far^^^지금까지 정말 순조로운 비행입니다^^^AUTO
+QAWebcastsWidget::.ctor^^^What a smooth flight so far, partly thanks to {0}^^^지금까지 정말 순조로운 비행, 부분적으로 {0} 덕분입니다^^^AUTO
+QAWebcastsWidget::.ctor^^^What an incredible view^^^정말 놀라운 전망입니다^^^AUTO
+QAWebcastsWidget::.ctor^^^What an incredible view. Our {0} tech is amazing^^^정말 놀라운 전망입니다. 우리의 {0} 기술은 대단합니다^^^AUTO
+QAWebcastsWidget::.ctor^^^You can really feel the excitement^^^정말로 그 흥분을 느낄 수 있습니다^^^AUTO
+QAWebcastsWidget::.ctor^^^You love to see that^^^그걸 보니 기쁘네요^^^AUTO
+QAWebcastsWidget::.ctor^^^This is a great moment for the team^^^팀에게 멋진 순간입니다^^^AUTO
+QAWebcastsWidget::.ctor^^^This is exactly what we were hoping to see^^^정확히 우리가 보고 싶었던 것입니다^^^AUTO
+QAWebcastsWidget::<UpdateUI>g__SetOptions|23_0^^^Add To HUD (During Launch)^^^HUD에 추가 (발사 중)^^^AUTO
+QAItemPanel::<UpdateUI>g__SetOptions|13_0;QASalesPanel/<>c__DisplayClass10_0::<UpdateUI>g__SetOptions|0;QAServicePanel::<UpdateUI>g__SetOptions|23_0^^^Add To HUD^^^HUD에 추가^^^AUTO
+QAItemPanel::<UpdateUI>g__SetOptions|13_0;QASalesPanel/<>c__DisplayClass10_0::<UpdateUI>g__SetOptions|0;QAServicePanel::<UpdateUI>g__SetOptions|23_0;QAWebcastsWidget::<UpdateUI>g__SetOptions|23_0^^^Remove From HUD^^^HUD에서 제거^^^AUTO
+QAItemPanel::<UpdateUI>g__SetOptions|13_0^^^Always Show^^^항상 표시^^^AUTO
+QAItemPanel::<UpdateUI>g__SetOptions|13_0^^^Only Show When Viewing Planet^^^행성 볼 때만 표시^^^AUTO
+QAItemPanel::<UpdateUI>g__SetOptions|13_0;QASalesPanel/<>c__DisplayClass10_0::<UpdateUI>g__SetOptions|0;QAServicePanel::<UpdateUI>g__SetOptions|23_0^^^Remove Pin^^^고정 제거^^^AUTO
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetOptions|6^^^Pin Item^^^품목 고정^^^AUTO
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetOptions|6^^^Pin Sales^^^판매 고정^^^AUTO
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetOptions|6;VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateOptions|4^^^Favorite^^^즐겨찾기^^^AUTO
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetOptions|6;VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateOptions|4^^^Unfavorite^^^즐겨찾기 해제^^^AUTO
+QAItemPanel::<UpdateUI>g__SetOptions|13_0;QASalesPanel/<>c__DisplayClass10_0::<UpdateUI>g__SetOptions|0^^^Open Inventory Window^^^인벤토리 창 열기^^^AUTO
+QAServicePanel::<UpdateUI>g__SetOptions|23_0^^^Open Services Window^^^서비스 창 열기^^^AUTO
+NotificationWindow::UpdateUI^^^Ok^^^확인^^^DISPLAY
+NotificationWindow::UpdateUI^^^View ^^^보기 ^^^DISPLAY
+NotificationWindow::UpdateUI^^^Open in Contracts Window^^^계약 창에서 열기^^^DISPLAY
+NotificationWindow::UpdateUI^^^Play Mini Game^^^미니 게임 플레이^^^DISPLAY
+NotificationWindow::UpdateUI^^^Post on Catter^^^캐터에 게시^^^DISPLAY
+NotificationWindow::UpdateUI^^^Open Apocalypse Panel^^^재앙 패널 열기^^^DISPLAY
+IWItemsScroller::.ctor;VWVehiclesScroller::.ctor^^^Favorites^^^즐겨찾기^^^DISPLAY
+IWItemsScroller::.ctor^^^Personnel^^^인력^^^DISPLAY
+IWItemsListFilter/ResourcesFilterOption::.ctor;IWItemsListFilter::GetObjectName;IWItemsScroller::.ctor^^^Resources^^^자원^^^DISPLAY
+IWItemsScroller::.ctor;VWVehiclesScroller::.ctor^^^Other^^^기타^^^DISPLAY
+IWItemsScroller::.ctor;VWVehiclesScroller::.ctor^^^Ready to Launch^^^발사 준비 완료^^^DISPLAY
+IWItemsScroller::.ctor^^^Upcoming Missions^^^예정된 임무^^^DISPLAY
+MWContractsScroller::.ctor^^^Long^^^장기^^^DISPLAY
+MWContractsScroller::.ctor^^^Special^^^특별^^^DISPLAY
+MWContractsScroller::.ctor^^^Signed^^^체결됨^^^DISPLAY
+CWContractsFilter::GetObjectName^^^Opportunity^^^기회^^^DISPLAY
+IWItemsListFilter/DeadlineFilterOption::.ctor;IWItemsListFilter::GetObjectName^^^Deadline^^^마감^^^DISPLAY
+IWItemsListFilter/FuelFilterOption::.ctor;IWItemsListFilter::GetObjectName^^^Fuel^^^연료^^^DISPLAY
+IWItemsListFilter/StackableFilterOption::.ctor;IWItemsListFilter::GetObjectName^^^Stackable^^^적재 가능^^^DISPLAY
+IWItemsListFilter/SuppliableFilterOption::.ctor;IWItemsListFilter::GetObjectName^^^Suppliable^^^공급 가능^^^DISPLAY
+VWVehiclesListFilter/VehicleReadyFilterOption::.ctor^^^ready to fly^^^비행 준비 완료^^^DISPLAY
+VWVehiclesListFilter::GetObjectName^^^Ready^^^준비됨^^^DISPLAY
+VWVehiclesListFilter/VehicleWithoutAutomationFilterOption::.ctor;VWVehiclesListFilter::GetObjectName^^^Without Automation^^^자동화 없음^^^DISPLAY
+VWVehiclesListFilter::AddFilters;VWVehiclesScroller::.ctor^^^rockets^^^로켓^^^DISPLAY
+VWVehiclesListFilter::AddFilters;VWVehiclesScroller::.ctor^^^ships^^^우주선^^^DISPLAY
+VWVehiclesListFilter::AddFilters^^^orbiers^^^오비터^^^AUTO
+VWVehiclesScroller::.ctor^^^Capsules^^^캡슐^^^DISPLAY
+VWVehiclesScroller::.ctor^^^Orbiters^^^오비터^^^DISPLAY
+VWVehiclesListFilter::AddFilters^^^capslues^^^캡슐^^^AUTO
+IWItemsListFilter::AddFilters;ListFilter::AddFilters^^^Earth^^^지구^^^DISPLAY
+IWItemsListFilter::AddFilters;ListFilter::AddFilters^^^Mars^^^화성^^^DISPLAY
+IWItemsListFilter::AddFilters;ListFilter::AddFilters^^^Moon^^^달^^^DISPLAY
+IWItemsListFilter::AddFilters;ListFilter::AddFilters^^^Phobos^^^포보스^^^DISPLAY
+IWItemsListFilter::AddFilters;ListFilter::AddFilters^^^Europa^^^유로파^^^DISPLAY
+IWItemsListFilter::AddFilters^^^orbits of {0}^^^{0}의 궤도^^^AUTO
+Asset::GetAssetType;VWVehiclesListFilter::GetObjectName^^^Rocket^^^로켓^^^DISPLAY
+Asset::GetAssetType;VWVehiclesListFilter::GetObjectName^^^Orbiter^^^오비터^^^DISPLAY
+Asset::GetAssetType;VWVehiclesListFilter::GetObjectName^^^Ship^^^우주선^^^DISPLAY
+Asset::GetAssetType;VWVehiclesListFilter::GetObjectName^^^Capsule^^^캡슐^^^DISPLAY
+Asset::GetAssetType^^^Basic Rocket^^^기본 로켓^^^DISPLAY
+Asset::GetAssetType^^^Super Rocket^^^슈퍼 로켓^^^DISPLAY
+Asset::GetAssetType^^^Light Rocket^^^라이트 로켓^^^DISPLAY
+Asset::GetAssetType^^^Prime Rocket^^^프라임 로켓^^^DISPLAY
+Asset::GetAssetType^^^Heavy Rocket^^^헤비 로켓^^^DISPLAY
+Asset::GetAssetType^^^Light Orbiter^^^라이트 오비터^^^DISPLAY
+Asset::GetAssetType^^^Prime Orbiter^^^프라임 오비터^^^DISPLAY
+Asset::GetAssetType^^^Sidebooster^^^사이드 부스터^^^DISPLAY
+Asset::GetAssetType^^^Cruiser^^^순양함^^^DISPLAY
+Asset::GetAssetType^^^Crew Ship^^^승무원 우주선^^^DISPLAY
+Asset::GetAssetType^^^Cargo Ship^^^화물 우주선^^^DISPLAY
+Asset::GetAssetType^^^Tanker Ship^^^유조선 우주선^^^DISPLAY
+Asset::GetAssetType^^^Expendable Ship^^^일회용 우주선^^^DISPLAY
+Asset::GetAssetType^^^Low Gravity Ship^^^저중력 우주선^^^DISPLAY
+Asset::GetAssetType^^^Launch Pad^^^발사대^^^DISPLAY
+Asset::GetAssetType^^^Factory^^^공장^^^DISPLAY
+Asset::GetAssetType^^^Building^^^건물^^^DISPLAY
+Asset::GetAssetType^^^Planet^^^행성^^^DISPLAY
+Asset::GetAssetType^^^Upgrade^^^업그레이드^^^DISPLAY
+Asset::GetAssetType^^^Service^^^서비스^^^DISPLAY
+Asset::GetAssetType^^^Colonists^^^식민지 주민^^^DISPLAY
+Asset::GetAssetType^^^Civilians^^^민간인^^^DISPLAY
+Asset::GetAssetType^^^Person^^^사람^^^DISPLAY
+Asset::GetAssetType^^^Item^^^품목^^^DISPLAY
+Asset::GetAssetType^^^Mega Project^^^메가 프로젝트^^^DISPLAY
+Asset::GetAssetType^^^Hub Station^^^허브 스테이션^^^DISPLAY
+Asset::GetAssetType^^^Space Station^^^우주 정거장^^^DISPLAY
+Asset::GetAssetType^^^Orbit^^^궤도^^^DISPLAY
+Asset::GetAssetType^^^Contract^^^계약^^^DISPLAY
+Asset::GetAssetType^^^Message^^^메시지^^^DISPLAY
+Asset::GetAssetType^^^Feature^^^기능^^^DISPLAY
+Asset::GetAssetGeneralType^^^Vehicle^^^차량^^^DISPLAY
+Asset::GetAssetGeneralType^^^Item^^^품목^^^DISPLAY
+Asset::GetAssetGeneralType^^^Service^^^서비스^^^DISPLAY
+Asset::GetAssetGeneralType^^^Upgrade^^^업그레이드^^^DISPLAY
+Asset::GetAssetGeneralType^^^Feature^^^기능^^^DISPLAY
+Asset::GetAssetGeneralType^^^Financial Support^^^재정 지원^^^DISPLAY
+Asset::GetAssetGeneralType^^^Simulation^^^시뮬레이션^^^DISPLAY
+Asset::GetAssetGeneralType^^^Planet^^^행성^^^DISPLAY
+Asset::GetAssetGeneralType^^^Asset^^^자산^^^DISPLAY
+# DISABLED (breaks GetDataByLinq orbit key): PlanetData::<get_LowOrbit>b__17_1^^^Low Orbit ^^^低轨轨道
+# DISABLED (breaks GetDataByLinq orbit key): PlanetData::<get_MediumOrbit>b__19_1^^^Medium Orbit ^^^中轨轨道
+# DISABLED (breaks GetDataByLinq orbit key): PlanetData::<get_HighOrbit>b__21_1^^^High Orbit ^^^高轨轨道
+# DISABLED (breaks GetDataByLinq orbit key): PlanetData::<get_ParkingOrbit>b__23_1^^^ Parking^^^ 停泊
+# DISABLED (breaks GetDataByLinq orbit key): PlanetData::get_LowOrbit^^^Low Orbit of ^^^低轨轨道 -
+# DISABLED (breaks GetDataByLinq orbit key): PlanetData::get_MediumOrbit^^^Medium Orbit of ^^^中轨轨道 -
+# DISABLED (breaks GetDataByLinq orbit key): PlanetData::get_HighOrbit^^^High Orbit of ^^^高轨轨道 -
+# DISABLED (breaks GetDataByLinq orbit key): PlanetData::get_ParkingOrbit^^^Parking Orbit of ^^^停泊轨道 -
+ParkingOrbitData::get_FullName^^^Parking Orbit^^^주차 궤도^^^DISPLAY
+ParkingOrbitData::get_ShortName^^^Parking^^^주차^^^DISPLAY

@@ -1,0 +1,12 @@
+{
+    "lang":  "KOR",
+    "language":  "Korean",
+    "version":  "1.0.0",
+    "date":  "2026-09-03",
+    "zipUrl":  "https://raw.githubusercontent.com/{REPO}/main/release/KOR-EarthX2OAKoreanMOD_v1.0.0.zip",
+    "zipFullUrl":  "https://raw.githubusercontent.com/{REPO}/main/release/KOR-EarthX2OAKoreanMOD_v1.0.0_full.zip",
+    "sha256":  "584d693cf15a3f61aa413e9e323fbae1c75283c041112cc7eb8ccfda86897123",
+    "sha256Full":  "58eff9eb4e9745f38b4f339b68b42b16e8f8201257990a825196b2392ca446b6",
+    "rules":  "591 lines / 580 unique ORIG; baked 299; JSON 64 files; embedded font Source Han Sans K (OFL 1.1)",
+    "notes":  "https://raw.githubusercontent.com/{REPO}/main/CHANGELOG.md"
+}

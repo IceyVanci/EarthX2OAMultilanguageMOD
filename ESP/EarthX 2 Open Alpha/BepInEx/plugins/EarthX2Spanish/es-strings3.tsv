@@ -1,0 +1,101 @@
+# EarthX 2 Español - Tabla de reemplazo de cadenas IL (es-strings3.tsv, parte 3)
+# Formato: alcance^^^original^^^traducción  (alcance = prefijo de nombre de método separado por ;)
+VehicleWindow::<UpdateUI>g__UpdateInfoPanel|21_1^^^<size=90%><color=#ffffff75>Transfer window with ^^^<size=90%><color=#ffffff75>Ventana de transferencia con ^^^AUTO
+VehicleWindow::<UpdateUI>g__UpdateInfoPanel|21_1^^^ is now <color=#E74C3C>closed</color>\nReopens <color=#ffffff75><size=90%>in ^^^ está ahora <color=#E74C3C>cerrada</color>\nSe reabre <color=#ffffff75><size=90%>en ^^^AUTO
+PlanetButton::UpdateUI^^^</size></color> is now <color=#64B5F6>open</color>.\nIt will close in <color=#ffffff75><size=90%>^^^</size></color> está ahora <color=#64B5F6>abierta</color>.\nSe cerrará en <color=#ffffff75><size=90%>^^^AUTO
+SolarSystemPlanet::UpdateTooltip^^^</size></color> is now <color=#9B59B6>open</color>.\nIt will close in <color=#ffffff75><size=90%>^^^</size></color> está ahora <color=#9B59B6>abierta</color>.\nSe cerrará en <color=#ffffff75><size=90%>^^^AUTO
+PlanetButton::UpdateUI;SolarSystemPlanet::UpdateTooltip^^^</size></color> is now <color=#E74C3C>closed</color>.\nIt will reopen in <color=#ffffff75><size=90%>^^^</size></color> está ahora <color=#E74C3C>cerrada</color>.\nSe reabrirá en <color=#ffffff75><size=90%>^^^AUTO
+PlanetButton::UpdateUI;SolarSystemPlanet::UpdateTooltip^^^</size></color> has no transfer window with <color=#ffffff75><size=90%>^^^</size></color> no tiene ventana de transferencia con <color=#ffffff75><size=90%>^^^AUTO
+PlanetButton::UpdateUI;SolarSystemPlanet::UpdateTooltip^^^</size></color>.\n<color=#ffffff75><size=90%>You can fly there anytime you want!</size></color>^^^</size></color>.\n<color=#ffffff75><size=90%>¡Puedes volar allí cuando quieras!</size></color>^^^AUTO
+SolarSystemPlanet::UpdateTooltip^^^Transfer window <color=#ffffff75><size=90%>^^^Ventana de transferencia <color=#ffffff75><size=90%>^^^AUTO
+VehicleWindow::<UpdateUI>g__UpdateRefuelInfo|21_0^^^{0} <color=#ffffff75><size=90%>required^^^{0} <color=#ffffff75><size=90%>necesario^^^DISPLAY
+LaunchUI::UpdateUI^^^\n<color=#9B59B6><size=90%>Refuel Required^^^\n<color=#9B59B6><size=90%>Reabastecimiento Necesario^^^DISPLAY
+LaunchUI::UpdateUI^^^\n<color=#E74C3C><size=90%>Problems Detected^^^\n<color=#E74C3C><size=90%>Problemas Detectados^^^DISPLAY
+LaunchUI::UpdateUI^^^\n<size=90%><color=#ffffff75>Payload Risk:</color></size> ^^^\n<size=90%><color=#ffffff75>Riesgo de la Carga Útil:</color></size> ^^^DISPLAY
+LaunchUI::UpdateUI^^^<size=90%><color=#ffffff75>Payload Revenue:</color></size> ^^^<size=90%><color=#ffffff75>Ingresos de la Carga Útil:</color></size> ^^^DISPLAY
+# DISABLED (Launch is an asset id in set_LaunchSetupViewActive): LaunchUI::UpdateUI;LaunchData::set_LaunchSetupViewActive^^^Launch^^^发射
+LaunchUI::UpdateUI^^^Refuel on Orbit^^^Reabastecer en órbita^^^DISPLAY
+LaunchUI::UpdateUI^^^Undock and Deorbit^^^Desacoplar y deorbitar^^^DISPLAY
+LaunchUI::LaunchPadSelect_OnClick^^^Select Launch Pad^^^Seleccionar Plataforma de Lanzamiento^^^DISPLAY
+LaunchUI::VehicleToRefuelSelect_OnClick^^^Select Vehicle To Refuel^^^Seleccionar Vehículo para Reabastecer^^^DISPLAY
+LaunchUI::UpdateUI^^^[Select]^^^[Seleccionar]^^^DISPLAY
+LaunchPanel::Update^^^<size=90%>Launch In Progress</size>\n<b>{0:T\+m:ss}^^^<size=90%>Lanzamiento en Curso</size>\n<b>{0:T\+m:ss}^^^DISPLAY
+CutsceneUI::Update^^^Skip <color=#ffffff75><size=90%>({0}s)</size></color>^^^Saltar <color=#ffffff75><size=90%>({0}s)</size></color>^^^DISPLAY
+CutsceneUI::Update^^^<color=#ffffff75><size=90%>Song Name</size></color>\n^^^<color=#ffffff75><size=90%>Nombre de la Canción</size></color>\n^^^AUTO
+SoundtrackUI::Update^^^\n<color=#ffffff75><size=90%>by ^^^\n<color=#ffffff75><size=90%>por ^^^DISPLAY
+Soundtrack::OnGameLoaded^^^No soundtracks found!^^^¡No se encontraron bandas sonoras!^^^DISPLAY
+BellyFlopMiniGame::<Update>g__Success|38_0;HelicopterCatchMiniGame::RocketWasCatched;HopperMiniGame::<Update>g__Success|28_0;ISSDockingMiniGame::<Update>g__Success|25_0;OceanLandingMiniGame::<Update>g__Success|27_0;TowerCatchMiniGame::<Update>g__Success|30_0^^^Success! Congratulations :)^^^¡Éxito! Felicidades :)^^^DISPLAY
+OceanLandingMiniGame::<Update>g__Explode|27_2;TowerCatchMiniGame::<Update>g__Explode|30_1^^^The Rocket hit the ground a little too hard!^^^¡El cohete golpeó el suelo con demasiada fuerza!^^^DISPLAY
+TowerCatchMiniGame::<Update>g__HardCatch|30_2^^^The Rocket hit the arms a little too hard!^^^¡El cohete golpeó los brazos con demasiada fuerza!^^^DISPLAY
+HopperMiniGame::<Update>g__Explode|28_1^^^The Hopper hit the ground a little too hard!^^^¡El Hopper golpeó el suelo con demasiada fuerza!^^^DISPLAY
+BellyFlopMiniGame::<Update>g__Explode|38_2^^^The Ship hit the ground a little too hard!^^^¡La Nave golpeó el suelo con demasiada fuerza!^^^DISPLAY
+BellyFlopMiniGame::<Update>g__InFlightExplode|38_1^^^The Ship rotated too far!^^^¡La Nave giró demasiado!^^^DISPLAY
+HelicopterCatchMiniGame::Update^^^You missed the Rocket!^^^¡No atrapaste el cohete!^^^DISPLAY
+ISSDockingMiniGame::Update^^^You were too fast!^^^¡Fuiste demasiado rápido!^^^AUTO
+ISSDockingMiniGame::Update^^^Capsule rotation must be more precise!^^^¡La rotación de la cápsula debe ser más precisa!^^^AUTO
+ISSDockingMiniGame::Update^^^Capsule roll must be more precise!^^^¡El alabeo de la cápsula debe ser más preciso!^^^AUTO
+ISSDockingMiniGame::Update^^^You entered a no-fly zone!^^^¡Entraste en una zona de no vuelo!^^^AUTO
+ISSDockingMiniGame::Update^^^You have been banned from the ISS...^^^Has sido expulsado de la ISS...^^^AUTO
+MiniGameAsset::GetControlsText^^^:^^^:^^^AUTO
+MiniGameAsset::GetControlsText^^^\nIncrease Throttle\n^^^\nAumentar Acelerador\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nDecrease Throttle\n^^^\nReducir Acelerador\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nIncrease Speed\n^^^\nAumentar Velocidad\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nDecrease Speed\n^^^\nReducir Velocidad\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nHorizontal Rotation\n^^^\nRotación Horizontal\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nVertical Rotation^^^\nRotación Vertical^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nMove Position\n^^^\nMover Posición\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nMove Elevation\n^^^\nMover Elevación\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nLanding Burn\n^^^\nEncendido de Aterrizaje\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nRoll^^^\nAlabeo^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nRotate Left/Right^^^\nRotar Izquierda/Derecha^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nRotate\n^^^\nRotar\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nSteel Left\n^^^\nGirar a la Izquierda\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nSteer Right^^^\nGirar a la Derecha^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nDeploy Legs^^^\nDesplegar Patas^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nTower Arms^^^\nBrazos de la Torre^^^DISPLAY
+MiniGameLoreAsset::get_Desc^^^Your engineers are stuck at an issue and need your help!\n\n^^^¡Tus ingenieros están atascados en un problema y necesitan tu ayuda!\n\n^^^AUTO
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI;ServicesWindow::UpdateUI^^^Launch Internet Satellites to increase the Capacity!^^^¡Lanza Satélites de Internet para aumentar la Capacidad!^^^DISPLAY
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI;ServicesWindow::UpdateUI^^^Build Relays on the Planet in Construction Mode.^^^Construye Repetidores en el Planeta en el Modo de Construcción.^^^DISPLAY
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI;ServicesWindow::UpdateUI^^^Increase Bandwidth by launching Internet Satellites to lower orbits.^^^Aumenta el Ancho de Banda lanzando Satélites de Internet a órbitas más bajas.^^^DISPLAY
+InternetServiceTab::UpdateUI^^^\n<color=#ffffff75><size=90%>Global internet powered by thousands of satellites on Earth's orbit.^^^\n<color=#ffffff75><size=90%>Internet global impulsado por miles de satélites en la órbita de la Tierra.^^^DISPLAY
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI;ServicesWindow::UpdateUI^^^<color=#E74C3C>Users are exceeding the Capacity by {0:F0}%!^^^<color=#E74C3C>¡Los usuarios superan la Capacidad en un {0:F0}%!^^^DISPLAY
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI;ServicesWindow::UpdateUI^^^<color=#E74C3C>Users are exceeding the Capacity, decreasing the Bandwidth by {0:F0}%!\n^^^<color=#E74C3C>¡Los usuarios superan la Capacidad, reduciendo el Ancho de Banda en un {0:F0}%!\n^^^DISPLAY
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI;ServicesWindow::UpdateUI^^^<color=#E74C3C>Satellites don't have enough Relays, decreasing the Bandwidth by {0:F0}%!^^^<color=#E74C3C>¡Los Satélites no tienen suficientes Repetidores, reduciendo el Ancho de Banda en un {0:F0}%!^^^DISPLAY
+InternetServiceTab::UpdateUI^^^<color=#E74C3C>{0:F0}% of your Internet Satellites does not work properly. You need to build more Relays!^^^<color=#E74C3C>El {0:F0}% de tus Satélites de Internet no funciona correctamente. ¡Necesitas construir más Repetidores!^^^DISPLAY
+QAServicePanel::UpdateUI;ServicesWindow::UpdateUI^^^<color=#E74C3C>{0:F0}% of your LinkLink Satellites does not work properly. You need to build more Relays!^^^<color=#E74C3C>El {0:F0}% de tus Satélites LinkLink no funciona correctamente. ¡Necesitas construir más Repetidores!^^^DISPLAY
+InternetServiceTab::UpdateUI^^^ is online^^^ está en línea^^^DISPLAY
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI^^^<b>Internet Satellites</b>\n<size=90%><color=#ffffff75>Low Orbit:</color></size> ^^^<b>Satélites de Internet</b>\n<size=90%><color=#ffffff75>Órbita Baja:</color></size> ^^^AUTO
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI^^^ <size=90%><color=#ffffff75>(v2)</color></size>\n<size=90%><color=#ffffff75>High Orbit:</color></size> ^^^ <size=90%><color=#ffffff75>(v2)</color></size>\n<size=90%><color=#ffffff75>Órbita Alta:</color></size> ^^^AUTO
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI^^^ <size=90%><color=#ffffff75>(v2)</color></size>\n<size=90%><color=#ffffff75>Medium Orbit:</color></size> ^^^ <size=90%><color=#ffffff75>(v2)</color></size>\n<size=90%><color=#ffffff75>Órbita Media:</color></size> ^^^AUTO
+QAServicePanel::UpdateUI^^^ <size=90%><color=#ffffff75>| last 12 months^^^ <size=90%><color=#ffffff75>| últimos 12 meses^^^DISPLAY
+QAServicePanel::UpdateUI;ServicesWindow::UpdateUI^^^ <size=90%><color=#ffffff75>new users^^^ <size=90%><color=#ffffff75>nuevos usuarios^^^DISPLAY
+ProductionLinePanel::UpdateUI^^^Select Item to Produce^^^Seleccionar Artículo para Producir^^^DISPLAY
+ProductionLinePanel::UpdateUI^^^Select Item to Supply^^^Seleccionar Artículo para Suministrar^^^DISPLAY
+ProductionLinePanel::UpdateUI;AttachPayloadCommandPanel::SelectItem_OnClick^^^Select Item^^^Seleccionar Artículo^^^DISPLAY
+PWProductionLinePanel::UpdateUI^^^No Item Selected^^^No hay Artículo Seleccionado^^^DISPLAY
+ProductionLinePanel::UpdateUI^^^Production stopped^^^Producción detenida^^^DISPLAY
+ProductionLinePanel::UpdateUI^^^Production paused at {0}%^^^Producción pausada al {0}%^^^AUTO
+ProductionLinePanel::UpdateUI^^^Training paused at {0}%^^^Entrenamiento pausado al {0}%^^^AUTO
+ProductionLinePanel::UpdateUI^^^Training stopped^^^Entrenamiento detenido^^^DISPLAY
+ProductionLinePanel::UpdateUI;ProductionWindow::UpdateUI^^^Pin^^^Fijar^^^AUTO
+ProductionLinePanel::UpdateUI^^^Clear Line^^^Limpiar Línea^^^AUTO
+ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateProductionLines|1^^^Supply from Market^^^Suministrar desde el Mercado^^^DISPLAY
+FactoryData::.ctor^^^Production Line {0}^^^Línea de Producción {0}^^^AUTO
+VehiclesWindow::UpdateUI^^^Produced in {0} of {1}^^^Producido en {0} de {1}^^^DISPLAY
+ItemAsset::GetAssetInfo^^^Production Amount: ^^^Cantidad de Producción: ^^^AUTO
+ItemAsset::GetAssetInfo^^^Production Cost: ^^^Costo de Producción: ^^^AUTO
+ItemAsset::GetAssetInfo^^^Production Time: ^^^Tiempo de Producción: ^^^AUTO
+ItemAsset::GetAssetInfo^^^({0} minutes)^^^({0} minutos)^^^AUTO
+ItemAsset::GetAssetInfo^^^ (Improved Over Time)^^^ (Mejora con el Tiempo)^^^DISPLAY
+ItemAsset::GetAssetInfo^^^Production\n^^^Producción\n^^^DISPLAY
+ItemAsset::GetAssetInfo^^^Factories\n^^^Fábricas\n^^^DISPLAY
+Asset::GetAssetInfo^^^Milestones\n^^^Hitos\n^^^DISPLAY
+Asset::GetAssetInfo;BlueprintAsset::GetAssetInfo^^^Upgrades\n^^^Mejoras\n^^^DISPLAY
+Asset::GetAssetInfo^^^Research^^^Investigación^^^DISPLAY
+Asset::GetAssetInfo^^^Unlocked with Set: ^^^Desbloqueado con el Conjunto: ^^^AUTO
+Asset::GetAssetInfo^^^Requires No Milestones^^^No Requiere Hitos^^^DISPLAY
+Asset::GetAssetInfo^^^Unlocked After Milestones^^^Desbloqueado Después de Hitos^^^AUTO
+Asset::GetAssetInfo;DWAssetsFilter::GetObjectName^^^Unlockable^^^Desbloqueable^^^DISPLAY
+BlueprintAsset::GetAssetInfo^^^Range: ^^^Alcance: ^^^DISPLAY
+BlueprintAsset::GetAssetInfo^^^Space: ^^^Espacio: ^^^DISPLAY
+ConstructionAssetInformationTooltip::UpdateUI^^^No description^^^Sin descripción^^^AUTO

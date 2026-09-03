@@ -1,0 +1,34 @@
+# es-strings8.tsv — Tarea C: Remanentes IL traducidos al español (fork de de-strings8.tsv 2026-09-03)
+# Formato: ALCANCE^^^ORIG^^^TRANS ; ORIG coincide literalmente con el ldstr del DLL, \n es escapado literal
+# DISABLED (6-dangerous 2026-09-01: rompe búsqueda Asset.GetAsset<UpgradeAsset> en la ventana de naves de construcción): ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateShips|2^^^Droneship Upgrade^^^无人机船升级
+# DISABLED (6-dangerous 2026-09-01: rompe búsqueda Asset.GetAsset<FairingReusabilityUpgradeAsset> en la ventana de naves de construcción): ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateShips|2^^^Fairing Reusability Upgrade^^^整流罩回收升级
+# DISABLED (rompe búsquedas Asset.GetAsset): ContractsManager::Awake^^^Launch Light Rocket^^^发射轻型火箭
+# DISABLED (rompe búsquedas Asset.GetAsset): ContractsManager::CheckForContracts^^^Random Contracts^^^随机合同
+Cutscene::PlayCutscene^^^ (Video Player)^^^ (Reproductor de video)^^^AUTO
+# DISABLED (rompe búsquedas Asset.GetAsset): Droneship::Return;Droneship::SetData^^^Droneship Rumba Upgrade^^^无人机船Rumba升级
+InternetServiceData::OnNewGame^^^Internet Service^^^Servicio de Internet^^^AUTO
+# DISABLED (no-op: 'Internet Router' no está en el DLL; además rompería GetDataByLinq): InternetServiceTab/<>c::<get_routersItem>b__28_1^^^Internet Router^^^互联网路由器
+# DISABLED (rompe clave GetDataByLinq<ItemData>("routers item")): InternetServiceTab::get_routersItem^^^routers item^^^路由器
+ISSDockingMiniGame::Awake^^^Move backwards (^^^Mover hacia atrás (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move down (^^^Mover hacia abajo (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move forwards (^^^Mover hacia adelante (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move left (^^^Mover hacia la izquierda (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move right (^^^Mover hacia la derecha (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move up (^^^Mover hacia arriba (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Roll left (^^^Inclinación a la izquierda (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Roll right (^^^Inclinación a la derecha (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Rotate left (^^^Girar a la izquierda (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Rotate right (^^^Girar a la derecha (^^^DISPLAY
+LaunchData/InventorySettings::ValidateDestination^^^You can't launch from one space station to another.^^^No puedes lanzar de una estación espacial a otra.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^You can't launch to space stations that are on a different planet.^^^No puedes lanzar hacia estaciones espaciales que estén en un planeta diferente.^^^AUTO
+LaunchData/VehicleSettings::Validate^^^Set a docking port for ^^^Establecer un puerto de acoplamiento para ^^^AUTO
+# DISABLED (6-dangerous 2026-09-01: rompe scene-id de PlanetsManager.LoadPlanetWithoutTransition en StartMiniGame): MiniGame::StartMiniGame;PlanetConnectionVisualController::UpdateUI^^^Mini Games^^^迷你游戏
+NewGameWindow::Create_OnClick^^^so you decided to eat the raw pizza anyway.. that's fine. \n\nBut remember!\n\nThis game is still.. in alpha :(\n\n..enjoy the pizza while it's still in the oven I guess lol^^^así que decidiste comer la pizza cruda de todos modos.. está bien. \n\n¡Pero recuerda!\n\nEste juego sigue.. en alpha :(\n\n..disfruta la pizza mientras aún esté en el horno, supongo lol^^^AUTO
+PlanetButton::UpdateUI^^^Transfer window with <color=#ffffff75><size=90%>^^^Ventana de transferencia con <color=#ffffff75><size=90%>^^^AUTO
+SaveFilePanel::UpdateUI^^^{0:dddd} <size=90%><color=#ffffff75>{1:dd} {2:MMMM}</color></size>^^^{0:dddd} <size=90%><color=#ffffff75>{1:dd} {2:MMMM}</color></size>^^^DISPLAY
+ShipPanel::UpdateUI;VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateOptions|4^^^Set Nickname^^^Establecer apodo^^^AUTO
+# DISABLED (rompe parámetro Animator.SetBool("Booster Inside")): TowerCatchMiniGame::Update^^^Booster Inside^^^助推器在塔内
+# DISABLED (rompe parámetro Animator.GetBool("Activate")): TowerCatchMiniGame::Update;TowerCatchMiniGame::Catch_OnClick^^^Activate^^^激活
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Waiting for a window to open...^^^Esperando a que se abra una ventana...^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateOptions|4^^^Rename Blueprint^^^Renombrar plano^^^AUTO
+VWVehiclesScroller::.ctor^^^Vehicles on Current Location^^^Vehículos en la ubicación actual^^^DISPLAY

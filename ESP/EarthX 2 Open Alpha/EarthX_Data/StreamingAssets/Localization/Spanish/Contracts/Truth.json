@@ -1,0 +1,11 @@
+{
+    "Truth_Name": "La Verdad",
+    "Truth_Desc": "",
+    "Flatearther_Name": "Terraterrenalista",
+    "Flatearther_Desc": "Permanece sin convencer por las fotos, los científicos y décadas de datos satelitales. Ahora, es hora de que suba y busque el borde él mismo.",
+    "Truth _ Start Lore_Name": "Terraterrenalista Va a la Órbita para \"Encontrar el Borde\"",
+    "Truth _ Start Lore_Desc": "Lo que empezó como un meme de internet hace unos meses se ha convertido oficialmente en realidad. La Sociedad de la Tierra Plana ha conseguido con éxito, mediante crowdfunding, fondos suficientes para asegurar un depósito para un vuelo turístico comercial a bordo de una cápsula de {1}.\n\nSu representante elegido—un influencer de internet notoriamente vocal—ha prometido una transmisión en vivo sin editar, las 24 horas, por \"canales seguros y anti-FASA\". La transmisión previa al lanzamiento ya está en vivo y rompiendo récords de audiencia. Sin embargo, los expertos en marketing se apresuraron a señalar que el influencer ya ha promocionado sin problemas tres patrocinadores de marca diferentes, probablemente ganando una fortuna absoluta antes siquiera de salir de la atmósfera.\n\nEn cuanto a su carga científica, anunció que traerá equipo de fotografía de última generación y... un nivel de burbuja estándar de carpintero.",
+    "Truth _ Completion+1 Lore_Name": "La Transmisión de la Tierra Plana Se Corta Abruptamente al Alcanzar la Órbita",
+    "Truth _ Completion+1 Lore_Desc": "Poco después de que la cápsula de {1}, que transportaba al llamado \"testigo independiente de la Tierra plana\", alcanzara la órbita terrestre baja, su muy publicitada transmisión en vivo se cortó abrupta y misteriosamente. \n\nMientras las teorías conspirativas inundaban inmediatamente internet, {1} emitió una breve declaración pública aclarando que toda la telemetría indicaba que la cápsula funcionaba perfectamente, y que el pasajero simplemente había estirado el brazo y apagado manualmente la cámara él mismo.",
+    "Truth_ContractCompleted_1": "El ex representante de la Sociedad de la Tierra Plana está eliminando sistemáticamente todos sus perfiles de redes sociales. Mientras tanto, el liderazgo de la sociedad lo ha excomulgado formalmente, acusándolo de ser un \"agente comprometido y pagado de FASA\"."
+}

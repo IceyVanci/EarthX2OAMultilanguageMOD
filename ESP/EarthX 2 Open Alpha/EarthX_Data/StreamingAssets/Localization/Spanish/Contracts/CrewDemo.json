@@ -1,0 +1,15 @@
+{
+    "Crew Demo_Name": "Lanza América",
+    "Crew Demo_Desc": "",
+    "Crew Demo Bob_Name": "Bob",
+    "Crew Demo Bob_Desc": "Un astronauta intrépido con un control de impulsos muy cuestionable. Si hay un botón que presionar, lo presionará.",
+    "Crew Demo Doug_Name": "Doug",
+    "Crew Demo Doug_Desc": "El ingeniero principal de la misión. Puede arreglar casi cualquier cosa... excepto las ideas de Bob.",
+    "Crew Demo_ Start Lore_Name": "Estados Unidos Regresa al Espacio",
+    "Crew Demo_ Start Lore_Desc": "Durante un discurso nacional televisado hoy, el Presidente de los Estados Unidos anunció una directiva general para acelerar drásticamente el programa nacional de vuelos espaciales tripulados. Este cronograma agresivo llega en medio de la creciente presión de superpotencias rivales que avanzan rápidamente en sus propias iniciativas espaciales.\n\n\"... nuestra nación debe reclamar rápidamente su dominio en el vuelo espacial tripulado (...) Estados Unidos siempre apunta a lo imposible y lo logra, por eso también regresaremos a la Luna en un futuro cercano.\"\n\nLa declaración del Presidente no sorprendió a la prensa. Durante meses, facciones crecientes dentro del Congreso y el liderazgo de FASA han estado exigiendo un cronograma más rápido. Tras bambalinas, un puñado de empresas pioneras—incluida {1}—ya han asegurado contratos para desarrollar y lanzar una misión de demostración tripulada a la Estación Espacial Internacional.",
+    "Crew Demo_ Completion Lore_Name": "Estallan Nuevos Enfrentamientos Entre FASA y el Congreso",
+    "Crew Demo_ContractCompleted_0": "La política estadounidense está en plena conmoción. Mientras los contratistas rivales siguen estancados redactando planos de sus prototipos de cápsulas, {1} ya ha acoplado con éxito su nave espacial a la Estación Espacial Internacional.",
+    "Crew Demo_ Completion+1 Lore_Name": "El Presidente de EE. UU. Realiza una Visita No Anunciada al Capitolio",
+    "Crew Demo_ Completion+1 Lore_Desc": "En un giro inesperado el lunes por la mañana, una caravana fuertemente blindada que transportaba al Presidente de EE. UU. salió de la Casa Blanca y se dirigió directamente al Capitolio. La prensa no recibió aviso previo de la súbita excursión.\n\nEl Presidente finalmente emergió después de varias horas a puertas cerradas. Fuentes confirmaron más tarde que tanto el administrador de FASA como un ejecutivo de alto rango de {1} también estuvieron presentes en la reunión secreta.",
+    "Crew Demo_ContractCompleted_2": "Dos miembros del Congreso renuncian abruptamente en medio de acusaciones de corrupción."
+}

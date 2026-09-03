@@ -1,0 +1,101 @@
+# EarthX 2 한국어 - IL 문자열 치환 테이블 (ko-strings3.tsv, 3부)
+# 형식: 범위^^^원문^^^번역  (범위 = 세미콜론으로 구분된 메서드 전체 이름 접두사)
+VehicleWindow::<UpdateUI>g__UpdateInfoPanel|21_1^^^<size=90%><color=#ffffff75>Transfer window with ^^^<size=90%><color=#ffffff75>이동 창: ^^^AUTO
+VehicleWindow::<UpdateUI>g__UpdateInfoPanel|21_1^^^ is now <color=#E74C3C>closed</color>\nReopens <color=#ffffff75><size=90%>in ^^^ 지금 <color=#E74C3C>닫힘</color>\n재개 <color=#ffffff75><size=90%>후^^^AUTO
+PlanetButton::UpdateUI^^^</size></color> is now <color=#64B5F6>open</color>.\nIt will close in <color=#ffffff75><size=90%>^^^</size></color> 지금 <color=#64B5F6>개방</color>.\n닫힘까지 <color=#ffffff75><size=90%>^^^AUTO
+SolarSystemPlanet::UpdateTooltip^^^</size></color> is now <color=#9B59B6>open</color>.\nIt will close in <color=#ffffff75><size=90%>^^^</size></color> 지금 <color=#9B59B6>개방</color>.\n닫힘까지 <color=#ffffff75><size=90%>^^^AUTO
+PlanetButton::UpdateUI;SolarSystemPlanet::UpdateTooltip^^^</size></color> is now <color=#E74C3C>closed</color>.\nIt will reopen in <color=#ffffff75><size=90%>^^^</size></color> 지금 <color=#E74C3C>닫힘</color>.\n재개까지 <color=#ffffff75><size=90%>^^^AUTO
+PlanetButton::UpdateUI;SolarSystemPlanet::UpdateTooltip^^^</size></color> has no transfer window with <color=#ffffff75><size=90%>^^^</size></color> 는(은) <color=#ffffff75><size=90%>와(과)의 이동 창이 없습니다^^^AUTO
+PlanetButton::UpdateUI;SolarSystemPlanet::UpdateTooltip^^^</size></color>.\n<color=#ffffff75><size=90%>You can fly there anytime you want!</size></color>^^^</size></color>.\n<color=#ffffff75><size=90%>원할 때 언제든지 그곳으로 비행할 수 있습니다!</size></color>^^^AUTO
+SolarSystemPlanet::UpdateTooltip^^^Transfer window <color=#ffffff75><size=90%>^^^이동 창 <color=#ffffff75><size=90%>^^^AUTO
+VehicleWindow::<UpdateUI>g__UpdateRefuelInfo|21_0^^^{0} <color=#ffffff75><size=90%>required^^^{0} <color=#ffffff75><size=90%>필요^^^DISPLAY
+LaunchUI::UpdateUI^^^\n<color=#9B59B6><size=90%>Refuel Required^^^\n<color=#9B59B6><size=90%>연료 보급 필요^^^DISPLAY
+LaunchUI::UpdateUI^^^\n<color=#E74C3C><size=90%>Problems Detected^^^\n<color=#E74C3C><size=90%>문제 감지^^^DISPLAY
+LaunchUI::UpdateUI^^^\n<size=90%><color=#ffffff75>Payload Risk:</color></size> ^^^\n<size=90%><color=#ffffff75>탑재체 위험:</color></size> ^^^DISPLAY
+LaunchUI::UpdateUI^^^<size=90%><color=#ffffff75>Payload Revenue:</color></size> ^^^<size=90%><color=#ffffff75>탑재체 수익:</color></size> ^^^DISPLAY
+# DISABLED (Launch is an asset id in set_LaunchSetupViewActive): LaunchUI::UpdateUI;LaunchData::set_LaunchSetupViewActive^^^Launch^^^发射
+LaunchUI::UpdateUI^^^Refuel on Orbit^^^궤도 연료 보급^^^DISPLAY
+LaunchUI::UpdateUI^^^Undock and Deorbit^^^분리 및 궤도 이탈^^^DISPLAY
+LaunchUI::LaunchPadSelect_OnClick^^^Select Launch Pad^^^발사대 선택^^^DISPLAY
+LaunchUI::VehicleToRefuelSelect_OnClick^^^Select Vehicle To Refuel^^^연료 보급 차량 선택^^^DISPLAY
+LaunchUI::UpdateUI^^^[Select]^^^[선택]^^^DISPLAY
+LaunchPanel::Update^^^<size=90%>Launch In Progress</size>\n<b>{0:T\+m:ss}^^^<size=90%>발사 진행 중</size>\n<b>{0:T\+m:ss}^^^DISPLAY
+CutsceneUI::Update^^^Skip <color=#ffffff75><size=90%>({0}s)</size></color>^^^건너뛰기 <color=#ffffff75><size=90%>({0}s)</size></color>^^^DISPLAY
+CutsceneUI::Update^^^<color=#ffffff75><size=90%>Song Name</size></color>\n^^^<color=#ffffff75><size=90%>곡 이름</size></color>\n^^^AUTO
+SoundtrackUI::Update^^^\n<color=#ffffff75><size=90%>by ^^^\n<color=#ffffff75><size=90%> - ^^^DISPLAY
+Soundtrack::OnGameLoaded^^^No soundtracks found!^^^사운드트랙을 찾을 수 없습니다!^^^DISPLAY
+BellyFlopMiniGame::<Update>g__Success|38_0;HelicopterCatchMiniGame::RocketWasCatched;HopperMiniGame::<Update>g__Success|28_0;ISSDockingMiniGame::<Update>g__Success|25_0;OceanLandingMiniGame::<Update>g__Success|27_0;TowerCatchMiniGame::<Update>g__Success|30_0^^^Success! Congratulations :)^^^성공! 축하합니다 :)^^^DISPLAY
+OceanLandingMiniGame::<Update>g__Explode|27_2;TowerCatchMiniGame::<Update>g__Explode|30_1^^^The Rocket hit the ground a little too hard!^^^로켓이 지면에 너무 세게 부딪혔습니다!^^^DISPLAY
+TowerCatchMiniGame::<Update>g__HardCatch|30_2^^^The Rocket hit the arms a little too hard!^^^로켓이 암에 너무 세게 부딪혔습니다!^^^DISPLAY
+HopperMiniGame::<Update>g__Explode|28_1^^^The Hopper hit the ground a little too hard!^^^호퍼가 지면에 너무 세게 부딪혔습니다!^^^DISPLAY
+BellyFlopMiniGame::<Update>g__Explode|38_2^^^The Ship hit the ground a little too hard!^^^우주선이 지면에 너무 세게 부딪혔습니다!^^^DISPLAY
+BellyFlopMiniGame::<Update>g__InFlightExplode|38_1^^^The Ship rotated too far!^^^우주선이 너무 많이 회전했습니다!^^^DISPLAY
+HelicopterCatchMiniGame::Update^^^You missed the Rocket!^^^로켓을 놓쳤습니다!^^^DISPLAY
+ISSDockingMiniGame::Update^^^You were too fast!^^^너무 빨랐습니다!^^^AUTO
+ISSDockingMiniGame::Update^^^Capsule rotation must be more precise!^^^캡슐 회전이 더 정밀해야 합니다!^^^AUTO
+ISSDockingMiniGame::Update^^^Capsule roll must be more precise!^^^캡슐 롤이 더 정밀해야 합니다!^^^AUTO
+ISSDockingMiniGame::Update^^^You entered a no-fly zone!^^^비행 금지 구역에 진입했습니다!^^^AUTO
+ISSDockingMiniGame::Update^^^You have been banned from the ISS...^^^ISS에서 추방되었습니다...^^^AUTO
+MiniGameAsset::GetControlsText^^^:^^^:^^^AUTO
+MiniGameAsset::GetControlsText^^^\nIncrease Throttle\n^^^\n스로틀 증가\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nDecrease Throttle\n^^^\n스로틀 감소\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nIncrease Speed\n^^^\n속도 증가\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nDecrease Speed\n^^^\n속도 감소\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nHorizontal Rotation\n^^^\n수평 회전\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nVertical Rotation^^^\n수직 회전^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nMove Position\n^^^\n위치 이동\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nMove Elevation\n^^^\n고도 이동\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nLanding Burn\n^^^\n착륙 연소\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nRoll^^^\n롤^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nRotate Left/Right^^^\n좌/우 회전^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nRotate\n^^^\n회전\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nSteel Left\n^^^\n좌로 조향\n^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nSteer Right^^^\n우로 조향^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nDeploy Legs^^^\n착륙 다리 전개^^^DISPLAY
+MiniGameAsset::GetControlsText^^^\nTower Arms^^^\n타워 암^^^DISPLAY
+MiniGameLoreAsset::get_Desc^^^Your engineers are stuck at an issue and need your help!\n\n^^^엔지니어들이 문제에 막혀 당신의 도움이 필요합니다!\n\n^^^AUTO
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI;ServicesWindow::UpdateUI^^^Launch Internet Satellites to increase the Capacity!^^^용량을 늘리려면 인터넷 위성을 발사하세요!^^^DISPLAY
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI;ServicesWindow::UpdateUI^^^Build Relays on the Planet in Construction Mode.^^^건설 모드에서 행성에 중계기를 건설하세요.^^^DISPLAY
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI;ServicesWindow::UpdateUI^^^Increase Bandwidth by launching Internet Satellites to lower orbits.^^^인터넷 위성을 낮은 궤도로 발사하여 대역폭을 늘리세요.^^^DISPLAY
+InternetServiceTab::UpdateUI^^^\n<color=#ffffff75><size=90%>Global internet powered by thousands of satellites on Earth's orbit.^^^\n<color=#ffffff75><size=90%>지구 궤도의 수천 개 위성으로 구동되는 글로벌 인터넷.^^^DISPLAY
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI;ServicesWindow::UpdateUI^^^<color=#E74C3C>Users are exceeding the Capacity by {0:F0}%!^^^<color=#E74C3C>사용자가 용량을 {0:F0}% 초과하고 있습니다!^^^DISPLAY
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI;ServicesWindow::UpdateUI^^^<color=#E74C3C>Users are exceeding the Capacity, decreasing the Bandwidth by {0:F0}%!\n^^^<color=#E74C3C>사용자가 용량을 초과하여 대역폭이 {0:F0}% 감소하고 있습니다!\n^^^DISPLAY
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI;ServicesWindow::UpdateUI^^^<color=#E74C3C>Satellites don't have enough Relays, decreasing the Bandwidth by {0:F0}%!^^^<color=#E74C3C>위성의 중계기가 부족하여 대역폭이 {0:F0}% 감소하고 있습니다!^^^DISPLAY
+InternetServiceTab::UpdateUI^^^<color=#E74C3C>{0:F0}% of your Internet Satellites does not work properly. You need to build more Relays!^^^<color=#E74C3C>인터넷 위성의 {0:F0}%가 제대로 작동하지 않습니다. 중계기를 더 건설해야 합니다!^^^DISPLAY
+QAServicePanel::UpdateUI;ServicesWindow::UpdateUI^^^<color=#E74C3C>{0:F0}% of your LinkLink Satellites does not work properly. You need to build more Relays!^^^<color=#E74C3C>LinkLink 위성의 {0:F0}%가 제대로 작동하지 않습니다. 중계기를 더 건설해야 합니다!^^^DISPLAY
+InternetServiceTab::UpdateUI^^^ is online^^^ 온라인 상태^^^DISPLAY
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI^^^<b>Internet Satellites</b>\n<size=90%><color=#ffffff75>Low Orbit:</color></size> ^^^<b>인터넷 위성</b>\n<size=90%><color=#ffffff75>저궤도:</color></size> ^^^AUTO
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI^^^ <size=90%><color=#ffffff75>(v2)</color></size>\n<size=90%><color=#ffffff75>High Orbit:</color></size> ^^^ <size=90%><color=#ffffff75>(v2)</color></size>\n<size=90%><color=#ffffff75>고궤도:</color></size> ^^^AUTO
+InternetServiceTab::UpdateUI;QAServicePanel::UpdateUI^^^ <size=90%><color=#ffffff75>(v2)</color></size>\n<size=90%><color=#ffffff75>Medium Orbit:</color></size> ^^^ <size=90%><color=#ffffff75>(v2)</color></size>\n<size=90%><color=#ffffff75>중궤도:</color></size> ^^^AUTO
+QAServicePanel::UpdateUI^^^ <size=90%><color=#ffffff75>| last 12 months^^^ <size=90%><color=#ffffff75>| 최근 12개월^^^DISPLAY
+QAServicePanel::UpdateUI;ServicesWindow::UpdateUI^^^ <size=90%><color=#ffffff75>new users^^^ <size=90%><color=#ffffff75>신규 사용자^^^DISPLAY
+ProductionLinePanel::UpdateUI^^^Select Item to Produce^^^생산할 품목 선택^^^DISPLAY
+ProductionLinePanel::UpdateUI^^^Select Item to Supply^^^공급할 품목 선택^^^DISPLAY
+ProductionLinePanel::UpdateUI;AttachPayloadCommandPanel::SelectItem_OnClick^^^Select Item^^^품목 선택^^^DISPLAY
+PWProductionLinePanel::UpdateUI^^^No Item Selected^^^선택된 품목 없음^^^DISPLAY
+ProductionLinePanel::UpdateUI^^^Production stopped^^^생산 중단됨^^^DISPLAY
+ProductionLinePanel::UpdateUI^^^Production paused at {0}%^^^생산 {0}%에서 일시 중지^^^AUTO
+ProductionLinePanel::UpdateUI^^^Training paused at {0}%^^^훈련 {0}%에서 일시 중지^^^AUTO
+ProductionLinePanel::UpdateUI^^^Training stopped^^^훈련 중단됨^^^DISPLAY
+ProductionLinePanel::UpdateUI;ProductionWindow::UpdateUI^^^Pin^^^고정^^^AUTO
+ProductionLinePanel::UpdateUI^^^Clear Line^^^라인 비우기^^^AUTO
+ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateProductionLines|1^^^Supply from Market^^^시장에서 공급^^^DISPLAY
+FactoryData::.ctor^^^Production Line {0}^^^생산 라인 {0}^^^AUTO
+VehiclesWindow::UpdateUI^^^Produced in {0} of {1}^^^{1} 중 {0}에서 생산^^^DISPLAY
+ItemAsset::GetAssetInfo^^^Production Amount: ^^^생산량: ^^^AUTO
+ItemAsset::GetAssetInfo^^^Production Cost: ^^^생산 비용: ^^^AUTO
+ItemAsset::GetAssetInfo^^^Production Time: ^^^생산 시간: ^^^AUTO
+ItemAsset::GetAssetInfo^^^({0} minutes)^^^({0}분)^^^AUTO
+ItemAsset::GetAssetInfo^^^ (Improved Over Time)^^^ (시간에 따라 개선됨)^^^DISPLAY
+ItemAsset::GetAssetInfo^^^Production\n^^^생산\n^^^DISPLAY
+ItemAsset::GetAssetInfo^^^Factories\n^^^공장\n^^^DISPLAY
+Asset::GetAssetInfo^^^Milestones\n^^^이정표\n^^^DISPLAY
+Asset::GetAssetInfo;BlueprintAsset::GetAssetInfo^^^Upgrades\n^^^업그레이드\n^^^DISPLAY
+Asset::GetAssetInfo^^^Research^^^연구^^^DISPLAY
+Asset::GetAssetInfo^^^Unlocked with Set: ^^^세트로 잠금 해제: ^^^AUTO
+Asset::GetAssetInfo^^^Requires No Milestones^^^이정표 불필요^^^DISPLAY
+Asset::GetAssetInfo^^^Unlocked After Milestones^^^이정표 후 잠금 해제^^^AUTO
+Asset::GetAssetInfo;DWAssetsFilter::GetObjectName^^^Unlockable^^^잠금 해제 가능^^^DISPLAY
+BlueprintAsset::GetAssetInfo^^^Range: ^^^범위: ^^^DISPLAY
+BlueprintAsset::GetAssetInfo^^^Space: ^^^공간: ^^^DISPLAY
+ConstructionAssetInformationTooltip::UpdateUI^^^No description^^^설명 없음^^^AUTO

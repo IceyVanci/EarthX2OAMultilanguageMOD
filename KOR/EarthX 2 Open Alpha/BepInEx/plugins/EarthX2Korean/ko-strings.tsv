@@ -1,0 +1,103 @@
+# EarthX 2 한국어 - IL 문자열 치환 테이블 (ko-strings.tsv)
+# 형식: 범위^^^원문^^^번역  (범위 = 세미콜론으로 구분된 메서드 전체 이름 접두사)
+# 이스케이프: \n = 줄바꿈, \r = 캐리지 리턴
+MainMenuUI::UpdateUI^^^ </color></size>\nContinue Game^^^ </color></size>\n게임 계속^^^AUTO
+VersionText::UpdateUI^^^ <color=#e74c3c>> COMMUNITY <</color>^^^ <color=#e74c3c>> 커뮤니티 <</color>^^^DISPLAY
+VersionText::UpdateUI^^^Saving EarthX 2...          ^^^EarthX 2 저장 중...          ^^^DISPLAY
+SaveFilePanel::OnClick^^^Unable to load this save file - was created using EarthX 2 v^^^이 저장 파일을 불러올 수 없습니다 - EarthX 2 v로 생성되었습니다^^^DISPLAY
+FormatTime::TimeAgo^^^{0} years ago^^^{0}년 전^^^DISPLAY
+FormatTime::TimeAgo^^^a year ago^^^1년 전^^^DISPLAY
+FormatTime::TimeAgo^^^{0} months ago^^^{0}개월 전^^^DISPLAY
+FormatTime::TimeAgo^^^a month ago^^^한 달 전^^^DISPLAY
+FormatTime::TimeAgo^^^{0} days ago^^^{0}일 전^^^DISPLAY
+FormatTime::TimeAgo^^^a day ago^^^하루 전^^^DISPLAY
+FormatTime::TimeAgo^^^Recent^^^최근^^^DISPLAY
+FormatTime::TimeUntil^^^now^^^지금^^^DISPLAY
+FormatTime::TimeUntil^^^soon™^^^곧™^^^DISPLAY
+FormatTime::TimeUntil^^^one year^^^1년^^^DISPLAY
+FormatTime::TimeUntil^^^one month^^^1개월^^^DISPLAY
+FormatTime::TimeUntil^^^one day^^^1일^^^DISPLAY
+FormatTime::TimeLeft^^^left^^^남음^^^DISPLAY
+FormatTime::TimeLeft^^^years^^^년^^^DISPLAY
+FormatTime::TimeLeft^^^year^^^년^^^DISPLAY
+FormatTime::TimeLeft^^^months^^^개월^^^DISPLAY
+FormatTime::TimeLeft^^^month^^^개월^^^DISPLAY
+FormatTime::TimeLeft^^^days^^^일^^^DISPLAY
+FormatTime::TimeLeft^^^day^^^일^^^DISPLAY
+FormatTime::TimeLeft^^^{0} <color=#ffffff75>{1}</color> {2}^^^{0} <color=#ffffff75>{1}</color> {2}^^^DISPLAY
+FormatTime::TimeLeft^^^{0}<color=#ffffff75>y</color> {1}<color=#ffffff75>d</color> {2}^^^{0}<color=#ffffff75>년</color> {1}<color=#ffffff75>일</color> {2}^^^DISPLAY
+FormatTime::TimeLeft^^^{0}<color=#ffffff75>y</color> {1}<color=#ffffff75>m</color> {2}^^^{0}<color=#ffffff75>년</color> {1}<color=#ffffff75>개월</color> {2}^^^DISPLAY
+FormatTime::TimeLeft^^^{0}<color=#ffffff75>y</color> {1}<color=#ffffff75>m</color> {2}<color=#ffffff75>d</color> {3}^^^{0}<color=#ffffff75>년</color> {1}<color=#ffffff75>개월</color> {2}<color=#ffffff75>일</color> {3}^^^AUTO
+FormatTime::TimeLeft^^^{0}<color=#ffffff75>m</color> {1}<color=#ffffff75>d</color> {2}^^^{0}<color=#ffffff75>개월</color> {1}<color=#ffffff75>일</color> {2}^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__ContractDuration|2;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__ContractDuration|4;FormatTime::TimeUntil^^^{0} years^^^{0}년^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__ContractDuration|2;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__ContractDuration|4^^^<color=#ffffff75><size=90%>in</size></color> ^^^<color=#ffffff75><size=90%>후</size></color> ^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__ContractDuration|2;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__ContractDuration|4^^^<color=#ffffff75><size=90%>No new payloads</size></color>^^^<color=#ffffff75><size=90%>새로운 탑재체 없음</size></color>^^^DISPLAY
+ContractData::Sign^^^You received ^^^받았습니다: ^^^DISPLAY
+ContractData::Sign^^^ for signing the contract!^^^ 계약 체결 보상!^^^DISPLAY
+ContractData::TryToDelete^^^ contract has been terminated - you had too many strikes!^^^ 계약이 종료되었습니다 - 실패 횟수가 너무 많습니다!^^^DISPLAY
+ContractData::TryToDelete^^^You received ^^^받았습니다: ^^^DISPLAY
+ContractData::TryToDelete^^^ for completing the ^^^ 계약 완료 보상: ^^^AUTO
+ContractData::TryToDelete^^^ contract without many strikes!^^^ 계약 완료 보상! (실패 횟수 적음)^^^DISPLAY
+ContractData::TryToDelete^^^You did not receive ^^^받지 못했습니다: ^^^AUTO
+ContractData::TryToDelete^^^ contract - you had too many strikes!^^^ 계약 보상 - 실패 횟수가 너무 많습니다!^^^AUTO
+ContractData::TryToDelete^^^You received items for completing the ^^^계약 완료 아이템을 받았습니다: ^^^DISPLAY
+ContractData::TerminateContract^^^You've terminated the ^^^계약을 종료했습니다: ^^^DISPLAY
+ContractData::TerminateContract^^^ contract early!^^^ 계약을 조기 종료했습니다!^^^DISPLAY
+ContractData::PayloadPastDeadline^^^You didn't launch ^^^발사하지 못했습니다: ^^^DISPLAY
+ContractData::PayloadPastDeadline^^^ in time! You were fined!^^^ 제때 발사하지 못했습니다! 벌금이 부과되었습니다!^^^DISPLAY
+ContractsManager::<CheckForContracts>g__SpawnContract|20_0^^^ just became available in ^^^ 방금 이용 가능해졌습니다: ^^^DISPLAY
+ContractsManager::<CheckForContracts>g__SpawnContract|20_0^^^Contracts Window^^^계약 창^^^AUTO
+ContractsManager::<CheckForContracts>g__SpawnContract|20_0;InsuranceClaimData::OnMonthPassed_CheckForResolution;InsuranceData::RecalculateQuarterlyPayment;LoanData::RepayLoan;LoanData::TakeLoan^^^!^^^!^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__ContractSign|0^^^Sign\n^^^서명\n^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__ContractSign|0;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__ContractSign|2^^^Sign^^^서명^^^DISPLAY
+ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__ContractSign|2^^^Sign (^^^서명 (^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__SetOptions|6;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__SetOptions|7^^^Terminate^^^중단^^^AUTO
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__SetOptions|6;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__SetOptions|7^^^Open in Wikipedia^^^Wikipedia에서 열기^^^AUTO
+ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>b__8^^^Do you really want to terminate the ^^^정말로 이 계약을 중단하시겠습니까: ^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>b__7^^^Really terminate the ^^^정말로 계약을 중단: ^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>b__7;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>b__8^^^ contract?^^^ 계약을 중단하시겠습니까?^^^DISPLAY
+ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>b__8^^^This contract can't be terminated now.^^^이 계약은 지금 중단할 수 없습니다.^^^DISPLAY
+ContractViewWindow::UpdateUI^^^\n<size=90%><color=#55BBFF>Special Contract</size></color>^^^\n<size=90%><color=#55BBFF>특별 계약</size></color>^^^DISPLAY
+MWContractPanel::UpdateUI^^^<color=#9B59B6><size=90%>Opportunity</size></color>\n^^^<color=#9B59B6><size=90%>기회</size></color>\n^^^DISPLAY
+LoanData::TakeLoan^^^You've taken a ^^^대출을 받았습니다: ^^^AUTO
+LoanData::TakeLoan^^^ of ^^^ ^^^AUTO
+LoanData::RepayLoan^^^You've full repaid your ^^^전액 상환 완료: ^^^DISPLAY
+CWLoanPanel::UpdateUI^^^Take Loan\n^^^대출 받기\n^^^DISPLAY
+CWLoanPanel::UpdateUI^^^Repay Loan\n^^^대출 상환\n^^^DISPLAY
+CWLoanPanel::UpdateUI^^^{0} <size=90%><color=#ffffff75>months^^^{0} <size=90%><color=#ffffff75>개월^^^DISPLAY
+CWLoanPanel::UpdateUI^^^ <size=90%><color=#ffffff75>| per month^^^ <size=90%><color=#ffffff75>| 월간^^^DISPLAY
+PWLoanPreview::UpdateUI^^^</align>\n<color=#ffffff75><size=90%>Your company can now apply for a loan of up to</size></color> ^^^</align>\n<color=#ffffff75><size=90%>이제 회사에서 최대 다음과 같은 대출을 신청할 수 있습니다</size></color> ^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^Your insurance claim was accepted and you've received ^^^보험 청구가 승인되어 받았습니다: ^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^* You took a risk by launching too many payloads at once.^^^* 한 번에 너무 많은 탑재체를 발사하는 위험을 감수했습니다.^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^\n* One of the vehicles didn’t meet full quality standards at launch.^^^\n* 발사 시 차량 중 하나가 전체 품질 기준을 충족하지 못했습니다.^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^* One of the vehicles didn’t meet full quality standards at launch.^^^* 발사 시 차량 중 하나가 전체 품질 기준을 충족하지 못했습니다.^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^\n* One of the vehicles was reflown which might have affected the flight performance.^^^\n* 차량 중 하나가 재비행되어 비행 성능에 영향을 미쳤을 수 있습니다.^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^* One of the vehicles was reflown which might have affected the flight performance.^^^* 차량 중 하나가 재비행되어 비행 성능에 영향을 미쳤을 수 있습니다.^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^\n* The insurance company gained access to a witness who testified that the launch could have been canceled and the explosion would never have happened.^^^\n* 보험사가 발사가 취소될 수 있었고 폭발이 절대 일어나지 않았을 것이라고 증언한 증인에게 접근했습니다.^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^* The insurance company gained access to a witness who testified that the launch could have been canceled and the explosion would never have happened.^^^* 보험사가 발사가 취소될 수 있었고 폭발이 절대 일어나지 않았을 것이라고 증언한 증인에게 접근했습니다.^^^DISPLAY
+InsuranceData::RecalculateQuarterlyPayment^^^Your insurance quarterly payment has increased by ^^^보험 분기 지불액이 증가했습니다: ^^^AUTO
+InsuranceData::RecalculateQuarterlyPayment^^^Your insurance quarterly payment has decreased by ^^^보험 분기 지불액이 감소했습니다: ^^^AUTO
+InsuranceData::RecalculateQuarterlyPayment^^^<color=#ffffff75><size=90%>%</size></color> to ^^^<color=#ffffff75><size=90%>%</size></color>로 ^^^AUTO
+InsuranceData::CancelForever^^^Your insurance was cancelled forever!^^^보험이 영구 취소되었습니다!^^^DISPLAY
+InsuranceTab::CancelInsurance_OnClick^^^Do you really want to cancel your insurance forever?\nThis can't be reverted.^^^정말로 보험을 영구 취소하시겠습니까?\n이 작업은 되돌릴 수 없습니다.^^^DISPLAY
+InsuranceTab::UpdateUI^^^Insurance\n^^^보험\n^^^DISPLAY
+InsuranceTab::UpdateUI^^^<size=90%><color=#ffffff75> | per quarter^^^<size=90%><color=#ffffff75> | 분기별^^^DISPLAY
+InsuranceClaimPanel::UpdateUI^^^Claim from <size=90%><color=#ffffff75>{0} {1}^^^청구 출처: <size=90%><color=#ffffff75>{0} {1}^^^AUTO
+InsuranceClaimPanel::UpdateUI^^^Partially approved^^^부분 승인됨^^^DISPLAY
+InsuranceClaimPanel::UpdateUI^^^Fully approved^^^전액 승인됨^^^DISPLAY
+InsuranceClaimPanel::UpdateUI^^^In review...^^^검토 중...^^^DISPLAY
+InsuranceClaimPanel::UpdateUI^^^{0} <color=#ffffff75><size=90%>({1}%)^^^{0} <color=#ffffff75><size=90%>({1}%)^^^AUTO
+InsuranceClaimPanel::UpdateUI^^^<size=90%><color=#ffffff75>Your claim was only partially approved:</color></size>\n{0}\n<size=90%><color=#ffffff75>The EarthX Council has decided to approve only {1}% of your original request.^^^<size=90%><color=#ffffff75>귀하의 청구는 일부만 승인되었습니다:</color></size>\n{0}\n<size=90%><color=#ffffff75>EarthX 평의회는 원래 요청의 {1}%만 승인하기로 결정했습니다.^^^AUTO
+FailureData::GenerateFailureLoreMessage^^^ exploded during launch on ^^^ 이 발사 중에 폭발했습니다: ^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^ exploded during attempted recovery on ^^^ 회수 시도 중 폭발했습니다: ^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^ exploded during re-entry on ^^^ 재진입 중 폭발했습니다: ^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^ exploded just after separation on ^^^ 분리 직후 폭발했습니다: ^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^ It was sent to the Rocket Valhalla.^^^ 로켓 발할라로 보내졌습니다.^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^ They were sent to the Rocket Valhalla.^^^ 로켓 발할라로 보내졌습니다.^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^ tipped over on the ocean during droneship transport operations.^^^ 드론선 운송 작업 중 바다에서 전복되었습니다.^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^\nInsurance claim (^^^\n보험 청구 (^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^) has been automatically created.\n<color=#ffffff75><size=90%>See Company Window / Insurance^^^)가 자동으로 생성되었습니다.\n<color=#ffffff75><size=90%>회사 창 / 보험 참조^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^\n\n<color=#ffffff75><size=90%>Insurance</size></color>^^^\n\n<color=#ffffff75><size=90%>보험</size></color>^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^\n\n<color=#ffffff75><size=90%>Payload Lost</size></color>^^^\n\n<color=#ffffff75><size=90%>탑재체 손실</size></color>^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^\nInsurance claim was not created because lost of vehicle was purely your fault.^^^\n차량 손실이 전적으로 귀하의 잘못이므로 보험 청구가 생성되지 않았습니다.^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^\nYour insurance was cancelled forever.^^^\n보험이 영구 취소되었습니다.^^^DISPLAY

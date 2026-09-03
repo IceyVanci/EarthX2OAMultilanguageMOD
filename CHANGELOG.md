@@ -3,6 +3,74 @@
 All notable changes to the EarthX2OAMultilanguageMOD project.
 Format: 新增 / 修复 / 数据变更 (Added / Fixed / Data).
 
+## [KOR 1.0.0] - 2026-09-03
+
+首个韩语（KOR）补丁版本：基于 CHS 流程 fork 出独立韩语补丁 `KOR\`，离线仓库树为唯一数据源，
+随包交付 `EarthX2Korean.dll` 与 `docs\KOR-NOTES.md`。
+
+### 新增 Added
+
+- **韩语插件 `EarthX2Korean`**：fork 自 JPN（GUID `earthx2.korean.localization`、`ko-*` 通配、
+  配置 `ForceKorean=true`、`AddFontFallback=true`、`TranslateHardcodedText=true`）
+- **L1 官方 JSON 层**：`Localization\Korean\` 64 文件 / ~1665 键全译（含 HUD.json 增补
+  `Korean_Name`/`Korean_Desc`）；Misc 专有名词（人名/公司/大学/机构/卫星名）保留原文
+- **L2 IL 字符串规则**：`ko-strings*.tsv` ×8（591 行 / 580 唯一 ORIG），ORIG 与 CHS 逐字一致
+- **L3 TMP 烘焙规则**：`ko-baked*.tsv` ×2（299 条）
+- **内嵌字体 Source Han Sans K**（SIL OFL 1.1，Regular + Bold）随插件 `fonts\` 分发
+  （源文件取自本地字体库 `D:\工具软件\字体\08_SourceHanSansK`，OFL 1.1 许可随附）；回退资产
+  沿用固定名 `ChineseFallback`/`ChineseFallbackBold`（技术性硬编码，勿改）；系统字体清单
+  适配韩文（malgun/gulim/batang/dotum 等）
+- 工具链 `-Lang`/`-Prefix ko` 参数化复用；`verify.ps1` KOR profile 复用 **ORIG 继承门禁**
+  （580 ORIG 集合必须与 CHS 完全相等）+ `fonts\` 必备断言
+- 双包发布：`KOR-EarthX2OAKoreanMOD_v1.0.0.zip` + `_full.zip` + sha256 + `KOR-latest.json`
+
+### 修复 Fixed
+
+- 修正 `ko-strings6.tsv` 三参 `Added` 规则 ORIG 尾部标签顺序（`</size></color>` → `</color></size>`，
+  与 DLL ldstr 逐字对齐）；同文件 CRLF 归一为 LF
+- 修正 `ko-strings3.tsv` `Transfer window with` TRANS 误加闭合标签导致的富文本失配
+- `StringPatch` 增加 transpiler 反射方法 null 防护（运行时空引用兜底）
+
+### 数据变更 Data
+
+- Korean JSON：64 文件 / ~1665 键
+- IL 规则：591 行 / 580 唯一 ORIG（DISPLAY 386 / AUTO 205）
+- 烘焙规则：299 条（109 条与 CHS 相同的已知无害 no-op）
+- 字体：内嵌 SourceHanSansK-Regular.otf (16.5 MB) + Bold.otf (17.0 MB)，OFL 1.1 许可随附
+
+## [ESP 1.0.0] - 2026-09-03
+
+首个西班牙语（ESP）补丁版本：基于 CHS 流程 fork 出独立西语补丁 `ESP\`，离线仓库树为唯一数据源，
+随包交付 `EarthX2Spanish.dll` 与 `docs\ESP-NOTES.md`。
+
+### 新增 Added
+
+- **西语插件 `EarthX2Spanish`**：fork 自 DEU（GUID `earthx2.spanish.localization`、`es-*` 通配、
+  配置 `ForceSpanish=true`、`TranslateHardcodedText=true`），**FontFix 整体剥离**——ESP 复用游戏
+  内嵌字体 LiberationSans，不随包分发任何字体文件（á/é/í/ó/ú/ñ/ü 完整支持）
+- **L1 官方 JSON 层**：`Localization\Spanish\` 64 文件 / ~1665 键全译（含 HUD.json 增补
+  `Spanish_Name`/`Spanish_Desc`，语言选择器显示 "Español"）；Misc 专有名词（人名/公司/大学/
+  机构/卫星名）保留原文
+- **L2 IL 字符串规则**：`es-strings*.tsv` ×8（591 行 / 580 唯一 ORIG），ORIG 与 CHS 逐字一致
+- **L3 TMP 烘焙规则**：`es-baked*.tsv` ×2（299 条）
+- 工具链 `-Lang`/`-Prefix es` 参数化复用；`verify.ps1` ESP profile 复用 **ORIG 继承门禁**
+  （580 ORIG 集合必须与 CHS 完全相等）+ 无 `fonts\` 断言
+- 双包发布：`ESP-EarthX2OASpanishMOD_v1.0.0.zip`（纯补丁 166.1 KB）+ `_full.zip`（含框架
+  802.7 KB）+ sha256 + `ESP-latest.json`
+
+### 修复 Fixed
+
+- 修正 `es-strings6.tsv` 三参 `Added` 规则 ORIG 尾部标签顺序（`</size></color>` → `</color></size>`，
+  与 DLL ldstr 逐字对齐）；同文件 CRLF 归一为 LF
+- `StringPatch` 增加 transpiler 反射方法 null 防护（运行时空引用兜底）
+
+### 数据变更 Data
+
+- Spanish JSON：64 文件 / ~1665 键
+- IL 规则：591 行 / 580 唯一 ORIG（DISPLAY 386 / AUTO 205）
+- 烘焙规则：299 条（109 条与 CHS 相同的已知无害 no-op）
+- 字体：无随包字体（复用游戏内嵌 LiberationSans）
+
 ## [JPN 1.0.0] - 2026-09-02
 
 首个日语（JPN）补丁版本：基于 CHS 流程 fork 出独立日语补丁 `JPN\`，离线仓库树为唯一数据源，

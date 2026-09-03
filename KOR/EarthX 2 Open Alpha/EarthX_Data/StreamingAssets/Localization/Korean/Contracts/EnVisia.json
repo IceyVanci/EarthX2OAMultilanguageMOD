@@ -1,0 +1,10 @@
+{
+    "EnVisia Data Center_Name": "enVisia: 궤도 데이터 센터",
+    "EnVisia Data Center_Desc": "enVisia의 차세대 AI 프로세서는 공식적으로 지구 열역학의 한계를 밀어붙이고 있습니다. 지구상의 거대한 서버 팜을 냉각하는 에너지 비용이 지속 불가능해지면서, 이 기술 대기업은 궁극의 방열판인 우주의 진공을 바라보고 있습니다. 그들은 저궤도의 자연적으로 추운 환경이 가장 강력한 슈퍼컴퓨터를 수동적으로 냉각할 수 있는지 시험하기 위해 실험용 궤도 데이터 센터를 배치할 발사 파트너를 찾고 있습니다.",
+    "EnVisia Data Center Payload_Name": "cluster.SB{0}",
+    "EnVisia Data Center Payload_Desc": "대형 열 방사기를 갖춘 특수 고밀도 서버 모듈입니다.",
+    "EnVisia Space Training_Name": "enVisia: 우주 훈련",
+    "EnVisia Space Training_Desc": "enVisia는 차세대 인공지능 모델을 전적으로 저궤도에서 훈련시키는 전례 없는 계획을 발표했습니다. 이 우주 기반 신경망의 정확한 목적은 회사 기밀로 철저히 보호되고 있지만, 단일 위성에 수천 개의 주력 GPU를 탑재한다는 야망만으로도 발표 직후 enVisia의 주가가 14% 급등하기에 충분했습니다. 이제 그들은 이 오랫동안 기대된 컴퓨팅 클러스터를 지상에서 띄울 유능한 발사 제공업체가 필요합니다.",
+    "EnVisia Space Training Payload_Name": "cluster.exp_SBa.18p",
+    "EnVisia Space Training Payload_Desc": "궤도 슈퍼컴퓨터 역할을 하는 대형 맞춤형 위성입니다. 복잡한 머신러닝 알고리즘을 실행하는 수천 개의 상호 연결된 GPU로 가득 차 있습니다."
+}

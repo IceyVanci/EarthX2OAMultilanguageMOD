@@ -1,0 +1,9 @@
+﻿EarthX2Korean build report
+date:      2026-09-03 17:59:02
+version:   1.0.0 (lang: KOR)
+gate:      verify.ps1 PASS (strings 0 FAIL, unique ORIG 580, FLAG valid, no conflicts)
+korean:   64 JSON files
+plugin:    17 files (dll + tsv + README + src + version.txt + fonts x3)
+zip patch: KOR-EarthX2OAKoreanMOD_v1.0.0.zip (27521.6 KB) sha256=584d693cf15a3f61aa413e9e323fbae1c75283c041112cc7eb8ccfda86897123
+zip full:  KOR-EarthX2OAKoreanMOD_v1.0.0_full.zip (28156.2 KB) sha256=58eff9eb4e9745f38b4f339b68b42b16e8f8201257990a825196b2392ca446b6
+note:      full package: framework + licenses (LGPL + OFL) included

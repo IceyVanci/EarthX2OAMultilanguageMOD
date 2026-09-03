@@ -1,0 +1,34 @@
+# ko-strings8.tsv — Task C: IL 하드코딩 잔여 한국어화 (de-strings8.tsv 2026-09-03 포크)
+# 형식: 범위^^^원문^^^번역 ; ORIG는 DLL ldstr과 글자 단위 일치, \n은 리터럴 이스케이프
+# DISABLED (6-dangerous 2026-09-01: 건조 우주선 창에서 Asset.GetAsset<UpgradeAsset> 검색 깨짐): ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateShips|2^^^Droneship Upgrade^^^无人机船升级
+# DISABLED (6-dangerous 2026-09-01: 건조 우주선 창에서 Asset.GetAsset<FairingReusabilityUpgradeAsset> 검색 깨짐): ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateShips|2^^^Fairing Reusability Upgrade^^^整流罩回收升级
+# DISABLED (Asset.GetAsset 조회 깨짐): ContractsManager::Awake^^^Launch Light Rocket^^^发射轻型火箭
+# DISABLED (Asset.GetAsset 조회 깨짐): ContractsManager::CheckForContracts^^^Random Contracts^^^随机合同
+Cutscene::PlayCutscene^^^ (Video Player)^^^ (동영상 플레이어)^^^AUTO
+# DISABLED (Asset.GetAsset 조회 깨짐): Droneship::Return;Droneship::SetData^^^Droneship Rumba Upgrade^^^无人机船Rumba升级
+InternetServiceData::OnNewGame^^^Internet Service^^^인터넷 서비스^^^AUTO
+# DISABLED (no-op: 'Internet Router'는 DLL에 없음; GetDataByLinq도 깨짐): InternetServiceTab/<>c::<get_routersItem>b__28_1^^^Internet Router^^^互联网路由器
+# DISABLED (GetDataByLinq<ItemData>("routers item") 키 깨짐): InternetServiceTab::get_routersItem^^^routers item^^^路由器
+ISSDockingMiniGame::Awake^^^Move backwards (^^^뒤로 이동 (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move down (^^^아래로 이동 (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move forwards (^^^앞으로 이동 (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move left (^^^왼쪽으로 이동 (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move right (^^^오른쪽으로 이동 (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move up (^^^위로 이동 (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Roll left (^^^왼쪽으로 롤 (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Roll right (^^^오른쪽으로 롤 (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Rotate left (^^^왼쪽으로 회전 (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Rotate right (^^^오른쪽으로 회전 (^^^DISPLAY
+LaunchData/InventorySettings::ValidateDestination^^^You can't launch from one space station to another.^^^한 우주 정거장에서 다른 우주 정거장으로 발사할 수 없습니다.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^You can't launch to space stations that are on a different planet.^^^다른 행성에 있는 우주 정거장으로는 발사할 수 없습니다.^^^AUTO
+LaunchData/VehicleSettings::Validate^^^Set a docking port for ^^^도킹 포트가 필요한 차량: ^^^AUTO
+# DISABLED (6-dangerous 2026-09-01: StartMiniGame에서 PlanetsManager.LoadPlanetWithoutTransition scene-id 깨짐): MiniGame::StartMiniGame;PlanetConnectionVisualController::UpdateUI^^^Mini Games^^^迷你游戏
+NewGameWindow::Create_OnClick^^^so you decided to eat the raw pizza anyway.. that's fine. \n\nBut remember!\n\nThis game is still.. in alpha :(\n\n..enjoy the pizza while it's still in the oven I guess lol^^^그래도 생피자를 먹기로 결정했군요.. 괜찮아요. \n\n기억하세요!\n\n이 게임은 아직.. 알파 상태입니다 :(\n\n..오븐에 아직 있는 피자를 즐겨보세요, 아마도 lol^^^AUTO
+PlanetButton::UpdateUI^^^Transfer window with <color=#ffffff75><size=90%>^^^이동 창이 <color=#ffffff75><size=90%>^^^AUTO
+SaveFilePanel::UpdateUI^^^{0:dddd} <size=90%><color=#ffffff75>{1:dd} {2:MMMM}</color></size>^^^{0:dddd} <size=90%><color=#ffffff75>{1:dd} {2:MMMM}</color></size>^^^DISPLAY
+ShipPanel::UpdateUI;VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateOptions|4^^^Set Nickname^^^닉네임 설정^^^AUTO
+# DISABLED (Animator.SetBool("Booster Inside") 매개변수 깨짐): TowerCatchMiniGame::Update^^^Booster Inside^^^助推器在塔内
+# DISABLED (Animator.GetBool("Activate") 매개변수 깨짐): TowerCatchMiniGame::Update;TowerCatchMiniGame::Catch_OnClick^^^Activate^^^激活
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Waiting for a window to open...^^^이동 창이 열리기를 기다리는 중...^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateOptions|4^^^Rename Blueprint^^^설계도 이름 변경^^^AUTO
+VWVehiclesScroller::.ctor^^^Vehicles on Current Location^^^현재 위치의 차량^^^DISPLAY

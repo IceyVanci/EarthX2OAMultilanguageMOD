@@ -34,11 +34,13 @@ remain in the original language.
 | 简体中文 (CHS) | [`CHS/EarthX 2 Open Alpha/`](CHS/EarthX%202%20Open%20Alpha/) | [`docs/CHS-NOTES.md`](docs/CHS-NOTES.md) |
 | 日本語 (JPN) | [`JPN/EarthX 2 Open Alpha/`](JPN/EarthX%202%20Open%20Alpha/) | [`docs/JPN-NOTES.md`](docs/JPN-NOTES.md) |
 | Deutsch (DEU) | [`DEU/EarthX 2 Open Alpha/`](DEU/EarthX%202%20Open%20Alpha/) | [`docs/DEU-NOTES.md`](docs/DEU-NOTES.md) |
+| Español (ESP) | [`ESP/EarthX 2 Open Alpha/`](ESP/EarthX%202%20Open%20Alpha/) | [`docs/ESP-NOTES.md`](docs/ESP-NOTES.md) |
+| 한국어 (KOR) | [`KOR/EarthX 2 Open Alpha/`](KOR/EarthX%202%20Open%20Alpha/) | [`docs/KOR-NOTES.md`](docs/KOR-NOTES.md) |
 
 ## 制作方式与语言请求
 
-我全流程制作了 **CHS** 的 mod，并在确立流程后使用 Coding AI Agent 完成了**德语**和**日语**的翻译
-作为示范。未来我可能还会制作并发布其他语言的 mod。
+我全流程制作了 **CHS** 的 mod，并在确立流程后使用 Coding AI Agent 完成了**德语**、**日语**、
+**西班牙语**和**韩语**的翻译作为示范。未来我可能还会制作并发布其他语言的 mod。
 
 如果你想要其他语言：
 - 欢迎在 **issue** 中留言，或
@@ -67,15 +69,17 @@ remain in the original language.
 
 - **三层补丁**：官方 JSON 本地化层（`StreamingAssets\Localization\<Lang>\`）+ IL 字符串改写
   （`StringPatch`，Harmony transpiler）+ 烘焙 TextMeshPro 文本（`TextSweep`）。
-- **内嵌字体**：CJK 语言插件 `fonts\` 内嵌各自 OFL 许可字体（CHS = 思源黑体 CN、JPN = 思源黑体 JP，
-  均 SIL OFL 1.1）——无系统字体依赖、无专有 CJK 字体版权问题。例外：**DEU 不随包分发字体**，
-  复用游戏内嵌 LiberationSans（已完整覆盖 ä/ö/ü/ß 德语字形）。
+- **内嵌字体**：CJK 语言插件 `fonts\` 内嵌各自 OFL 许可字体（CHS = 思源黑体 CN、JPN = 思源黑体 JP、
+  KOR = 思源黑体 K，均 SIL OFL 1.1）——无系统字体依赖、无专有 CJK 字体版权问题。例外：**DEU 与 ESP
+  不随包分发字体**，复用游戏内嵌 LiberationSans（已完整覆盖 ä/ö/ü/ß 德语字形与 á/é/í/ó/ú/ñ/ü
+  西语字形）。
 
 ## 声明与许可
 
 - 补丁内容（JSON / TSV / 插件源码）按"现状"提供给 EarthX 2 玩家社区自由使用。
-- **内嵌字体为思源黑体（CN / JP，SIL OFL 1.1）**，可自由随补丁再分发，许可全文见
-  `licenses\SourceHanSansCN-LICENSE.txt`（各 CJK 语言 `fonts\` 内亦随附）。
+- **内嵌字体为思源黑体（CN / JP / K，SIL OFL 1.1）**，可自由随补丁再分发，许可全文见
+  `licenses\SourceHanSansCN-LICENSE.txt` 与 `licenses\SourceHanSansK-LICENSE.txt`
+  （各 CJK 语言 `fonts\` 内亦随附）。
 - **完整包**内附带的第三方二进制均为**未经修改**的官方发行文件：
   - BepInEx 5.4.23.2 —— LGPL-2.1 —— https://github.com/BepInEx/BepInEx
   - UnityDoorstop 4.x（`winhttp.dll`）—— LGPL-2.1 —— https://github.com/NeighTools/UnityDoorstop

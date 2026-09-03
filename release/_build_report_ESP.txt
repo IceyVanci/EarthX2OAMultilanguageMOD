@@ -1,0 +1,9 @@
+﻿EarthX2Spanish build report
+date:      2026-09-03 17:58:56
+version:   1.0.0 (lang: ESP)
+gate:      verify.ps1 PASS (strings 0 FAIL, unique ORIG 580, FLAG valid, no conflicts)
+spanish:   64 JSON files
+plugin:    14 files (dll + tsv + README + src + version.txt + no fonts (game-embedded font))
+zip patch: ESP-EarthX2OASpanishMOD_v1.0.0.zip (166.5 KB) sha256=0d2fd1bd9dfce3a5707242b2d561fe4ee5397794c9701f0dc303ecdfd24f019f
+zip full:  ESP-EarthX2OASpanishMOD_v1.0.0_full.zip (803.1 KB) sha256=53756c43c3f7296ec89c9f035b6788c92a9b526ae1bd89ef578a4ddc675ea590
+note:      full package: framework + licenses (LGPL + OFL) included

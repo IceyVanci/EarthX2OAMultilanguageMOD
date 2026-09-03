@@ -1,0 +1,94 @@
+# EarthX 2 Español - Tabla de reemplazo de cadenas IL (es-strings5.tsv, parte 5)
+# Formato: alcance^^^original^^^traducción  (alcance = prefijo de nombre de método separado por ;)
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Being Refueled...^^^Reabasteciéndose...^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Refueling...^^^Reabasteciendo...^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Docking...^^^Acoplando...^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Landing...^^^Aterrizando...^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Launching...^^^Lanzando...^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Returning to port on a droneship...^^^Regresando al puerto en un barco dron...^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10^^^Wants to re-entry...^^^Quiere reentrar...^^^DISPLAY
+VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^No landing zone...^^^Sin zona de aterrizaje...^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Requires refuels: {0}^^^Reabastecimientos necesarios: {0}^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateService|6^^^Service <color=#ffffff><size=90%>^^^Mantenimiento <color=#ffffff><size=90%>^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateService|6^^^Servicing this vehicle costs more than producing a new one.\n\nYou can keep flying this vehicle, but it will affect your insurance and flight success.^^^Mantener este vehículo cuesta más que producir uno nuevo.\n\nPuedes seguir volando este vehículo, pero afectará tu seguro y el éxito del vuelo.^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateService|6^^^You can keep flying this vehicle, but it will affect your insurance and flight success.^^^Puedes seguir volando este vehículo, pero afectará tu seguro y el éxito del vuelo.^^^DISPLAY
+VehiclesWindow/<>c::<ConvertVehicle_OnClick>b__64_1^^^Convert to ^^^Convertir a ^^^DISPLAY
+VehiclesWindow::FolderSelectBlueprints_OnClick^^^Assign Blueprint^^^Asignar Plano^^^DISPLAY
+VehiclesWindow::FolderSelectInventory_OnClick^^^Select Locations^^^Seleccionar Ubicaciones^^^DISPLAY
+VehiclesWindow::SelectAutomation_OnClick^^^Select Automation^^^Seleccionar Automatización^^^DISPLAY
+VehiclesWindow::SelectFolder_OnClick^^^Select Folder^^^Seleccionar Carpeta^^^DISPLAY
+VehiclesWindow::SelectFolder_OnClick^^^[Create New Folder]^^^[Crear Nueva Carpeta]^^^AUTO
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateFolderView|2^^^Change Name^^^Cambiar Nombre^^^AUTO
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateFolderView|2^^^Remove Folder^^^Eliminar Carpeta^^^AUTO
+# DISABLED (6-dangerous 2026-09-01: breaks Asset.GetAsset<Asset> lookup in Folder dropdown): VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateDropdowns|3;VWVehiclesScroller::.ctor^^^Folders^^^分组
+FolderData::get_Nickname^^^Folder^^^Carpeta^^^DISPLAY
+FolderData::.ctor^^^Untitled Folder^^^Carpeta sin título^^^AUTO
+ContextDropdownGeneric::UpdateUI;VehiclesWindow::SelectAutomation_OnClick;VehiclesWindow::SelectFolder_OnClick^^^[None]^^^[Ninguna]^^^DISPLAY
+ContextMenuScroller::Initialize^^^[Empty]^^^[Vacío]^^^AUTO
+# DISABLED (Launch is asset id/animator trigger): LaunchData::set_LaunchSetupViewActive;LaunchUI::UpdateUI;VehicleFlightAnimator::LaunchAnimator^^^Launch^^^发射
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetInfoTags|0;PeopleWindow::<UpdateUI>g__SetInfoTags|17_0^^^Launch\n^^^Lanzar\n^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetInfoTags|0;PeopleWindow::<UpdateUI>g__SetInfoTags|17_0^^^Launch\n<color=#81C784><size=90%>Ready To Fly^^^Lanzar\n<color=#81C784><size=90%>Listo Para Volar^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetDestination|1;PeopleWindow::<UpdateUI>g__SetDestination|17_1^^^Two-Way Trip^^^Viaje de Ida y Vuelta^^^DISPLAY
+LWVehiclePanelUI::SelectDock_OnClick;LWVehiclePanelUI::UpdateUI^^^Select Dock^^^Seleccionar Puerto de Acoplamiento^^^DISPLAY
+LWVehiclePanelUI/<>c::<SelectDock_OnClick>b__15_0;LWVehiclePanelUI::UpdateUI^^^Dock {0}^^^Puerto de Acoplamiento {0}^^^DISPLAY
+LWVehiclePanelUI::UpdateUI^^^Select Land Option^^^Seleccionar Opción de Aterrizaje^^^DISPLAY
+LWVehiclePanelUI::UpdateUI^^^Recovery of this vehicle is not possible with the current setup.\nTo enable recovery, a Droneship must be constructed on the Launch Pad.^^^La recuperación de este vehículo no es posible con la configuración actual.\nPara habilitar la recuperación, se debe construir un Barco Dron en la Plataforma de Lanzamiento.^^^DISPLAY
+LWVehiclePanelUI::UpdateUI^^^Recovery of this vehicle with tower arms is not possible yet.^^^La recuperación de este vehículo con brazos de torre aún no es posible.^^^DISPLAY
+LWChoosePresetPanel/<>c::<ChoosePreset_OnClick>b__0_5^^^Rename^^^Renombrar^^^AUTO
+LWChoosePresetPanel/<>c::<ChoosePreset_OnClick>b__0_5^^^Remove^^^Eliminar^^^AUTO
+LWChoosePresetPanel/<>c::<ChoosePreset_OnClick>b__0_5^^^Update With Current Settings^^^Actualizar Con la Configuración Actual^^^AUTO
+LWChoosePresetPanel/<>c::<ChoosePreset_OnClick>b__0_5^^^Convert To Automation^^^Convertir a Automatización^^^AUTO
+LWChoosePresetPanel::ChoosePreset_OnClick^^^Choose Preset^^^Elegir Ajuste^^^DISPLAY
+LWChoosePresetPanel/<>c__DisplayClass0_0::<ChoosePreset_OnClick>b__6^^^New preset^^^Nuevo ajuste^^^AUTO
+LWChoosePresetPanel::ChoosePreset_OnClick^^^[Create New Preset]^^^[Crear Nuevo Ajuste]^^^AUTO
+LaunchPresetData::UpdatePreset^^^ preset has been updated.^^^ el ajuste ha sido actualizado.^^^DISPLAY
+LaunchPresetData::UpdatePreset^^^ preset can't be updated if your configuration is not valid.^^^ el ajuste no puede actualizarse si tu configuración no es válida.^^^DISPLAY
+LaunchPresetData::ConvertToAutomation^^^ preset can't be converted into automation because you didn't unlock that feature yet.^^^ el ajuste no puede convertirse en automatización porque aún no has desbloqueado esa función.^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Attach Vehicle <color=#ffffff75><size=90%>(any)</size></color>^^^Acoplar Vehículo <color=#ffffff75><size=90%>(cualquiera)</size></color>^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Launch From <color=#ffffff75><size=90%>(any)</size></color>^^^Lanzar Desde <color=#ffffff75><size=90%>(cualquiera)</size></color>^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Refuel Vehicle <color=#ffffff75><size=90%>(any)</size></color>^^^Reabastecer Vehículo <color=#ffffff75><size=90%>(cualquiera)</size></color>^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Payload <color=#ffffff75><size=90%>(contract)</size></color>^^^Carga Útil <color=#ffffff75><size=90%>(contrato)</size></color>^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Attach Vehicle^^^Acoplar Vehículo^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Launch From^^^Lanzar Desde^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Launch To^^^Lanzar Hacia^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Payload^^^Carga Útil^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Program^^^Programa^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Note^^^Nota^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Unknown command^^^Comando desconocido^^^AUTO
+AutomationEditWindow::RemoveProgram_OnClick^^^Do you really want to remove <color=#ffffff75><size=90%>{0}</size></color> program?\nIt's assigned to <b>{1}</b> vehicles.^^^¿De verdad quieres eliminar el programa <color=#ffffff75><size=90%>{0}</size></color>?\nEstá asignado a <b>{1}</b> vehículos.^^^AUTO
+NewAutomationWindow::<Awake>g__OnWindowStateChange|5_0^^^New Automation^^^Nueva Automatización^^^AUTO
+AutomationData::<Awake>g__OnNewGame|0_0^^^Internet Satellite Launch Automation^^^Automatización de Lanzamiento de Satélites de Internet^^^AUTO
+# DISABLED (6-dangerous 2026-09-01: breaks Asset.GetAsset<Asset> lookup in Automation dropdown/folder view): VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateDropdowns|3;VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateFolderView|2^^^Automation^^^自动化程序
+ShipPanel::UpdateUI^^^Droneship^^^Barco Dron^^^DISPLAY
+ShipPanel::UpdateUI^^^Fairingship^^^Barco de Carenas^^^DISPLAY
+ShipPanel::UpdateUI^^^Build\n^^^Construir\n^^^AUTO
+ShipPanel::UpdateUI^^^<color=#81C784>Ready to Use</color>^^^<color=#81C784>Listo para Usar</color>^^^DISPLAY
+ShipPanel::UpdateUI^^^<color=#E67E22>Currently out in the ocean!</color>^^^<color=#E67E22>¡Actualmente en el océano!</color>^^^DISPLAY
+LaunchPadData::get_Droneship^^^New Droneship^^^Nuevo Barco Dron^^^AUTO
+LaunchPadData::get_Fairingship^^^New Fairingship^^^Nuevo Barco de Carenas^^^AUTO
+SupplyWindow::UpdateUI^^^Supply\n^^^Suministro\n^^^DISPLAY
+ProgressionUI::<UpdateUI>g__SetProduction|32_2^^^Supply^^^Suministro^^^DISPLAY
+ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateProductionLines|1;ProgressionUI::<UpdateUI>g__SetProduction|32_2^^^Production^^^Producción^^^DISPLAY
+ProgressionUI::UpdateUI^^^<size=100%><color=#55BBFF>Level {0} of {1}^^^<size=100%><color=#55BBFF>Nivel {0} de {1}^^^DISPLAY
+HUDNewHappening/<<OnUnlock>g__ProcessQueue|10_0>d::MoveNext^^^<size=90%><b><color=#FF9F43>You have unlocked a new ^^^<size=90%><b><color=#FF9F43>Has desbloqueado un nuevo ^^^AUTO
+ScreenLevelUp::OnLevelUp^^^Unlocked Level {0}^^^Nivel {0} desbloqueado^^^DISPLAY
+# DISABLED (breaks Asset.GetAsset lookups): HUDNewHappening::OnUnlock;PlanetConnectionVisualController::<Awake>g__OnUnlock|3_2;PlanetConnectionVisualController::UpdateUI^^^Solar System^^^太阳系
+EventsUI::<Awake>g__OnUnlock|10_2^^^Apocalypse^^^Apocalipsis^^^AUTO
+# DISABLED (breaks Asset.GetAsset lookups): PlanetResourcePanel::UpdateUI;UtilityConstructionExtensions::MultiplyByHumans^^^Human Storage^^^人员仓储
+ConstructionPrefab::UpdateTooltip^^^\n<color=#E67E22>Click to demolish</color>^^^\n<color=#E67E22>Clic para demoler</color>^^^DISPLAY
+ConstructionPrefab::UpdateTooltip^^^\n<color=#F6E58D>Click to repair</color>^^^\n<color=#F6E58D>Clic para reparar</color>^^^DISPLAY
+ConstructionPrefab::UpdateTooltip^^^\n<color=#E67E22>Currently out in the ocean!</color>^^^\n<color=#E67E22>¡Actualmente en el océano!</color>^^^DISPLAY
+ConstructionPrefab::UpdateTooltip^^^\n<color=#81C784>Ready to Use</color>^^^\n<color=#81C784>Listo para Usar</color>^^^DISPLAY
+ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateInfoPanel|0;UtilityConstructionPrefab::UpdateTooltip^^^<color=#81C784>Online</color>^^^<color=#81C784>En línea</color>^^^DISPLAY
+ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateInfoPanel|0;UtilityConstructionPrefab::UpdateTooltip^^^<color=#E74C3C>Offline</color>^^^<color=#E74C3C>Sin conexión</color>^^^DISPLAY
+StructuresWindow::<UpdateUI>g__HubStationStructurePreview|22_0^^^<color=#E74C3C>Offline^^^<color=#E74C3C>Sin conexión^^^DISPLAY
+ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateInfoPanel|0;UtilityConstructionPrefab::UpdateTooltip^^^\n<color=#FFDB08>Not working properly</color>^^^\n<color=#FFDB08>No funciona correctamente</color>^^^DISPLAY
+UtilityConstructionData::get_UsageAsString^^^\n<color=#E74C3C>> Not enough items!</color>^^^\n<color=#E74C3C>> ¡No hay suficientes artículos!</color>^^^DISPLAY
+UtilityConstructionData::get_UsageAsString^^^\n<color=#F6E58D>> Items were supplied!</color>^^^\n<color=#F6E58D>> ¡Se suministraron artículos!</color>^^^DISPLAY
+ConstructionManager::UpdatePreview^^^> Cannot place on a slope!^^^> ¡No se puede colocar en una pendiente!^^^AUTO
+ConstructionManager::UpdatePreview^^^> Not enough items!^^^> ¡No hay suficientes artículos!^^^AUTO
+ConstructionManager::UpdatePreview^^^> This place is already occupied by something else!^^^> ¡Este lugar ya está ocupado por otra cosa!^^^AUTO
+ConstructionManager::<UpdatePreview>g__CanPlaceOnLayer|39_1^^^Cannot place on the land!^^^¡No se puede colocar en la tierra!^^^AUTO
+ConstructionManager::<UpdatePreview>g__CanPlaceOnLayer|39_1^^^Cannot place on the water!^^^¡No se puede colocar en el agua!^^^AUTO
+ConstructionManager::<UpdatePreview>g__CanPlaceOnLayer|39_1^^^Cannot place... anywhere.^^^No se puede colocar... en ningún lugar.^^^AUTO
+ConstructionManager::UpdatePreview^^^ is destroyed!^^^ está destruido!^^^AUTO

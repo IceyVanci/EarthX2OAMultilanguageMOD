@@ -1,0 +1,121 @@
+# EarthX 2 Español - Tabla de reemplazo de texto TMP (segunda parte: prefabs)
+Not enough storage^^^No hay suficiente espacio de almacenamiento
+Not Operational^^^No Operativo
+Open Contract^^^Abrir Contrato
+Open Folder^^^Abrir Carpeta
+Open in Finances Window^^^Abrir en la Ventana de Finanzas
+Open in Inventory Window^^^Abrir en la Ventana de Inventario
+Open in Services Window^^^Abrir en la Ventana de Servicios
+Open Inventory^^^Abrir Inventario
+Open Inventory Window^^^Abrir Ventana de Inventario
+Open Market Window^^^Abrir Ventana de Mercado
+Open Production Window^^^Abrir Ventana de Producción
+Open the contract that includes this payload.d^^^Abrir el contrato que incluye esta carga útil.d
+Overview tab is not available yet.^^^La pestaña de Resumen aún no está disponible.
+Stocks tab is not available yet.^^^La pestaña de Acciones aún no está disponible.
+Transport service is not available yet.^^^El servicio de transporte aún no está disponible.
+Recovery not possible^^^Recuperación no posible
+Select Destination^^^Seleccionar Destino
+Select Difficulty^^^Seleccionar Dificultad
+Select Dock^^^Seleccionar Muelle de Atraque
+Select Item^^^Seleccionar Artículo
+Select Item to Produce^^^Seleccionar Artículo a Producir
+Select Item To Produce^^^Seleccionar Artículo a Producir
+Select Launch Mode^^^Seleccionar Modo de Lanzamiento
+Select Launch Pad^^^Seleccionar Plataforma de Lanzamiento
+Select Location^^^Seleccionar Ubicación
+Select Recovery Type^^^Seleccionar Tipo de Recuperación
+Select Vehicle To Refuel^^^Seleccionar Vehículo para Repostar
+Reuse Hardware^^^Reutilizar Hardware
+Fairingship not ready^^^Barco de Cofias no listo
+Must Be Brought Back^^^Debe Ser Traído de Vuelta
+Must Match Planet?^^^¿Debe Coincidir con el Planeta?
+When On^^^Cuando Está Activo
+When less than^^^Cuando sea menos que
+Your Name^^^Tu Nombre
+Your Signature:^^^Tu Firma:
+[Sign Here With Your Mouse]^^^[Firma Aquí Con el Ratón]
+All existing vehicles without folder will be added to this folder^^^Todos los vehículos existentes sin carpeta se añadirán a esta carpeta
+Newly built vehicles will be automatically added to this folder^^^Los vehículos de nueva construcción se añadirán automáticamente a esta carpeta
+After you launch it to its destination, this payload must be brought back to its current location!^^^¡Después de lanzarla a su destino, esta carga útil debe traerse de vuelta a su ubicación actual!
+Base rate of your insurance^^^Tarifa base de tu seguro
+Duration of the loan^^^Duración del préstamo
+Interest/cost of the loan^^^Interés/coste del préstamo
+The more vehicles you have built, the more you pay for insurance^^^Cuantos más vehículos hayas construido, más pagas por el seguro
+Last year's performance, you will pay more if you had more failed launches last year.^^^Según el rendimiento del año pasado: pagarás más si el año pasado tuviste más lanzamientos fallidos.
+Value of all payload that was lost during the launch^^^Valor de toda la carga útil perdida durante el lanzamiento
+If checked, automation will execute only if vehicle and destination are on the same planet (or its orbits).^^^Si está marcado, la automatización solo se ejecutará si el vehículo y el destino están en el mismo planeta (o en sus órbitas).
+If you want to recover the rocket from this mission, it must land on a droneship.\nA droneship is not required in the following cases:^^^Si quieres recuperar el cohete de esta misión, debe aterrizar en un droneta.\nUn droneta no es necesario en los siguientes casos:
+<size=90%><color=#ffffff75>1) Missions to <color=#55BBFF>Low Earth Orbit</color>\n2) Missions to <color=#55BBFF>Medium Earth Orbit</color> when less than half of the fairing capacity is used^^^<size=90%><color=#ffffff75>1) Misiones a <color=#55BBFF>Órbita Terrestre Baja</color>\n2) Misiones a <color=#55BBFF>Órbita Terrestre Media</color> cuando se use menos de la mitad de la capacidad de las cofias
+The Fairingship is not available. Fairings from this mission will not be recovered.^^^El Barco de Cofias no está disponible. Las cofias de esta misión no se recuperarán.
+The Fairingship is ready and will attempt to catch the fairings as they descend through Earth’s atmosphere under parachutes.^^^El Barco de Cofias está listo e intentará atrapar las cofias mientras descienden por la atmósfera de la Tierra bajo paracaídas.
+Refuelling will be required in order to reach this destination^^^Se requerirá repostar para alcanzar este destino
+Satellites will deorbit over time^^^Los satélites saldrán de órbita con el tiempo
+Launch the rocket even if it's empty!^^^¡Lanza el cohete incluso si está vacío!
+No contracts are available at this moment.^^^No hay contratos disponibles en este momento.
+Do you really really, I mean really remove that beautiful building? Yessss?^^^¿De verdad de verdad, digo de verdad, quieres eliminar ese hermoso edificio? ¿Síííí?
+This action is manual, meaning that you will have to click on a button at the right moment!^^^Esta acción es manual, lo que significa que tendrás que hacer clic en un botón en el momento adecuado.
+This channel does not broadcast off-world :P^^^Este canal no emite fuera del mundo :P
+This is the vehicle that you will assign this automation program to.^^^Este es el vehículo al que asignarás este programa de automatización.
+This will try to refuel any vehicle that is on a parking orbit and requires a refuel.^^^Esto intentará repostar cualquier vehículo que esté en una órbita de estacionamiento y requiera repostaje.
+Time window in which you will receive payloads related to this contract^^^Ventana de tiempo en la que recibirás cargas útiles relacionadas con este contrato
+Toggle if it's possible to assign this automation to a vehicle^^^Activa si es posible asignar esta automatización a un vehículo
+Until this contract expires, you will continue to receive new payloads to launch^^^Hasta que este contrato caduque, seguirás recibiendo nuevas cargas útiles para lanzar
+There are no items on this^^^No hay artículos en esto
+You are not selling any item yet.^^^Aún no estás vendiendo ningún artículo.
+You are not selling this item yet^^^Aún no estás vendiendo este artículo
+You are losing 1850$ on each sale!^^^¡Estás perdiendo 1850$ en cada venta!
+You can use this vehicle in a mission even without servicing, but this will affect the flight success and insurance.^^^Puedes usar este vehículo en una misión incluso sin mantenimiento, pero esto afectará el éxito del vuelo y el seguro.
+You don't have any automation yet!^^^¡Aún no tienes ninguna automatización!
+You don't have any vehicles produced.\nClick on a factory and produce some!^^^No tienes ningún vehículo producido.\n¡Haz clic en una fábrica y produce algunos!
+You don't have any vehicles produced.\nGo to the Production Window!^^^No tienes ningún vehículo producido.\n¡Ve a la Ventana de Producción!
+You have no available loans.^^^No tienes préstamos disponibles.
+You have no services yet.^^^Aún no tienes servicios.
+You made no insurance claims yet.^^^Aún no has presentado reclamaciones de seguro.
+You must build factories in the^^^Debes construir fábricas en
+You must build vehicles in the^^^Debes construir vehículos en
+You receive strikes when you miss a deadline.\nToo many strikes can terminate the contract or prevent its future extension.^^^Recibes avisos cuando incumples una fecha límite.\nDemasiados avisos pueden terminar el contrato o impedir su futura ampliación.
+Your insurance has been cancelled forever.^^^Tu seguro ha sido cancelado para siempre.
+<color=#ffffff75><size=90%>Any vehicle of this type will be attached to the mission.^^^<color=#ffffff75><size=90%>Cualquier vehículo de este tipo se adjuntará a la misión.
+<color=#ffffff75><size=90%>This vehicle will be attached to the mission.^^^<color=#ffffff75><size=90%>Este vehículo se adjuntará a la misión.
+<color=#ffffff75><size=90%>Items of this type will be launched with the mission.^^^<color=#ffffff75><size=90%>Los artículos de este tipo se lanzarán con la misión.
+<color=#ffffff75><size=90%>Any launch pad of this type will be used to launch the mission.^^^<color=#ffffff75><size=90%>Cualquier plataforma de lanzamiento de este tipo se usará para lanzar la misión.
+<color=#ffffff75><size=90%>This launch pad will be used to launch the mission from.^^^<color=#ffffff75><size=90%>Esta plataforma de lanzamiento se usará para lanzar la misión.
+<color=#ffffff75><size=90%>Any vehicle parked on the parking orbit will be refuelled.^^^<color=#ffffff75><size=90%>Cualquier vehículo estacionado en la órbita de estacionamiento será repostado.
+<color=#ffffff75><size=90%>Program will be ran only if the vehicle is on specified location.^^^<color=#ffffff75><size=90%>El programa solo se ejecutará si el vehículo está en la ubicación especificada.
+<size=90%><color=#ffffff99>You need to launch 300 internet satellites to Earth's orbits before running this service.^^^<size=90%><color=#ffffff99>Necesitas lanzar 300 satélites de internet a las órbitas de la Tierra antes de ejecutar este servicio.
+<size=90%><color=#ffffff75>Learn how to land a rocket vertically using only its engine. Reach at least 150 meters, then land gently on the second landing zone.^^^<size=90%><color=#ffffff75>Aprende a aterrizar un cohete verticalmente usando solo su motor. Alcanza al menos 150 metros, luego aterriza suavemente en la segunda zona de aterrizaje.
+<size=90%><color=#ffffff75>Help your employees etc^^^<size=90%><color=#ffffff75>Ayuda a tus empleados, etc.
+<size=90%><color=#ffffff75>Supply astronauts with rotated chicken yessss^^^<size=90%><color=#ffffff75>Suministra a los astronautas pollo rotatorio, síííí
+<size=90%><color=#ffffff75>Your company can now apply for a loan of up to $12M^^^<size=90%><color=#ffffff75>Tu compañía ahora puede solicitar un préstamo de hasta 12 M$
+<size=90%><color=#ffffff75>CRSP-15 exploded during re-entry on Mars. It was sent to the Rocket Valhalla.</color></size>^^^<size=90%><color=#ffffff75>El CRSP-15 explotó durante la reentrada en Marte. Fue enviado al Valhalla de Cohetes.</color></size>
+<size=90%><color=#ffffff99>The most advanced space telescope ever built, designed to study the origins of the universe. It will explore galaxies, stars, and planets, providing valuable insights into their history.^^^<size=90%><color=#ffffff99>El telescopio espacial más avanzado jamás construido, diseñado para estudiar los orígenes del universo. Explorará galaxias, estrellas y planetas, proporcionando información valiosa sobre su historia.
+<size=90%><color=#ffffff75>A U.S. car company is running a marketing campaign and wants you to launch their prototype electric car into space as a test mission for your new heavy rocket.^^^<size=90%><color=#ffffff75>Una empresa automovilística de EE. UU. está realizando una campaña de marketing y quiere que lances su prototipo de coche eléctrico al espacio como misión de prueba para tu nuevo cohete pesado.
+<size=90%><color=#ffffff75>Transfer window with Mars is now <color=#E74C3C>closed</color>^^^<size=90%><color=#ffffff75>La ventana de transferencia con Marte ahora está <color=#E74C3C>cerrada</color>
+<size=90%><color=#ffffff75>Red lines must be aligned with the white lines^^^<size=90%><color=#ffffff75>Las líneas rojas deben estar alineadas con las líneas blancas
+<i>"Remember to drink some water as you play the game. It allows your brain to function - and perhaps you won't write a negative review in case of a misunderstanding"</i>^^^<i>"Recuerda beber un poco de agua mientras juegas. Permite que tu cerebro funcione, y tal vez no escribas una reseña negativa en caso de un malentendido"</i>
+Just Read The Instructions^^^Solo Lee Las Instrucciones
+Astronauts are chatting with their families via video call.^^^Los astronautas están charlando con sus familias por videollamada.
+Astronauts are cleaning and maintaining the station..^^^Los astronautas están limpiando y manteniendo la estación..
+Astronauts are exercising on the treadmill.^^^Los astronautas están haciendo ejercicio en la cinta de correr.
+Astronauts are experimenting with zero-gravity cooking.^^^Los astronautas están experimentando con cocinar en gravedad cero.
+Astronauts are observing Earth from the cupola.^^^Los astronautas están observando la Tierra desde la cúpula.
+A devastating earthquake has hit a densely populated region, crippling the local infrastructure. Emergency services request your user terminals to coordinate rescue efforts.^^^Un devastador terremoto ha golpeado una región densamente poblada, paralizando la infraestructura local. Los servicios de emergencia solicitan tus terminales de usuario para coordinar los esfuerzos de rescate.
+A global pandemic requires a swift and coordinated response. Health organizations need your terminals to track outbreaks and distribute vital information.^^^Una pandemia mundial requiere una respuesta rápida y coordinada. Las organizaciones de salud necesitan tus terminales para rastrear brotes y distribuir información vital.
+A peaceful country has been invaded, creating a flood of refugees in need of basic services and communication with lost family members.^^^Un país pacífico ha sido invadido, creando una oleada de refugiados que necesitan servicios básicos y comunicación con sus familiares perdidos.
+A region prone to tsunamis lacks an effective early warning system. Local governments ask for your assistance in implementing a satellite-based alert system.^^^Una región propensa a tsunamis carece de un sistema eficaz de alerta temprana. Los gobiernos locales piden tu asistencia para implementar un sistema de alerta basado en satélites.
+A remote village, isolated by mountains, seeks Starlink user terminals to connect with the world. They've heard of your work and hope you can assist in bridging their digital divide.^^^Una aldea remota, aislada por montañas, busca terminales de usuario Starlink para conectarse con el mundo. Han oído de tu trabajo y esperan que puedas ayudar a cerrar su brecha digital.
+A wildlife conservation group needs LinkLink user terminals for the drones to monitor endangered species in remote areas.^^^Un grupo de conservación de vida silvestre necesita terminales de usuario LinkLink para que los drones monitoreen especies en peligro de extinción en áreas remotas.
+An artist working on a remote installation needs user terminals to livestream the artwork's creation to the world.^^^Un artista que trabaja en una instalación remota necesita terminales de usuario para transmitir en vivo la creación de la obra al mundo.
+An initiative to connect the elderly in retirement communities through the internet requests user terminals. They aim to reduce isolation.^^^Una iniciativa para conectar a los ancianos en comunidades de jubilados a través de internet solicita terminales de usuario. Su objetivo es reducir el aislamiento.
+Massive wildfires are raging through a national park, and firefighting teams lack the communication tools to effectively combat the blaze. They ask for your drones and terminals.^^^Incendios forestales masivos arrasan un parque nacional, y los equipos de bomberos carecen de herramientas de comunicación para combatir eficazmente el incendio. Piden tus drones y terminales.
+Seasonal floods have displaced thousands, destroying homes and cutting off communities. Relief organizations seek your tech to establish temporary communication networks.^^^Las inundaciones estacionales han desplazado a miles, destruyendo hogares y aislando comunidades. Las organizaciones de ayuda buscan tu tecnología para establecer redes de comunicación temporales.
+A government agency is offering a lucrative contract to use your satellites for a surveillance program.^^^Una agencia gubernamental está ofreciendo un contrato lucrativo para usar tus satélites en un programa de vigilancia.
+An authoritarian regime requests an exclusive contract for your services to establish a tightly controlled communication network. It's a lucrative deal but at what cost?^^^Un régimen autoritario solicita un contrato exclusivo para tus servicios con el fin de establecer una red de comunicación estrictamente controlada. Es un trato lucrativo, pero ¿a qué costo?
+Private Military Company (PMC) Contract: "A PMC operating in conflict zones wants to purchase a large supply of your tech for 'logistics and communication'. Their reputation is questionable. Do you fulfill the order?^^^Contrato de Compañía Militar Privada (PMC): "Una PMC que opera en zonas de conflicto quiere comprar un gran suministro de tu tecnología para 'logística y comunicación'. Su reputación es cuestionable. ¿Cumples el pedido?
+An advertising company wants to use your satellites to project ads into the night sky, turning the stars into billboards. It's innovative but highly controversial. Do you light up the sky with ads?^^^Una empresa de publicidad quiere usar tus satélites para proyectar anuncios en el cielo nocturno, convirtiendo las estrellas en vallas publicitarias. Es innovador pero muy controvertido. ¿Iluminas el cielo con anuncios?
+A museum dedicated to space exploration history wants to create an exhibit featuring your company. They request a Prime Rocket for the setup.^^^Un museo dedicado a la historia de la exploración espacial quiere crear una exposición con tu compañía. Solicitan un Cohete Prime para la instalación.
+A local school is hosting a rocket model competition and they're short on funds. They're asking for a donation to help future engineers reach for the stars.^^^Una escuela local está organizando una competición de modelos de cohetes y les falta presupuesto. Piden una donación para ayudar a los futuros ingenieros a alcanzar las estrellas.
+A tech university is organizing a space-themed hackathon but lacks sponsors. They're asking for your financial support to nurture future talents in space technology.^^^Una universidad tecnológica está organizando un hackatón con temática espacial pero le faltan patrocinadores. Piden tu apoyo financiero para fomentar futuros talentos en tecnología espacial.
+An eccentric scientist claims to be close to a breakthrough in alien communication technology and requests funding.^^^Un científico excéntrico afirma estar cerca de un avance en la tecnología de comunicación alienígena y solicita financiación.
+you've won a 'Lunar Land Ownership' contest. All they need is a small processing fee to transfer the land rights.^^^Has ganado un concurso de 'Propiedad de Terreno Lunar'. Todo lo que necesitan es una pequeña tarifa de procesamiento para transferir los derechos del terreno.

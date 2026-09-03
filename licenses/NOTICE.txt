@@ -2,7 +2,8 @@ THIRD-PARTY COMPONENTS NOTICE
 =============================
 
 This "full" package bundles the following UNMODIFIED third-party binaries
-to provide the modding framework required by the Chinese localization patch.
+to provide the modding framework required by the localization patches
+(CHS / DEU / JPN / ESP / KOR).
 
 1. BepInEx 5.4.23.2 (BepInEx\core\*.dll)
    License: GNU Lesser General Public License v2.1 (LGPL-2.1)
@@ -26,5 +27,6 @@ LGPL-2.1 compliance notes:
 - Source code for the listed components is available from the project
   URLs above at no charge.
 
-Patch content (JSON/TSV/plugin source in BepInEx\plugins\EarthX2Chinese)
-is provided as-is for the EarthX 2 community.
+Patch content (JSON/TSV/plugin source under BepInEx\plugins\EarthX2Chinese,
+EarthX2German, EarthX2Japanese, EarthX2Spanish, EarthX2Korean) is provided
+as-is for the EarthX 2 community.

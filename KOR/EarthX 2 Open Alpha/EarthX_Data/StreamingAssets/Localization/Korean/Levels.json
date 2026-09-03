@@ -1,0 +1,16 @@
+{
+    "Phase1_UncrewedLogistics_UL_Name": "무인 물류",
+    "Phase1_UncrewedLogistics_UL_Desc": "",
+    "Phase2_LowEarthOperations_LEO_Name": "저궤도 작전",
+    "Phase2_LowEarthOperations_LEO_Desc": "",
+    "Phase3_OrbitalInfrastructure_OI_Name": "궤도 인프라",
+    "Phase3_OrbitalInfrastructure_OI_Desc": "",
+    "Phase4_DeepSpaceProbing_DSP_Name": "심우주 탐사",
+    "Phase4_DeepSpaceProbing_DSP_Desc": "",
+    "Phase5_LunarSurfaceOperations_LSO_Name": "달 표면 작전",
+    "Phase5_LunarSurfaceOperations_LSO_Desc": "",
+    "Phase6_InterplanetaryLogistics_IPL_Name": "행성 간 물류",
+    "Phase6_InterplanetaryLogistics_IPL_Desc": "",
+    "Phase7_PlanetaryEngineering_PE_Name": "행성 공학",
+    "Phase7_PlanetaryEngineering_PE_Desc": ""
+}

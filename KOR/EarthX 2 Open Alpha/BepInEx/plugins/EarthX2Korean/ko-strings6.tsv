@@ -1,0 +1,68 @@
+# EarthX 2 한국어 - IL 문자열 치환 테이블 (ko-strings6.tsv, 6부)
+# 형식: 범위^^^원문^^^번역  (범위 = 세미콜론으로 구분된 메서드 전체 이름 접두사)
+ConstructionAsset::GetRequiredItemsAsString^^^\n<size=90%><color=#ffffff75>Required Items</color></size>^^^\n<size=90%><color=#ffffff75>필요 품목</color></size>^^^DISPLAY
+ConstructionAsset::get_StorageAsString;ConstructionData::get_StorageAsString^^^<color=#ffffff75><size=90%>Storage:</size></color>^^^<color=#ffffff75><size=90%>저장고:</size></color>^^^DISPLAY
+ConstructionData::get_StorageAsString^^^\n<sprite name="storage"> <color=#ffffff75><size=90%>{0}:</size></color> {1} <color=#ffffff75><size=90%>({2}% Full)</size></color>^^^\n<sprite name="storage"> <color=#ffffff75><size=90%>{0}:</size></color> {1} <color=#ffffff75><size=90%>({2}% 가득 참)</size></color>^^^DISPLAY
+FactoryData::get_ProductionLinesAsString^^^<color=#ffffff75><size=90%>Production Lines:</size></color>^^^<color=#ffffff75><size=90%>생산 라인:</size></color>^^^DISPLAY
+UtilityConstructionAsset::get_ProductionAsString;UtilityConstructionData::get_ProductionAsString^^^<color=#ffffff75><size=90%>Production per week:</size></color>^^^<color=#ffffff75><size=90%>주간 생산량:</size></color>^^^DISPLAY
+UtilityConstructionAsset::get_UsageAsString;UtilityConstructionData::get_UsageAsString^^^<color=#ffffff75><size=90%>Usage per week:</size></color>^^^<color=#ffffff75><size=90%>주간 사용량:</size></color>^^^DISPLAY
+ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateInfoPanel|0;UtilityConstructionPrefab::UpdateTooltip^^^\n<color=#ffffff75><size=90%>Efficiency:</size></color> {0}%^^^\n<color=#ffffff75><size=90%>효율:</size></color> {0}%^^^DISPLAY
+ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateInfoPanel|0;UtilityConstructionPrefab::UpdateTooltip^^^\n<color=#ffffff75><size=90%>Wind Speed:</size></color> {0}<color=#ffffff75><size=90%>km/h</size></color>^^^\n<color=#ffffff75><size=90%>풍속:</size></color> {0}<color=#ffffff75><size=90%>km/h</size></color>^^^DISPLAY
+ConstructionPrefab::UpdateTooltip^^^\n<color=#ffffff75><size=90%>Droneship:</size></color>^^^\n<color=#ffffff75><size=90%>드론선:</size></color>^^^DISPLAY
+ConstructionPrefab::UpdateTooltip^^^\n<color=#ffffff75><size=90%>Fairingship:</size></color>^^^\n<color=#ffffff75><size=90%>페어링선:</size></color>^^^DISPLAY
+SolarSystemSpaceStation::UpdateTooltip^^^\n<color=#ffffff75><size=90%>Items:</size></color>^^^\n<color=#ffffff75><size=90%>품목:</size></color>^^^AUTO
+SolarSystemTravelBulkPrefab::UpdateTooltip^^^\n<color=#ffffff75><size=90%>Payload:</size></color>^^^\n<color=#ffffff75><size=90%>탑재체:</size></color>^^^AUTO
+SolarSystemTravelBulkPrefab::UpdateTooltip^^^<color=#ffffff75><size=90%>Vehicles ({0})</size></color> travelling to <color=#ffffff75><size=90%>{1}</size></color>.^^^<color=#ffffff75><size=90%>차량 ({0})</size></color>이(가) <color=#ffffff75><size=90%>{1}</size></color>로(으로) 이동 중입니다.^^^AUTO
+SolarSystemTravelBulkPrefab::UpdateTooltip^^^"</size></color> travelling to <color=#ffffff75><size=90%>^^^"</size></color> 이동 중 <color=#ffffff75><size=90%>^^^AUTO
+PriceTag::OnMonthPassed^^^<color=#ffffff75><size=90%> | day</size></color>^^^<color=#ffffff75><size=90%> | 일</size></color>^^^DISPLAY
+PriceTag::OnMonthPassed;QASalesPanel::UpdateUI^^^<color=#ffffff75><size=90%> | last month</size></color>^^^<color=#ffffff75><size=90%> | 지난달</size></color>^^^DISPLAY
+PriceTag::OnMonthPassed^^^<color=#ffffff75><size=90%> | month</size></color>^^^<color=#ffffff75><size=90%> | 월</size></color>^^^DISPLAY
+PriceTag::OnMonthPassed^^^<color=#ffffff75><size=90%> | this month</size></color>^^^<color=#ffffff75><size=90%> | 이번 달</size></color>^^^DISPLAY
+PriceTag::OnMonthPassed^^^<color=#ffffff75><size=90%> | week</size></color>^^^<color=#ffffff75><size=90%> | 주</size></color>^^^DISPLAY
+PriceTag::OnMonthPassed^^^<color=#ffffff75><size=90%> | year</size></color>^^^<color=#ffffff75><size=90%> | 년</size></color>^^^DISPLAY
+ShipPanel::UpdateUI^^^<color=#ffffff75><size=90%> | per day^^^<color=#ffffff75><size=90%> | 일당^^^DISPLAY
+IWItemPanel::UpdateUI^^^ <color=#ffffff75><size=90%>| units sold</size></color>^^^ <color=#ffffff75><size=90%>| 판매 단위</size></color>^^^DISPLAY
+PWPersonPanel::UpdateUI^^^ <color=#ffffff75><size=90%>sales</size></color>^^^ <color=#ffffff75><size=90%>판매</size></color>^^^DISPLAY
+ProductionLinePanel::UpdateUI;ProductionWindow::UpdateUI^^^<size=90%><color=#ffffff75> | cycle^^^<size=90%><color=#ffffff75> | 주기^^^DISPLAY
+ProductionWindow::UpdateUI^^^{0}<size=90%><color=#ffffff75> | cycle^^^{0}<size=90%><color=#ffffff75> | 주기^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetOrbitAndStorageCosts|4;VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateFolderView|2;VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateStorageCosts|5^^^ <color=#ffffff75><size=90%>| month^^^ <color=#ffffff75><size=90%>| 월^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetOrbitAndStorageCosts|4^^^Never^^^없음^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetOrbitAndStorageCosts|4^^^{0}% <color=#ffffff75><size=90%>every year^^^{0}% <color=#ffffff75><size=90%>매년^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetOrbitAndStorageCosts|4^^^{0}% <color=#ffffff75><size=90%>in {1}^^^{0}% <color=#ffffff75><size=90%>{1} 후^^^AUTO
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetSales|3^^^<b>Warning:</b>\nYou are losing ^^^<b>경고:</b>\n잃고 있습니다: ^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetSales|3^^^ on every sale!^^^ 모든 판매 시!^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetDeadline|2;IWItemPanel::UpdateUI;LWItemPanel::UpdateUI;MWItemPanel::UpdateUI;PeopleWindow::<UpdateUI>g__SetDeadline|17_2;PWPersonPanel::UpdateUI^^^{0} <size=90%><color=#ffffff75>left</color></size>^^^{0} <size=90%><color=#ffffff75>남음</color></size>^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetDeadline|2;IWItemPanel::UpdateUI;LWItemPanel::UpdateUI;MWItemPanel::UpdateUI;PeopleWindow::<UpdateUI>g__SetDeadline|17_2;PWPersonPanel::UpdateUI^^^<color=#E74C3C>{0} <size=90%>left</size></color>^^^<color=#E74C3C>{0} <size=90%>남음</size></color>^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetDeadline|2;IWItemPanel::UpdateUI;PeopleWindow::<UpdateUI>g__SetDeadline|17_2;PWPersonPanel::UpdateUI^^^<size=90%><color=#ffffff75>Available in</color></size> {0}^^^<size=90%><color=#ffffff75>가능 시점</color></size> {0}^^^DISPLAY
+PeopleWindow::<UpdateUI>g__SetTracking|17_3^^^ <size=90%><color=#ffffff75>joined</color></size>\n^^^ <size=90%><color=#ffffff75>가입</color></size>\n^^^DISPLAY
+PeopleWindow::<UpdateUI>g__SetTracking|17_3^^^ <size=90%><color=#ffffff75>left^^^ <size=90%><color=#ffffff75>탈퇴^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateFolderView|2^^^\n<size=90%><color=#64B5F6>Folder^^^\n<size=90%><color=#64B5F6>폴더^^^DISPLAY
+VehiclesWindow::UpdateUI^^^ <size=90%><color=#ffffff75>"Folder"</color></size>^^^ <size=90%><color=#ffffff75>"폴더"</color></size>^^^AUTO
+VWAutomationPanel::UpdateUI^^^\n<size=90%><color=#55BBFF>Program</color></size>^^^\n<size=90%><color=#55BBFF>프로그램</color></size>^^^DISPLAY
+VWAutomationPanel::UpdateUI^^^\n<size=90%><color=#55BBFF>Sequence</color></size>^^^\n<size=90%><color=#55BBFF>시퀀스</color></size>^^^DISPLAY
+NewsWindow::UpdateUI^^^\n<color=#E74C3C><size=90%>Latest News^^^\n<color=#E74C3C><size=90%>최신 뉴스^^^DISPLAY
+NWNewsPanel::UpdateUI^^^<size=90%>{0}\n<size=90%><color=#55BBFF>{1} {2} in EarthX^^^<size=90%>{0}\n<size=90%><color=#55BBFF>EarthX에서 {1} {2}^^^DISPLAY
+ApocalypseData::OnDayPassed^^^Governments around the world are kindly asking you to open all patents related to your Spaceship technology.\nAs the world does everything to save as many as possible, they promise you unlimited resources.^^^전 세계 정부가 우주선 기술과 관련된 모든 특허를 공개해 줄 것을 정중히 요청합니다.\n세계가 가능한 한 많은 사람을 구하기 위해 모든 것을 하는 가운데, 그들은 무제한 자원을 약속합니다.^^^DISPLAY
+SolarSystem::OnCurrentPlanetChangeEarly^^^YESS WE CAN GO FLY TO OTHER PLANET hahahah^^^예스 다른 행성으로 날아갈 수 있어 ㅎㅎㅎㅎ^^^DISPLAY
+SolarSystem::OnCurrentPlanetChangeEarly^^^nooooo boring orbit launch :( i'm so sick of these gums^^^아아아아 지루한 궤도 발사 :( 이런 너저분한 것들에 진절머리나^^^DISPLAY
+SolarSystem::LoadPlanet^^^ is not yet unlocked!^^^ 아직 잠금 해제되지 않았습니다!^^^DISPLAY
+VehicleReentryAnimator::ExplodeDuringReentryButItsSuccessful^^^Your ship completed a test water landing which resulted in an explosion, but that's totally fine!^^^우주선이 폭발로 이어진 시험 수상 착지를 완료했지만, 전혀 문제없습니다!^^^DISPLAY
+PortShip::Construction_OnComplete^^^The construction of your ship "^^^우주선 건설 완료: \"^^^DISPLAY
+PortShip::Construction_OnComplete^^^" has been completed!^^^\" 건설이 완료되었습니다!^^^DISPLAY
+Cheats::EnableCheats^^^Look at me, I'm the developer now.^^^나를 봐, 이제 나는 개발자다.^^^DISPLAY
+Cheats::EnableCheats^^^hmm.. I think you're not a developer. What do you want? Oh you want to cheat?^^^흠.. 당신은 개발자가 아닌 것 같습니다. 무엇을 원하나요? 아, 치트를 원하나요?^^^DISPLAY
+Cheats::DisableCheats^^^You're a peasant again.^^^다시 평민이 되었습니다.^^^DISPLAY
+Cheats::AddItem;Cheats::AddItemToInventory;Cheats::AddMoney;Cheats::AddMonth;Cheats::AddYear;Cheats::CompleteAllProduction;Cheats::CompleteContract;Cheats::DestroyEarth;Cheats::DisableAllExplosions;Cheats::HeavySet;Cheats::LightSet;Cheats::OpenTransferWindow;Cheats::PlayMiniGame;Cheats::PrimeSet;Cheats::ProgressMilestone;Cheats::RefuelAllVehiclesThatNeedToBeRefueled;Cheats::SetPlanetVariant;Cheats::SetVariableForCurrentYear;Cheats::ShipSet;Cheats::SpawnContract;Cheats::SpawnFuelDepotStation;Cheats::SpawnHubStation;Cheats::StorageInfo;Cheats::SubtractMoney;Cheats::TriggerLore^^^nuh uh :p Developer mode not enabled^^^안 돼 :p 개발자 모드가 활성화되지 않았습니다^^^DISPLAY
+Cheats::PlayCutsceneCommand^^^Developer mode not enabled^^^개발자 모드가 활성화되지 않았습니다^^^DISPLAY
+Cheats::RefuelAllVehiclesThatNeedToBeRefueled^^^Refueled^^^연료 보급 완료^^^DISPLAY
+Cheats::SetPlanetVariant^^^Planet variant changed^^^행성 변형 변경됨^^^DISPLAY
+Cheats::OpenTransferWindow^^^The portal has been opened! :o^^^포털이 열렸습니다! :o^^^DISPLAY
+Cheats::CompleteContract^^^<color=greem>marked as completed in the system^^^<color=greem>시스템에서 완료로 표시됨^^^DISPLAY
+Cheats::CompleteContract^^^contract does not exist^^^계약이 존재하지 않습니다^^^DISPLAY
+Cheats::SetVariableForCurrentYear^^^This year:  {0} --- All time: {1}^^^올해:  {0} --- 전체: {1}^^^DISPLAY
+Cheats::AddItem^^^<color=#E74C3C>Inventory does not exist!</color>^^^<color=#E74C3C>인벤토리가 존재하지 않습니다!</color>^^^DISPLAY
+Cheats::AddItemToInventory^^^<color=#E74C3C>Item does not exist!</color>^^^<color=#E74C3C>품목이 존재하지 않습니다!</color>^^^DISPLAY
+Cheats::OpenTransferWindow^^^<color=#E74C3C>Window does not exist!</color>^^^<color=#E74C3C>창이 존재하지 않습니다!</color>^^^DISPLAY
+Cheats::AddItemToInventory^^^Added <size=90%><color=#ffffff75>x{0}</color></size> of <size=90%><color=#ffffff75>{1}</color></size> to <size=90%><color=#ffffff75>{2}</color></size> of <size=90%><color=#ffffff75>{3}</color></size>^^^추가됨: <size=90%><color=#ffffff75>{1}</size></color> 중 <size=90%><color=#ffffff75>x{0}</size></color> → <size=90%><color=#ffffff75>{3}</size></color> 중 <size=90%><color=#ffffff75>{2}</size></color>^^^AUTO
+Cheats::AddItemToInventory^^^Added <size=90%><color=#ffffff75>x{0}</color></size> of <size=90%><color=#ffffff75>{1}</color></size> to <size=90%><color=#ffffff75>{2}</color></size>^^^추가됨: <size=90%><color=#ffffff75>{1}</size></color> 중 <size=90%><color=#ffffff75>x{0}</size></color> → <size=90%><color=#ffffff75>{2}</size></color>^^^AUTO
+CatterFirstPost::<PostOnCatter_OnClick>b__15_0^^^Hello world!^^^안녕하세요 세계!^^^AUTO

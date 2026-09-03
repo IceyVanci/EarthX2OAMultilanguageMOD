@@ -1,0 +1,6 @@
+{
+    "TESS_Name": "Satélite de Sondeo de Exoplanetas en Tránsito",
+    "TESS_Desc": "Un satélite avanzado diseñado para buscar planetas alrededor de estrellas cercanas. Utiliza cámaras de gran campo para detectar pequeñas caídas en el brillo y se centra en encontrar exoplanetas pequeños y similares a la Tierra. Su misión es ayudar a los científicos a descubrir mundos que potencialmente podrían albergar vida.",
+    "TESS Payload_Name": "TESS",
+    "TESS Payload_Desc": "@TESS_Desc"
+}

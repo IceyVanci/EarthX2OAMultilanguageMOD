@@ -47,6 +47,46 @@ $profiles = @{
         UniqueOrig    = 580
         JsonCount     = 64
     }
+    "FRA" = @{
+        Prefix        = "fr"
+        TargetLang    = "French"
+        PlugDirName   = "EarthX2French"
+        JsonDirName   = "French"
+        FromWorkspace = $false
+        EmbeddedFonts = $false
+        UniqueOrig    = 580
+        JsonCount     = 64
+    }
+    "POR" = @{
+        Prefix        = "pt"
+        TargetLang    = "Portuguese"
+        PlugDirName   = "EarthX2Portuguese"
+        JsonDirName   = "Portuguese"
+        FromWorkspace = $false
+        EmbeddedFonts = $false
+        UniqueOrig    = 580
+        JsonCount     = 64
+    }
+    "ESP" = @{
+        Prefix        = "es"
+        TargetLang    = "Spanish"
+        PlugDirName   = "EarthX2Spanish"
+        JsonDirName   = "Spanish"
+        FromWorkspace = $false
+        EmbeddedFonts = $false
+        UniqueOrig    = 580
+        JsonCount     = 64
+    }
+    "KOR" = @{
+        Prefix        = "ko"
+        TargetLang    = "Korean"
+        PlugDirName   = "EarthX2Korean"
+        JsonDirName   = "Korean"
+        FromWorkspace = $false
+        EmbeddedFonts = $true
+        UniqueOrig    = 580
+        JsonCount     = 64
+    }
 }
 if (-not $profiles.ContainsKey($Lang)) { Write-Host "FAIL: unknown Lang '$Lang'"; exit 1 }
 $p = $profiles[$Lang]

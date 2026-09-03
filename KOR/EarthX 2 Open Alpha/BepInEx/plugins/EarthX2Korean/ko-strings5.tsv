@@ -1,0 +1,94 @@
+# EarthX 2 한국어 - IL 문자열 치환 테이블 (ko-strings5.tsv, 5부)
+# 형식: 범위^^^원문^^^번역  (범위 = 세미콜론으로 구분된 메서드 전체 이름 접두사)
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Being Refueled...^^^연료 보급 중...^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Refueling...^^^연료 보급 중...^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Docking...^^^도킹 중...^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Landing...^^^착륙 중...^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Launching...^^^발사 중...^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Returning to port on a droneship...^^^드론선으로 항구에 귀환 중...^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10^^^Wants to re-entry...^^^재진입 희망 중...^^^DISPLAY
+VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^No landing zone...^^^착륙 구역 없음...^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Requires refuels: {0}^^^필요 보급 횟수: {0}^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateService|6^^^Service <color=#ffffff><size=90%>^^^정비 <color=#ffffff><size=90%>^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateService|6^^^Servicing this vehicle costs more than producing a new one.\n\nYou can keep flying this vehicle, but it will affect your insurance and flight success.^^^이 차량의 정비 비용이 새 차량 생산 비용보다 높습니다.\n\n이 차량을 계속 비행할 수는 있지만, 보험과 비행 성공률에 영향을 미칩니다.^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateService|6^^^You can keep flying this vehicle, but it will affect your insurance and flight success.^^^이 차량을 계속 비행할 수는 있지만, 보험과 비행 성공률에 영향을 미칩니다.^^^DISPLAY
+VehiclesWindow/<>c::<ConvertVehicle_OnClick>b__64_1^^^Convert to ^^^로 변환: ^^^DISPLAY
+VehiclesWindow::FolderSelectBlueprints_OnClick^^^Assign Blueprint^^^청사진 지정^^^DISPLAY
+VehiclesWindow::FolderSelectInventory_OnClick^^^Select Locations^^^위치 선택^^^DISPLAY
+VehiclesWindow::SelectAutomation_OnClick^^^Select Automation^^^자동화 선택^^^DISPLAY
+VehiclesWindow::SelectFolder_OnClick^^^Select Folder^^^폴더 선택^^^DISPLAY
+VehiclesWindow::SelectFolder_OnClick^^^[Create New Folder]^^^[새 폴더 만들기]^^^AUTO
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateFolderView|2^^^Change Name^^^이름 변경^^^AUTO
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateFolderView|2^^^Remove Folder^^^폴더 제거^^^AUTO
+# DISABLED (6-dangerous 2026-09-01: breaks Asset.GetAsset<Asset> lookup in Folder dropdown): VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateDropdowns|3;VWVehiclesScroller::.ctor^^^Folders^^^分组
+FolderData::get_Nickname^^^Folder^^^폴더^^^DISPLAY
+FolderData::.ctor^^^Untitled Folder^^^제목 없는 폴더^^^AUTO
+ContextDropdownGeneric::UpdateUI;VehiclesWindow::SelectAutomation_OnClick;VehiclesWindow::SelectFolder_OnClick^^^[None]^^^[없음]^^^DISPLAY
+ContextMenuScroller::Initialize^^^[Empty]^^^[비어 있음]^^^AUTO
+# DISABLED (Launch is asset id/animator trigger): LaunchData::set_LaunchSetupViewActive;LaunchUI::UpdateUI;VehicleFlightAnimator::LaunchAnimator^^^Launch^^^发射
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetInfoTags|0;PeopleWindow::<UpdateUI>g__SetInfoTags|17_0^^^Launch\n^^^발사\n^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetInfoTags|0;PeopleWindow::<UpdateUI>g__SetInfoTags|17_0^^^Launch\n<color=#81C784><size=90%>Ready To Fly^^^발사\n<color=#81C784><size=90%>비행 준비 완료^^^DISPLAY
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetDestination|1;PeopleWindow::<UpdateUI>g__SetDestination|17_1^^^Two-Way Trip^^^왕복 여정^^^DISPLAY
+LWVehiclePanelUI::SelectDock_OnClick;LWVehiclePanelUI::UpdateUI^^^Select Dock^^^도킹 포트 선택^^^DISPLAY
+LWVehiclePanelUI/<>c::<SelectDock_OnClick>b__15_0;LWVehiclePanelUI::UpdateUI^^^Dock {0}^^^도킹 포트 {0}^^^DISPLAY
+LWVehiclePanelUI::UpdateUI^^^Select Land Option^^^착륙 옵션 선택^^^DISPLAY
+LWVehiclePanelUI::UpdateUI^^^Recovery of this vehicle is not possible with the current setup.\nTo enable recovery, a Droneship must be constructed on the Launch Pad.^^^현재 구성으로는 이 차량의 회수가 불가능합니다.\n회수를 위해서는 발사대에 드론선을 건설해야 합니다.^^^DISPLAY
+LWVehiclePanelUI::UpdateUI^^^Recovery of this vehicle with tower arms is not possible yet.^^^타워 암으로 이 차량의 회수는 아직 불가능합니다.^^^DISPLAY
+LWChoosePresetPanel/<>c::<ChoosePreset_OnClick>b__0_5^^^Rename^^^이름 변경^^^AUTO
+LWChoosePresetPanel/<>c::<ChoosePreset_OnClick>b__0_5^^^Remove^^^제거^^^AUTO
+LWChoosePresetPanel/<>c::<ChoosePreset_OnClick>b__0_5^^^Update With Current Settings^^^현재 설정으로 업데이트^^^AUTO
+LWChoosePresetPanel/<>c::<ChoosePreset_OnClick>b__0_5^^^Convert To Automation^^^자동화로 변환^^^AUTO
+LWChoosePresetPanel::ChoosePreset_OnClick^^^Choose Preset^^^사전 설정 선택^^^DISPLAY
+LWChoosePresetPanel/<>c__DisplayClass0_0::<ChoosePreset_OnClick>b__6^^^New preset^^^새 사전 설정^^^AUTO
+LWChoosePresetPanel::ChoosePreset_OnClick^^^[Create New Preset]^^^[새 사전 설정 만들기]^^^AUTO
+LaunchPresetData::UpdatePreset^^^ preset has been updated.^^^ 사전 설정이 업데이트되었습니다.^^^DISPLAY
+LaunchPresetData::UpdatePreset^^^ preset can't be updated if your configuration is not valid.^^^ 구성이 유효하지 않으면 사전 설정을 업데이트할 수 없습니다.^^^DISPLAY
+LaunchPresetData::ConvertToAutomation^^^ preset can't be converted into automation because you didn't unlock that feature yet.^^^ 아직 해당 기능을 잠금 해제하지 않았으므로 사전 설정을 자동화로 변환할 수 없습니다.^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Attach Vehicle <color=#ffffff75><size=90%>(any)</size></color>^^^차량 부착 <color=#ffffff75><size=90%>(아무거나)</size></color>^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Launch From <color=#ffffff75><size=90%>(any)</size></color>^^^발사 위치 <color=#ffffff75><size=90%>(아무거나)</size></color>^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Refuel Vehicle <color=#ffffff75><size=90%>(any)</size></color>^^^차량 연료 보급 <color=#ffffff75><size=90%>(아무거나)</size></color>^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Payload <color=#ffffff75><size=90%>(contract)</size></color>^^^탑재체 <color=#ffffff75><size=90%>(계약)</size></color>^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Attach Vehicle^^^차량 부착^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Launch From^^^발사 위치^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Launch To^^^발사 목적지^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Payload^^^탑재체^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Program^^^프로그램^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Note^^^메모^^^DISPLAY
+AddNewInstructionCommandPanel::<AddInstruction_OnClick>g__GetCommandName|0_3^^^Unknown command^^^알 수 없는 명령^^^AUTO
+AutomationEditWindow::RemoveProgram_OnClick^^^Do you really want to remove <color=#ffffff75><size=90%>{0}</size></color> program?\nIt's assigned to <b>{1}</b> vehicles.^^^<color=#ffffff75><size=90%>{0}</size></color> 프로그램을 정말로 제거하시겠습니까?\n<b>{1}</b>대의 차량에 할당되어 있습니다.^^^AUTO
+NewAutomationWindow::<Awake>g__OnWindowStateChange|5_0^^^New Automation^^^새 자동화^^^AUTO
+AutomationData::<Awake>g__OnNewGame|0_0^^^Internet Satellite Launch Automation^^^인터넷 위성 발사 자동화^^^AUTO
+# DISABLED (6-dangerous 2026-09-01: breaks Asset.GetAsset<Asset> lookup in Automation dropdown/folder view): VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateDropdowns|3;VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateFolderView|2^^^Automation^^^自动化程序
+ShipPanel::UpdateUI^^^Droneship^^^드론선^^^DISPLAY
+ShipPanel::UpdateUI^^^Fairingship^^^페어링선^^^DISPLAY
+ShipPanel::UpdateUI^^^Build\n^^^건설\n^^^AUTO
+ShipPanel::UpdateUI^^^<color=#81C784>Ready to Use</color>^^^<color=#81C784>사용 준비 완료</color>^^^DISPLAY
+ShipPanel::UpdateUI^^^<color=#E67E22>Currently out in the ocean!</color>^^^<color=#E67E22>현재 바다에 있습니다!</color>^^^DISPLAY
+LaunchPadData::get_Droneship^^^New Droneship^^^새 드론선^^^AUTO
+LaunchPadData::get_Fairingship^^^New Fairingship^^^새 페어링선^^^AUTO
+SupplyWindow::UpdateUI^^^Supply\n^^^공급\n^^^DISPLAY
+ProgressionUI::<UpdateUI>g__SetProduction|32_2^^^Supply^^^공급^^^DISPLAY
+ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateProductionLines|1;ProgressionUI::<UpdateUI>g__SetProduction|32_2^^^Production^^^생산^^^DISPLAY
+ProgressionUI::UpdateUI^^^<size=100%><color=#55BBFF>Level {0} of {1}^^^<size=100%><color=#55BBFF>레벨 {0} / {1}^^^DISPLAY
+HUDNewHappening/<<OnUnlock>g__ProcessQueue|10_0>d::MoveNext^^^<size=90%><b><color=#FF9F43>You have unlocked a new ^^^<size=90%><b><color=#FF9F43>새 항목 잠금 해제: ^^^AUTO
+ScreenLevelUp::OnLevelUp^^^Unlocked Level {0}^^^레벨 {0} 잠금 해제^^^DISPLAY
+# DISABLED (breaks Asset.GetAsset lookups): HUDNewHappening::OnUnlock;PlanetConnectionVisualController::<Awake>g__OnUnlock|3_2;PlanetConnectionVisualController::UpdateUI^^^Solar System^^^太阳系
+EventsUI::<Awake>g__OnUnlock|10_2^^^Apocalypse^^^재앙^^^AUTO
+# DISABLED (breaks Asset.GetAsset lookups): PlanetResourcePanel::UpdateUI;UtilityConstructionExtensions::MultiplyByHumans^^^Human Storage^^^人员仓储
+ConstructionPrefab::UpdateTooltip^^^\n<color=#E67E22>Click to demolish</color>^^^\n<color=#E67E22>클릭하여 철거</color>^^^DISPLAY
+ConstructionPrefab::UpdateTooltip^^^\n<color=#F6E58D>Click to repair</color>^^^\n<color=#F6E58D>클릭하여 수리</color>^^^DISPLAY
+ConstructionPrefab::UpdateTooltip^^^\n<color=#E67E22>Currently out in the ocean!</color>^^^\n<color=#E67E22>현재 바다에 있습니다!</color>^^^DISPLAY
+ConstructionPrefab::UpdateTooltip^^^\n<color=#81C784>Ready to Use</color>^^^\n<color=#81C784>사용 준비 완료</color>^^^DISPLAY
+ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateInfoPanel|0;UtilityConstructionPrefab::UpdateTooltip^^^<color=#81C784>Online</color>^^^<color=#81C784>온라인</color>^^^DISPLAY
+ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateInfoPanel|0;UtilityConstructionPrefab::UpdateTooltip^^^<color=#E74C3C>Offline</color>^^^<color=#E74C3C>오프라인</color>^^^DISPLAY
+StructuresWindow::<UpdateUI>g__HubStationStructurePreview|22_0^^^<color=#E74C3C>Offline^^^<color=#E74C3C>오프라인^^^DISPLAY
+ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateInfoPanel|0;UtilityConstructionPrefab::UpdateTooltip^^^\n<color=#FFDB08>Not working properly</color>^^^\n<color=#FFDB08>제대로 작동하지 않음</color>^^^DISPLAY
+UtilityConstructionData::get_UsageAsString^^^\n<color=#E74C3C>> Not enough items!</color>^^^\n<color=#E74C3C>> 품목이 부족합니다!</color>^^^DISPLAY
+UtilityConstructionData::get_UsageAsString^^^\n<color=#F6E58D>> Items were supplied!</color>^^^\n<color=#F6E58D>> 품목이 공급되었습니다!</color>^^^DISPLAY
+ConstructionManager::UpdatePreview^^^> Cannot place on a slope!^^^> 경사면에 배치할 수 없습니다!^^^AUTO
+ConstructionManager::UpdatePreview^^^> Not enough items!^^^> 품목이 부족합니다!^^^AUTO
+ConstructionManager::UpdatePreview^^^> This place is already occupied by something else!^^^> 이 위치는 이미 다른 것으로 점유되었습니다!^^^AUTO
+ConstructionManager::<UpdatePreview>g__CanPlaceOnLayer|39_1^^^Cannot place on the land!^^^육지에 배치할 수 없습니다!^^^AUTO
+ConstructionManager::<UpdatePreview>g__CanPlaceOnLayer|39_1^^^Cannot place on the water!^^^물 위에 배치할 수 없습니다!^^^AUTO
+ConstructionManager::<UpdatePreview>g__CanPlaceOnLayer|39_1^^^Cannot place... anywhere.^^^어느 곳에도 배치할 수 없습니다...^^^AUTO
+ConstructionManager::UpdatePreview^^^ is destroyed!^^^ 파괴되었습니다!^^^AUTO
