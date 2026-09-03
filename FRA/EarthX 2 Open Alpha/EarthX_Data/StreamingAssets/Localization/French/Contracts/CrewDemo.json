@@ -1,0 +1,15 @@
+{
+    "Crew Demo_Name": "Launch America",
+    "Crew Demo_Desc": "",
+    "Crew Demo Bob_Name": "Bob",
+    "Crew Demo Bob_Desc": "Un astronaute intrépide au contrôle des impulsions hautement discutable. S'il y a un bouton à presser, il le pressera.",
+    "Crew Demo Doug_Name": "Doug",
+    "Crew Demo Doug_Desc": "L'ingénieur en chef de la mission. Il peut réparer presque n'importe quoi... sauf les idées de Bob.",
+    "Crew Demo_ Start Lore_Name": "Les États-Unis retournent dans l'espace",
+    "Crew Demo_ Start Lore_Desc": "Durant un discours télévisé à la nation aujourd'hui, le président des États-Unis a annoncé une directive d'envergure visant à accélérer radicalement le programme de vol spatial habité du pays. Ce calendrier agressif intervient alors que la pression monte, des puissances rivales faisant progresser à grands pas leurs propres initiatives spatiales.\n\n\"(...) notre nation doit rapidement reprendre sa domination dans le vol spatial habité (...) L'Amérique vise toujours l'impossible et y parvient, c'est pourquoi nous retournerons également sur la Lune dans un avenir proche.\"\n\nLa déclaration du président n'a que peu surpris la presse. Depuis des mois, des factions de plus en plus nombreuses au sein du Congrès et de la direction de la FASA réclament un calendrier accéléré. Dans les coulisses, une poignée d'entreprises pionnières — dont {1} — ont déjà décroché des contrats pour développer et lancer une mission de démonstration habitée vers la Station spatiale internationale.",
+    "Crew Demo_ Completion Lore_Name": "De nouveaux affrontements éclatent entre la FASA et le Congrès",
+    "Crew Demo_ContractCompleted_0": "La politique américaine est en émoi. Alors que les prestataires rivaux sont toujours bloqués à dessiner les plans de leurs prototypes de capsules, {1} a déjà amarré avec succès son vaisseau à la Station spatiale internationale.",
+    "Crew Demo_ Completion+1 Lore_Name": "Le président américain se rend sans prévenir au Capitole",
+    "Crew Demo_ Completion+1 Lore_Desc": "Dans un retournement de situation inattendu lundi matin, un cortège lourdement blindé transportant le président des États-Unis a quitté la Maison-Blanche et s'est dirigé droit vers le Capitole. La presse n'a reçu aucun préavis de cette sortie soudaine.\n\nLe président est enfin réapparu après plusieurs heures à portes closes. Des sources ont ensuite confirmé que l'administrateur de la FASA et un haut dirigeant de {1} étaient également présents à cette séance d'information secrète.",
+    "Crew Demo_ContractCompleted_2": "Deux membres du Congrès démissionnent brutalement au milieu d'allégations de corruption qui fusent."
+}

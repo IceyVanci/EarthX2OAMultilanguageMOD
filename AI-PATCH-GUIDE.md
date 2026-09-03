@@ -5,7 +5,9 @@
 > 文中所有路径、格式、命令均取自本项目实际结构。已按本指南落地的语言：
 > **简体中文 v1.0.0**（`CHS\`，首个语言）、**德语 v1.0.0**（`DEU\`，拉丁扩展语言 fork 实例，
 > 复用游戏内嵌 LiberationSans，不随包字体）、**西班牙语 v1.0.0**（`ESP\`，同 DEU 的拉丁扩展实例）、
-> **日语 v1.0.0**（`JPN\`，CJK 内嵌字体实例）与 **韩语 v1.0.0**（`KOR\`，CJK 内嵌字体实例）。
+> **日语 v1.0.0**（`JPN\`，CJK 内嵌字体实例）、**韩语 v1.0.0**（`KOR\`，CJK 内嵌字体实例），
+> 以及 **法语**（`FRA\`，同 DEU/ESP 的拉丁扩展实例）与 **葡萄牙语**（`POR\`，同 DEU/ESP 的拉丁
+> 扩展实例）——后两者代码尚未全部完成，待发布。
 >
 > 语言约定：正文中文，命令与代码英文。占位符 `<LANG>` 表示目标语言（如 `Japanese`），
 > `<lang>` 为小写（如 `ja`）。
@@ -326,12 +328,12 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "$publish\scripts\build-arti
 |---|---|---|---|
 | 1 | `validate_loc.ps1` JSON 层 | L1 | English ↔ `<LANG>` 键集/占位符/富文本/@别名 一致性（扁平解析，**不查语法**） |
 | 2 | `check_tsv.ps1` TSV 层 | L2/L3 | 结构 0 FAIL / 0 CONFLICT / FLAG 合法 / 烘焙基线 no-op 上限 |
-| 3 | ORIG 唯一数基线 | L2 | `-UniqueOrig`（CHS/DEU/JPN/ESP/KOR = 580） |
+| 3 | ORIG 唯一数基线 | L2 | `-UniqueOrig`（CHS/DEU/JPN/ESP/KOR/FRA/POR = 580） |
 | 4 | **ORIG 继承门禁**（仅 offline） | L2 | fork 语言 ORIG 集合与 CHS 基线完全相等（§6.0） |
 | 5 | JSON 文件数 | L1 | `-JsonCount`（64） |
 | 6 | **严格 JSON 语法门禁** | L1 | 用 `JavaScriptSerializer` 严格解析每个 `*.json`，**捕获未转义引号等运行时致命错误**（validate_loc 的扁平解析抓不到） |
 | 7 | 插件目录禁发文件 | 插件 | `rules_backup`/`__MACOSX`/`.DS_Store`/`.log` 等零容忍 |
-| 8 | 字体策略断言 | 插件 | CHS/JPN/KOR 须有 `fonts\`；**DEU/ESP 禁止 `fonts\`**（游戏内嵌字体） |
+| 8 | 字体策略断言 | 插件 | CHS/JPN/KOR 须有 `fonts\`；**DEU/ESP/FRA/POR 禁止 `fonts\`**（游戏内嵌字体） |
 | 9 | 仓库树/版本 | 仓库 | 工作区↔仓库树 MD5 对账（CHS）、`version.txt` = `publish\VERSION` |
 
 ### 6.7 生成语言 NOTES 文档（`docs\<LANG>-NOTES.md`）
@@ -344,15 +346,16 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "$publish\scripts\build-arti
 |---|---|
 | 标题 / 语言码 | `<LANG>` 语言码（如 `JPN`），版本仍取 `version.txt` |
 | 安装 | 补丁目录改为 `<LANG>\EarthX 2 Open Alpha\`；zip 名改为 `<LANG>-EarthX2OA<LANG>MOD_v<版本>.zip` / `_full.zip` |
-| 字体说明 | **CJK 语言**：写明内嵌字体名（SourceHanSansJP/KR…）+ OFL 许可位置；**拉丁语言（法/德）**：整节改写为"无需内嵌字体，使用游戏原版 LiberationSans SDF"或直接删节 |
+| 字体说明 | **CJK 语言**：写明内嵌字体名（SourceHanSansJP/KR…）+ OFL 许可位置；**拉丁语言（法/德/西/葡）**：整节改写为"无需内嵌字体，使用游戏原版 LiberationSans SDF"或直接删节 |
 | 卸载 | `Localization\Chinese\` 路径改为 `<Id>\`（如 `Japanese\`），其余同 |
 | 存档安全 / 升级 | 与 CHS 一致，仅确认无语言特定改动 |
 
 - 产物位置：`publish\docs\<LANG>-NOTES.md`（解耦流程下**仅本语言的 `docs\<LANG>-NOTES.md` 进包**，
   其他语言的 NOTES 与根文档不进包，见 §6.6）。
 - 生成后**不要手动复制进 `publish\<LANG>\...`**（该仓库树由构建脚本从工作区刷新，见 §6.6）。
-- 参考实例：`publish\docs\DEU-NOTES.md` 与 `ESP-NOTES.md`（拉丁语言：无内嵌字体、用游戏内嵌
-  LiberationSans 的字体节写法）、`JPN-NOTES.md` 与 `KOR-NOTES.md`（CJK 语言：内嵌字体 + OFL 许可）。
+- 参考实例：`publish\docs\DEU-NOTES.md`、`ESP-NOTES.md`、`FRA-NOTES.md` 与 `POR-NOTES.md`
+  （拉丁语言：无内嵌字体、用游戏内嵌 LiberationSans 的字体节写法）、`JPN-NOTES.md` 与 `KOR-NOTES.md`
+  （CJK 语言：内嵌字体 + OFL 许可）。
 
 ---
 

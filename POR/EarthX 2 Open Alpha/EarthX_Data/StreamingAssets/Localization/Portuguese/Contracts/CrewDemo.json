@@ -1,0 +1,15 @@
+{
+    "Crew Demo_Name": "Launch America",
+    "Crew Demo_Desc": "",
+    "Crew Demo Bob_Name": "Bob",
+    "Crew Demo Bob_Desc": "Um astronauta destemido com um controle de impulso altamente questionável. Se há um botão para apertar, ele vai apertar.",
+    "Crew Demo Doug_Name": "Doug",
+    "Crew Demo Doug_Desc": "O engenheiro-chefe da missão. Ele consegue consertar quase tudo... exceto as ideias do Bob.",
+    "Crew Demo_ Start Lore_Name": "Os Estados Unidos Retornam ao Espaço",
+    "Crew Demo_ Start Lore_Desc": "Durante um discurso nacional televisionado hoje, o presidente dos Estados Unidos anunciou uma diretriz abrangente para acelerar drasticamente o programa de voo espacial tripulado do país. Esse cronograma agressivo surge em meio à crescente pressão de superpotências rivais que avançam rapidamente suas próprias iniciativas espaciais.\n\n\"(...) nossa nação deve recuperar rapidamente sua dominância no voo espacial tripulado (...) A América sempre mira o impossível e entrega, e é por isso que também retornaremos à Lua em um futuro próximo.\"\n\nA declaração do presidente não surpreendeu a imprensa. Por meses, facções crescentes dentro do Congresso e da liderança da FASA exigiam um cronograma mais rápido. Nos bastidores, um punhado de empresas pioneiras — incluindo a {1} — já garantiu contratos para desenvolver e lançar uma missão de demonstração tripulada à Estação Espacial Internacional.",
+    "Crew Demo_ Completion Lore_Name": "Novos Conflitos Eclodem Entre a FASA e o Congresso",
+    "Crew Demo_ContractCompleted_0": "A política americana está em polvorosa. Enquanto os contratantes rivais ainda estão presos desenhando as plantas de seus protótipos de cápsula, a {1} já acoplou com sucesso sua espaçonave à Estação Espacial Internacional.",
+    "Crew Demo_ Completion+1 Lore_Name": "Presidente dos EUA Faz Visita Não Anunciada ao Capitólio",
+    "Crew Demo_ Completion+1 Lore_Desc": "Em uma reviravolta inesperada na manhã de segunda-feira, uma carreata fortemente blindada transportando o presidente dos EUA partiu da Casa Branca direto para o Capitólio. A imprensa não recebeu nenhum aviso prévio sobre a excursão repentina.\n\nO presidente finalmente emergiu após várias horas a portas fechadas. Fontes confirmaram depois que tanto o administrador da FASA quanto um executivo de alto escalão da {1} estavam presentes na reunião secreta.",
+    "Crew Demo_ContractCompleted_2": "Dois membros do Congresso renunciam abruptamente em meio a acusações de corrupção."
+}

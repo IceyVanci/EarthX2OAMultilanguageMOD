@@ -1,0 +1,142 @@
+# EarthX 2 Portuguese BR (POR) - IL string rules (part 4) - ORIG/scope/FLAG inherited from de-strings4.tsv
+# 格式: 作用域^^^原文^^^译文  (作用域为分号分隔的方法全名前缀)
+# 转义: \n = 换行, \r = 回车
+QAWebcastsWidget::.ctor^^^A great day for EarthX^^^Um ótimo dia para a EarthX^^^AUTO
+QAWebcastsWidget::.ctor^^^All parameters remain within limits^^^Todos os parâmetros permanecem dentro dos limites^^^AUTO
+QAWebcastsWidget::.ctor^^^All systems are behaving as expected^^^Todos os sistemas estão se comportando como esperado^^^AUTO
+QAWebcastsWidget::.ctor^^^An awesome view from the vehicle via {0}^^^Uma vista incrível do veículo via {0}^^^AUTO
+QAWebcastsWidget::.ctor^^^An awesome view from the vehicle^^^Uma vista incrível do veículo^^^AUTO
+QAWebcastsWidget::.ctor^^^And this is looking great so far!^^^E está ficando ótimo até agora!^^^AUTO
+QAWebcastsWidget::.ctor^^^Continuing to see nominal performance^^^Continuando a ver desempenho nominal^^^AUTO
+QAWebcastsWidget::.ctor^^^Everything coming through crystal clear on {0}^^^Tudo chegando cristalino via {0}^^^AUTO
+QAWebcastsWidget::.ctor^^^Everything coming together nicely^^^Tudo se encaixando perfeitamente^^^AUTO
+QAWebcastsWidget::.ctor^^^Everything continues to look nominal^^^Tudo continua parecendo nominal^^^AUTO
+QAWebcastsWidget::.ctor^^^Everything looking good on that first stage^^^Tudo com boa aparência no primeiro estágio^^^AUTO
+QAWebcastsWidget::.ctor^^^Just a fantastic performance^^^Simplesmente um desempenho fantástico^^^AUTO
+QAWebcastsWidget::.ctor^^^No issues with the booster at this time^^^Nenhum problema com o booster no momento^^^AUTO
+QAWebcastsWidget::.ctor^^^Nothing unexpected at this point^^^Nada inesperado neste ponto^^^AUTO
+QAWebcastsWidget::Comment^^^Offline^^^Offline^^^DISPLAY
+QAWebcastsWidget::.ctor^^^Telemetry continues to look healthy via {0}^^^A telemetria continua boa via {0}^^^AUTO
+QAWebcastsWidget::.ctor^^^Telemetry continues to look healthy^^^A telemetria continua boa^^^AUTO
+QAWebcastsWidget::.ctor^^^That is absolutely beautiful^^^Isso é absolutamente lindo^^^AUTO
+QAWebcastsWidget::.ctor^^^That is absolutely beautiful - {0} is really powerful^^^Isso é absolutamente lindo - {0} é realmente poderoso^^^AUTO
+QAWebcastsWidget::.ctor^^^That is just stunning^^^Isso é simplesmente deslumbrante^^^AUTO
+QAWebcastsWidget::.ctor^^^That stage is flying itself quite nicely^^^Este estágio está voando sozinho muito bem^^^AUTO
+QAWebcastsWidget::.ctor^^^That’s a good, stable vehicle^^^Esse é um bom veículo, estável^^^AUTO
+QAWebcastsWidget::.ctor^^^That’s an amazing sight right there^^^Isso é uma vista incrível ali^^^AUTO
+QAWebcastsWidget::.ctor^^^That’s exactly the behavior we expect^^^Esse é exatamente o comportamento que esperamos^^^AUTO
+QAWebcastsWidget::.ctor^^^The vehicle is doing what it’s told^^^O veículo está fazendo o que foi mandado^^^AUTO
+QAWebcastsWidget::.ctor^^^Things are going really well^^^As coisas estão indo muito bem^^^AUTO
+QAWebcastsWidget::.ctor^^^Things are progressing normally so far^^^As coisas estão progredindo normalmente até agora^^^AUTO
+QAWebcastsWidget::.ctor^^^We’re happy with what we’re seeing so far^^^Estamos felizes com o que estamos vendo até agora^^^AUTO
+QAWebcastsWidget::.ctor^^^We’re seeing good data across the vehicle thanks to {0}^^^Estamos vendo bons dados de todo o veículo graças a {0}^^^AUTO
+QAWebcastsWidget::.ctor^^^We’re seeing good data across the vehicle^^^Estamos vendo bons dados de todo o veículo^^^AUTO
+QAWebcastsWidget::.ctor^^^What a smooth flight so far^^^Que voo suave até agora^^^AUTO
+QAWebcastsWidget::.ctor^^^What a smooth flight so far, partly thanks to {0}^^^Que voo suave até agora, em parte graças a {0}^^^AUTO
+QAWebcastsWidget::.ctor^^^What an incredible view^^^Que vista incrível^^^AUTO
+QAWebcastsWidget::.ctor^^^What an incredible view. Our {0} tech is amazing^^^Que vista incrível. Nossa tecnologia {0} é incrível^^^AUTO
+QAWebcastsWidget::.ctor^^^You can really feel the excitement^^^Você realmente sente a empolgação^^^AUTO
+QAWebcastsWidget::.ctor^^^You love to see that^^^Você adora ver isso^^^AUTO
+QAWebcastsWidget::.ctor^^^This is a great moment for the team^^^Este é um grande momento para a equipe^^^AUTO
+QAWebcastsWidget::.ctor^^^This is exactly what we were hoping to see^^^Isso é exatamente o que esperávamos ver^^^AUTO
+QAWebcastsWidget::<UpdateUI>g__SetOptions|23_0^^^Add To HUD (During Launch)^^^Adicionar ao HUD (Durante o Lançamento)^^^AUTO
+QAItemPanel::<UpdateUI>g__SetOptions|13_0;QASalesPanel/<>c__DisplayClass10_0::<UpdateUI>g__SetOptions|0;QAServicePanel::<UpdateUI>g__SetOptions|23_0^^^Add To HUD^^^Adicionar ao HUD^^^AUTO
+QAItemPanel::<UpdateUI>g__SetOptions|13_0;QASalesPanel/<>c__DisplayClass10_0::<UpdateUI>g__SetOptions|0;QAServicePanel::<UpdateUI>g__SetOptions|23_0;QAWebcastsWidget::<UpdateUI>g__SetOptions|23_0^^^Remove From HUD^^^Remover do HUD^^^AUTO
+QAItemPanel::<UpdateUI>g__SetOptions|13_0^^^Always Show^^^Sempre Mostrar^^^AUTO
+QAItemPanel::<UpdateUI>g__SetOptions|13_0^^^Only Show When Viewing Planet^^^Mostrar Apenas ao Ver o Planeta^^^AUTO
+QAItemPanel::<UpdateUI>g__SetOptions|13_0;QASalesPanel/<>c__DisplayClass10_0::<UpdateUI>g__SetOptions|0;QAServicePanel::<UpdateUI>g__SetOptions|23_0^^^Remove Pin^^^Remover Fixação^^^AUTO
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetOptions|6^^^Pin Item^^^Fixar Item^^^AUTO
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetOptions|6^^^Pin Sales^^^Fixar Vendas^^^AUTO
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetOptions|6;VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateOptions|4^^^Favorite^^^Favorito^^^AUTO
+InventoryWindow/<>c__DisplayClass47_0::<UpdateUI>g__SetOptions|6;VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateOptions|4^^^Unfavorite^^^Remover dos Favoritos^^^AUTO
+QAItemPanel::<UpdateUI>g__SetOptions|13_0;QASalesPanel/<>c__DisplayClass10_0::<UpdateUI>g__SetOptions|0^^^Open Inventory Window^^^Abrir Janela de Inventário^^^AUTO
+QAServicePanel::<UpdateUI>g__SetOptions|23_0^^^Open Services Window^^^Abrir Janela de Serviços^^^AUTO
+NotificationWindow::UpdateUI^^^Ok^^^Ok^^^DISPLAY
+NotificationWindow::UpdateUI^^^View ^^^Ver ^^^DISPLAY
+NotificationWindow::UpdateUI^^^Open in Contracts Window^^^Abrir na Janela de Contratos^^^DISPLAY
+NotificationWindow::UpdateUI^^^Play Mini Game^^^Jogar Mini Game^^^DISPLAY
+NotificationWindow::UpdateUI^^^Post on Catter^^^Postar no Catter^^^DISPLAY
+NotificationWindow::UpdateUI^^^Open Apocalypse Panel^^^Abrir Painel do Apocalipse^^^DISPLAY
+IWItemsScroller::.ctor;VWVehiclesScroller::.ctor^^^Favorites^^^Favoritos^^^DISPLAY
+IWItemsScroller::.ctor^^^Personnel^^^Pessoal^^^DISPLAY
+IWItemsListFilter/ResourcesFilterOption::.ctor;IWItemsListFilter::GetObjectName;IWItemsScroller::.ctor^^^Resources^^^Recursos^^^DISPLAY
+IWItemsScroller::.ctor;VWVehiclesScroller::.ctor^^^Other^^^Outro^^^DISPLAY
+IWItemsScroller::.ctor;VWVehiclesScroller::.ctor^^^Ready to Launch^^^Pronto para Lançar^^^DISPLAY
+IWItemsScroller::.ctor^^^Upcoming Missions^^^Missões Futuras^^^DISPLAY
+MWContractsScroller::.ctor^^^Long^^^Longo^^^DISPLAY
+MWContractsScroller::.ctor^^^Special^^^Especial^^^DISPLAY
+MWContractsScroller::.ctor^^^Signed^^^Assinados^^^DISPLAY
+CWContractsFilter::GetObjectName^^^Opportunity^^^Oportunidade^^^DISPLAY
+IWItemsListFilter/DeadlineFilterOption::.ctor;IWItemsListFilter::GetObjectName^^^Deadline^^^Prazo^^^DISPLAY
+IWItemsListFilter/FuelFilterOption::.ctor;IWItemsListFilter::GetObjectName^^^Fuel^^^Combustível^^^DISPLAY
+IWItemsListFilter/StackableFilterOption::.ctor;IWItemsListFilter::GetObjectName^^^Stackable^^^Empilhável^^^DISPLAY
+IWItemsListFilter/SuppliableFilterOption::.ctor;IWItemsListFilter::GetObjectName^^^Suppliable^^^Abastecível^^^DISPLAY
+VWVehiclesListFilter/VehicleReadyFilterOption::.ctor^^^ready to fly^^^pronto para voar^^^DISPLAY
+VWVehiclesListFilter::GetObjectName^^^Ready^^^Pronto^^^DISPLAY
+VWVehiclesListFilter/VehicleWithoutAutomationFilterOption::.ctor;VWVehiclesListFilter::GetObjectName^^^Without Automation^^^Sem Automação^^^DISPLAY
+VWVehiclesListFilter::AddFilters;VWVehiclesScroller::.ctor^^^rockets^^^foguetes^^^DISPLAY
+VWVehiclesListFilter::AddFilters;VWVehiclesScroller::.ctor^^^ships^^^naves^^^DISPLAY
+VWVehiclesListFilter::AddFilters^^^orbiers^^^orbiters^^^AUTO
+VWVehiclesScroller::.ctor^^^Capsules^^^Cápsulas^^^DISPLAY
+VWVehiclesScroller::.ctor^^^Orbiters^^^Orbiters^^^DISPLAY
+VWVehiclesListFilter::AddFilters^^^capslues^^^cápsulas^^^AUTO
+IWItemsListFilter::AddFilters;ListFilter::AddFilters^^^Earth^^^Terra^^^DISPLAY
+IWItemsListFilter::AddFilters;ListFilter::AddFilters^^^Mars^^^Marte^^^DISPLAY
+IWItemsListFilter::AddFilters;ListFilter::AddFilters^^^Moon^^^Lua^^^DISPLAY
+IWItemsListFilter::AddFilters;ListFilter::AddFilters^^^Phobos^^^Fobos^^^DISPLAY
+IWItemsListFilter::AddFilters;ListFilter::AddFilters^^^Europa^^^Europa^^^DISPLAY
+IWItemsListFilter::AddFilters^^^orbits of {0}^^^órbitas de {0}^^^AUTO
+Asset::GetAssetType;VWVehiclesListFilter::GetObjectName^^^Rocket^^^Foguete^^^DISPLAY
+Asset::GetAssetType;VWVehiclesListFilter::GetObjectName^^^Orbiter^^^Orbiter^^^DISPLAY
+Asset::GetAssetType;VWVehiclesListFilter::GetObjectName^^^Ship^^^Nave^^^DISPLAY
+Asset::GetAssetType;VWVehiclesListFilter::GetObjectName^^^Capsule^^^Cápsula^^^DISPLAY
+Asset::GetAssetType^^^Basic Rocket^^^Foguete Básico^^^DISPLAY
+Asset::GetAssetType^^^Super Rocket^^^Super Foguete^^^DISPLAY
+Asset::GetAssetType^^^Light Rocket^^^Foguete Leve^^^DISPLAY
+Asset::GetAssetType^^^Prime Rocket^^^Foguete Médio^^^DISPLAY
+Asset::GetAssetType^^^Heavy Rocket^^^Foguete Pesado^^^DISPLAY
+Asset::GetAssetType^^^Light Orbiter^^^Orbiter Leve^^^DISPLAY
+Asset::GetAssetType^^^Prime Orbiter^^^Orbiter Médio^^^DISPLAY
+Asset::GetAssetType^^^Sidebooster^^^Booster Lateral^^^DISPLAY
+Asset::GetAssetType^^^Cruiser^^^Cruzador^^^DISPLAY
+Asset::GetAssetType^^^Crew Ship^^^Nave Tripulada^^^DISPLAY
+Asset::GetAssetType^^^Cargo Ship^^^Nave de Carga^^^DISPLAY
+Asset::GetAssetType^^^Tanker Ship^^^Nave de Reabastecimento^^^DISPLAY
+Asset::GetAssetType^^^Expendable Ship^^^Nave Descartável^^^DISPLAY
+Asset::GetAssetType^^^Low Gravity Ship^^^Nave de Baixa Gravidade^^^DISPLAY
+Asset::GetAssetType^^^Launch Pad^^^Plataforma de Lançamento^^^DISPLAY
+Asset::GetAssetType^^^Factory^^^Fábrica^^^DISPLAY
+Asset::GetAssetType^^^Building^^^Edifício^^^DISPLAY
+Asset::GetAssetType^^^Planet^^^Planeta^^^DISPLAY
+Asset::GetAssetType^^^Upgrade^^^Melhoria^^^DISPLAY
+Asset::GetAssetType^^^Service^^^Serviço^^^DISPLAY
+Asset::GetAssetType^^^Colonists^^^Colonos^^^DISPLAY
+Asset::GetAssetType^^^Civilians^^^Civis^^^DISPLAY
+Asset::GetAssetType^^^Person^^^Pessoa^^^DISPLAY
+Asset::GetAssetType^^^Item^^^Item^^^DISPLAY
+Asset::GetAssetType^^^Mega Project^^^Megaprojeto^^^DISPLAY
+Asset::GetAssetType^^^Hub Station^^^Estação Central^^^DISPLAY
+Asset::GetAssetType^^^Space Station^^^Estação Espacial^^^DISPLAY
+Asset::GetAssetType^^^Orbit^^^Órbita^^^DISPLAY
+Asset::GetAssetType^^^Contract^^^Contrato^^^DISPLAY
+Asset::GetAssetType^^^Message^^^Mensagem^^^DISPLAY
+Asset::GetAssetType^^^Feature^^^Recurso^^^DISPLAY
+Asset::GetAssetGeneralType^^^Vehicle^^^Veículo^^^DISPLAY
+Asset::GetAssetGeneralType^^^Item^^^Item^^^DISPLAY
+Asset::GetAssetGeneralType^^^Service^^^Serviço^^^DISPLAY
+Asset::GetAssetGeneralType^^^Upgrade^^^Melhoria^^^DISPLAY
+Asset::GetAssetGeneralType^^^Feature^^^Recurso^^^DISPLAY
+Asset::GetAssetGeneralType^^^Financial Support^^^Apoio Financeiro^^^DISPLAY
+Asset::GetAssetGeneralType^^^Simulation^^^Simulação^^^DISPLAY
+Asset::GetAssetGeneralType^^^Planet^^^Planeta^^^DISPLAY
+Asset::GetAssetGeneralType^^^Asset^^^Ativo^^^DISPLAY
+# DISABLED (breaks GetDataByLinq orbit key): PlanetData::<get_LowOrbit>b__17_1^^^Low Orbit ^^^低轨道 
+# DISABLED (breaks GetDataByLinq orbit key): PlanetData::<get_MediumOrbit>b__19_1^^^Medium Orbit ^^^中轨道 
+# DISABLED (breaks GetDataByLinq orbit key): PlanetData::<get_HighOrbit>b__21_1^^^High Orbit ^^^高轨道 
+# DISABLED (breaks GetDataByLinq orbit key): PlanetData::<get_ParkingOrbit>b__23_1^^^ Parking^^^ 停泊
+# DISABLED (breaks GetDataByLinq orbit key): PlanetData::get_LowOrbit^^^Low Orbit of ^^^低轨道 - 
+# DISABLED (breaks GetDataByLinq orbit key): PlanetData::get_MediumOrbit^^^Medium Orbit of ^^^中轨道 - 
+# DISABLED (breaks GetDataByLinq orbit key): PlanetData::get_HighOrbit^^^High Orbit of ^^^高轨道 - 
+# DISABLED (breaks GetDataByLinq orbit key): PlanetData::get_ParkingOrbit^^^Parking Orbit of ^^^停泊轨道 - 
+ParkingOrbitData::get_FullName^^^Parking Orbit^^^Órbita de Estacionamento^^^DISPLAY
+ParkingOrbitData::get_ShortName^^^Parking^^^Estacionamento^^^DISPLAY

@@ -1,0 +1,6 @@
+{
+    "TESS_Name": "Transiting Exoplanet Survey Satellite",
+    "TESS_Desc": "Un satellite avancé conçu pour rechercher des planètes autour des étoiles proches. Il utilise des caméras à grand champ pour détecter de minuscules baisses de luminosité et se concentre sur la recherche de petites exoplanètes de type terrestre. Sa mission est d'aider les scientifiques à découvrir des mondes susceptibles d'abriter la vie.",
+    "TESS Payload_Name": "TESS",
+    "TESS Payload_Desc": "@TESS_Desc"
+}

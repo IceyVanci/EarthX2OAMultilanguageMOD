@@ -14,7 +14,8 @@
 ## 每次发布的步骤
 
 1. **构建**：`powershell -ExecutionPolicy Bypass -File scripts\build-artifacts.ps1 -All`
-   - 批量构建全部已发布语言（CHS/DEU/JPN/ESP/KOR），各自套用 manifest 增量跳过逻辑
+   - 批量构建全部已发布语言（CHS/DEU/JPN/ESP/KOR），各自套用 manifest 增量跳过逻辑；
+     FRA/POR 代码未完成（`Released=$false`），发布时置 `$true` 后自动纳入 `-All`
    - 门禁不过会直接中止；通过后产出 `release\` 下双 zip + .sha256 + `<LANG>-latest.json` +
      `_build_report_<LANG>.txt` + `_manifest_<LANG>.json`
    - 仅构建单一语言：`-Lang ESP`（内容未变则 SKIP）；强制重建：`-Lang ESP -Force`
@@ -30,6 +31,8 @@
 | `CHS-EarthX2OAChineseMOD_v<版本>_full.zip` | 上述全部 + BepInEx 5.4.23.2 框架（winhttp.dll/doorstop_config.ini/.doorstop_version/BepInEx\core ×18）+ licenses\（LGPL-2.1 + NOTICE + 字体许可） | 全新玩家，解压即用 |
 | `KOR-EarthX2OAKoreanMOD_v<版本>.zip` | Korean JSON ×64 + 插件（dll/tsv×10/README/src/version.txt/**fonts\×3**）+ docs\KOR-NOTES.md + licenses\SourceHanSansK-LICENSE.txt | 已装 BepInEx 的玩家（同 JPN 的 CJK 内嵌字体包） |
 | `ESP-EarthX2OASpanishMOD_v<版本>.zip` | Spanish JSON ×64 + 插件（dll/tsv×10/README/src/version.txt，**无 fonts\**）+ docs\ESP-NOTES.md | 已装 BepInEx 的玩家（同 DEU 的无字体拉丁包） |
+| `FRA-EarthX2OAFrenchMOD_v<版本>.zip` | French JSON ×64 + 插件（dll/tsv×10/README/src/version.txt，**无 fonts\**）+ docs\FRA-NOTES.md | 已装 BepInEx 的玩家（同 DEU/ESP 的无字体拉丁包；**待发布**） |
+| `POR-EarthX2OAPortugueseMOD_v<版本>.zip` | Portuguese JSON ×64 + 插件（dll/tsv×10/README/src/version.txt，**无 fonts\**）+ docs\POR-NOTES.md | 已装 BepInEx 的玩家（同 DEU/ESP 的无字体拉丁包；**待发布**） |
 
 > **共享文档（README.md/README_CN.md/AI-PATCH-GUIDE.md 及其他语言 NOTES）不再内嵌进语言 zip**，
 > 只在仓库根分发（GitHub 直接可见）。zip 内容即 `<LANG>\EarthX 2 Open Alpha\` 目录内容 +
@@ -49,7 +52,7 @@
 - baked 109 条 no-op 为已记录放行项（>120 则报警）
 - 仓库树 = 工作区 MD5 对账：Chinese 64 + plugin（含 fonts\）全同步
 - fonts\ 内嵌思源黑体（OFL 1.1）两字重随包（CHS/JPN/KOR）；`licenses\SourceHanSansCN-LICENSE.txt`
-  或 `SourceHanSansK-LICENSE.txt` 按语言必备，两包均须随附；DEU/ESP 无字体包禁止出现 `fonts\`
+  或 `SourceHanSansK-LICENSE.txt` 按语言必备，两包均须随附；DEU/ESP/FRA/POR 无字体包禁止出现 `fonts\`
 - **解耦约束**：patch zip 不得含根文档（README.md/README_CN.md/AI-PATCH-GUIDE.md）或他语言
   `docs\*`（仅本语言 `docs\<LANG>-NOTES.md`）；构建前 staging 断言
 - **manifest**：`release\_manifest_<LANG>.json` 随包提交；增量构建据 `langHash`/`frameworkHash`

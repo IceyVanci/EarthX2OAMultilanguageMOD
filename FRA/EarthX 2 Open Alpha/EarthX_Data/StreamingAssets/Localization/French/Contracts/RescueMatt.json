@@ -1,0 +1,10 @@
+{
+    "Rescue Matt_Name": "Sauvetage de Matt",
+    "Rescue Matt_Desc": "Il y a des années, un équipage d'astronautes s'est posé sur Mars pour construire une base de recherche. Après un atterrissage réussi, une tempête de sable a frappé, et toutes les communications ont été perdues — tout le monde a été présumé mort. Mais après que tes navires sont arrivés sur Mars, un message parvient d'un membre survivant de l'équipage nommé Matt. Contre toute attente, il vit là-bas depuis plus de 5 ans. Maintenant, il est temps de le ramener à la maison.",
+    "Rescue Matt Payload_Name": "Matt",
+    "Rescue Matt Payload_Desc": "Le premier humain à avoir survécu à une tempête de sable martienne. Il est temps de le ramener à la maison.",
+    "Rescue Matt _ Spawn Lore_Name": "Des nouvelles fantastiques de la planète rouge",
+    "Rescue Matt _ Spawn Lore_Desc": "Des nouvelles incroyables viennent d'arriver de Mars.\n\nUn astronaute longtemps présumé mort — Matt — a contacté {1} et a poliment demandé à être ramené à la maison. Au début, l'entreprise a cru à une blague, mais la FASA a rapidement confirmé que le message était réel.\n\nIl y a des années, une équipe s'était posée sur Mars pour construire une base de recherche. Après qu'une tempête de sable a frappé, toutes les communications avaient été perdues, et l'équipage avait été présumé mort. Maintenant, après que tes navires ont atterri, Matt a envoyé un message. D'une manière ou d'une autre, il a survécu seul pendant plus de 5 ans.\n\nSeras-tu celui qui le ramènera à la maison ?",
+    "Rescue Matt _ Completion Lore_Name": "'Martien par accident' est de retour à la maison !",
+    "Rescue Matt _ Completion Lore_Desc": "Merci pour le trajet, {0} ! La nourriture à bord était délicieuse, même si j'ai failli mourir de rire quand le repas qu'on m'a servi après mon sauvetage s'est révélé être fait de... patates, haha. La musique à bord était incroyable — je ne pense pas avoir besoin de mentionner le nom de l'EP à nouveau.\n\nBref, maintenant je pars enseigner dans une académie spatiale. Prenez soin de vous !"
+}

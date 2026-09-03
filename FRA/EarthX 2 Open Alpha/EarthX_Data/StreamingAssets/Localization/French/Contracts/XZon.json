@@ -1,0 +1,14 @@
+{
+    "Xzon Smart Delivery_Name": "XZon : livraison intelligente",
+    "Xzon Smart Delivery_Desc": "Le géant du e-commerce mondial XZon a officiellement décidé qu'attendre 24 heures pour un colis est inacceptable. Pour réaliser leur nouvelle initiative \"Livraison mondiale en 15 minutes\", ils déploient une immense armada de drones de livraison autonomes. Ils ont besoin d'un partenaire aérospatial fiable pour lancer un réseau de relais orbitaux qui coordonnera l'essaim et s'assurera que des millions d'achats impulsifs trouvent le bon paillasson.",
+    "Drone Relay Payload_Name": "XZDR<size=90%><color=#ffffff75>_prj:id0{0}_</color></size>",
+    "Drone Relay Payload_Desc": "Un relais de communication orbital à haute fréquence conçu pour gérer simultanément des milliers de drones de livraison automatisés, garantissant que les colis lourds tombent sur les perrons plutôt que sur les piétons.",
+    "Xzon Smart City_Name": "XZon : ville intelligente",
+    "Xzon Smart City_Desc": "XZon étend son réseau de caméras de porte d'entrée très populaire — et légèrement intrusif — au niveau municipal. Dans le cadre de leur nouvelle initiative \"Ville intelligente\", les gouvernements locaux peuvent contracter le géant du e-commerce pour couvrir leurs rues d'une surveillance 24h/24 et 7j/7, suivant tout, des crimes majeurs aux petits comportements répréhensibles, et notifiant instantanément les forces de l'ordre. Ils ont besoin d'un partenaire aérospatial pour lancer des serveurs orbitaux à haute capacité capables de traiter des millions d'heures de séquences 4K.",
+    "XZon Smart Observer Payload_Name": "XZSO<size=90%><color=#ffffff75>_id1984.{0}</color></size>",
+    "XZon Smart Observer Payload_Desc": "Un relais de données orbital lourdement équipé d'une IA avancée, conçu pour traiter les flux de caméras de rue en temps réel et alerter automatiquement les autorités à la seconde exacte où quelqu'un traverse en dehors des passages cloutés ou met ses recyclables dans la mauvaise benne.",
+    "Xzon ON System_Name": "XZon : système ON",
+    "Xzon ON System_Desc": "Les dirigeants de XZon ont remarqué que ton service Internet dépasse les 100 000 utilisateurs actifs, et naturellement, ils refusent que quiconque détienne un monopole à part eux. Entrez dans le \"système ON\" : l'initiative de plusieurs milliards de dollars de XZon pour couvrir la Terre de leur propre réseau à large bande. Dans un spectaculaire étalage d'ironie corporatiste, ils t'offrent un contrat massif et très lucratif pour lancer la méga-constellation même qui est spécifiquement conçue pour te concurrencer.",
+    "ON System Payload_Name": "XZON <size=90%><color=#ffffff75>(a-b)Node in,,{0}</color></size>",
+    "ON System Payload_Desc": "Un satellite de communication à haut débit formant l'épine dorsale du système ON."
+}

@@ -1,0 +1,6 @@
+{
+    "StreamX Library_Name": "Bibliothèque de contenu",
+    "StreamX Library_Desc": "La qualité de vie en orbite est un axe de travail prioritaire pour les agences spatiales, et le géant du streaming Steams a relevé le défi d'un problème très identifiable : le buffering. Avec le réseau de communications de l'ISS strictement priorisé pour la télémétrie scientifique, les soirées cinéma du week-end de l'équipage sont souvent gâchées par une latence élevée et une faible résolution. Pour y remédier, StreamX finance le lancement d'un serveur média dédié et à haute capacité, préchargé avec des milliers de films et séries en 4K, garantissant aux astronautes un streaming sans faille pendant leur temps libre.",
+    "StreamX Library Payload_Name": "Bibliothèque StreamX",
+    "StreamX Library Payload_Desc": "Un serveur de stockage local compact et durci contre les radiations, contenant des téraoctets de divertissement en ultra haute définition. Il est conçu pour s'intégrer parfaitement au réseau interne de la Station spatiale internationale, offrant à l'équipage un accès instantané, sans mise en mémoire tampon, à une vaste bibliothèque de films et de séries télévisées."
+}

@@ -1,0 +1,16 @@
+{
+    "Phase1_UncrewedLogistics_UL_Name": "Logística Não Tripulada",
+    "Phase1_UncrewedLogistics_UL_Desc": "",
+    "Phase2_LowEarthOperations_LEO_Name": "Operações em Órbita Baixa da Terra",
+    "Phase2_LowEarthOperations_LEO_Desc": "",
+    "Phase3_OrbitalInfrastructure_OI_Name": "Infraestrutura Orbital",
+    "Phase3_OrbitalInfrastructure_OI_Desc": "",
+    "Phase4_DeepSpaceProbing_DSP_Name": "Sondagem do Espaço Profundo",
+    "Phase4_DeepSpaceProbing_DSP_Desc": "",
+    "Phase5_LunarSurfaceOperations_LSO_Name": "Operações na Superfície Lunar",
+    "Phase5_LunarSurfaceOperations_LSO_Desc": "",
+    "Phase6_InterplanetaryLogistics_IPL_Name": "Logística Interplanetária",
+    "Phase6_InterplanetaryLogistics_IPL_Desc": "",
+    "Phase7_PlanetaryEngineering_PE_Name": "Engenharia Planetária",
+    "Phase7_PlanetaryEngineering_PE_Desc": ""
+}

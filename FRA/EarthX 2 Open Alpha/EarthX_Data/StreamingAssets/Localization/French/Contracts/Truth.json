@@ -1,0 +1,11 @@
+{
+    "Truth_Name": "La Vérité",
+    "Truth_Desc": "",
+    "Flatearther_Name": "Platiste",
+    "Flatearther_Desc": "Il reste peu convaincu par les photos, les scientifiques et des décennies de données satellite. Maintenant, il est temps pour lui de monter et de chercher le bord lui-même.",
+    "Truth _ Start Lore_Name": "Un platiste s'envole vers l'orbite pour \"trouver le bord\"",
+    "Truth _ Start Lore_Desc": "Ce qui a commencé comme un mème Internet il y a quelques mois est officiellement devenu réalité. La Flat Earth Society a réussi à collecter via financement participatif suffisamment de fonds pour sécuriser un acompte pour un vol touristique commercial à bord d'une capsule {1}.\n\nLeur représentant choisi — un influenceur Internet notoirement bruyant — a promis un live stream 24h/24 et 7j/7 non édité diffusé sur des \"chaînes sécurisées, anti-FASA\". Le stream de pré-lancement est déjà en direct et bat des records d'audience. Les experts en marketing, cependant, ont été prompts à souligner que l'influenceur a déjà subrepticement placardé trois sponsors de marques différents, gagnant probablement une fortune absolue avant même d'avoir quitté l'atmosphère.\n\nQuant à sa charge utile scientifique, il a annoncé qu'il apporterait du matériel photographique de pointe et… un niveau à bulle de charpentier standard.",
+    "Truth _ Completion+1 Lore_Name": "Le stream du platiste coupe brusquement à l'arrivée en orbite",
+    "Truth _ Completion+1 Lore_Desc": "Peu après que la capsule de {1}, transportant le prétendu \"témoin indépendant de la Terre plate\", a atteint l'orbite terrestre basse, son live stream très médiatisé a été brutalement et mystérieusement coupé. \n\nAlors que les théories du complot inondaient immédiatement Internet, {1} a publié une brève déclaration publique clarifiant que toute la télémétrie indiquait que la capsule fonctionnait parfaitement, et que le passager avait simplement tendu la main et éteint la caméra lui-même.",
+    "Truth_ContractCompleted_1": "L'ancien représentant de la Flat Earth Society supprime systématiquement tous ses profils de réseaux sociaux. Pendant ce temps, la direction de la société l'a formellement excommunié, l'accusant d'être un \"agent compromis et payé de la FASA\"."
+}

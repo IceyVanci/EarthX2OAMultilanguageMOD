@@ -1,0 +1,20 @@
+{
+    "FindR Earth_Name": "FindR: Imagens da Terra",
+    "FindR Earth_Desc": "Os mapas digitais da FindR estão começando a mostrar sua idade, e os usuários estão cansados de depender de imagens de satélite de cinco anos atrás que mostram campos de terra vazios onde suas casas agora ficam. Para corrigir isso, o gigante da tecnologia está financiando um projeto massivo de imagens orbitais. Eles precisam de um parceiro aeroespacial confiável para lançar uma série de satélites ópticos de altíssima resolução projetados para mapear o globo inteiro com detalhes sem precedentes.",
+    "FindR Earth Payload_Name": "Lente Planetária {0}",
+    "FindR Earth Payload_Desc": "Um satélite de imagens de última geração equipado com uma lente tão poderosa que pode mapear cada rua do planeta.",
+    "FindR Weather_Name": "FindR: Clima",
+    "FindR Weather_Desc": "Cansada de depender de dados meteorológicos governamentais lentos, a FindR decidiu assumir a previsão atmosférica. O gigante da tecnologia quer lançar uma frota de satélites meteorológicos de próxima geração para alimentar seus novos modelos de IA preditiva.",
+    "FindR Weather Payload_Name": "Projeto Atmos {0}",
+    "FindR Weather Payload_Desc": "Um satélite meteorológico altamente avançado repleto de sensores atmosféricos de última geração e câmeras de imagem térmica. Ele mede densidade de nuvens, padrões de vento e umidade global com precisão aterrorizante.",
+    "FindR Cyclone_Name": "FindR: Ciclone",
+    "FindR Cyclone_Desc": "A FindR está expandindo sua rede meteorológica com um foco especializado em eventos climáticos extremos. A empresa está procurando um parceiro aeroespacial para lançar uma série de satélites dedicados projetados especificamente para o rastreamento em tempo real de ciclones, furacões e tufões. Ao fornecer dados altamente precisos, minuto a minuto, para agências meteorológicas globais, essa iniciativa visa dar às comunidades costeiras e aos respondedores de emergência os alertas antecipados críticos de que precisam para ficarem seguros.",
+    "FindR Cyclone Payload_Name": "Projeto Sentinel {0}",
+    "FindR Cyclone Payload_Desc": "Um satélite meteorológico avançado equipado com radar de penetração profunda e sensores térmicos. Ele é especificamente calibrado para monitorar a pressão central, as velocidades do vento e a trajetória de ciclones em formação, transmitindo telemetria de atualização rápida diretamente para sistemas civis de alerta antecipado.",
+    "FindR Q_Name": "FindR: Desenvolvimento Quântico",
+    "FindR Q_Desc": "A divisão de pesquisa ultrassecreta da FindR decidiu que a velocidade da luz é simplesmente lenta demais para seu mecanismo de busca. Aventurando-se no reino do entrelaçamento quântico, eles pretendem alcançar transferência de dados instantânea e totalmente inviolável. Eles precisam que você lance um par de satélites altamente experimentais para testar se a comunicação quântica realmente funciona no vácuo do espaço.",
+    "FindR Q-1 Payload_Name": "FindR Q-1",
+    "FindR Q-1 Payload_Desc": "Um satélite protótipo absurdamente complexo, repleto de detectores de fótons super-resfriados e geradores de estados quânticos.",
+    "FindR Q-2 Payload_Name": "FindR Q-2",
+    "FindR Q-2 Payload_Desc": "@FindR Q-1 Payload_Desc"
+}

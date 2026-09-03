@@ -38,12 +38,18 @@ remain in the original language.
 | Deutsch (DEU) | [`DEU/EarthX 2 Open Alpha/`](DEU/EarthX%202%20Open%20Alpha/) | [`docs/DEU-NOTES.md`](docs/DEU-NOTES.md) |
 | Español (ESP) | [`ESP/EarthX 2 Open Alpha/`](ESP/EarthX%202%20Open%20Alpha/) | [`docs/ESP-NOTES.md`](docs/ESP-NOTES.md) |
 | 한국어 (KOR) | [`KOR/EarthX 2 Open Alpha/`](KOR/EarthX%202%20Open%20Alpha/) | [`docs/KOR-NOTES.md`](docs/KOR-NOTES.md) |
+| Français (FRA) | [`FRA/EarthX 2 Open Alpha/`](FRA/EarthX%202%20Open%20Alpha/) | [`docs/FRA-NOTES.md`](docs/FRA-NOTES.md) |
+| Português (POR) | [`POR/EarthX 2 Open Alpha/`](POR/EarthX%202%20Open%20Alpha/) | [`docs/POR-NOTES.md`](docs/POR-NOTES.md) |
+
+> **FRA / POR:** work in progress — the patch trees and notes already exist in this repo, but
+> release zips are not published yet.
 
 ## How these mods were made / Request a language
 
 I created the **CHS** mod end-to-end myself. After establishing the workflow, I used a coding
-AI agent to complete the **German**, **Japanese**, **Spanish** and **Korean** translations as a
-demonstration. I may create and release more language mods in the future.
+AI agent to complete the **German**, **Japanese**, **Spanish**, **Korean**, **French** and
+**Portuguese** translations as a demonstration. I may create and release more language mods in
+the future.
 
 If you would like another language:
 - Leave a comment in the **Issues**, or
@@ -81,8 +87,9 @@ the table above.
 - **Embedded fonts**: CJK languages ship their OFL-licensed font inside their plugin `fonts\`
   folder (CHS = Source Han Sans CN, JPN = Source Han Sans JP, KOR = Source Han Sans K; all
   SIL OFL 1.1) — no system font dependency, no copyright concern from proprietary CJK fonts.
-  Exception: **DEU and ESP ship no font files** and rely on the game's embedded LiberationSans,
-  which already covers Latin-script glyphs (ä/ö/ü/ß for German, á/é/í/ó/ú/ñ/ü for Spanish).
+  Exception: **DEU, ESP, FRA and POR ship no font files** and rely on the game's embedded
+  LiberationSans, which already covers Latin-script glyphs (ä/ö/ü/ß for German, á/é/í/ó/ú/ñ/ü
+  for Spanish, é/è/ê/à/ç/ô/û/œ for French, á/ã/é/ê/í/ó/ô/õ/ú/ç for Portuguese).
 
 ## Declarations / License
 

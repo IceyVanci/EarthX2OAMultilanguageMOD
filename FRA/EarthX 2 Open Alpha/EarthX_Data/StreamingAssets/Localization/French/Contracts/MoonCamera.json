@@ -1,0 +1,10 @@
+{
+    "Moon Camera_Name": "Caméra lunaire",
+    "Moon Camera_Desc": "@Moon Camera _ Start Lore_Desc",
+    "Moon Camera Payload_Name": "Caméra lunaire",
+    "Moon Camera Payload_Desc": "Un satellite équipé d'une caméra qui te permet de voir la Lune",
+    "Moon Camera _ Start Lore_Name": "La Lune est-elle réelle ?",
+    "Moon Camera _ Start Lore_Desc": "Tu as passé tellement de temps à jouer sur Terre que tu pourrais commencer à croire que la Lune n'existe pas — et que toutes ces théories du complot étaient en fait vraies. Réglons ça avant que le jeu ne te radicalise complètement.\n\nTu peux maintenant lancer une Caméra lunaire, qui débloquera la Lune et ses orbites.",
+    "Moon Camera _ Completion Lore_Name": "Tu es à un clic de prouver que la Lune est réelle",
+    "Moon Camera _ Completion Lore_Desc": "Ta Caméra lunaire artisanale vient d'atteindre l'orbite géostationnaire de la Lune ! Tu peux enfin la voir — il est temps d'y aller !"
+}

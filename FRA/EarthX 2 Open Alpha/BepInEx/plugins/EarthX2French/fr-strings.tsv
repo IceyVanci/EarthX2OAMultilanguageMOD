@@ -1,0 +1,103 @@
+# EarthX 2 French (FRA) - IL string rules (part 1) - ORIG/scope/FLAG inherited from de-strings.tsv
+# 格式: 作用域^^^原文^^^译文  (作用域为分号分隔的方法全名前缀)
+# 转义: \n = 换行, \r = 回车
+MainMenuUI::UpdateUI^^^ </color></size>\nContinue Game^^^ </color></size>\nReprendre la partie^^^AUTO
+VersionText::UpdateUI^^^ <color=#e74c3c>> COMMUNITY <</color>^^^ <color=#e74c3c>> COMMUNAUTÉ <</color>^^^DISPLAY
+VersionText::UpdateUI^^^Saving EarthX 2...          ^^^Sauvegarde d'EarthX 2... ^^^DISPLAY
+SaveFilePanel::OnClick^^^Unable to load this save file - was created using EarthX 2 v^^^Impossible de charger cette sauvegarde - créée avec EarthX 2 v^^^DISPLAY
+FormatTime::TimeAgo^^^{0} years ago^^^il y a {0} ans^^^DISPLAY
+FormatTime::TimeAgo^^^a year ago^^^il y a un an^^^DISPLAY
+FormatTime::TimeAgo^^^{0} months ago^^^il y a {0} mois^^^DISPLAY
+FormatTime::TimeAgo^^^a month ago^^^il y a un mois^^^DISPLAY
+FormatTime::TimeAgo^^^{0} days ago^^^il y a {0} jours^^^DISPLAY
+FormatTime::TimeAgo^^^a day ago^^^il y a un jour^^^DISPLAY
+FormatTime::TimeAgo^^^Recent^^^Récemment^^^DISPLAY
+FormatTime::TimeUntil^^^now^^^à l'instant^^^DISPLAY
+FormatTime::TimeUntil^^^soon™^^^bientôt™^^^DISPLAY
+FormatTime::TimeUntil^^^one year^^^un an^^^DISPLAY
+FormatTime::TimeUntil^^^one month^^^un mois^^^DISPLAY
+FormatTime::TimeUntil^^^one day^^^un jour^^^DISPLAY
+FormatTime::TimeLeft^^^left^^^restant^^^DISPLAY
+FormatTime::TimeLeft^^^years^^^ans^^^DISPLAY
+FormatTime::TimeLeft^^^year^^^an^^^DISPLAY
+FormatTime::TimeLeft^^^months^^^mois^^^DISPLAY
+FormatTime::TimeLeft^^^month^^^mois^^^DISPLAY
+FormatTime::TimeLeft^^^days^^^jours^^^DISPLAY
+FormatTime::TimeLeft^^^day^^^jour^^^DISPLAY
+FormatTime::TimeLeft^^^{0} <color=#ffffff75>{1}</color> {2}^^^{0} <color=#ffffff75>{1}</color> {2}^^^DISPLAY
+FormatTime::TimeLeft^^^{0}<color=#ffffff75>y</color> {1}<color=#ffffff75>d</color> {2}^^^{0}<color=#ffffff75>a</color> {1}<color=#ffffff75>j</color> {2}^^^DISPLAY
+FormatTime::TimeLeft^^^{0}<color=#ffffff75>y</color> {1}<color=#ffffff75>m</color> {2}^^^{0}<color=#ffffff75>a</color> {1}<color=#ffffff75>m</color> {2}^^^DISPLAY
+FormatTime::TimeLeft^^^{0}<color=#ffffff75>y</color> {1}<color=#ffffff75>m</color> {2}<color=#ffffff75>d</color> {3}^^^{0}<color=#ffffff75>a</color> {1}<color=#ffffff75>m</color> {2}<color=#ffffff75>j</color> {3}^^^AUTO
+FormatTime::TimeLeft^^^{0}<color=#ffffff75>m</color> {1}<color=#ffffff75>d</color> {2}^^^{0}<color=#ffffff75>m</color> {1}<color=#ffffff75>j</color> {2}^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__ContractDuration|2;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__ContractDuration|4;FormatTime::TimeUntil^^^{0} years^^^{0} ans^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__ContractDuration|2;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__ContractDuration|4^^^<color=#ffffff75><size=90%>in</size></color> ^^^<color=#ffffff75><size=90%>dans</size></color> ^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__ContractDuration|2;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__ContractDuration|4^^^<color=#ffffff75><size=90%>No new payloads</size></color>^^^<color=#ffffff75><size=90%>Aucune nouvelle charge utile</size></color>^^^DISPLAY
+ContractData::Sign^^^You received ^^^Vous avez reçu ^^^DISPLAY
+ContractData::Sign^^^ for signing the contract!^^^ pour avoir signé le contrat !^^^DISPLAY
+ContractData::TryToDelete^^^ contract has been terminated - you had too many strikes!^^^ contrat a été résilié : vous avez eu trop d'avertissements !^^^DISPLAY
+ContractData::TryToDelete^^^You received ^^^Vous avez reçu ^^^DISPLAY
+ContractData::TryToDelete^^^ for completing the ^^^ pour avoir mené à bien le ^^^AUTO
+ContractData::TryToDelete^^^ contract without many strikes!^^^ contrat sans trop d'avertissements !^^^DISPLAY
+ContractData::TryToDelete^^^You did not receive ^^^Vous n'avez pas obtenu le ^^^AUTO
+ContractData::TryToDelete^^^ contract - you had too many strikes!^^^ contrat : vous avez eu trop d'avertissements !^^^AUTO
+ContractData::TryToDelete^^^You received items for completing the ^^^Vous avez reçu des objets pour avoir mené à bien le ^^^DISPLAY
+ContractData::TerminateContract^^^You've terminated the ^^^Vous avez résilié le ^^^DISPLAY
+ContractData::TerminateContract^^^ contract early!^^^ contrat avant terme !^^^DISPLAY
+ContractData::PayloadPastDeadline^^^You didn't launch ^^^Vous n'avez pas lancé ^^^DISPLAY
+ContractData::PayloadPastDeadline^^^ in time! You were fined!^^^ à temps ! Vous avez écopé d'une amende !^^^DISPLAY
+ContractsManager::<CheckForContracts>g__SpawnContract|20_0^^^ just became available in ^^^ vient d'être disponible dans ^^^DISPLAY
+ContractsManager::<CheckForContracts>g__SpawnContract|20_0^^^Contracts Window^^^la fenêtre des contrats^^^AUTO
+ContractsManager::<CheckForContracts>g__SpawnContract|20_0;InsuranceClaimData::OnMonthPassed_CheckForResolution;InsuranceData::RecalculateQuarterlyPayment;LoanData::RepayLoan;LoanData::TakeLoan^^^!^^^!^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__ContractSign|0^^^Sign\n^^^Signer\n^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__ContractSign|0;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__ContractSign|2^^^Sign^^^Signer^^^DISPLAY
+ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__ContractSign|2^^^Sign (^^^Signer (^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__SetOptions|6;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__SetOptions|7^^^Terminate^^^Résilier^^^AUTO
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>g__SetOptions|6;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>g__SetOptions|7^^^Open in Wikipedia^^^Ouvrir dans Wikipédia^^^AUTO
+ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>b__8^^^Do you really want to terminate the ^^^Voulez-vous vraiment résilier le ^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>b__7^^^Really terminate the ^^^Résilier vraiment le ^^^DISPLAY
+ContractsWindow/<>c__DisplayClass26_0::<UpdateUI>b__7;ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>b__8^^^ contract?^^^ contrat ?^^^DISPLAY
+ContractViewWindow/<>c__DisplayClass29_0::<UpdateUI>b__8^^^This contract can't be terminated now.^^^Ce contrat ne peut pas être résilié pour le moment.^^^DISPLAY
+ContractViewWindow::UpdateUI^^^\n<size=90%><color=#55BBFF>Special Contract</size></color>^^^\n<size=90%><color=#55BBFF>Contrat spécial</size></color>^^^DISPLAY
+MWContractPanel::UpdateUI^^^<color=#9B59B6><size=90%>Opportunity</size></color>\n^^^<color=#9B59B6><size=90%>Opportunité</size></color>\n^^^DISPLAY
+LoanData::TakeLoan^^^You've taken a ^^^Vous avez contracté un ^^^AUTO
+LoanData::TakeLoan^^^ of ^^^ d'un montant de ^^^AUTO
+LoanData::RepayLoan^^^You've full repaid your ^^^Vous avez entièrement remboursé votre ^^^DISPLAY
+CWLoanPanel::UpdateUI^^^Take Loan\n^^^Contracter un prêt\n^^^DISPLAY
+CWLoanPanel::UpdateUI^^^Repay Loan\n^^^Rembourser le prêt\n^^^DISPLAY
+CWLoanPanel::UpdateUI^^^{0} <size=90%><color=#ffffff75>months^^^{0} <size=90%><color=#ffffff75>mois^^^DISPLAY
+CWLoanPanel::UpdateUI^^^ <size=90%><color=#ffffff75>| per month^^^ <size=90%><color=#ffffff75>| par mois^^^DISPLAY
+PWLoanPreview::UpdateUI^^^</align>\n<color=#ffffff75><size=90%>Your company can now apply for a loan of up to</size></color> ^^^</align>\n<color=#ffffff75><size=90%>Votre entreprise peut désormais demander un prêt allant jusqu'à</size></color> ^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^Your insurance claim was accepted and you've received ^^^Votre demande d'indemnisation a été acceptée et vous avez reçu ^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^* You took a risk by launching too many payloads at once.^^^* Vous avez pris un risque en lançant trop de charges utiles à la fois.^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^\n* One of the vehicles didn’t meet full quality standards at launch.^^^\n* L'un des véhicules n'était pas pleinement conforme aux normes de qualité au lancement.^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^* One of the vehicles didn’t meet full quality standards at launch.^^^* L'un des véhicules n'était pas pleinement conforme aux normes de qualité au lancement.^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^\n* One of the vehicles was reflown which might have affected the flight performance.^^^\n* L'un des véhicules était réutilisé, ce qui a pu affecter ses performances de vol.^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^* One of the vehicles was reflown which might have affected the flight performance.^^^* L'un des véhicules était réutilisé, ce qui a pu affecter ses performances de vol.^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^\n* The insurance company gained access to a witness who testified that the launch could have been canceled and the explosion would never have happened.^^^\n* L'assureur a obtenu le témoignage d'un témoin affirmant que le lancement aurait pu être annulé et que l'explosion n'aurait jamais eu lieu.^^^DISPLAY
+InsuranceClaimData::OnMonthPassed_CheckForResolution^^^* The insurance company gained access to a witness who testified that the launch could have been canceled and the explosion would never have happened.^^^* L'assureur a obtenu le témoignage d'un témoin affirmant que le lancement aurait pu être annulé et que l'explosion n'aurait jamais eu lieu.^^^DISPLAY
+InsuranceData::RecalculateQuarterlyPayment^^^Your insurance quarterly payment has increased by ^^^Votre cotisation d'assurance trimestrielle a augmenté de ^^^AUTO
+InsuranceData::RecalculateQuarterlyPayment^^^Your insurance quarterly payment has decreased by ^^^Votre cotisation d'assurance trimestrielle a diminué de ^^^AUTO
+InsuranceData::RecalculateQuarterlyPayment^^^<color=#ffffff75><size=90%>%</size></color> to ^^^<color=#ffffff75><size=90%>%</size></color> pour atteindre ^^^AUTO
+InsuranceData::CancelForever^^^Your insurance was cancelled forever!^^^Votre assurance a été résiliée définitivement !^^^DISPLAY
+InsuranceTab::CancelInsurance_OnClick^^^Do you really want to cancel your insurance forever?\nThis can't be reverted.^^^Voulez-vous vraiment résilier votre assurance définitivement ?\nC'est irréversible.^^^DISPLAY
+InsuranceTab::UpdateUI^^^Insurance\n^^^Assurance\n^^^DISPLAY
+InsuranceTab::UpdateUI^^^<size=90%><color=#ffffff75> | per quarter^^^<size=90%><color=#ffffff75> | par trimestre^^^DISPLAY
+InsuranceClaimPanel::UpdateUI^^^Claim from <size=90%><color=#ffffff75>{0} {1}^^^Réclamation du <size=90%><color=#ffffff75>{0} {1}^^^AUTO
+InsuranceClaimPanel::UpdateUI^^^Partially approved^^^Partiellement approuvée^^^DISPLAY
+InsuranceClaimPanel::UpdateUI^^^Fully approved^^^Entièrement approuvée^^^DISPLAY
+InsuranceClaimPanel::UpdateUI^^^In review...^^^En cours d'examen...^^^DISPLAY
+InsuranceClaimPanel::UpdateUI^^^{0} <color=#ffffff75><size=90%>({1}%)^^^{0} <color=#ffffff75><size=90%>({1}%)^^^AUTO
+InsuranceClaimPanel::UpdateUI^^^<size=90%><color=#ffffff75>Your claim was only partially approved:</color></size>\n{0}\n<size=90%><color=#ffffff75>The EarthX Council has decided to approve only {1}% of your original request.^^^\n<size=90%><color=#ffffff75>Votre demande n'a été que partiellement approuvée :</color></size>\n{0}\n<size=90%><color=#ffffff75>Le Conseil EarthX a décidé de n'approuver que {1} % de votre demande initiale.^^^AUTO
+FailureData::GenerateFailureLoreMessage^^^ exploded during launch on ^^^ a explosé pendant le lancement le ^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^ exploded during attempted recovery on ^^^ a explosé pendant une tentative de récupération le ^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^ exploded during re-entry on ^^^ a explosé pendant la rentrée atmosphérique le ^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^ exploded just after separation on ^^^ a explosé juste après la séparation le ^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^ It was sent to the Rocket Valhalla.^^^ Il a été envoyé à la Rocket Valhalla.^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^ They were sent to the Rocket Valhalla.^^^ Ils ont été envoyés à la Rocket Valhalla.^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^ tipped over on the ocean during droneship transport operations.^^^ a chaviré en mer pendant les opérations de transport par barge.^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^\nInsurance claim (^^^\nRéclamation d'assurance (^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^) has been automatically created.\n<color=#ffffff75><size=90%>See Company Window / Insurance^^^) a été créée automatiquement.\n<color=#ffffff75><size=90%>Voir Fenêtre Entreprise / Assurance^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^\n\n<color=#ffffff75><size=90%>Insurance</size></color>^^^\n\n<color=#ffffff75><size=90%>Assurance</size></color>^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^\n\n<color=#ffffff75><size=90%>Payload Lost</size></color>^^^\n\n<color=#ffffff75><size=90%>Charge utile perdue</size></color>^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^\nInsurance claim was not created because lost of vehicle was purely your fault.^^^\nAucune réclamation d'assurance n'a été créée : la perte du véhicule est entièrement de votre faute.^^^DISPLAY
+FailureData::GenerateFailureLoreMessage^^^\nYour insurance was cancelled forever.^^^\nVotre assurance a été résiliée définitivement.^^^DISPLAY

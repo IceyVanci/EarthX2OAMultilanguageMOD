@@ -1,0 +1,14 @@
+{
+    "Xzon Smart Delivery_Name": "XZon: Entrega Inteligente",
+    "Xzon Smart Delivery_Desc": "O gigante global do comércio eletrônico XZon decidiu oficialmente que esperar 24 horas por um pacote é inaceitável. Para alcançar sua nova iniciativa \"Entrega Global em 15 Minutos\", eles estão lançando uma armada massiva de drones de entrega autônomos. Eles precisam de um parceiro aeroespacial confiável para lançar uma rede de relés orbitais que coordenará o enxame e garantirá que milhões de compras por impulso encontrem suas portas corretas.",
+    "Drone Relay Payload_Name": "XZDR<size=90%><color=#ffffff75>_prj:id0{0}_</color></size>",
+    "Drone Relay Payload_Desc": "Um relé de comunicações orbital de alta frequência projetado para gerenciar milhares de drones de entrega automatizados simultaneamente, garantindo que pacotes pesados caiam em varandas em vez de pedestres.",
+    "Xzon Smart City_Name": "XZon: Cidade Inteligente",
+    "Xzon Smart City_Desc": "A XZon está levando sua rede de câmeras de porta — altamente popular e levemente intrusiva — para o nível municipal. Sob sua nova iniciativa \"Cidade Inteligente\", governos locais podem contratar o gigante do comércio eletrônico para cobrir suas ruas com vigilância 24/7, rastreando desde crimes graves até pequenos maus comportamentos e notificando instantaneamente as autoridades. Eles precisam de um parceiro aeroespacial para lançar servidores orbitais de alta capacidade capazes de processar milhões de horas de imagens 4K.",
+    "XZon Smart Observer Payload_Name": "XZSO<size=90%><color=#ffffff75>_id1984.{0}</color></size>",
+    "XZon Smart Observer Payload_Desc": "Um relé de dados orbital robusto equipado com IA avançada, projetado para processar feeds de câmeras de rua em tempo real e alertar automaticamente as autoridades no exato segundo em que alguém atravessa fora da faixa ou coloca recicláveis na lixeira errada.",
+    "Xzon ON System_Name": "XZon: Sistema ON",
+    "Xzon ON System_Desc": "Executivos da XZon notaram seu serviço de internet ultrapassando 100.000 usuários ativos e, naturalmente, se recusam a deixar qualquer um ter um monopólio além deles. Conheça o \"Sistema ON\": a iniciativa multibilionária da XZon para cobrir a Terra com sua própria rede de banda larga. Em uma exibição espetacular de ironia corporativa, eles estão oferecendo a você um contrato massivo e altamente lucrativo para lançar exatamente a mega-constelação projetada especificamente para competir com você.",
+    "ON System Payload_Name": "XZON <size=90%><color=#ffffff75>(a-b)Node in,,{0}</color></size>",
+    "ON System Payload_Desc": "Um satélite de comunicações de alto rendimento formando a espinha dorsal do Sistema ON."
+}

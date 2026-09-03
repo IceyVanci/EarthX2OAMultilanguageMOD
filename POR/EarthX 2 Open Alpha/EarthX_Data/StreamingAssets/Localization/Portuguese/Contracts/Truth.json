@@ -1,0 +1,11 @@
+{
+    "Truth_Name": "A Verdade",
+    "Truth_Desc": "",
+    "Flatearther_Name": "Terraplanista",
+    "Flatearther_Desc": "Ele permanece não convencido por fotos, cientistas e décadas de dados de satélites. Agora, é hora de ele subir e procurar a borda por conta própria.",
+    "Truth _ Start Lore_Name": "Terraplanista Vai para a Órbita para \"Encontrar a Borda\"",
+    "Truth _ Start Lore_Desc": "O que começou como um meme da internet há alguns meses tornou-se oficialmente realidade. A Sociedade Terra Plana arrecadou com sucesso fundos via financiamento coletivo suficientes para garantir o depósito de um voo turístico comercial a bordo de uma cápsula da {1}.\n\nSeu representante escolhido — um influenciador da internet notoriamente vocal — prometeu uma transmissão ao vivo 24/7 sem edição em \"canais seguros e anti-FASA\". A transmissão pré-lançamento já está no ar e quebrando recordes de audiência. Especialistas em marketing, no entanto, foram rápidos em apontar que o influenciador já fez propaganda de três patrocinadores diferentes, provavelmente ganhando uma fortuna antes mesmo de deixar a atmosfera.\n\nQuanto à sua carga útil científica, ele anunciou que trará equipamentos fotográficos de última geração e... um nível de carpinteiro comum.",
+    "Truth _ Completion+1 Lore_Name": "Transmissão Terraplanista Cai Repentinamente ao Alcançar a Órbita",
+    "Truth _ Completion+1 Lore_Desc": "Pouco depois de a cápsula da {1}, transportando a chamada \"testemunha independente da Terra plana\", alcançar a órbita baixa da Terra, sua transmissão ao vivo amplamente divulgada foi cortada abrupta e misteriosamente. \n\nEnquanto teorias da conspiração inundavam imediatamente a internet, a {1} emitiu uma breve declaração pública esclarecendo que toda a telemetria indicava que a cápsula estava funcionando perfeitamente e que o passageiro simplesmente estendeu a mão e desligou a câmera manualmente.",
+    "Truth_ContractCompleted_1": "O ex-representante da Sociedade Terra Plana está deletando sistematicamente todos os seus perfis de mídia social. Enquanto isso, a liderança da sociedade o excomungou formalmente, acusando-o de ser um \"agente comprometido e pago da FASA\"."
+}

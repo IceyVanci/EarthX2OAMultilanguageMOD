@@ -1,0 +1,10 @@
+{
+    "DART Payload_Name": "DART",
+    "DART Payload_Desc": "@DART_Desc",
+    "DART_Name": "Double Asteroid Redirection Test",
+    "DART_Desc": "Uma missão destinada a testar nossa capacidade de mudar o curso de um asteroide, crucial para a defesa planetária.",
+    "DART _ Start Lore_Name": "DART: Teste de Deflexão de Asteroide",
+    "DART _ Start Lore_Desc": "Surge uma oportunidade única de lançar a tão aguardada missão DART! Os cientistas pretendem testar se o impacto de um satélite em alta velocidade pode alterar a trajetória de um asteroide.\n\nOs resultados podem redefinir a defesa planetária e nossa capacidade de proteger a Terra de futuras ameaças de asteroides.",
+    "DART _ Completion Lore_Name": "Dados Bloqueados em Meio a Preocupações de Segurança",
+    "DART _ Completion Lore_Desc": "Em uma reviravolta surpreendente, o governo dos EUA relatou um aumento da atividade estrangeira mirando sistemas federais.\n\nPara evitar possíveis violações, todos os resultados das missões, incluindo o resultado da missão DART, foram classificados e o acesso foi temporariamente restrito."
+}

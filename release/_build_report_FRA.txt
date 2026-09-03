@@ -1,0 +1,11 @@
+﻿EarthX2French build report
+date:      2026-09-04 04:00:55
+version:   1.0.0 (lang: FRA)
+gate:      verify.ps1 PASS (strings 0 FAIL, unique ORIG 580, FLAG valid, no conflicts)
+french:   64 JSON files
+plugin:    14 files (dll + tsv + README + src + version.txt + no fonts (game-embedded font))
+langHash:  c22c2896bd7ba22d136ff4716dee92af0dcf93b77656c63f66f15b679eaff198
+frameworkHash: 5063426314f88a5d5f943872839abfd3431a8f980b914e467f1cc5f08716d777
+zip patch: FRA-EarthX2OAFrenchMOD_v1.0.0.zip (142.8 KB) sha256=bede9db73e603d3f977374b0ee7fdc6a53e581a8111388c21c673345d82d195a
+zip full:  FRA-EarthX2OAFrenchMOD_v1.0.0_full.zip (779.4 KB) sha256=77203073b4e822bafe76feac52e076d488f975e3c0ef89ebe3597bb24f86358b
+note:      full package: framework + licenses (LGPL + OFL) included

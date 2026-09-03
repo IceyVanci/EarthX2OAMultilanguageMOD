@@ -36,11 +36,15 @@ remain in the original language.
 | Deutsch (DEU) | [`DEU/EarthX 2 Open Alpha/`](DEU/EarthX%202%20Open%20Alpha/) | [`docs/DEU-NOTES.md`](docs/DEU-NOTES.md) |
 | Español (ESP) | [`ESP/EarthX 2 Open Alpha/`](ESP/EarthX%202%20Open%20Alpha/) | [`docs/ESP-NOTES.md`](docs/ESP-NOTES.md) |
 | 한국어 (KOR) | [`KOR/EarthX 2 Open Alpha/`](KOR/EarthX%202%20Open%20Alpha/) | [`docs/KOR-NOTES.md`](docs/KOR-NOTES.md) |
+| Français (FRA) | [`FRA/EarthX 2 Open Alpha/`](FRA/EarthX%202%20Open%20Alpha/) | [`docs/FRA-NOTES.md`](docs/FRA-NOTES.md) |
+| Português (POR) | [`POR/EarthX 2 Open Alpha/`](POR/EarthX%202%20Open%20Alpha/) | [`docs/POR-NOTES.md`](docs/POR-NOTES.md) |
+
+> **FRA / POR：** 进行中——补丁树与说明文档已在仓库内，正式发布 zip 尚未发布。
 
 ## 制作方式与语言请求
 
 我全流程制作了 **CHS** 的 mod，并在确立流程后使用 Coding AI Agent 完成了**德语**、**日语**、
-**西班牙语**和**韩语**的翻译作为示范。未来我可能还会制作并发布其他语言的 mod。
+**西班牙语**、**韩语**、**法语**和**葡萄牙语**的翻译作为示范。未来我可能还会制作并发布其他语言的 mod。
 
 如果你想要其他语言：
 - 欢迎在 **issue** 中留言，或
@@ -70,9 +74,9 @@ remain in the original language.
 - **三层补丁**：官方 JSON 本地化层（`StreamingAssets\Localization\<Lang>\`）+ IL 字符串改写
   （`StringPatch`，Harmony transpiler）+ 烘焙 TextMeshPro 文本（`TextSweep`）。
 - **内嵌字体**：CJK 语言插件 `fonts\` 内嵌各自 OFL 许可字体（CHS = 思源黑体 CN、JPN = 思源黑体 JP、
-  KOR = 思源黑体 K，均 SIL OFL 1.1）——无系统字体依赖、无专有 CJK 字体版权问题。例外：**DEU 与 ESP
-  不随包分发字体**，复用游戏内嵌 LiberationSans（已完整覆盖 ä/ö/ü/ß 德语字形与 á/é/í/ó/ú/ñ/ü
-  西语字形）。
+  KOR = 思源黑体 K，均 SIL OFL 1.1）——无系统字体依赖、无专有 CJK 字体版权问题。例外：**DEU、ESP、
+  FRA 与 POR 不随包分发字体**，复用游戏内嵌 LiberationSans（已完整覆盖 ä/ö/ü/ß 德语字形、
+  á/é/í/ó/ú/ñ/ü 西语字形、é/è/ê/à/ç/ô/û/œ 法语字形与 á/ã/é/ê/í/ó/ô/õ/ú/ç 葡语字形）。
 
 ## 声明与许可
 

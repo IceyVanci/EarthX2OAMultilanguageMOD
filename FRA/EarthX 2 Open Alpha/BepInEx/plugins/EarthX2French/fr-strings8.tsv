@@ -1,0 +1,35 @@
+# de-strings8.tsv — Task C: IL 硬编码残留汉化 (德语版，fork 自 zh-strings8.tsv 2026-08-31)
+# 来源: handoff/il-remaining-candidates.tsv (DLL 逐字提取, KEEP 30 条) + 补充 Move up ( / Activate
+# 格式: SCOPE^^^ORIG^^^TRANS ; ORIG 与 DLL ldstr 逐字一致, \n 为字面转义
+# DISABLED (6-dangerous 2026-09-01: breaks Asset.GetAsset<UpgradeAsset> lookup in construction ships window): ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateShips|2^^^Droneship Upgrade^^^无人机船升级
+# DISABLED (6-dangerous 2026-09-01: breaks Asset.GetAsset<FairingReusabilityUpgradeAsset> lookup in construction ships window): ConstructionWindow/<>c__DisplayClass25_0::<UpdateUI>g__UpdateShips|2^^^Fairing Reusability Upgrade^^^整流罩回收升级
+# DISABLED (breaks Asset.GetAsset lookups): ContractsManager::Awake^^^Launch Light Rocket^^^发射轻型火箭
+# DISABLED (breaks Asset.GetAsset lookups): ContractsManager::CheckForContracts^^^Random Contracts^^^随机合同
+Cutscene::PlayCutscene^^^ (Video Player)^^^ (Lecteur vidéo)^^^AUTO
+# DISABLED (breaks Asset.GetAsset lookups): Droneship::Return;Droneship::SetData^^^Droneship Rumba Upgrade^^^无人机船Rumba升级
+InternetServiceData::OnNewGame^^^Internet Service^^^Service internet^^^AUTO
+# DISABLED (no-op: 'Internet Router' not in DLL; also would break GetDataByLinq): InternetServiceTab/<>c::<get_routersItem>b__28_1^^^Internet Router^^^互联网路由器
+# DISABLED (breaks GetDataByLinq<ItemData>("routers item") key): InternetServiceTab::get_routersItem^^^routers item^^^路由器
+ISSDockingMiniGame::Awake^^^Move backwards (^^^Reculer (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move down (^^^Descendre (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move forwards (^^^Avancer (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move left (^^^Aller à gauche (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move right (^^^Aller à droite (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Move up (^^^Monter (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Roll left (^^^Roulis à gauche (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Roll right (^^^Roulis à droite (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Rotate left (^^^Pivoter à gauche (^^^DISPLAY
+ISSDockingMiniGame::Awake^^^Rotate right (^^^Pivoter à droite (^^^DISPLAY
+LaunchData/InventorySettings::ValidateDestination^^^You can't launch from one space station to another.^^^Impossible de lancer d'une station spatiale vers une autre.^^^AUTO
+LaunchData/InventorySettings::ValidateDestination^^^You can't launch to space stations that are on a different planet.^^^Impossible d'aller vers des stations spatiales situées sur une autre planète.^^^AUTO
+LaunchData/VehicleSettings::Validate^^^Set a docking port for ^^^Définissez un port d'amarrage pour ^^^AUTO
+# DISABLED (6-dangerous 2026-09-01: breaks PlanetsManager.LoadPlanetWithoutTransition scene-id in StartMiniGame): MiniGame::StartMiniGame;PlanetConnectionVisualController::UpdateUI^^^Mini Games^^^迷你游戏
+NewGameWindow::Create_OnClick^^^so you decided to eat the raw pizza anyway.. that's fine. \n\nBut remember!\n\nThis game is still.. in alpha :(\n\n..enjoy the pizza while it's still in the oven I guess lol^^^alors vous avez décidé de manger la pizza crue quand même.. pas de souci. \n\nMais rappelez-vous !\n\nCe jeu est toujours.. en alpha :(\n\n..régalez-vous avec la pizza pendant qu'elle est encore au four, je suppose lol^^^AUTO
+PlanetButton::UpdateUI^^^Transfer window with <color=#ffffff75><size=90%>^^^Fenêtre de lancement avec <color=#ffffff75><size=90%>^^^AUTO
+SaveFilePanel::UpdateUI^^^{0:dddd} <size=90%><color=#ffffff75>{1:dd} {2:MMMM}</color></size>^^^{0:dddd} <size=90%><color=#ffffff75>{1:dd} {2:MMMM}</color></size>^^^DISPLAY
+ShipPanel::UpdateUI;VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateOptions|4^^^Set Nickname^^^Définir le surnom^^^AUTO
+# DISABLED (breaks Animator.SetBool("Booster Inside") param): TowerCatchMiniGame::Update^^^Booster Inside^^^助推器在塔内
+# DISABLED (breaks Animator.GetBool("Activate") param): TowerCatchMiniGame::Update;TowerCatchMiniGame::Catch_OnClick^^^Activate^^^激活
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateInfoTag|10;VWVehiclePanel::<UpdateUI>g__UpdateTextTag|23_1^^^Waiting for a window to open...^^^En attente d'une fenêtre de lancement...^^^DISPLAY
+VehiclesWindow/<>c__DisplayClass53_0::<UpdateUI>g__UpdateOptions|4^^^Rename Blueprint^^^Renommer le plan^^^AUTO
+VWVehiclesScroller::.ctor^^^Vehicles on Current Location^^^Véhicules sur le lieu actuel^^^DISPLAY

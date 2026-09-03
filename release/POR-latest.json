@@ -1,0 +1,12 @@
+{
+    "lang":  "POR",
+    "language":  "Portuguese",
+    "version":  "1.0.0",
+    "date":  "2026-09-04",
+    "zipUrl":  "https://raw.githubusercontent.com/{REPO}/main/release/POR-EarthX2OAPortugueseMOD_v1.0.0.zip",
+    "zipFullUrl":  "https://raw.githubusercontent.com/{REPO}/main/release/POR-EarthX2OAPortugueseMOD_v1.0.0_full.zip",
+    "sha256":  "15f582a75dc78624d38f2f45df2edfb164de2b0fbd3fa2736bcc9f714a81c008",
+    "sha256Full":  "326e42dc72a4b555caf93242e8893b4b5459900d37a7d989363288431dc8ca8f",
+    "rules":  "591 lines / 580 unique ORIG; baked 299; JSON 64 files; game-embedded font (no font files shipped)",
+    "notes":  "https://raw.githubusercontent.com/{REPO}/main/CHANGELOG.md"
+}

@@ -1,0 +1,16 @@
+{
+    "TinTin_Name": "TinTin",
+    "TinTin_Desc": "",
+    "TinTin A Payload_Name": "TinTin A",
+    "TinTin A Payload_Desc": "Um satélite protótipo projetado para provar que a comunicação por laser óptico pode efetivamente substituir os links de rádio tradicionais em órbita.",
+    "TinTin B Payload_Name": "TinTin B",
+    "TinTin B Payload_Desc": "Um satélite protótipo projetado para provar que a comunicação por laser óptico pode efetivamente substituir os links de rádio tradicionais em órbita.",
+    "TinTin _ Start Lore_Name": "{1} Anuncia Plano Ambicioso para Cobrir a Terra com Internet de Alta Velocidade",
+    "TinTin _ Start Lore_Desc": "A {1} revelou oficialmente o projeto \"LinkLink\" — uma constelação massiva de satélites projetada para transmitir cobertura de internet de alta velocidade para praticamente todos os cantos do globo nos próximos anos.\n\nA iniciativa sem precedentes envolve o lançamento de milhares de satélites compactos em órbita baixa da Terra. Se for bem-sucedida, o acesso confiável à internet se tornará instantaneamente disponível em qualquer lugar, do meio do oceano ao deserto ou cordilheira mais remoto.\n\nO anúncio já gerou controvérsia feroz. Os apoiadores argumentam que o acesso global à internet deve ser tratado como um direito humano fundamental, assim como eletricidade ou água. Os críticos, no entanto, alertam sobre os perigos imensos de permitir que uma única empresa aeroespacial privada monopolize a infraestrutura de comunicação do globo.\n\nPara testar as águas, o primeiro par de satélites de demonstração — apelidados de \"TinTin A\" e \"TinTin B\" — está programado para lançamento ainda este ano.",
+    "TinTin _ Completion Lore_Name": "Primeiros Satélites Protótipo LinkLink Alcançam a Órbita",
+    "TinTin _ Completion Lore_Desc": "A missão inaugural terminou em completo sucesso. Tanto o TinTin A quanto o TinTin B ligaram com sucesso e começaram a testar seus revolucionários sistemas de comunicação óptica em órbita baixa da Terra.\n\nRepresentantes da {1} confirmaram que as conexões orbitais iniciais foram impecáveis. No entanto, alertaram que centenas — senão milhares — de satélites adicionais precisarão ser implantados antes que um serviço comercial possa ser lançado oficialmente.\n\nO marco desencadeou imediatamente debates acalorados no Capitólio sobre se uma corporação privada deveria ter permissão para povoar a órbita com um número tão impressionante de satélites. Alguns políticos exigem agressivamente uma nova supervisão regulatória rigorosa, enquanto outros argumentam que o excesso de burocracia sufocante apenas atrapalhará a florescente indústria espacial comercial.",
+    "TinTin_ContractCompleted_0": "Especialistas em Tecnologia Zombam: \"Uma Empresa de Foguetes Quer Virar Provedora Global de Internet. E Depois? Geladeiras Inteligentes?\"",
+    "TinTin_ContractCompleted_1": "Congresso Inicia Audiências de Alto Risco sobre o Projeto de Constelação LinkLink",
+    "TinTin_ContractCompleted_2": "Analistas Financeiros Declaram: A Reutilização Rotineira de Foguetes Virou Completamente a Economia do Voo Espacial Global",
+    "TinTin_ContractCompleted_3": "ONU Corre para Redigir as Primeiras Leis Internacionais de Gerenciamento de Tráfego de Satélites"
+}

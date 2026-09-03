@@ -1,0 +1,12 @@
+{
+    "lang":  "FRA",
+    "language":  "French",
+    "version":  "1.0.0",
+    "date":  "2026-09-04",
+    "zipUrl":  "https://raw.githubusercontent.com/{REPO}/main/release/FRA-EarthX2OAFrenchMOD_v1.0.0.zip",
+    "zipFullUrl":  "https://raw.githubusercontent.com/{REPO}/main/release/FRA-EarthX2OAFrenchMOD_v1.0.0_full.zip",
+    "sha256":  "bede9db73e603d3f977374b0ee7fdc6a53e581a8111388c21c673345d82d195a",
+    "sha256Full":  "77203073b4e822bafe76feac52e076d488f975e3c0ef89ebe3597bb24f86358b",
+    "rules":  "591 lines / 580 unique ORIG; baked 299; JSON 64 files; game-embedded font (no font files shipped)",
+    "notes":  "https://raw.githubusercontent.com/{REPO}/main/CHANGELOG.md"
+}

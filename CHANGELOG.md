@@ -25,6 +25,42 @@ Format: 新增 / 修复 / 数据变更 (Added / Fixed / Data).
   ESP ~142KB、JPN ~27.5MB、KOR ~27.5MB；full 包同步更新）
 - `release\` 新增 `_manifest_<LANG>.json` ×5（随包提交）
 
+## [FRA 1.0.0] - 待发布（代码未完成）
+
+法语（FRA）补丁：拉丁扩展语言（同 DEU/ESP），**无内嵌字体**，复用游戏内嵌 LiberationSans。
+
+### 新增 Added
+
+- **法语插件 `EarthX2French`**：fork 自 DEU（`fr-*` 通配前缀、无 FontFix/字体回退）
+- **L1 官方 JSON 层**：`Localization\French\` 64 文件
+- **L2 IL 字符串规则**：`fr-strings*.tsv` ×8（591 行 / 580 唯一 ORIG），ORIG 与 CHS 逐字一致
+- **L3 TMP 烘焙规则**：`fr-baked*.tsv` ×2（299 条）
+- **`docs\FRA-NOTES.md`** 已撰写（法文，含"无内嵌字体"节）
+
+### 状态 Status
+
+- 代码尚未全部完成；正式发布前需补齐并跑通 `verify.ps1 -Lang FRA`（ORIG 继承门禁 + 禁字体断言），
+  将 `build-artifacts.ps1` FRA profile 置 `Released=$true`，再构建双包 + sha256 + `FRA-latest.json`
+  + `_manifest_FRA.json`
+
+## [POR 1.0.0] - 待发布（代码未完成）
+
+葡萄牙语（POR）补丁：拉丁扩展语言（同 DEU/ESP），**无内嵌字体**，复用游戏内嵌 LiberationSans。
+
+### 新增 Added
+
+- **葡萄牙语插件 `EarthX2Portuguese`**：fork 自 DEU（`pt-*` 通配前缀、无 FontFix/字体回退）
+- **L1 官方 JSON 层**：`Localization\Portuguese\` 64 文件
+- **L2 IL 字符串规则**：`pt-strings*.tsv` ×8（591 行 / 580 唯一 ORIG），ORIG 与 CHS 逐字一致
+- **L3 TMP 烘焙规则**：`pt-baked*.tsv` ×2（299 条）
+- **`docs\POR-NOTES.md`** 已撰写（葡文，含"无内嵌字体"节）
+
+### 状态 Status
+
+- 代码尚未全部完成；正式发布前需补齐并跑通 `verify.ps1 -Lang POR`（ORIG 继承门禁 + 禁字体断言），
+  将 `build-artifacts.ps1` POR profile 置 `Released=$true`，再构建双包 + sha256 + `POR-latest.json`
+  + `_manifest_POR.json`
+
 ## [KOR 1.0.0] - 2026-09-03
 
 首个韩语（KOR）补丁版本：基于 CHS 流程 fork 出独立韩语补丁 `KOR\`，离线仓库树为唯一数据源，
