@@ -285,17 +285,40 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "$game\handoff\scripts\adjud
 powershell -NoProfile -ExecutionPolicy Bypass -File "$game\handoff\scripts\generate_rules.ps1"
 ```
 
-### 6.6 发布门禁与打包
+### 6.6 发布门禁与打包（解耦流程）
 
-`verify.ps1` 与 `build-artifacts.ps1` 均支持 `-Lang CHS|DEU|JPN|ESP|KOR`（`-Lang` 指定语言，默认 CHS）：
+`verify.ps1` 与 `build-artifacts.ps1` 均支持 `-Lang CHS|DEU|JPN|FRA|POR|ESP|KOR`（`-Lang` 指定语言，
+默认 CHS）。**各语言打包互相解耦**：语言包只含本语言内容，共享文档只在仓库根；增量构建通过
+manifest 哈希自动跳过未变化语言。
 
 ```powershell
-# 门禁（含仓库树=工作区对账；CHS 为工作区来源，DEU/JPN/ESP/KOR 为 offline 仓库树来源）
+# 门禁（含仓库树=工作区对账；CHS 为工作区来源，其余为 offline 仓库树来源）
 powershell -NoProfile -ExecutionPolicy Bypass -File "$publish\scripts\verify.ps1" -GameRoot $game -Lang CHS
 
-# 构建（刷新仓库树 → 门禁 → 打该语言补丁包 + full 包）
+# 构建单个语言（刷新仓库树 → 门禁 → 打该语言补丁包 + full 包；内容未变则 SKIP）
 powershell -NoProfile -ExecutionPolicy Bypass -File "$publish\scripts\build-artifacts.ps1" -GameRoot $game -Lang DEU
+
+# 批量构建全部已发布语言（CHS/DEU/JPN/ESP/KOR，各自套用 SKIP 逻辑，输出 BUILT/SKIP/FAILED 汇总）
+powershell -NoProfile -ExecutionPolicy Bypass -File "$publish\scripts\build-artifacts.ps1" -All
+
+# 强制重建（绕过 SKIP）
+powershell -NoProfile -ExecutionPolicy Bypass -File "$publish\scripts\build-artifacts.ps1" -Lang ESP -Force
 ```
+
+**解耦打包设计（2026-09-03）**：
+
+- **补丁 zip 只含本语言内容**：`Localization\<Id>\*.json` + `BepInEx\plugins\EarthX2<Lang>\` 全部
+  （DLL/TSV/插件 README/src/fonts/version.txt）+ `docs\<LANG>-NOTES.md`（仅本语言）+ 本语言字体许可
+  （内嵌字体语言）。**不再内嵌** `README.md`/`README_CN.md`/`AI-PATCH-GUIDE.md` 或 `docs\*` 全量，
+  这些共享文档只存在于仓库根。→ 修改/新增任何语言都不会使其他语言的包内容变化。
+- **增量跳过（manifest）**：每个语言构建时计算 `langHash`（该语言仓库树内容哈希）与
+  `frameworkHash`（winhttp/doorstop/BepInEx core + licenses），与 `release\_manifest_<LANG>.json`
+  比对；版本 + 两哈希一致且产物存在 → `SKIP`，不写 zip/sha/`latest.json`/manifest（git 零 diff）。
+  - patch zip 由 `langHash` 决定；`_full.zip` 由 `langHash` + `frameworkHash` 共同决定。
+  - `-Force` 强制重建；`-SkipFull` 只打补丁包。
+- **语言白名单**：profile 内 `Released=$true` 才参与 `-All`（当前 CHS/DEU/JPN/ESP/KOR；FRA/POR 未发布，
+  只能 `-Lang` 单独构建）。
+- 产物：双 zip + sha256 + `<LANG>-latest.json` + `_build_report_<LANG>.txt` + `_manifest_<LANG>.json`。
 
 `verify.ps1` 的**完整门禁清单**（任一 FAIL 即终止，`build-artifacts.ps1` 内部也调用它作为硬门禁）：
 
@@ -325,7 +348,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "$publish\scripts\build-arti
 | 卸载 | `Localization\Chinese\` 路径改为 `<Id>\`（如 `Japanese\`），其余同 |
 | 存档安全 / 升级 | 与 CHS 一致，仅确认无语言特定改动 |
 
-- 产物位置：`publish\docs\<LANG>-NOTES.md`（随 `build-artifacts.ps1` 的 `docs\*` 一起进包）。
+- 产物位置：`publish\docs\<LANG>-NOTES.md`（解耦流程下**仅本语言的 `docs\<LANG>-NOTES.md` 进包**，
+  其他语言的 NOTES 与根文档不进包，见 §6.6）。
 - 生成后**不要手动复制进 `publish\<LANG>\...`**（该仓库树由构建脚本从工作区刷新，见 §6.6）。
 - 参考实例：`publish\docs\DEU-NOTES.md` 与 `ESP-NOTES.md`（拉丁语言：无内嵌字体、用游戏内嵌
   LiberationSans 的字体节写法）、`JPN-NOTES.md` 与 `KOR-NOTES.md`（CJK 语言：内嵌字体 + OFL 许可）。

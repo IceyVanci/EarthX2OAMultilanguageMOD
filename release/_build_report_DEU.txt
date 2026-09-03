@@ -1,9 +1,6 @@
-﻿EarthX2German build report
-date:      2026-09-02 19:07:45
+﻿EarthX2German build report (SKIP)
+date:      2026-09-04 03:21:46
 version:   1.0.0 (lang: DEU)
-gate:      verify.ps1 PASS (strings 0 FAIL, unique ORIG 580, FLAG valid, no conflicts)
-german:   64 JSON files
-plugin:    14 files (dll + tsv + README + src + version.txt + no fonts (game-embedded font))
-zip patch: DEU-EarthX2OAGermanMOD_v1.0.0.zip (161.5 KB) sha256=f3ee3e23dd004619ba0a2801a57902cb48fed54d90ea70144ba101424fdef01b
-zip full:  DEU-EarthX2OAGermanMOD_v1.0.0_full.zip (796 KB) sha256=b003e7a9ea8361e2cb342a69b94001dab211a52058be0148c0afc01be02610ee
-note:      full package: framework + licenses (LGPL + OFL) included
+result:    SKIP - no content change (langHash=eb87a33c..., frameworkHash=50634263...)
+zip patch: DEU-EarthX2OAGermanMOD_v1.0.0.zip (exists, not rebuilt)
+zip full:  DEU-EarthX2OAGermanMOD_v1.0.0_full.zip (exists, not rebuilt)

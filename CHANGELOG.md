@@ -3,6 +3,28 @@
 All notable changes to the EarthX2OAMultilanguageMOD project.
 Format: 新增 / 修复 / 数据变更 (Added / Fixed / Data).
 
+## [打包流程 2026-09-04] 解耦多语言打包 + 增量构建
+
+重构 `build-artifacts.ps1`：各语言打包互相解耦，修改/新增任一语言不再影响其他语言产物。
+
+### 新增 Added
+
+- **语言包只含本语言内容**：patch zip 从"内嵌全部根文档（README/README_CN/AI-PATCH-GUIDE +
+  `docs\*`）"改为仅含本语言 JSON + 插件 + `docs\<LANG>-NOTES.md` +（字体语言）本语言字体许可。
+  共享文档只存仓库根，不再进包 → 改文档/加新语言**永不改变其他语言的 zip 内容**
+- **manifest 增量跳过**：每语言构建时计算 `langHash`（仓库树内容哈希）与 `frameworkHash`
+  （框架+许可哈希），与 `release\_manifest_<LANG>.json` 比对；版本+两哈希一致且产物存在 →
+  `SKIP`（不写 zip/sha/`latest.json`/manifest，git 零 diff）。`-Force` 强制重建
+- **`-All` 批量模式**：一次构建全部已发布语言（CHS/DEU/JPN/ESP/KOR），输出 `BUILT/SKIP/FAILED`
+  汇总；profile 新增 `Released` 白名单（FRA/POR 未发布，仅可 `-Lang` 单构建）
+- **解耦断言**：patch staging 禁止出现根文档、非本语言 NOTES、非本语言字体许可
+
+### 数据变更 Data
+
+- 5 语言产物已按新契约一次性迁移重打（zip 体积变化：移除共享文档后 CHS ~14.8MB、DEU ~143KB、
+  ESP ~142KB、JPN ~27.5MB、KOR ~27.5MB；full 包同步更新）
+- `release\` 新增 `_manifest_<LANG>.json` ×5（随包提交）
+
 ## [KOR 1.0.0] - 2026-09-03
 
 首个韩语（KOR）补丁版本：基于 CHS 流程 fork 出独立韩语补丁 `KOR\`，离线仓库树为唯一数据源，

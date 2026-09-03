@@ -2,11 +2,11 @@
     "lang":  "DEU",
     "language":  "German",
     "version":  "1.0.0",
-    "date":  "2026-09-02",
+    "date":  "2026-09-04",
     "zipUrl":  "https://raw.githubusercontent.com/{REPO}/main/release/DEU-EarthX2OAGermanMOD_v1.0.0.zip",
     "zipFullUrl":  "https://raw.githubusercontent.com/{REPO}/main/release/DEU-EarthX2OAGermanMOD_v1.0.0_full.zip",
-    "sha256":  "f3ee3e23dd004619ba0a2801a57902cb48fed54d90ea70144ba101424fdef01b",
-    "sha256Full":  "b003e7a9ea8361e2cb342a69b94001dab211a52058be0148c0afc01be02610ee",
+    "sha256":  "ef6a6021e61637c85e5d2fdd79c476859f2dae250d4891764c3fc8c1e66a20e0",
+    "sha256Full":  "31dd495827c536785127ad56689762e99b9d4a831e62f50bd87ca92b1ea479a1",
     "rules":  "591 lines / 580 unique ORIG; baked 299; JSON 64 files; game-embedded font (no font files shipped)",
     "notes":  "https://raw.githubusercontent.com/{REPO}/main/CHANGELOG.md"
 }

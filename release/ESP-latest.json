@@ -2,11 +2,11 @@
     "lang":  "ESP",
     "language":  "Spanish",
     "version":  "1.0.0",
-    "date":  "2026-09-03",
+    "date":  "2026-09-04",
     "zipUrl":  "https://raw.githubusercontent.com/{REPO}/main/release/ESP-EarthX2OASpanishMOD_v1.0.0.zip",
     "zipFullUrl":  "https://raw.githubusercontent.com/{REPO}/main/release/ESP-EarthX2OASpanishMOD_v1.0.0_full.zip",
-    "sha256":  "0d2fd1bd9dfce3a5707242b2d561fe4ee5397794c9701f0dc303ecdfd24f019f",
-    "sha256Full":  "53756c43c3f7296ec89c9f035b6788c92a9b526ae1bd89ef578a4ddc675ea590",
+    "sha256":  "5cc04db83ee20ab16bfb795dc4a1c4b568384e905b8a0b9f0fba1599830e2e27",
+    "sha256Full":  "204b6baa2ea5a3fbbad11b197414f9805c6ab504c0585fbff7ef7f2199b234fa",
     "rules":  "591 lines / 580 unique ORIG; baked 299; JSON 64 files; game-embedded font (no font files shipped)",
     "notes":  "https://raw.githubusercontent.com/{REPO}/main/CHANGELOG.md"
 }

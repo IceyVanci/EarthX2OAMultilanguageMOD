@@ -1,9 +1,6 @@
-﻿EarthX2Chinese build report
-date:      2026-09-02 14:42:40
+﻿EarthX2Chinese build report (SKIP)
+date:      2026-09-04 03:21:46
 version:   1.0.0 (lang: CHS)
-gate:      verify.ps1 PASS (strings 0 FAIL, unique ORIG 580, FLAG valid, no conflicts)
-chinese:   64 JSON files
-plugin:    17 files (dll + tsv + README + src + version.txt + fonts x3)
-zip patch: CHS-EarthX2OAChineseMOD_v1.0.0.zip (14475.4 KB) sha256=0b9f664f7f294ed8aa157e014dc01b2a20229dbe735010d02bad9cd2d69481e7
-zip full:  CHS-EarthX2OAChineseMOD_v1.0.0_full.zip (15107.8 KB) sha256=7dd2e04fa17a4dc1223823eea05b3ffea08e1b15f38376ddb225b46894b5f013
-note:      full package: framework + licenses (LGPL + OFL) included
+result:    SKIP - no content change (langHash=d42aeb41..., frameworkHash=50634263...)
+zip patch: CHS-EarthX2OAChineseMOD_v1.0.0.zip (exists, not rebuilt)
+zip full:  CHS-EarthX2OAChineseMOD_v1.0.0_full.zip (exists, not rebuilt)
